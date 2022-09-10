@@ -1,0 +1,798 @@
+[
+ {
+  "Question": "Hội nghị Ianta (1945) có sự tham gia của các nước nào?",
+  "Answer": [{"content": "Anh - Mĩ - Liên Xô.", "isTrue": true},{"content": "Anh - Pháp - Mĩ.", "isTrue": false},{"content": "Anh - Pháp - Đức.", "isTrue": false},{"content": "Mĩ - Liên Xô - Trung Quốc.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ianta được triệu tập vào thời điểm nào của cuộc Chiến tranh thế giới thứ hai (1939 – 1945)?",
+  "Answer": [{"content": "Chiến tranh thế giới thứ hai bước vào giai đoạn kết thúc.", "isTrue": true},{"content": "Chiến tranh thế giới thứ hai bùng nổ", "isTrue": false},{"content": "Chiến tranh thế giới thứ hai bước vào giai đoạn ác liệt", "isTrue": false},{"content": "Chiến tranh thế giới thứ hai đã kết thúc", "isTrue": false}]
+ },
+ {
+  "Question": "Tương lai của Nhật Bản được quyết định như thế nào theo Hội nghị Ianta (2-1945)?",
+  "Answer": [{"content": "Nhật Bản bị quân đội Mĩ chiếm đóng.", "isTrue": true},{"content": "Nhật Bản vẫn giữ nguyên trạng.", "isTrue": false},{"content": "Quân đội Liên Xô chiếm 4 đảo thuộc quần đảo Curin của Nhật Bản.", "isTrue": false},{"content": "Nhật Bản trở thành thuộc địa kiểu mới của Mĩ.", "isTrue": false}]
+ },
+ {
+  "Question": "Theo quyết định của hội nghị Ianta (2-1945), quốc gia nào cần phải trở thành một quốc gia thống nhất và dân chủ?",
+  "Answer": [{"content": "Trung Quốc", "isTrue": true},{"content": "Đức", "isTrue": false},{"content": "Mông Cổ", "isTrue": false},{"content": "Triều Tiên", "isTrue": false}]
+ },
+ {
+  "Question": "Theo quy định của Hội nghị Ianta (2-1945), quốc gia nào sẽ thực hiện nhiệm vụ chiếm đóng, giải giáp miền Tây Đức, Tây Béc-lin và các nước Tây Âu?",
+  "Answer": [{"content": "Mĩ, Anh, Pháp", "isTrue": true},{"content": "Liên Xô", "isTrue": false},{"content": "Mĩ", "isTrue": false},{"content": "Mĩ, Anh", "isTrue": false}]
+ },
+ {
+  "Question": "Theo quy định của Hội nghị Ianta, quân đội nước nào sẽ chiếm đóng các vùng Đông Đức, Đông Âu, Đông Bắc Triều Tiên sau chiến tranh thế giới thứ hai?",
+  "Answer": [{"content": "Liên Xô.", "isTrue": true},{"content": "Mỹ.", "isTrue": false},{"content": "Anh.", "isTrue": false},{"content": "Pháp.", "isTrue": false}]
+ },
+ {
+  "Question": "Theo nội dung của Hội nghị Pốtxđam, việc giải giáp quân Nhật ở Đông Dương được giao cho ai?",
+  "Answer": [{"content": "Quân đội Anh ở phía Nam vĩ tuyến 16 và quân đội Trung Hoa Dân quốc vào phía Bắc.", "isTrue": true},{"content": "Quân đội Anh trên toàn Việt Nam.", "isTrue": false},{"content": "Quân đội Pháp ở phía Nam vĩ tuyến 16.", "isTrue": false},{"content": "Quân đội Trung Hoa Dân quốc vào phía Bắc vĩ tuyến 16 và quân đội Pháp ở phía Nam.", "isTrue": false}]
+ },
+ {
+  "Question": "Các vùng Đông Nam Á, Nam Á, Tây Á thuộc phạm vi ảnh hưởng của quốc gia nào theo quy định của Hội nghị Ianta (2-1945)?",
+  "Answer": [{"content": "Các nước phương Tây từng chiếm đóng ở đây.", "isTrue": true},{"content": "Liên Xô, Mĩ, Anh", "isTrue": false},{"content": "Hoa Kỳ, Anh, Pháp", "isTrue": false},{"content": "Anh, Đức, Nhật Bản.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào không phải là mục đích triệu tập Hội nghị Ianta (tháng 2-1945)?",
+  "Answer": [{"content": "Thành lập khối Đồng minh chống phát xít.", "isTrue": true},{"content": "Nhanh chóng đánh bại hoàn toàn các nước phát xít.", "isTrue": false},{"content": "Tổ chức lại thế giới sau chiến tranh.", "isTrue": false},{"content": "Phân chia thành quả giữa các nước thắng trận.", "isTrue": false}]
+ },
+ {
+  "Question": "Đâu không phải là nguyên nhân dẫn tới việc các cường quốc đồng minh triệu tập Hội nghị Ianta (2-1945)?",
+  "Answer": [{"content": "Yêu cầu thắt chặt khối đồng minh chống phát xít", "isTrue": true},{"content": "Yêu cầu nhanh chóng đánh bại hoàn toàn các nước phát xít", "isTrue": false},{"content": "Yêu cầu tổ chức lại thế giới sau chiến tranh", "isTrue": false},{"content": "Phân chia thành quả chiến thắng giữa các nước thắng trận", "isTrue": false}]
+ },
+ {
+  "Question": "Theo Hội nghị Ianta, để nhanh chóng kết thúc nhanh chiến tranh, ba cường quốc đã thống nhất điều gì?",
+  "Answer": [{"content": "Sau khi đánh bại phát xít Đức, Liên Xô sẽ tham chiến chống Nhật ở châu Á.", "isTrue": true},{"content": "Mĩ sử dụng bom nguyên tử để tiêu diệt quân phiệt Nhật", "isTrue": false},{"content": "Thành lập tổ chức Liên Hợp quốc", "isTrue": false},{"content": "Hồng quân Liên Xô tấn công vào tận sào huyệt của phát xít Đức ở Bec-lin.", "isTrue": false}]
+ },
+ {
+  "Question": "Tại sao Liên Xô lại được khôi phục lại những quyền lợi đã mất của nước Nga trong cuộc chiến tranh Nga - Nhật (1904 – 1905)?",
+  "Answer": [{"content": "Do Liên Xô sẽ tham chiến chống Nhật ở châu Á", "isTrue": true},{"content": "Do thế và lực của Liên Xô mạnh hơn trước", "isTrue": false},{"content": "Do Liên Xô có công tiêu diệt phát xít Đức ở châu Âu", "isTrue": false},{"content": "Do sự thỏa hiệp giữa các cường quốc", "isTrue": false}]
+ },
+ {
+  "Question": "Vì sao gọi là “trật tự hai cực Ianta”?",
+  "Answer": [{"content": "Trật tự thế giới mới phân thành 2 cực đứng đầu là Mĩ - Liên Xô được đặt khuôn khổ từ Hội nghị Ianta.", "isTrue": true},{"content": "Đại diện hai nước Liên Xô và Mỹ phân chia khu vực ảnh hưởng trên thế giới", "isTrue": false},{"content": "Ianta là trung tâm của các vấn đề xung đột trên thế giới", "isTrue": false},{"content": "Ianta là khu vực trung tâm tranh chấp ảnh hưởng giữa Mĩ - Liên Xô sau chiến tranh", "isTrue": false}]
+ },
+ {
+  "Question": "Đặc điểm nổi bật của trật tự thế giới mới được hình thành sau chiến tranh thế giới thứ hai là",
+  "Answer": [{"content": "Có sự phân chia thành 2 cực, 2 phe do Mĩ và Liên Xô đứng đầu", "isTrue": true},{"content": "Được thiết lập trên cơ sở áp đặt của các nước thắng trận với các nước thua trận", "isTrue": false},{"content": "Do các nước tư bản hoàn toàn thao túng", "isTrue": false},{"content": "Không thỏa mãn được yêu cầu của các bên tham chiến", "isTrue": false}]
+ },
+ {
+  "Question": "Em có nhận xét gì về sự phân chia phạm vi ảnh hưởng ở khu vực châu Âu giữa các cường quốc sau Chiến tranh thế giới thứ hai",
+  "Answer": [{"content": "Sự phân chia diễn ra chủ yếu giữa Mĩ và Liên Xô", "isTrue": true},{"content": "Sự phân chia diễn ra không đồng đều giữa các cường quốc", "isTrue": false},{"content": "", "isTrue": false},{"content": "Sự phân chia diễn ra ở toàn bộ châu Âu", "isTrue": false}]
+ },
+ {
+  "Question": "Những quyết định của hội nghị Ianta (2-1945) có hạn chế gì?",
+  "Answer": [{"content": "Tạo điều kiện để các nước phương Tây khôi phục lại quyền thống trị ở các thuộc địa cũ", "isTrue": true},{"content": "Do các nước tư bản hoàn toàn chi phối", "isTrue": false},{"content": "Không giải quyết được mâu thuẫn giữa các nước tư bản", "isTrue": false},{"content": "Quá bất công với các nước bại trận và dân tộc thuộc địa", "isTrue": false}]
+ },
+ {
+  "Question": "Việc triệu tập hội nghị Ianta và một trật tự thế giới mới được thiết lập sau Chiến tranh thế giới thứ hai phản ánh điều gì trong quan hệ quốc tế?",
+  "Answer": [{"content": "Sự thay đổi so sánh tương quan lực lượng giữa các cường quốc sau chiến tranh", "isTrue": true},{"content": "Nhu cầu thiết lập một nền hòa bình bền vững sau chiến tranh", "isTrue": false},{"content": "Tham vọng chi phối thế giới của các cường quốc", "isTrue": false},{"content": "Thái độ coi thường của các nước lớn đối với các dân tộc nhược tiểu", "isTrue": false}]
+ },
+ {
+  "Question": "Những quyết định của hội nghị Ianta (2-1945) đã có tác động tích cực gì đối với phong trào giải phóng dân tộc của Việt Nam trong năm 1945?",
+  "Answer": [{"content": "Tiêu diệt phát xít Nhật, tạo thời cơ để nhân dân Việt Nam nổi dậy khởi nghĩa", "isTrue": true},{"content": "Việt Nam không phải chịu sự tác động của cuộc đối đầu Xô- Mĩ", "isTrue": false},{"content": "Việt Nam nhận được sự ủng hộ từ tổ chức Liên Hợp Quốc", "isTrue": false},{"content": "Việt Nam không bị thực dân Pháp quay trở lại xâm lược", "isTrue": false}]
+ },
+ {
+  "Question": "Vai trò quan trọng nhất của tổ chức Liên hợp quốc là",
+  "Answer": [{"content": "Duy trì hòa bình an ninh thế giới", "isTrue": true},{"content": "Phát triển quan hệ hữu nghị giữa các quốc gia", "isTrue": false},{"content": "Giải quyết các tranh chấp bằng hòa bình", "isTrue": false},{"content": "Giúp đỡ các quốc gia phát triển kinh tế - xã hội", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị nào đã đặt nền tảng cho sự ra đời của tổ chức Liên hợp quốc",
+  "Answer": [{"content": "Hội nghị Ianta", "isTrue": true},{"content": "Hội nghị Xan Phranxico", "isTrue": false},{"content": "Hội nghị Pốtxđam", "isTrue": false},{"content": "Hội nghị Pari", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào phản ánh đúng điểm tương đồng giữa hệ thống Vécxai - Washington với trật tự hai cực Ianta?",
+  "Answer": [{"content": "Đều thành lập các tổ chức quốc tế để giám sát và duy trì trật tự thế giới.", "isTrue": true},{"content": "Đều do các nước đế quốc thiết lập nên để phục vụ lợi ích các nước đó.", "isTrue": false},{"content": "Đều chia thế giới ra làm hai phe tư bản chủ nghĩa và xã hội chủ nghĩa.", "isTrue": false},{"content": "Đều là hệ quả của cuộc chiến tranh thế giới thứ hai (1939 – 1945)", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ianta 1945 thông qua quyết định nào?",
+  "Answer": [{"content": "Thống nhất mục tiêu chung là tiêu diệt chủ nghĩa phát xít Đức và quân phiệt Nhật.", "isTrue": true},{"content": "Phân công quân đội các nước đồng minh vào giải giáp phát xít Nhật ở Đông Dương.", "isTrue": false},{"content": "Liên Xô và Mỹ chuyển từ đối đầu sang đối thoại để thành lập tổ chức Liên hợp quốc.", "isTrue": false},{"content": "Thiết lập một trật tự thế giới mới theo xu hướng đơn cực ngay sau chiến tranh.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào không phải là quyết định của hội nghị Ianta (2 - 1945)?",
+  "Answer": [{"content": "Đàm phán, kí kết các hiệp ước với các nước phát xít bại trận.", "isTrue": true},{"content": "Thỏa thuận đóng quân và phân chia khu vực ảnh hưởng", "isTrue": false},{"content": "Thống nhất phải tiêu diệt tận gốc chủ nghĩa phát xít Đức, Nhật Bản.", "isTrue": false},{"content": "Thành lập tổ chức Liên hợp quốc.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung gây nhiều tranh cãi nhất giữa ba cường quốc Liên Xô, Mỹ, Anh tại Hội nghị Ianta (2\/1945) là:",
+  "Answer": [{"content": "Phân chia khu vực chiếm đóng và phạm vi ảnh hưởng của các cường quốc thắng trận", "isTrue": true},{"content": "Kết thúc chiến tranh thế giới thứ hai để tiêu diệt tận gốc chủ nghĩa phát xít Đức và chủ nghĩa quân phiệt Nhật Bản.", "isTrue": false},{"content": "Tổ chức lại thế giới sau chiến tranh", "isTrue": false},{"content": "Giải quyết các hậu quả chiến tranh, phân chia chiến lợi phẩm.", "isTrue": false}]
+ },
+ {
+  "Question": "Vấn đề quan trọng nhất khiến Hội nghị Ianta (2 - 1945) diễn ra căng thẳng, quyết liệt là việc",
+  "Answer": [{"content": "Phân chia thành quả chiến thắng giữa các nước thắng trận.", "isTrue": true},{"content": "Trừng phạt đối với các nước phát xít bại trận.", "isTrue": false},{"content": "Thỏa thuận tiêu diệt phát xít Đức và Nhật Bản.", "isTrue": false},{"content": "Tổ chức lại thế giới sau chiến tranh.", "isTrue": false}]
+ },
+ {
+  "Question": "Toàn bộ những quyết định của Hội nghị Ianta, cùng những thỏa thuận sau đó của ba cường quốc đã dẫn đến hệ quả gì?",
+  "Answer": [{"content": "Trở thành một khuôn khổ trật tự thế giới mới", "isTrue": true},{"content": "Thành lập tổ chức Liên hợp quốc để giữ gìn hòa bình và an ninh thế giới", "isTrue": false},{"content": "Tiêu diệt tận gốc chủ nghĩa phát xít Đức và chủ nghĩa quân phiệt Nhật, chấm dứt Chiến tranh thế giới thứ hai", "isTrue": false},{"content": "Mở ra một thời kì mới trong lịch sử nhân loại, thời kì Chiến tranh lạnh", "isTrue": false}]
+ },
+ {
+  "Question": "Quyết định nào của hội nghị Ianta (2-1945) đưa đến sự phân chia thế giới thành hai cực?",
+  "Answer": [{"content": "Thỏa thuận việc đóng quân, phân chia phạm vi ảnh hưởng ở Châu Âu và Châu Á", "isTrue": true},{"content": "Sau khi đánh bại phát xít Đức, Liên Xô tham chiến chống Nhật ở Châu Á", "isTrue": false},{"content": "Thành lập Liên hợp quốc để giữ gìn hòa bình và an ninh thế giới", "isTrue": false},{"content": "Tiêu diệt tận gốc chủ nghĩa phát xít Đức và chủ nghĩa quân phiệt Nhật", "isTrue": false}]
+ },
+ {
+  "Question": "Theo nội dung của Hội nghị Pốt-đam, việc giải giáp quân Nhật ở Đông Dương được thỏa thuận như thế nào?",
+  "Answer": [{"content": "Quân đội Anh ở phía Nam vĩ tuyến 16, quân đội Trung Hoa Dân quốc vào phía Bắc.", "isTrue": true},{"content": "Quân đội Anh và Pháp ở phía Nam vĩ tuyến 16, quân đội Trung Hoa Dân quốc vào phía Bắc", "isTrue": false},{"content": "Giao cho quân đội Trung Hoa Dân quốc.", "isTrue": false},{"content": "Giao cho quân đội Anh và Pháp.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau chiến tranh thế giới thứ hai, việc giải giáp Quân đội Nhật ở Đông Dương được giao cho quân đội Anh và quân đội Trung Hoa Dân Quốc là thỏa thuận tại hội nghị",
+  "Answer": [{"content": "Pôtxđam", "isTrue": true},{"content": "Hội nghị Ianta", "isTrue": false},{"content": "Mátxcơva", "isTrue": false},{"content": "Xan Phranxixco", "isTrue": false}]
+ },
+ {
+  "Question": "Kế hoạch 5 năm khôi phục kinh tế sau chiến tranh ở Liên Xô diễn ra trong khoảng thời gian nào ?",
+  "Answer": [{"content": "1946- 1950.", "isTrue": true},{"content": "1945 – 1949.", "isTrue": false},{"content": "1947-1951.", "isTrue": false},{"content": "1945- 1951.", "isTrue": false}]
+ },
+ {
+  "Question": "Những thành tựu của kế hoạch khôi phục kinh tế sau chiến tranh ở Liên Xô (1945 - 1950) là",
+  "Answer": [{"content": "sản lượng công nghiệp tăng 73%, nông nghiệp đạt mức trước chiến tranh.", "isTrue": true},{"content": "sản lượng công nghiệp và nông nghiệp năm 1950 đạt mức sản lượng năm 1940.", "isTrue": false},{"content": "sản lượng nông nghiệp, công nghiệp đều vượt mức sản lượng năm 1940.", "isTrue": false},{"content": "sản lượng công nghiệp và nông nghiệp đều tăng 73%.", "isTrue": false}]
+ },
+ {
+  "Question": "Liên Xô chế tạo thành công bom nguyên tử vào thời gian nào?",
+  "Answer": [{"content": "Năm 1949.", "isTrue": true},{"content": "Năm 1948.", "isTrue": false},{"content": "Năm 1947.", "isTrue": false},{"content": "Năm 1950.", "isTrue": false}]
+ },
+ {
+  "Question": "Việc Liên Xô chế tạo thành công bom nguyên tử có ý nghĩa gì ?",
+  "Answer": [{"content": "Thế độc quyền vũ khí nguyên tử của Mĩ bị phá vỡ.", "isTrue": true},{"content": "Khiến Liên Xô trở thành nước đầu tiên sở hữu vũ khí nguyên tử.", "isTrue": false},{"content": "Đưa thế giới bước vào thời đại chiến tranh hạt nhân.", "isTrue": false},{"content": "Khẳng định vai trò to lớn của Liên Xô đối cách mạng thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào phản ánh đúng vị trí của kinh tế Liên Xô trong nền kinh tế thế giới từ những năm 1950 đến nửa đầu những năm 70 của thế kỉ XX?",
+  "Answer": [{"content": "Liên Xô là cường quốc công nghiệp thứ hai trên thế giới.", "isTrue": true},{"content": "Liên Xô là siêu cường kinh tế duy nhất.", "isTrue": false},{"content": "Liên Xô là cường quốc công nghiệp thứ hai ở châu Âu.", "isTrue": false},{"content": "Liên Xô là một nước có nền nông nghiệp hiện đại nhất thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Vào năm 1957, Liên Xô đã",
+  "Answer": [{"content": "phóng thành công vệ tinh nhân tạo.", "isTrue": true},{"content": "đưa con người bay vòng quanh Trái Đất.", "isTrue": false},{"content": "chế tạo thành công bom nguyên tử.", "isTrue": false},{"content": "đứng đầu thế giới về sản lượng công nghiệp.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những thành công của Liên Xô trong hơn 20 năm xây dựng chủ nghĩa xã hội (1950 - những năm 70) là :",
+  "Answer": [{"content": "trở thành nước đi đầu trong ngành công nghiệp vũ trụ.", "isTrue": true},{"content": "trở thành nước tiên phong trong cuộc \"cách mạng xanh\" trong nông nghiệp.", "isTrue": false},{"content": "trở thành quốc gia hàng đầu thế giới về vũ khí sinh học.", "isTrue": false},{"content": "trở thành quốc gia có thu nhập bình quân đầu người cao nhất châu Âu.", "isTrue": false}]
+ },
+ {
+  "Question": "Yuri Ga-ga-rin là ai ?",
+  "Answer": [{"content": "Là nhà du hành vũ trụ đầu tiên bay vòng quanh Trái Đất", "isTrue": true},{"content": "Là người đầu tiên thám hiểm Mặt Trăng.", "isTrue": false},{"content": "Là người đầu tiên thám hiểm sao Hỏa.", "isTrue": false},{"content": "Là người đã thiết kế - chế tạo thành công vệ tinh nhân tạo Spút-ních.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau hơn 20 năm xây dựng chủ nghĩa xã hội, Liên Xô đã đạt được thành tựu lớn trong lĩnh vực giáo dục là?",
+  "Answer": [{"content": "Trở thành một trong những nước có mặt bằng dân trí cao nhất thế giới.", "isTrue": true},{"content": "Hoàn thành phổ cập giáo dục Tiểu học.", "isTrue": false},{"content": "Bắt đầu thực hiện phổ cập giáo dục Trung học trong cả nước.", "isTrue": false},{"content": "Là nước đào tạo được một đội ngũ cán bộ khoa học kĩ thuật hùng hậu nhất thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Thuận lợi lớn của Liên Xô sau Chiến tranh thế giới thứ hai là:",
+  "Answer": [{"content": "vị thế, uy tín của được nâng cao trên thế giới.", "isTrue": true},{"content": "các nước tư bản dỡ bỏ cấm vận, bao vây.", "isTrue": false},{"content": "trở thành chỗ dựa vững chắc cho phong trào cách mạng thế giới.", "isTrue": false},{"content": "Liên bang Xô Viết được mở rộng, số thành viên tăng lên 15 nước.", "isTrue": false}]
+ },
+ {
+  "Question": "Trong những năm 1946 – 1950, nhân dân Liên Xô đã",
+  "Answer": [{"content": "tiến hành công cuộc khôi phục kinh tế.", "isTrue": true},{"content": "tiến hành xây dựng cơ sở vật chất – kĩ thuật của chủ nghĩa xã hội.", "isTrue": false},{"content": "tiến hành công cuộc cải tổ đất nước.", "isTrue": false},{"content": "tiến hành đấu tranh chống chủ nghĩa phát xít.", "isTrue": false}]
+ },
+ {
+  "Question": "Kế hoạch 5 năm khôi phục kinh tế (1946 – 1950) ở Liên Xô đã hoàn thành trước thời hạn",
+  "Answer": [{"content": "9 tháng.", "isTrue": true},{"content": "7 tháng.", "isTrue": false},{"content": "8 tháng.", "isTrue": false},{"content": "10 tháng.", "isTrue": false}]
+ },
+ {
+  "Question": "Chiến tranh thế giới thứ hai đã gây thiệt hại như thế nào đối với Liên Xô?",
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Question": "Chiến tranh thế giới thứ hai đã gây thiệt hại như thế nào đối với Liên Xô?",
+  "Answer": [{"content": "Làm 27 triệu người chết.", "isTrue": true},{"content": "Làm 25 triệu người chết.", "isTrue": false},{"content": "Làm 26 triệu người chết.", "isTrue": false},{"content": "Làm 28 triệu người chết.", "isTrue": false}]
+ },
+ {
+  "Question": "Trong giai đoạn 1945 – 1950, Liên Xô đạt được thành tựu nào sau đây?",
+  "Answer": [{"content": "Chế tạo thành công bom nguyên tử.", "isTrue": true},{"content": "Trở thành cường quốc công nghiệp thứ hai thế giới.", "isTrue": false},{"content": "Là nước đầu tiên phóng thành công vệ tinh nhân tạo.", "isTrue": false},{"content": "Đưa con người bay vòng quanh Trái Đất.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ năm 1950 đến những năm 1970, nhân dân Liên Xô đã thực hiện nhiệm vụ nào sau đây?",
+  "Answer": [{"content": "Xây dựng cơ sở vật chất – kĩ thuật của chủ nghĩa xã hội.", "isTrue": true},{"content": "Chiến đấu chống lại chủ nghĩa phát xít.", "isTrue": false},{"content": "Tiến hành công cuộc khôi phục kinh tế.", "isTrue": false},{"content": "Cải tổ đất nước theo con đường cộng sản chủ nghĩa.", "isTrue": false}]
+ },
+ {
+  "Question": "Công cuộc xây dựng cơ sở vật chất – kĩ thuật của chủ nghĩa xã hội ở Liên Xô từ năm 1950 đến những năm 1970 được thực hiện bởi",
+  "Answer": [{"content": "các kế hoạch dài hạn.", "isTrue": true},{"content": "các kế hoạch ngắn hạn.", "isTrue": false},{"content": "sự giúp đỡ của các nước đồng minh.", "isTrue": false},{"content": "sự viện trợ của Mĩ.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ năm 1950 đến những năm 70 của thế kỉ XX, Liên Xô đi đầu thế giới trong những ngành nào?",
+  "Answer": [{"content": "Công nghiệp vũ trụ, công nghiệp điện hạt nhân.", "isTrue": true},{"content": "Công nghiệp nặng, nông nghiệp.", "isTrue": false},{"content": "Tài chính, thương mại.", "isTrue": false},{"content": "Công nghiệp nhẹ, công nghiệp nặng.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ năm 1950 đến những năm 70 của thế kỉ XX, Liên Xô trở thành cường quốc công nghiệp đứng thứ mấy trên thế giới?",
+  "Answer": [{"content": "Thứ hai.", "isTrue": true},{"content": "Thứ nhất.", "isTrue": false},{"content": "Thứ tư.", "isTrue": false},{"content": "Thứ ba.", "isTrue": false}]
+ },
+ {
+  "Question": "Sự kiện mở đầu kỉ nguyên chinh phục vũ trụ của loài người là",
+  "Answer": [{"content": "Liên Xô phóng tàu vũ trụ bay vòng quanh Trái Đất (1961).", "isTrue": true},{"content": "Liên Xô chế tạo thành công động cơ phản lực (1949).", "isTrue": false},{"content": "Liên Xô phóng thành công vệ tinh nhân tạo (1957).", "isTrue": false},{"content": "Liên Xô xây dựng trạm vệ tinh ngoài Trái Đất (1972).", "isTrue": false}]
+ },
+ {
+  "Question": "Thành tựu về mặt xã hội của Liên Xô trong khoảng 20 năm xây dựng cơ sở vật chất – kĩ thuật của chủ nghĩa xã hội (1950 – nửa đầu những năm 70) là",
+  "Answer": [{"content": "tỉ lệ công nhân chiếm hơn 50 % người lao động trong cả nước.", "isTrue": true},{"content": "trở thành quốc gia có nền giáo dục tiên tiến nhất thế giới.", "isTrue": false},{"content": "trình độ học vấn của người dân cao nhất thế giới.", "isTrue": false},{"content": "tỉ lệ nông dân chiếm 90 % dân số trong cả nước.", "isTrue": false}]
+ },
+ {
+  "Question": "Chính sách đối ngoại của Liên Xô sau Chiến tranh thế giới thứ hai là",
+  "Answer": [{"content": "bảo vệ hòa bình thế giới.", "isTrue": true},{"content": "hòa bình, trung lập.", "isTrue": false},{"content": "chi phối đồng minh.", "isTrue": false},{"content": "ngăn cản phong trào giải phóng dân tộc.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào không phản ánh đúng chính sách đối ngoại của Liên Xô sau Chiến tranh thế giới thứ hai?",
+  "Answer": [{"content": "Khống chế, chi phối các nước xã hội chủ nghĩa trên thế giới.", "isTrue": true},{"content": "Thực hiện chính sách ngoại giao nước lớn.", "isTrue": false},{"content": "Thực hiện chính sách bảo vệ hòa bình thế giới.", "isTrue": false},{"content": "Ủng hộ phong trào giải phóng dân tộc trên thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những nguyên nhân khiến Liên Xô có thể nhanh chóng khôi phục kinh tế sau Chiến tranh thế giới thứ hai là",
+  "Answer": [{"content": "tinh thần tự lực, tự cường của nhân dân.", "isTrue": true},{"content": "sự giúp đỡ của các nước xã hội của Mĩ.", "isTrue": false},{"content": "sự viện trợ của Mĩ và các nước tư bản.", "isTrue": false},{"content": "sự giúp đỡ của các tổ chức quốc tế.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những nguyên nhân khiến Liên Xô có thể thực hiện chính sách ngoại giao nước lớn sau Chiến tranh thế giới thứ hai là",
+  "Answer": [{"content": "tiềm lực về kinh tế và quốc phòng.", "isTrue": true},{"content": "sự giúp đỡ của các nước đồng minh.", "isTrue": false},{"content": "sự suy yếu của Mĩ và các nước tư bản.", "isTrue": false},{"content": "sự viện trợ của tổ chức Liên hợp quốc.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào không phản ánh đúng ý nghĩa của sự kiện Liên Xô chế tạo thành công bom nguyên tử (1949)?",
+  "Answer": [{"content": "Làm đảo lộn hoàn toàn chiến lược toàn cầu của Mĩ.", "isTrue": true},{"content": "Phá thế độc quyền về vũ khí nguyên tử của Mĩ.", "isTrue": false},{"content": "Chứng tỏ sự phát triển vượt bậc của nền khoa học – kĩ thuật Xô viết.", "isTrue": false},{"content": "Tạo ra thế cân bằng về vũ khí nguyên tử giữa Mĩ và Liên Xô.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội đồng tương trợ kinh tế (SEV) tuyên bố giải thể khi nào?",
+  "Answer": [{"content": "Sau khi chế độ xã hội chủ nghĩa ở Liên Xô sụp đổ.", "isTrue": true},{"content": "Trước khi Chiến tranh lạnh chấm dứt.", "isTrue": false},{"content": "rước khi Chiến tranh lạnh bắt đầu.", "isTrue": false},{"content": "Sau khi Putin lên làm Tổng thống Liên bang Nga.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguyên nhân chủ quan khiến chủ nghĩa xã hội sụp đổ ở Liên Xô là",
+  "Answer": [{"content": "gặp nhiều sai lầm khi cải tổ đất nước.", "isTrue": true},{"content": "chính sách bao vây, cấm vận của Mĩ.", "isTrue": false},{"content": "sự mất đoàn kết trong khối xã hội chủ nghĩa.", "isTrue": false},{"content": "sự chống phá của các thế lực thù địch bên ngoài.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguyên nhân khách quan dẫn đến sự sụp đổ của chế độ xã hội chủ nghĩa ở Liên Xô và Đông Âu là",
+  "Answer": [{"content": "sự chống phá của Mĩ và các nước tư bản chủ nghĩa.", "isTrue": true},{"content": "cơ chế quản lí tập trung quan liêu bao cấp.", "isTrue": false},{"content": "thiếu dân chủ và công bằng trong xã hội.", "isTrue": false},{"content": "đường lối lãnh đạo mang tính chủ quan, duy ý chí.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguyên nhân chủ quan khiến chủ nghĩa xã hội sụp đổ ở Đông Âu là",
+  "Answer": [{"content": "rập khuôn máy móc mô hình chủ nghĩa xã hội ở Liên Xô.", "isTrue": true},{"content": "sự bao vây và chống phá của các nước tư bản Tây Âu.", "isTrue": false},{"content": "chính sách phá hoạt của các thế lực thù địch trong nước.", "isTrue": false},{"content": "sự mất đoàn kết trong khối xã hội chủ nghĩa.", "isTrue": false}]
+ },
+ {
+  "Question": "Sai lầm lớn nhất của Liên Xô trong quá trình thực hiện cải tổ đất nước là",
+  "Answer": [{"content": "thực hiện đa nguyên chính trị.", "isTrue": true},{"content": "thực hiện kinh tế thị trường.", "isTrue": false},{"content": "thực hiện dân chủ hoá đời sống chính trị.", "isTrue": false},{"content": "thực hiện kinh tế bao cấp trong một thời gian dài.", "isTrue": false}]
+ },
+ {
+  "Question": "Bài học kinh nghiệm rút ra cho Việt Nam từ sự sụp đổ của chủ nghĩa xã hội ở Liên Xô và Đông Âu là",
+  "Answer": [{"content": "giữ vững vai trò lãnh đạo của Đảng Cộng sản.", "isTrue": true},{"content": "tập trung cải cách chính trị.", "isTrue": false},{"content": "thừa nhận chế độ đa nguyên đa đảng.", "isTrue": false},{"content": "duy trì nền kinh tế bao cấp.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ sự sụp đổ của Liên bang Xô Viết năm 1991, em có nhận thức gì về công cuộc cải tổ đất nước ở Liên Xô ?",
+  "Answer": [{"content": "Cải tổ là một tất yếu, nhưng trong quá trình thực hiện, Liên Xô liên tục mắc phải sai lầm nên đã đẩy nhanh quá trình sụp đổ của chủ nghĩa xã hội.", "isTrue": true},{"content": "Cải tổ đất nước là sai lầm lớn, đưa đất Liên Xô lâm vào cuộc khủng hoảng toàn diện.", "isTrue": false},{"content": "Cải tổ đất nước ở Liên Xô tại thời điểm đó là hoàn toàn không phù hợp, không cần thiết.", "isTrue": false},{"content": "Mô hình chủ nghĩa xã hội ở Liên Xô có quá nhiều thiếu sót, sai lầm nên dù công cuộc cải tổ được xúc tiến tích cực vẫn không thể cứu vãn được tình hình.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau khi Liên Xô tan rã, quốc gia nào là “quốc gia kế tục Liên Xô”?",
+  "Answer": [{"content": "Liên bang Nga.", "isTrue": true},{"content": "Nga Xô viết.", "isTrue": false},{"content": "Lítva.", "isTrue": false},{"content": "Ucraina.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào phản ánh đúng tình hình kinh tế Liên bang Nga giai đoạn 1990 – 1995?",
+  "Answer": [{"content": "Tăng trưởng âm.", "isTrue": true},{"content": "Tăng trưởng nhanh chóng.", "isTrue": false},{"content": "Phát triển xen kẽ khủng hoảng.", "isTrue": false},{"content": "Tăng trưởng chậm.", "isTrue": false}]
+ },
+ {
+  "Question": "Sự sụp đổ của chủ nghĩa xã hội ở Liên Xô và Đông Âu đã có tác động như thế nào đến tình hình thế giới ?",
+  "Answer": [{"content": "Trật tự thế giới hai cực Ianta hoàn toàn sụp đổ.", "isTrue": true},{"content": "Thúc đẩy sự sụp đổ hoàn toàn của chủ nghĩa xã hội trên phạm vi toàn cầu.", "isTrue": false},{"content": "Mĩ vươn lên nắm quyền lãnh đạo thế giới, xác lập trật tự thế giới \"một cực\".", "isTrue": false},{"content": "Chấm dứt cuộc chạy đua vũ trang trên quy mô toàn cầu.", "isTrue": false}]
+ },
+ {
+  "Question": "Tổng thống đầu tiên của Liên bang Nga là ai ?",
+  "Answer": [{"content": "B. Enxin.", "isTrue": true},{"content": "M. Goócbachốp.", "isTrue": false},{"content": "V. Putin.", "isTrue": false},{"content": "D Međvêdev.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những đường lối đối ngoại của Liên bang Nga trong thập niên 90 của thế kỉ XX là",
+  "Answer": [{"content": "khôi phục và phát triển mối quan hệ với các nước châu Á.", "isTrue": true},{"content": "đối đầu quyết liệt với Mĩ.", "isTrue": false},{"content": "vươn lên nắm quyền chi phối thế giới.", "isTrue": false},{"content": "cố gắng duy trì địa vị của một cường quốc xã hội chủ nghĩa.", "isTrue": false}]
+ },
+ {
+  "Question": "Hiến pháp Liên bang Nga 12\/1993, quy định cho phép mỗi chính khách chỉ có thể đảm nhận vị trí Tổng thống Liên bang trong mấy nhiệm kì?",
+  "Answer": [{"content": "Hai nhiệm kì.", "isTrue": true},{"content": "Một nhiệm kì.", "isTrue": false},{"content": "Ba nhiệm kì.", "isTrue": false},{"content": "Bốn nhiệm kì.", "isTrue": false}]
+ },
+ {
+  "Question": "Người được bầu làm Tổng thống Nga năm 2000 là",
+  "Answer": [{"content": "V. Putin.", "isTrue": true},{"content": "M. Goócbachốp.", "isTrue": false},{"content": "B. Enxin.", "isTrue": false},{"content": "D Međvêdev.", "isTrue": false}]
+ },
+ {
+  "Question": "Sự sụp đổ của chế độ xã hội chủ nghĩa ở Liên Xô và Đông Âu là",
+  "Answer": [{"content": "sự sụp đổ của một mô hình chủ nghĩa xã hội chưa đúng đắn.", "isTrue": true},{"content": "sự sụp đổ của chế độ xã hội chủ nghĩa trên phạm vi toàn thế giới.", "isTrue": false},{"content": "sự thất bại của lí thuyết về chủ nghĩa xã hội khoa học trong thực tế.", "isTrue": false},{"content": "mốc chấm dứt cuộc Chiến tranh lạnh trên phạm vi thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Hiến pháp Liên nga Nga (12\/1993) quy định nước Nga theo thể chế",
+  "Answer": [{"content": "Tổng thống Liên bang.", "isTrue": true},{"content": "quân chủ lập hiến.", "isTrue": false},{"content": "cộng hòa quý tộc.", "isTrue": false},{"content": "quân chủ chuyên chế.", "isTrue": false}]
+ },
+ {
+  "Question": "Trong giai đoạn 1946 - 1950, Liên Xô đã đạt được thắng lợi to lớn gì trong công cuộc khôi phục kinh tế?",
+  "Answer": [{"content": "Hoàn thành thắng lợi kế hoạch 5 năm trước 9 tháng.", "isTrue": true},{"content": "Phóng thành công vệ tinh nhân tạo đầu tiên của Trái đất", "isTrue": false},{"content": "Xây dựng cơ sở vật chất - kĩ thuật của chủ nghĩa xã hội", "isTrue": false},{"content": "Thành lập Liên bang cộng hòa xã hội chủ nghĩa Xô viết.", "isTrue": false}]
+ },
+ {
+  "Question": "Năm 1949 đã ghi dấu ấn vào lịch sử Liên Xô bằng sự kiện nổi bật nào?",
+  "Answer": [{"content": "Liên Xô chế tạo thành công bom nguyên tử.", "isTrue": true},{"content": "Liên Xô phóng thành công vệ tinh nhân tạo.", "isTrue": false},{"content": "Liên Xô chế tạo thành công bom hạt nhân.", "isTrue": false},{"content": "Liên Xô đập tan sự bao vây của Mĩ và các nước tư bản.", "isTrue": false}]
+ },
+ {
+  "Question": "Liên Xô dựa vào thuận lợi nào là chủ yếu để xây dựng lại đất nước sau Chiến tranh thế giới thứ hai?",
+  "Answer": [{"content": "Tính ưu việt của chủ nghĩa xã hội và sự nhiệt tình của nhân dân.", "isTrue": true},{"content": "Những thành tựu từ công cuộc xây dựng chủ nghĩa xã hội trước chiến tranh.", "isTrue": false},{"content": "Sự ủng hộ của phong trào cách mạng thế giới.", "isTrue": false},{"content": "Lãnh thổ lớn và tài nguyên phong phú.", "isTrue": false}]
+ },
+ {
+  "Question": "Thành tựu quan trọng nhất mà Liên Xô đạt được trong giai đoạn 1950 – nửa đầu những năm 70 của thế kỉ XX là",
+  "Answer": [{"content": "trở thành cường quốc công nghiệp đứng thứ hai thế giới.", "isTrue": true},{"content": "trở thành nước đầu tiên phóng thành công tàu vũ trụ có người lái.", "isTrue": false},{"content": "phóng thành công vệ tinh nhân tạo lên quỹ đạo Trái đất.", "isTrue": false},{"content": "chế tạo thành công bom nguyên tử.", "isTrue": false}]
+ },
+ {
+  "Question": "Liên Xô chế tạo thành công bom nguyên tử vào thời gian nào?",
+  "Answer": [{"content": "Năm 1949.", "isTrue": true},{"content": "Năm 1951.", "isTrue": false},{"content": "Năm 1947.", "isTrue": false},{"content": "Năm 1945.", "isTrue": false}]
+ },
+ {
+  "Question": "So với Mĩ, điểm khác biệt về mục đích sử dụng năng lượng nguyên tử của Liên Xô là",
+  "Answer": [{"content": "duy trì nền hòa bình thế giới", "isTrue": true},{"content": "dùng để rộng lãnh thổ.", "isTrue": false},{"content": "ủng hộ phong trào cách mạng thế giới.", "isTrue": false},{"content": "khống chế các nước khác.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những chính sách đối ngoại của Liên bang Nga trong những năm cuối thế kỉ XX là",
+  "Answer": [{"content": "ngả về phương Tây với hy vọng nhận được sự viện trợ về kinh tế.", "isTrue": true},{"content": "tăng cường chạy đua vũ trang để phát động cuộc chiến tranh mới.", "isTrue": false},{"content": "hợp tác toàn diện với Mĩ và các nước tư bản chủ nghĩa.", "isTrue": false},{"content": "thực hiện chính sách hòa bình, trung lập với bên ngoài.", "isTrue": false}]
+ },
+ {
+  "Question": "Nhà máy điện nguyên tử đầu tiên trên thế giới được xây dựng tại đâu?",
+  "Answer": [{"content": "Liên Xô.", "isTrue": true},{"content": "Mĩ", "isTrue": false},{"content": "Đức.", "isTrue": false},{"content": "Trung Quốc.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau Chiến tranh thế giới thứ hai, Liên Xô chú trọng vào ngành kinh tế nào để đưa đất nước phát triển?",
+  "Answer": [{"content": "Công nghiệp nặng.", "isTrue": true},{"content": "Tài chính.", "isTrue": false},{"content": "Nông nghiệp.", "isTrue": false},{"content": "Công nghiệp nhẹ.", "isTrue": false}]
+ },
+ {
+  "Question": "Cuộc nội chiến từ năm 1946 đến năm 1949 ở Trung Quốc kết thúc với sự thắng lợi của",
+  "Answer": [{"content": "Đảng Cộng sản.", "isTrue": true},{"content": "Đảng Quốc đại.", "isTrue": false},{"content": "Quốc dân đảng.", "isTrue": false},{"content": "Đồng minh Hội.", "isTrue": false}]
+ },
+ {
+  "Question": "Cuộc nội chiến lần thứ tư (1946 - 1949) ở Trung Quốc kết thúc đã dẫn đến sự ra đời của nước",
+  "Answer": [{"content": "Cộng hòa Nhân dân Trung Hoa.", "isTrue": true},{"content": "Trung Hoa Dân quốc.", "isTrue": false},{"content": "Cộng hòa xã hội chủ nghĩa Trung Hoa.", "isTrue": false},{"content": "Cộng hòa Dân chủ Nhân dân Trung Hoa.", "isTrue": false}]
+ },
+ {
+  "Question": "Cuộc cách mạng dân tộc dân chủ Trung Quốc mang tính chất:",
+  "Answer": [{"content": "một cuộc cách mạng giải phóng dân tộc.", "isTrue": true},{"content": "một cuộc cách mạng tư sản do giai cấp vô sản lãnh đạo.", "isTrue": false},{"content": "một cuộc cách mạng vô sản do giai cấp vô sản lãnh đạo.", "isTrue": false},{"content": "một cuộc cách mạng xã hội chủ nghĩa.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào phản ánh đúng ý nghĩa quốc tế của sự ra đời của nước Cộng hòa Nhân dân Trung Hoa (1\/10\/1949)?",
+  "Answer": [{"content": "Tăng cường lực lượng của chủ nghĩa xã hội trên thế giới và cổ vũ mạnh mẽ phong trào giải phóng dân tộc.", "isTrue": true},{"content": "Kết thúc hơn 100 năm nô dịch và thống trị của đế quốc đối với nhân dân Trung Hoa.", "isTrue": false},{"content": "Báo hiệu sự kết thúc ách thống trị, nô dịch của chế độ phong kiến tư bản trên đất Trung Hoa.", "isTrue": false},{"content": "Đất nước Trung Hoa bước vào kỉ nguyên độc lập tự do, tiến lên chủ nghĩa xã hội", "isTrue": false}]
+ },
+ {
+  "Question": "Trung Quốc bước vào thời kì xây dựng chủ nghĩa xã hội trên cơ sở tình hình đất nước như thế nào?",
+  "Answer": [{"content": "Nền kinh tế nghèo nàn, lạc hậu.", "isTrue": true},{"content": "Quan hệ sản xuất tư bản chủ nghĩa tương đối phát triển.", "isTrue": false},{"content": "Kinh tế tương đối phát triển.", "isTrue": false},{"content": "Quan hệ sản xuất tư bản chủ nghĩa kém phát triển.", "isTrue": false}]
+ },
+ {
+  "Question": "Kế hoạch 5 năm lần thứ nhất của Trung Quốc tiến hành trong khoảng thời gian nào?",
+  "Answer": [{"content": "1953 - 1957", "isTrue": true},{"content": "1949 - 1953", "isTrue": false},{"content": "1961 - 1965", "isTrue": false},{"content": "1957- 1961", "isTrue": false}]
+ },
+ {
+  "Question": "Kế hoạch 5 năm lần thứ nhất của nhân dân Trung Quốc hoàn thành nhờ vào yếu tố nào?",
+  "Answer": [{"content": "Sự giúp đỡ của Liên Xô.", "isTrue": true},{"content": "Sự giúp đỡ và viện trợ của Mĩ.", "isTrue": false},{"content": "Sự giúp đỡ của các nước Đông Âu.", "isTrue": false},{"content": "Sự giúp đỡ của các nước tư bản.", "isTrue": false}]
+ },
+ {
+  "Question": "Trong mười năm đầu xây dựng chế độ xã hội chủ nghĩa (1949 - 1959), Trung Quốc đã thi hành chính sách đối ngoại như thế nào?",
+  "Answer": [{"content": "Thi hành chính sách tích cực nhằm củng cố hòa bình và thúc đẩy phong trào cách mạng thế giới.", "isTrue": true},{"content": "Chống Liên Xô và các nước xã hội chủ nghĩa.", "isTrue": false},{"content": "Chống Mĩ và các nước tư bản chủ nghĩa.", "isTrue": false},{"content": "Thi hành chính sách đối ngoại nhằm đẩy lùi các phong trào cách mạng thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Trung ương Đảng Cộng sản Trung Quốc đề ra đường lối đổi mới vào năm",
+  "Answer": [{"content": "1978", "isTrue": true},{"content": "1982", "isTrue": false},{"content": "1987", "isTrue": false},{"content": "1992", "isTrue": false}]
+ },
+ {
+  "Question": "Sự chia cắt của Trung Quốc và bán đảo Triều Tiên phản ánh vấn đề gì trong quan hệ quốc tế sau Chiến tranh thế giới thứ hai?",
+  "Answer": [{"content": "Sự đối đầu Đông – Tây và Chiến tranh lạnh.", "isTrue": true},{"content": "Chiến lược toàn cầu của Hoa Kì.", "isTrue": false},{"content": "Sự phát triển mạnh của các lực lượng dân tộc ở các nước thuộc địa.", "isTrue": false},{"content": "Sự cạnh tranh phạm vi ảnh hưởng giữa các nước tư bản.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguyên nhân chính khiến Quốc dân Đảng và Đảng Cộng Sản không thể hợp tác xây dựng chính phủ liên hiệp như quy định của Hội nghị Ianta (2-1945) là gì?",
+  "Answer": [{"content": "Do sự đối lập ý thức hệ và tham vọng lãnh đạo cách mạng Trung Quốc.", "isTrue": true},{"content": "Do tác động của cuộc Chiến tranh lạnh.", "isTrue": false},{"content": "Do sự phát triển lực lượng của Đảng Cộng sản Trung Quốc.", "isTrue": false},{"content": "Do sự can thiệp của Mĩ.", "isTrue": false}]
+ },
+ {
+  "Question": "Công cuộc cải cách và mở cửa ở Trung Quốc (từ năm 1978) và công cuộc cải tổ ở Liên Xô (1985 – 1991) có điểm gì tương đồng?",
+  "Answer": [{"content": "Diễn ra khi đất nước rơi vào tình trạng khủng hoảng trầm trọng.", "isTrue": true},{"content": "Chủ trương lấy cải cách chính trị làm trọng tâm.", "isTrue": false},{"content": "Giữ vững vai trò lãnh đạo của Đảng Cộng sản.", "isTrue": false},{"content": "Đưa đất nước phát triển mạnh mẽ theo con đường chủ nghĩa xã hội.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong số những chính sách đối ngoại mà các nước Tây Âu thực hiện ngay sau Chiến tranh thế giới thứ hai là",
+  "Answer": [{"content": "tìm cách trở lại các thuộc địa trước đây của mình.", "isTrue": true},{"content": "củng cố và phát triển mối quan hệ hợp tác trong khu vực.", "isTrue": false},{"content": "đấu tranh chống lại sự ảnh hưởng của Mĩ ở châu Âu.", "isTrue": false},{"content": "gây Chiến tranh lạnh với các nước Đông Âu.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào phản ánh tình hình kinh tế Tây Âu trong những năm 1945 - 1950?",
+  "Answer": [{"content": "Kinh tế được phục hồi và đạt nước trước chiến tranh.", "isTrue": true},{"content": "Kinh tế lâm vào khủng hoảng trầm trọng.", "isTrue": false},{"content": "Kinh tế tăng trưởng xen kẽ với khủng hoảng.", "isTrue": false},{"content": "Kinh tế tăng trưởng nhanh chóng.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau Chiến tranh thế giới thứ hai, thái độ của các nước tư bản Tây Âu về vấn đề độc lập dân tộc ở các thuộc địa như thế nào ?",
+  "Answer": [{"content": "Tìm cách thiết lập trở lại ách thống trị trên các thuộc địa của mình trước đây.", "isTrue": true},{"content": "Đa số ủng hộ việc công nhận nền độc lập của các nước thuộc địa.", "isTrue": false},{"content": "Tìm cách thiết lập chế độ thuộc địa kiểu mới đối với các nước thế giới thứ ba.", "isTrue": false},{"content": "Ủng hộ việc công nhận quyền tự trị của các thuộc địa.", "isTrue": false}]
+ },
+ {
+  "Question": "Mục đích của Mĩ trong \"Kế hoạch Mác - san\" là :",
+  "Answer": [{"content": "Thông qua viện trợ kinh tế để xác lập ảnh hưởng, sự khống chế của Mĩ đối với các nước tư bản đồng minh.", "isTrue": true},{"content": "Giúp đỡ các nước tư bản trên thế giới phục hồi lại nền kinh tế sau chiến tranh.", "isTrue": false},{"content": "Củng cố sức mạnh của hệ thống tư bản chủ nghĩa trên thế giới.", "isTrue": false},{"content": "Phục hồi sức mạnh quân sự Đức, biến Đức trở thành một tiền đồn chống lại ảnh hưởng của chủ nghĩa cộng sản từ Đông sang Tây.", "isTrue": false}]
+ },
+ {
+  "Question": "Tây Âu đã trở thành một trong ba trung tâm kinh tế - tài chính lớn của thế giới từ khi nào?",
+  "Answer": [{"content": "Thập niên 70 của thế kỉ XX.", "isTrue": true},{"content": "Thập niên 50 của thế kỉ XX.", "isTrue": false},{"content": "Thập niên 60 của thế kỉ XX.", "isTrue": false},{"content": "Thập niên 80 của thế kỉ XX.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những nhân tố thúc đẩy sự phát triển mạnh của kinh tế Mĩ, Tây Âu, Nhật Bản từ năm 1950 đến năm 1973 là :",
+  "Answer": [{"content": "vai trò quản lí, điều tiết kinh tế của nhà nước.", "isTrue": true},{"content": "tài nguyên phong phú, nhân lực dồi dào.", "isTrue": false},{"content": "sự hợp tác có hiệu quả trong tổ chức khu vực.", "isTrue": false},{"content": "tranh thủ được nguồn viện trợ lớn từ bên ngoài.", "isTrue": false}]
+ },
+ {
+  "Question": "Trong những năm 1950 - 1973, nước Tây Âu nào đã thực hiện đường lối đối ngoại độc lập với Mĩ ?",
+  "Answer": [{"content": "Pháp.", "isTrue": true},{"content": "Anh", "isTrue": false},{"content": "Cộng hoà Liên bang Đức.", "isTrue": false},{"content": "Italia.", "isTrue": false}]
+ },
+ {
+  "Question": "Thành công của các nước Tây Âu sau 5 năm khôi phục kinh tế - xã hội 1945 – 1950 là",
+  "Answer": [{"content": "cơ bản ổn định và phục hồi về mọi mặt, trở thành đối trọng với khối xã hội chủ nghĩa ở Đông Âu.", "isTrue": true},{"content": "xóa bỏ được ảnh hưởng của Mĩ đối với khu vực.", "isTrue": false},{"content": "khai thác được nguồn nguyên vật liệu, nhân công rẻ của các nước thế giới thứ ba.", "isTrue": false},{"content": "trở thành một trong ba trung tâm kinh tế thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Nét nổi bật trong chính sách đối ngoại của các nước Tây Âu trong những năm1950 - 1973 là :",
+  "Answer": [{"content": "nhiều nước một mặt tiếp tục liên minh chặt chẽ với Mĩ, một mặt đa phương hóa, đa dạng hóa quan hệ ngoại giao.", "isTrue": true},{"content": "tích cực đấu tranh hạn chế ảnh hưởng của Mĩ ở Tây Âu.", "isTrue": false},{"content": "thống nhất mục tiêu xây dựng EU thành mái nhà chung của châu Âu.", "isTrue": false},{"content": "nỗ lực thiết lập trở lại ách thống trị ở các thuộc địa cũ đã bị mất trong Chiến tranh thế giới thứ hai.", "isTrue": false}]
+ },
+ {
+  "Question": "Nước nào dưới đây đã từng ủng hộ cuộc chiến tranh của Mĩ ở Việt Nam (1954 – 1975)?",
+  "Answer": [{"content": "Anh.", "isTrue": true},{"content": "Đông Đức.", "isTrue": false},{"content": "Phần Lan", "isTrue": false},{"content": "Thuỵ Điển.", "isTrue": false}]
+ },
+ {
+  "Question": "Đến đầu thập kỉ 70 của thế kỉ XX, Tây Âu đã trở thành",
+  "Answer": [{"content": "một trong ba trung tâm kinh tế - tài chính lớn của thế giới.", "isTrue": true},{"content": "khối kinh tế tư bản đứng thứ hai thế giới.", "isTrue": false},{"content": "tổ chức liên kết kinh tế - chính trị lớn nhất hành tinh.", "isTrue": false},{"content": "trung tâm công nghiệp – quốc phòng lớn của thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Nét nổi bật của tình hình kinh tế Tây Âu từ năm 1991 đến năm 2000 là",
+  "Answer": [{"content": "trải qua một cơn suy thoái ngắn, sau đó phục hồi và phát triển trở lại.", "isTrue": true},{"content": "lâm vào tình trạng khủng hoảng, suy thoái kéo dài.", "isTrue": false},{"content": "bước đầu phục hồi và phát triển nhờ chính sách viện trợ của Mĩ.", "isTrue": false},{"content": "phát triển nhanh chóng và trở thành trung tâm kinh tế - tài chính của thế giới.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau Chiến tranh thế giới thứ hai, kinh tế Anh xếp sau các nước nào trong khối tư bản chủ nghĩa?",
+  "Answer": [{"content": "Mĩ, Nhật Bản, Tây Đức.", "isTrue": true},{"content": "Mĩ, Nhật Bản, Pháp.", "isTrue": false},{"content": "Mĩ, Nhật Bản, Hà Lan, Pháp.", "isTrue": false},{"content": "Mĩ, Nhật Bản, Tây Đức, Pháp.", "isTrue": false}]
+ },
+ {
+  "Question": "Sự điều chỉnh đường lối đối ngoại của các nước Tây Âu từ sau năm 1991 xuất phát từ bối cảnh lịch sử nào?",
+  "Answer": [{"content": "Chiến tranh lạnh kết thúc, trật tự Ianta hoàn toàn tan rã.", "isTrue": true},{"content": "Sự bùng nổ mạnh mẽ của phong trào đấu tranh đòi độc lập dân tộc.", "isTrue": false},{"content": "Cuộc cách mạng khoa học - kĩ thuật lần hai đã bắt đầu.", "isTrue": false},{"content": "Sự trỗi dậy của phong trào cộng sản và công nhân quốc tế.", "isTrue": false}]
+ },
+ {
+  "Question": "Nước nào dưới đây không thuộc nhóm các nước sáng lập “Cộng đồng than – thép châu Âu”?",
+  "Answer": [{"content": "Anh.", "isTrue": true},{"content": "Cộng hòa Liên bang Đức.", "isTrue": false},{"content": "Hà Lan.", "isTrue": false},{"content": "Bỉ.", "isTrue": false}]
+ },
+ {
+  "Question": "Quá trình phát triển hợp tác khu vực của các nước Tây Âu có thể diễn đạt bằng sơ đồ nào dưới đây ?",
+  "Answer": [{"content": "EEC ⇒ EC ⇒EU.", "isTrue": true},{"content": "EU ⇒ EEC ⇒EC.", "isTrue": false},{"content": "EC ⇒ EEC ⇒EU.", "isTrue": false},{"content": "EEC ⇒ EU ⇒EC.", "isTrue": false}]
+ },
+ {
+  "Question": "Đến năm 1993, Liên minh châu Âu có bao nhiêu thành viên ?",
+  "Answer": [{"content": "15 thành viên.", "isTrue": true},{"content": "6 thành viên.", "isTrue": false},{"content": "10 thành viên.", "isTrue": false},{"content": "25 thành viên.", "isTrue": false}]
+ },
+ {
+  "Question": "Đồng tiền chung châu Âu (EURO) chính thức được đưa vào sử dụng ở nhiều nước EU từ khi nào?",
+  "Answer": [{"content": "Năm 2002.", "isTrue": true},{"content": "Năm 2001.", "isTrue": false},{"content": "Năm 2000.", "isTrue": false},{"content": "Năm 1999.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ sau Chiến tranh thế giới thứ hai đến cuối thế kỉ XX, quốc gia Tây Âu nào sau đây luôn duy trì liên minh chặt chẽ với Mĩ?",
+  "Answer": [{"content": "Anh.", "isTrue": true},{"content": "Phần Lan.", "isTrue": false},{"content": "Pháp.", "isTrue": false},{"content": "Cộng hòa Dân chủ Đức.", "isTrue": false}]
+ },
+ {
+  "Question": "Liên minh châu Âu (EU) là tổ chức liên kết",
+  "Answer": [{"content": "chính trị - kinh tế.", "isTrue": true},{"content": "kinh tế - văn hóa.", "isTrue": false},{"content": "quân sự - kinh tế.", "isTrue": false},{"content": "chính trị - quân sự.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau Chiến tranh thế giới thứ hai, các nước tư bản Tây Âu đã tham gia vào tổ chức quân sự nào do Mĩ đứng đầu?",
+  "Answer": [{"content": "NATO.", "isTrue": true},{"content": "EU.", "isTrue": false},{"content": "ASEAN.", "isTrue": false},{"content": "VÁCSAVA.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguyên nhân khiến kinh tế Pháp phát triển nhanh chóng trong những năm 1950 – 1973 là",
+  "Answer": [{"content": "áp dụng những thành tựu khoa học - kĩ thuật hiện đại.", "isTrue": true},{"content": "thu lợi nhuận trong Chiến tranh thế giới thứ hai.", "isTrue": false},{"content": "nhập được nguyên liệu từ các nước tư bản Tây Âu.", "isTrue": false},{"content": "nhận viện trợ kinh tế của Mĩ theo \"Kế hoạch Masan\".", "isTrue": false}]
+ },
+ {
+  "Question": "Sau Chiến tranh thế giới thứ hai, kinh tế Pháp xếp sau các nước nào trong khối tư bản chủ nghĩa?",
+  "Answer": [{"content": "Mĩ, Nhật Bản, Tây Đức, Anh.", "isTrue": true},{"content": "Mĩ, Nhật Bản, Hà Lan, Tây Đức.", "isTrue": false},{"content": "Mĩ, Nhật Bản, Phần Lan, Tây Đức.", "isTrue": false},{"content": "Mĩ, Anh, Áo, Tây Đức.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ năm 1950 đến 1973, bên cạnh việc cố gắng đa dạng hóa, đa phương hóa, các nước tư bản Tây Âu vẫn tiếp tục chủ trương",
+  "Answer": [{"content": "liên minh chặt chẽ với Mĩ.", "isTrue": true},{"content": "mở rộng hợp tác với các nước Đông Bắc Á.", "isTrue": false},{"content": "hợp tác với Liên Xô.", "isTrue": false},{"content": "liên minh với các nước Đông Âu.", "isTrue": false}]
+ },
+ {
+  "Question": "Ngay sau Chiến tranh thế giới thứ hai, nền công nghiệp của Tây Đức được phục hồi và phát triển nhanh chóng chủ yếu nhờ",
+  "Answer": [{"content": "Mĩ cho vay và đầu tư vào Tây Đức.", "isTrue": true},{"content": "ứng dụng thành tựu khoa học - kĩ thuật.", "isTrue": false},{"content": "tập trung sản xuất và tập trung tư bản cao độ.", "isTrue": false},{"content": "quân sự hoá nền kinh tế sau chiến tranh.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau khi Chiến tranh lạnh kết thúc, nước Đức tái thống nhất vào thời gian nào?",
+  "Answer": [{"content": "Năm 1990.", "isTrue": true},{"content": "Năm 1989.", "isTrue": false},{"content": "Năm 1991.", "isTrue": false},{"content": "Năm 1992.", "isTrue": false}]
+ },
+ {
+  "Question": "Nhật Bản và Tây Âu trở thành những trung tâm kinh tế - tài chính lớn của thế giới từ thời gian nào?",
+  "Answer": [{"content": "Từ năm những năm 70 của thế kỉ XX.", "isTrue": true},{"content": "Từ năm những năm 80 của thế kỉ XX.", "isTrue": false},{"content": "Từ năm những năm 60 của thế kỉ XX.", "isTrue": false},{"content": "Từ năm những năm 50 của thế kỉ XX.", "isTrue": false}]
+ },
+ {
+  "Question": "Việt Nam có thể học tập được gì từ bài học từ sự phát triển kinh tế của Tây Âu sau Chiến tranh thế giới thứ hai?",
+  "Answer": [{"content": "Áp dụng thành tựu khoa học – kĩ thuật hiện đại.", "isTrue": true},{"content": "Tranh thủ mua nguyên liệu giá rẻ từ châu Âu.", "isTrue": false},{"content": "Quan hệ mật thiết với Mỹ để nhận viện trợ.", "isTrue": false},{"content": "Vay mượn nhiều vốn đầu tư từ bên ngoài.", "isTrue": false}]
+ },
+ {
+  "Question": "Kế hoạch Mác-san mà Mĩ đề ra năm 1947 còn được gọi là",
+  "Answer": [{"content": "Kế hoạch phục hưng châu Âu.", "isTrue": true},{"content": "Kế hoạch khôi phục Đông Âu.", "isTrue": false},{"content": "Kế hoạch phục hưng nước Mĩ.", "isTrue": false},{"content": "Kế hoạch khôi phục nước Mĩ.", "isTrue": false}]
+ },
+ {
+  "Question": "Mục đích chính của các nước Tây Âu khi nhận viện trợ của Mĩ ngay sau Chiến tranh thế giới thứ hai là",
+  "Answer": [{"content": "để phục hồi và phát triển kinh tế.", "isTrue": true},{"content": "muốn trở thành đồng minh của Mĩ.", "isTrue": false},{"content": "để xâm lược các quốc gia khác.", "isTrue": false},{"content": "cạnh tranh với Liên Xô.", "isTrue": false}]
+ },
+ {
+  "Question": "Nước nào dưới đây không thuộc trong 11 nước thành lập khối NATO năm 1949?",
+  "Answer": [{"content": "Cộng hòa Liên bang Đức.", "isTrue": true},{"content": "Hà Lan.", "isTrue": false},{"content": "Anh.", "isTrue": false},{"content": "Bồ Đào Nha.", "isTrue": false}]
+ },
+ {
+  "Question": "Sự phân chia đối lập về kinh tế và chính trị giữa các nước Tây Âu tư bản chủ nghĩa và Đông Âu xã hội chủ nghĩa được tạo nên bởi",
+  "Answer": [{"content": "việc thực hiện \"Kế hoạch Mác-san\".", "isTrue": true},{"content": "sự thành lập khối quân sự NATO.", "isTrue": false},{"content": "việc thực hiện \"Kế hoạch Mác-san\".", "isTrue": false},{"content": "học thuyết Ních-xơn của Mĩ.", "isTrue": false}]
+ },
+ {
+  "Question": "Mĩ đề ra \"Kế hoạch Mác-san” (6\/1947) nhằm",
+  "Answer": [{"content": "tập hợp các nước Tây Âu vào liên minh quân sự chống Liên Xô và Đông Âu.", "isTrue": true},{"content": "mở đầu cuộc Chiến tranh lạnh với Liên Xô.", "isTrue": false},{"content": "thành lập liên minh phòng thủ của các nước tư bản ở khu vực châu Âu.", "isTrue": false},{"content": "viện trợ kinh tế cho Liên Xô và các nước châu Âu.", "isTrue": false}]
+ },
+ {
+  "Question": "Đâu không phải là nguyên nhân dẫn tới sự xuất hiện của xu thế hòa hoãn Đông - Tây từ đầu những năm 70 của thế kỉ XX?",
+  "Answer": [{"content": "Do sự phát triển của phong trào giải phóng dân tộc", "isTrue": true},{"content": "Do sự suy giảm thế và lực của Mĩ và Liên Xô", "isTrue": false},{"content": "Do Tây Âu và Nhật Bản vươn lên trở thành đối thủ của Mĩ", "isTrue": false},{"content": "Do các vấn đề toàn cầu đỏi hỏi các nước phải chung tay giải quyết", "isTrue": false}]
+ },
+ {
+  "Question": "Lý do chính khiến Mĩ và Liên Xô đồng ý chấm dứt chiến tranh lạnh là gì?",
+  "Answer": [{"content": "Sự suy giảm thế và lực của Mĩ và Liên Xô", "isTrue": true},{"content": "Tác động của cuộc cách mạng khoa học kĩ thuật và xu thế toàn cầu hóa", "isTrue": false},{"content": "Sự phát triển của phong trào cách mạng thế giới", "isTrue": false},{"content": "Sự vươn lên cạnh tranh với Mĩ của Tây Âu, Nhật Bản", "isTrue": false}]
+ },
+ {
+  "Question": "Điểm khác biệt giữa chiến tranh lạnh với 2 cuộc chiến tranh thế giới trong thế kỉ XX là gì?",
+  "Answer": [{"content": "diễn ra trên mọi lĩnh vực, ngoại trừ xung đột trực tiếp giữa Liên Xô và Mĩ", "isTrue": true},{"content": "làm cho thế giới luôn trong tình trạng đối đầu, căng thẳng.", "isTrue": false},{"content": "gây ra nhiều hậu quả nặng nề cho nhân loại.", "isTrue": false},{"content": "chỉ diễn ra trên mặt trận quân sự.", "isTrue": false}]
+ },
+ {
+  "Question": "Mối quan hệ giữa các nước Đông Nam Á có sự biến đổi từ năm 1991 chủ yếu là do nguyên nhân nào?",
+  "Answer": [{"content": "Chiến tranh lạnh thật sự chấm dứt, vấn đề Campuchia được giải quyết", "isTrue": true},{"content": "Tác động của cách mạng khoa học kĩ thuật, xu thế toàn cầu hóa", "isTrue": false},{"content": "Tham vọng thiết lập trật tự thế giới đơn cực của Mĩ", "isTrue": false},{"content": "Xu hướng thiết lập trật tự thế giới đa cực", "isTrue": false}]
+ },
+ {
+  "Question": "Sự Chấm dứt chiến tranh lạnh đã tác động như thế nào đến tình hình Đông Nam Á?",
+  "Answer": [{"content": "Tạo điều kiện cho tổ chức ASEAN mở rộng thành viên.", "isTrue": true},{"content": "Tạo điều kiện cho các nước Đông Nam Á giành độc lập.", "isTrue": false},{"content": "Tạo điều kiện cho Việt Nam rút hết quân khỏi Campuchia.", "isTrue": false},{"content": "Tạo điều kiện cho Việt Nam kết thúc kháng chiến chống Mỹ.", "isTrue": false}]
+ },
+ {
+  "Question": "Điền từ còn thiếu vào chỗ trống “Trên thế giới này không có đồng minh vĩnh viễn hay kẻ thù vĩnh viễn chỉ có…mới là vĩnh viễn” (Thủ tướng Anh Churchill)",
+  "Answer": [{"content": "Lợi ích quốc gia", "isTrue": true},{"content": "Sức mạnh quân sự", "isTrue": false},{"content": "Lợi ích kinh tế", "isTrue": false},{"content": "Chủ quyền dân tộc", "isTrue": false}]
+ },
+ {
+  "Question": "Xu thế chủ đạo của thế giới sau chiến tranh lạnh có tác động như thế nào đến hướng giải quyết của Việt Nam trong cuộc tranh chấp ở biển Đông?",
+  "Answer": [{"content": "giải quyết các tranh chấp bằng biện pháp hòa bình.", "isTrue": true},{"content": "giải quyết các tranh chấp bằng biện pháp quân sự.", "isTrue": false},{"content": "giải quyết các tranh chấp bằng việc lợi dụng mâu thuẫn giữa các nước lớn.", "isTrue": false},{"content": "giải quyết các tranh chấp bằng biện pháp liên minh chính trị với các nước.", "isTrue": false}]
+ },
+ {
+  "Question": "Trước những xu thế phát triển của thế giới sau Chiến tranh lạnh, theo anh (chị) chiến lược hàng đầu mà Việt Nam cần thực hiện trong thời gian tới là gì?",
+  "Answer": [{"content": "Tập trung phát triển kinh tế.", "isTrue": true},{"content": "Tập trung ổn định tình hình chính trị.", "isTrue": false},{"content": "Giữ gìn bản sắc văn hóa dân tộc.", "isTrue": false},{"content": "Mở rộng quan hệ ngoại giao.", "isTrue": false}]
+ },
+ {
+  "Question": "Xu thế phát triển của thế giới sau chiến tranh lạnh không đặt ra thách thức nào sau đây đối với công cuộc đổi mới của Việt Nam hiện nay?",
+  "Answer": [{"content": "Nguồn vốn nước ngoài bị hạn chế", "isTrue": true},{"content": "Sự cạnh tranh quyết liệt với các nền kinh tế lớn", "isTrue": false},{"content": "Giải quyết hài hòa quan hệ với các nước lớn", "isTrue": false},{"content": "Sự tụt hậu nếu không nắm bắt được thời cơ", "isTrue": false}]
+ },
+ {
+  "Question": "Nhận định phản ánh đầy đủ mối quan hệ quốc tế trong nửa sau thế kỉ XX là",
+  "Answer": [{"content": "Các quan hệ quốc tế được mở rộng và đa dạng hóa, các quốc gia cùng tồn tại hòa bình, vừa đấu tranh, vừa hợp tác.", "isTrue": true},{"content": "Quy mô toàn cầu của các hoạt động kinh tế, tài chính và chính trị của các quốc gia và các tổ chức quốc tế.", "isTrue": false},{"content": "Sự tham gia của các nước Á, Phi, Mĩ Latinh mới giành được độc lập vào các hoạt động chính trị quốc tế.", "isTrue": false},{"content": "Sự phát triển như vũ bão của cách mạng khoa học- kĩ thuật hiện đại đã tác động mạnh đến quan hệ giữa các nước.", "isTrue": false}]
+ },
+ {
+  "Question": "Nét đặc trưng cơ bản của đời sống chính trị thế giới từ sau Chiến tranh thế giới thứ hai đến những năm 90 của thế kỉ XX là gì?",
+  "Answer": [{"content": "Sự đối đầu gay gắt giữa hai siêu cường, hai phe mà đỉnh cao là tình trạng chiến tranh lạnh kéo dài.", "isTrue": true},{"content": "Sự ra đời của các tổ chức liên kết kinh tế, thương mại, tài chính quốc tế và khu vực.", "isTrue": false},{"content": "Phong trào giải phóng dân tộc phát triển mạnh mẽ đã đưa tới sự ra đời của hơn 100 quốc gia độc lập.", "isTrue": false},{"content": "Cuộc cách mạng khoa học - công nghệ diễn ra với quy mô, nội dung và nhịp điệu chưa từng thấy.", "isTrue": false}]
+ },
+ {
+  "Question": "Ý nghĩa then chốt, quan trọng nhất của cách mạng khoa học - kĩ thuật lần thứ hai là",
+  "Answer": [{"content": "thay đổi một cách cơ bản các nhân tố sản xuất.", "isTrue": true},{"content": "tạo ra một khối lượng hàng hoá đồ sộ.", "isTrue": false},{"content": "đưa loài người chuyển sang nền văn minh trí tuệ.", "isTrue": false},{"content": "sự giao lưu quốc tế ngày càng được mở rộng.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những hạn chế của xu thế toàn cầu hóa là",
+  "Answer": [{"content": "đào sâu sự ngăn cách giàu nghèo trong từng nước và giữa các nước.", "isTrue": true},{"content": "tạo nên sự chuyển biến về cơ cấu kinh tế.", "isTrue": false},{"content": "làm thay đổi về cơ cấu dân cư và chất lượng nguồn nhân lực.", "isTrue": false},{"content": "đẩy nhanh sự phân hóa về lực lượng sản xuất trong xã hội.", "isTrue": false}]
+ },
+ {
+  "Question": "Trong cuộc cách mạng khoa học – kĩ thuật hiện đại, khoa học trở thành lực lượng sản xuất trực tiếp vì",
+  "Answer": [{"content": "khoa học là nguồn gốc chính của những tiến bộ kỹ thuật và công nghệ.", "isTrue": true},{"content": "tay nghề của công nhân ngày sàng cao.", "isTrue": false},{"content": "sản xuất được nhiều sản phẩm hàng hóa.", "isTrue": false},{"content": "nhà máy là phòng nghiên cứu chính của các nhà khoa học.", "isTrue": false}]
+ },
+ {
+  "Question": "Giai đoạn thứ nhất của cách mạng khoa học - kĩ thuật hiện đại diễn ra trong khoảng thời gian nào?",
+  "Answer": [{"content": "Từ những năm 40 đến những năm 70 của thế kỉ XX.", "isTrue": true},{"content": "ừ những năm 40 đến những năm 80 của thế kỉ XX.", "isTrue": false},{"content": "Từ những năm 30 đến những năm 70 của thế kỉ XX.", "isTrue": false},{"content": "Từ những năm 50 đến những năm 80 của thế kỉ XX.", "isTrue": false}]
+ },
+ {
+  "Question": "Giai đoạn thứ hai của cách mạng khoa học - kĩ thuật lần thứ hai diễn ra trong khoảng thời gian nào?",
+  "Answer": [{"content": "Từ sau cuộc khủng hoảng năng lượng năm 1973 đến nay.", "isTrue": true},{"content": "Từ những năm 70 đến những năm 80 của thế kỉ XX.", "isTrue": false},{"content": "Từ những năm 40 đến những năm 80 của thế kỉ XX.", "isTrue": false},{"content": "Từ những năm 80 của thế kỉ XX đến nay.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ năm 1973 đến nay cuộc cách mạng nào được nâng lên vị trí hàng đầu?",
+  "Answer": [{"content": "Cách mạng công nghệ.", "isTrue": true},{"content": "Cách mạng công nghiệp.", "isTrue": false},{"content": "Cách mạng trắng trong nông nghiệp.", "isTrue": false},{"content": "Cách mạng xanh trong nông nghiệp.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào sau đây không phải là thành tựu của cuộc cách mạng khoa học – kĩ thuật hiện đại?",
+  "Answer": [{"content": "Chế tạo được máy móc sử dụng sức nước.", "isTrue": true},{"content": "Giải mã thành công bản đồ gen người.", "isTrue": false},{"content": "Sự ra đời của nhiều vật liệu mới, năng lượng mới.", "isTrue": false},{"content": "Sự ra đời của hệ thống máy tự động.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguồn năng lượng nào sau đây không phải là nguồn năng lượng mới được tìm ra trong cuộc cách mạng khoa học – kĩ thuật hiện đại?",
+  "Answer": [{"content": "Năng lượng dầu mỏ.", "isTrue": true},{"content": "Năng lượng gió.", "isTrue": false},{"content": "Năng lượng mặt trời.", "isTrue": false},{"content": "Năng lượng nguyên tử.", "isTrue": false}]
+ },
+ {
+  "Question": "Những yếu tố nào đã trở thành nguồn gốc sâu xa dẫn tới cuộc cách mạng công nghiệp thế kỉ XVIII - XIX và cách mạng khoa học - kĩ thuật hiện nay?",
+  "Answer": [{"content": "Yêu cầu của sản xuất và đời sống xã hội.", "isTrue": true},{"content": "Yêu cầu của chiến tranh và sự gia tăng dân số.", "isTrue": false},{"content": "Yêu cầu của sự văn minh nhân lọai.", "isTrue": false},{"content": "Yêu cầu của kĩ thuật và sản xuất.", "isTrue": false}]
+ },
+ {
+  "Question": "Quá trình tăng lên mạnh mẽ những mối liên hệ, những ảnh hưởng, tác động, phụ thuộc lẫn nhau của tất cả các khu vực, các quốc gia, dân tộc trên thế giới được gọi là",
+  "Answer": [{"content": "quá trình toàn cầu hóa.", "isTrue": true},{"content": "quá trình công nghiệp hóa.", "isTrue": false},{"content": "quá trình hiện đại hóa.", "isTrue": false},{"content": "quá trình tư bản hóa.", "isTrue": false}]
+ },
+ {
+  "Question": "Bản đồ gen người được công bố vào năm",
+  "Answer": [{"content": "1997", "isTrue": true},{"content": "2003", "isTrue": false},{"content": "2000", "isTrue": false},{"content": "1991", "isTrue": false}]
+ },
+ {
+  "Question": "Sự ra đời của mạng thông tin máy tính toàn cầu (Internet) đã con người sang",
+  "Answer": [{"content": "nền văn minh thông tin.", "isTrue": true},{"content": "nền văn minh nông nghiệp.", "isTrue": false},{"content": "nền văn minh công nghiệp.", "isTrue": false},{"content": "nền văn minh khoa học.", "isTrue": false}]
+ },
+ {
+  "Question": "Đâu là mặt hạn chế của xu thế toàn cầu hóa?",
+  "Answer": [{"content": "Nguy cơ đánh mất bản sắc văn hóa dân tộc.", "isTrue": true},{"content": "Thúc đẩy sự phát triển và xã hội hóa của lực lượng sản xuất.", "isTrue": false},{"content": "Đặt ra yêu cầu cải cách để nâng cao sức cạnh tranh", "isTrue": false},{"content": "Cơ cấu kinh tế các nước có sự biến chuyển.", "isTrue": false}]
+ },
+ {
+  "Question": "Sự phát triển của quan hệ thương mại quốc tế là một trong những biểu hiện của xu thế",
+  "Answer": [{"content": "toàn cầu hóa.", "isTrue": true},{"content": "đa dạng hóa.", "isTrue": false},{"content": "hợp tác và đấu tranh.", "isTrue": false},{"content": "hòa hoãn tạm thời.", "isTrue": false}]
+ },
+ {
+  "Question": "Các công ty được sáp nhập và hợp nhất thành các tập đoàn lớn, nhất là các công ty khoa học – kĩ thuật nhằm",
+  "Answer": [{"content": "tăng khả năng cạnh tranh trên thị trường trong và ngoài nước.", "isTrue": true},{"content": "giải quyết những vấn đề kinh tế chung của khu vực.", "isTrue": false},{"content": "tăng cường mối quan hệ phụ thuộc giữa các nước.", "isTrue": false},{"content": "tăng cường trao đổi thương mại giữa các nước.", "isTrue": false}]
+ },
+ {
+  "Question": "Để hội nhập với xu thế toàn cầu hóa hiện nay, các quốc gia đều ra sức điều chỉnh chiến lược phát triển của mình bằng cách",
+  "Answer": [{"content": "kinh tế.", "isTrue": true},{"content": "quốc phòng.", "isTrue": false},{"content": "văn hóa.", "isTrue": false},{"content": "chính trị.", "isTrue": false}]
+ },
+ {
+  "Question": "Toàn cầu hoá là thời cơ với các nước đang phát triển nói chung và Việt Nam nói riêng bởi nó",
+  "Answer": [{"content": "thúc đẩy nhanh sự phát triển và xã hội hóa lượng sản xuất.", "isTrue": true},{"content": "tạo ra nguy cơ đánh mất bản sắc văn hóa dân tộc.", "isTrue": false},{"content": "tạo nên sự phân hóa giàu nghèo trong nội bộ từng nước.", "isTrue": false},{"content": "thúc đẩy sự hợp tác và phụ thuộc lẫn nhau của các nước.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào không phản ánh đúng biểu hiện của xu thế toàn cầu hóa?",
+  "Answer": [{"content": "Sự ra đời của các tổ chức liên kết kinh tế, chính trị, quân sự khu vực.", "isTrue": true},{"content": "Sự phát triển nhanh chóng của quan hệ thương mại quốc tế.", "isTrue": false},{"content": "Sự phát triển và tác động to lớn của các công ty xuyên quốc gia.", "isTrue": false},{"content": "Sự sáp nhập và hợp nhất các công ty thành những tập đoàn lớn.", "isTrue": false}]
+ },
+ {
+  "Question": "Đảng ta nhận định như thế nào về tác động của xu hướng toàn cầu hóa đối với Việt Nam?",
+  "Answer": [{"content": "Xu hướng toàn cầu hóa là cơ hội đồng thời là một thách thức lớn đối với sự phát triển của dân tộc.", "isTrue": true},{"content": "Xu hướng toàn cầu hóa là một thách thức lớn đối với các nước kém phát triển trong đó có Việt Nam.", "isTrue": false},{"content": "Xu hướng toàn cầu hóa là một cơ hội lớn để Việt Nam vươn lên, hiện đại hóa đất nước.", "isTrue": false},{"content": "Xu hướng toàn cầu hóa là không có ảnh hưởng gì đối với công cuộc xây dựng chủ nghĩa xã hội ở Việt Nam.", "isTrue": false}]
+ },
+ {
+  "Question": "Một trong những thời cơ của Việt Nam khi tham gia xu thế toàn cầu hóa là",
+  "Answer": [{"content": "có điều kiện tiếp cận khoa học – kĩ thuật hiện đại.", "isTrue": true},{"content": "khai thác được nguồn lực trong nước.", "isTrue": false},{"content": "tạo điều kiện giữ vững bản sắc dân tộc.", "isTrue": false},{"content": "thúc đẩy quá trình tăng cường hợp tác quốc tế.", "isTrue": false}]
+ },
+ {
+  "Question": "Thành tựu nào của cuộc cách mạng khoa học - kĩ thuật hiện đại khiến cho tình hình an ninh thế giới luôn tiềm ẩn dấu hiệu bất ổn?",
+  "Answer": [{"content": "Chế tạo ra vũ khí hạt nhân.", "isTrue": true},{"content": "Tìm ra bản đồ gen người.", "isTrue": false},{"content": "Chế tạo ra các loại tàu vũ trụ.", "isTrue": false},{"content": "Chế tạo ra máy tính điện tử.", "isTrue": false}]
+ },
+ {
+  "Question": "Cuộc cách mạng khoa học – kĩ thuật hiện đại phát triển qua mấy giai đoạn?",
+  "Answer": [{"content": "hai giai đoạn.", "isTrue": true},{"content": "ba giai đoạn.", "isTrue": false},{"content": "bốn giai đoạn.", "isTrue": false},{"content": "năm giai đoạn.", "isTrue": false}]
+ },
+ {
+  "Question": "Thách thức lớn nhất mà Việt Nam phải đối mặt khi tham gia xu thế toàn cầu hóa là",
+  "Answer": [{"content": "sự cạnh tranh quyết liệt từ thị trường quốc tế.", "isTrue": true},{"content": "trình độ của người lao động còn thấp.", "isTrue": false},{"content": "trình độ quản lí còn thấp.", "isTrue": false},{"content": "chưa tận dụng tốt nguồn vốn và kĩ thuật từ bên ngoài.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguyên tắc quan trọng nhất của Việt Nam khi hội nhập vào nền kinh tế thế giới theo xu thế toàn cầu hóa là",
+  "Answer": [{"content": "giữ vững độc lập chủ quyền", "isTrue": true},{"content": "am hiểu luật pháp quốc tế.", "isTrue": false},{"content": "cạnh tranh lành mạnh.", "isTrue": false},{"content": "bình đẳng trong cạnh tranh.", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào được coi là thời cơ lịch sử do xu thế toàn cầu hóa đem lại cho tất cả các quốc gia trên thế giới?",
+  "Answer": [{"content": "Nguồn vốn đầu tư, kĩ thuật công nghệ và kinh nghiệm quản lí từ bên ngoài.", "isTrue": true},{"content": "Quá trình liên kết khu vực, hợp tác giữa các nước đang được đẩy mạnh.", "isTrue": false},{"content": "Hòa bình, ổn định tạo nên sự phát triển nhanh chóng của quan hệ thương mại quốc tế.", "isTrue": false},{"content": "Sự ra đời của các tổ chức liên kết kinh tế, thương mại, tài chính ở các khu vực.", "isTrue": false}]
+ },
+ {
+  "Question": "Vì sao toàn cầu hóa là một xu thế khách quan, một thực tế không thể đảo ngược?",
+  "Answer": [{"content": "Đây là kết quả của quá trình tăng lên mạnh mẽ của lực lượng sản xuất.", "isTrue": true},{"content": "Các nước tư bản tăng cường đầu tư vốn ra thị trường thế giới.", "isTrue": false},{"content": "Đây là kết quả của việc thu hút nguồn lực bên ngoài của các nước đang phát triển.", "isTrue": false},{"content": "Các cường quốc đẩy mạnh liên kết kinh tế khu vực và toàn cầu.", "isTrue": false}]
+ },
+ {
+  "Question": "Để thích nghi với xu thế toàn cầu hóa, Việt Nam cần phải",
+  "Answer": [{"content": "nắm bắt thời cơ, vượt qua thách thức trong thời kì mới.", "isTrue": true},{"content": "ứng dụng thành tựu khoa học - kĩ thuật của thế giới.", "isTrue": false},{"content": "tận dụng nguồn vốn và kĩ thuật từ bên ngoài để phát triển kinh tế", "isTrue": false},{"content": "đẩy mạnh công nghiệp hóa, hiện đại hóa, giữ gìn bản sắc văn hóa dân tộc", "isTrue": false}]
+ },
+ {
+  "Question": "Tính hai mặt của toàn cầu hoá là",
+  "Answer": [{"content": "vừa tạo ra cơ hội, vừa tạo ra thách thức cho tất cả các nước", "isTrue": true},{"content": "tạo cơ hội lớn cho các nước tư bản và xã hội chủ nghĩa", "isTrue": false},{"content": "tạo ra nguy cơ mất bản sắc dân tộc và độc lập chính trị.", "isTrue": false},{"content": "đặt ra thách thức cho các nước Tư bản và xã hội chủ nghĩa", "isTrue": false}]
+ },
+ {
+  "Question": "Tổ chức nào dưới đây không phải là biểu hiện của xu thế toàn cầu hóa?",
+  "Answer": [{"content": "Tổ chức Hiệp ước Bắc Đại Tây Dương (NATO).", "isTrue": true},{"content": "Diễn đàn hợp tác Á – Âu (ASEM).", "isTrue": false},{"content": "Khu vực Thương mại tự do ASEAN (AFTA).", "isTrue": false},{"content": "Hiệp ước Thương mại tự do Bắc Mĩ (NAFTA).", "isTrue": false}]
+ },
+ {
+  "Question": "Nội dung nào dưới đây không phải là mặt tiêu cực của xu thế toàn cầu hoá",
+  "Answer": [{"content": "Làm cho quan hệ quốc tế trở nên căng thẳng, phức tạp", "isTrue": true},{"content": "Làm trầm trọng thêm sự bất công xã hội", "isTrue": false},{"content": "Đào sâu hố ngăn cách giàu – nghèo trong từng nước và giữa các nước", "isTrue": false},{"content": "Làm cho mọi hoạt động và đời sống con người kém an toàn", "isTrue": false}]
+ },
+ {
+  "Question": "Do tác động của cuộc cách mạng khoa học – công nghệ, nhân loại đã bước sang một nền văn minh mới là",
+  "Answer": [{"content": "văn minh thông tin", "isTrue": true},{"content": "văn minh công nghiệp", "isTrue": false},{"content": "văn minh thương mại", "isTrue": false},{"content": "văn minh nông nghiệp", "isTrue": false}]
+ },
+ {
+  "Question": "Năm 1940, ai được cử làm toàn quyền Đông Dương?",
+  "Answer": [{"content": "Đờcu.", "isTrue": true},{"content": "Catơru.", "isTrue": false},{"content": "Gôđa.", "isTrue": false},{"content": "Brêviê.", "isTrue": false}]
+ },
+ {
+  "Question": "Nét nổi bật của tình hình Việt Nam từ sau tháng 9\/1940 đến trước tháng 3\/1945 là gì?",
+  "Answer": [{"content": "Đặt dưới ách thống trị của Nhật - Pháp.", "isTrue": true},{"content": "Đặt dưới sách thống trị của thực dân Pháp.", "isTrue": false},{"content": "Nhật hất cẳng Pháp, độc chiếm Việt Nam.", "isTrue": false},{"content": "Đặt dưới sách thống trị của phát xít Nhật.", "isTrue": false}]
+ },
+ {
+  "Question": "Mục đích của Nhật Bản khi đẩy mạnh tuyên truyền về thuyết Đại Đông Á ở Việt Nam trong những năm 1940 – 1945 là",
+  "Answer": [{"content": "xây dựng cơ sở xã hội cho việc thiết lập một nền thống trị của Nhật Bản ở Việt Nam trong nay mai.", "isTrue": true},{"content": "thúc đẩy quá trình giao lưu, truyền bá văn hóa Nhật Bản - Việt Nam.", "isTrue": false},{"content": "để nhân dân Đông Dương hiểu và tích cực hợp tác với quân đội Nhật Bản trong cuộc đấu tranh thủ tiêu nền thống trị của Pháp ở đây.", "isTrue": false},{"content": "nhằm tạo ra một áp lực chính trị - xã hội để buộc Pháp phải phục tùng mọi ý đồ cai trị của Nhật.", "isTrue": false}]
+ },
+ {
+  "Question": "Tình hình Việt Nam từ sau tháng 3\/1945 có chuyển biến quan trọng gì ?",
+  "Answer": [{"content": "Vai trò thống trị của Pháp ở Việt Nam hoàn toàn bị thủ tiêu.", "isTrue": true},{"content": "Pháp thiết lập trở lại nền thống trị trên toàn Việt Nam.", "isTrue": false},{"content": "Cách mạng Việt Nam chuyển sang thời kì đấu tranh mới : chống chiến tranh đế quốc.", "isTrue": false},{"content": "Nhân dân Việt Nam chịu cảnh áp bức thống trị tàn bạo của phát xít Pháp - Nhật.", "isTrue": false}]
+ },
+ {
+  "Question": "Sau khi Chiến tranh thế giới thứ hai bùng nổ, thực dân Pháp đã thi hành chính sách gì ở Việt Nam ?",
+  "Answer": [{"content": "Chính sách \"Kinh tế chỉ huy\".", "isTrue": true},{"content": "Chính sách \"Kinh tế thời chiến\".", "isTrue": false},{"content": "Chính sách \"Thuộc địa thời chiến\".", "isTrue": false},{"content": "Chính sách \"Kinh tế mới\".", "isTrue": false}]
+ },
+ {
+  "Question": "Chính sách nào của Nhật - Pháp đã gây nên nạn đói lớn ở Việt Nam cuối năm 1944 – đầu năm 1945?",
+  "Answer": [{"content": "Bắt nhân dân nhổ lúa, ngô trồng đay, thầu dầu.", "isTrue": true},{"content": "Xuất các nguyên liệu chiến lược sang Nhật Bản.", "isTrue": false},{"content": "Đầu tư vào những ngành công nghiệp phục vụ nhu cầu quân sự.", "isTrue": false},{"content": "Kiểm soát toàn bộ hệ thống đường sá.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 11\/1939 họp tại đâu?",
+  "Answer": [{"content": "Bà Điểm (Hóc Môn, Gia Định).", "isTrue": true},{"content": "Cửu Long (Hương Cảng, Trung Quốc).", "isTrue": false},{"content": "Tân Trào (Tuyên Quang).", "isTrue": false},{"content": "Đình Bảng (Bắc Ninh).", "isTrue": false}]
+ },
+ {
+  "Question": "Năm 1939, ai là người giữ chức Tổng Bí thư Đảng Cộng sản Đông Dương ?",
+  "Answer": [{"content": "Nguyễn Văn Cừ.", "isTrue": true},{"content": "Hà Huy Tập.", "isTrue": false},{"content": "Lê Hồng Phong.", "isTrue": false},{"content": "Phan Đăng Lưu.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 11\/1939 đã khẳng định nhiệm vụ trước mắt của cách mạng Đông Dương là",
+  "Answer": [{"content": "đánh đổ đế quốc và tay sai, giải phóng các dân tộc Đông Dương.", "isTrue": true},{"content": "chống chủ nghĩa phát xít và chiến tranh đế quốc.", "isTrue": false},{"content": "chống phong kiến, giải quyết vấn đề ruộng đất cho dân cày.", "isTrue": false},{"content": "chống chế độ phản động thuộc địa và tay sai.", "isTrue": false}]
+ },
+ {
+  "Question": "Thái độ của Nhật, Pháp như thế nào khi nhân dân Bắc Sơn nổi dậy khởi nghĩa (9\/1940)?",
+  "Answer": [{"content": "Nhật câu kết với Pháp, tạo điều kiện cho Pháp tổ chức lực lượng đàn áp cuộc khởi nghĩa.", "isTrue": true},{"content": "Nhật – Pháp hoảng sợ bỏ chạy.", "isTrue": false},{"content": "Pháp hốt hoảng rút chạy, Nhật quay lại đàn áp cuộc khởi nghĩa.", "isTrue": false},{"content": "Nhật tích cực thay chân Pháp, đàn áp khởi nghĩa và thiết lập ách thống trị ở nước ta.", "isTrue": false}]
+ },
+ {
+  "Question": "Lá cờ đỏ sao vàng lần đầu tiên xuất hiện trong cuộc khởi nghĩa nào dưới đây?",
+  "Answer": [{"content": "Khởi nghĩa Nam Kì (1940).", "isTrue": true},{"content": "Khởi nghĩa Yên Bái (1930).", "isTrue": false},{"content": "Khởi nghĩa Bắc Sơn (1940).", "isTrue": false},{"content": "Khởi nghĩa Đô Lương (1941).", "isTrue": false}]
+ },
+ {
+  "Question": "Lực lượng chính tham gia khởi nghĩa Đô Lương tháng 1\/1941 là",
+  "Answer": [{"content": "binh lính.", "isTrue": true},{"content": "công nhân.", "isTrue": false},{"content": "nông dân.", "isTrue": false},{"content": "tù binh.", "isTrue": false}]
+ },
+ {
+  "Question": "Người lãnh đạo cuộc binh biến Đô Lương (1\/1941) là",
+  "Answer": [{"content": "Đội Cung.", "isTrue": true},{"content": "Nguyễn Thái Học.", "isTrue": false},{"content": "Võ Đức Chính.", "isTrue": false},{"content": "Tôn Đức Thắng.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 11\/1939 có nghĩa như thế nào?",
+  "Answer": [{"content": "Đánh dấu bước chuyển hướng quan trọng của Đảng trong chỉ đạo chiến lược cách mạng.", "isTrue": true},{"content": "Đánh dấu quá trình hoàn chỉnh chuyển hướng chỉ đạo chiến lược cho cách mạng Việt Nam.", "isTrue": false},{"content": "Đánh dấu một bước phát triển nhảy vọt của cách mạng Việt Nam.", "isTrue": false},{"content": "Mở ra một thời kì đấu tranh mới: đấu tranh chính trị kết hợp với đấu tranh vũ trang.", "isTrue": false}]
+ },
+ {
+  "Question": "Ai là người lãnh đạo khởi nghĩa Đô Lương (1\/1941)?",
+  "Answer": [{"content": "Đội Cung.", "isTrue": true},{"content": "Đội Quyền.", "isTrue": false},{"content": "Đội Dương.", "isTrue": false},{"content": "Đội Cấn.", "isTrue": false}]
+ },
+ {
+  "Question": "Nguyễn Ái Quốc về nước trực tiếp lãnh đạo cách mạng vào năm",
+  "Answer": [{"content": "1941", "isTrue": true},{"content": "1936", "isTrue": false},{"content": "1939", "isTrue": false},{"content": "1945", "isTrue": false}]
+ },
+ {
+  "Question": "Nhật đã thi hành các chính sách gì ở Việt Nam trong những năm 1940 - 1945 ?",
+  "Answer": [{"content": "Đầu tư vào các ngành phục vụ cho nhu cầu quân sự; buộc Pháp phải cung cấp các nguyên liệu như than, sắt, cao su, thóc gạo cho chúng với giá rẻ.", "isTrue": true},{"content": "Thực hiện chính sách Tổng động viên vơ vét tiền, của, con người, phục vụ nhu cầu cho cuộc chiến tranh phát xít.", "isTrue": false},{"content": "Thực hiện chính sách \"Kinh tế chỉ huy\", vơ vét tiền của, tài nguyên của đất nước ta phục vụ cho chiến tranh đế quốc.", "isTrue": false},{"content": "Thực hiện chính sách \"Kinh tế thời chiến\", ban hành lệnh Tổng động viên, bắt lính ráo riết.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 họp khi nào, ở đâu?",
+  "Answer": [{"content": "Tháng 5\/1941, ở Cao Bằng.", "isTrue": true},{"content": "Tháng 11\/1939, ở Thái Nguyên.", "isTrue": false},{"content": "Tháng 1\/1941, ở Cao Bằng.", "isTrue": false},{"content": "Tháng 11\/1939, ở Gia Định.", "isTrue": false}]
+ },
+ {
+  "Question": "Điền thêm từ còn thiếu trong nhận định của Đảng ta tại Hội nghị Trung ương 5\/1941: \"Cuộc cách mạng Đông Dương trong giai đoạn hiện tại là một cuộc cách mạng ... \".",
+  "Answer": [{"content": "dân tộc giải phóng.", "isTrue": true},{"content": "xã hội chủ nghĩa.", "isTrue": false},{"content": "dân chủ tư sản.", "isTrue": false},{"content": "tư sản dân quyền.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 (5\/1941) đã đưa ra khẩu hiệu",
+  "Answer": [{"content": "giảm tô, giảm tức, chia lại ruộng công.", "isTrue": true},{"content": "phá kho thóc của Nhật cứu đói cho dân nghèo.", "isTrue": false},{"content": "lập chính quyền Xô Viết công - nông - binh.", "isTrue": false},{"content": "đánh đổ địa chủ, chia ruộng đất cho dân cày.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 (5\/1941) đã",
+  "Answer": [{"content": "đánh dấu sự hoàn chỉnh chủ trương chuyển hướng chỉ đạo cách mạng của Đảng.", "isTrue": true},{"content": "đánh dấu bước đầu chuyển hướng chỉ đạo chiến lược cách mạng của Đảng.", "isTrue": false},{"content": "đánh dấu một giai đoạn phát triển mới của cách mạng Việt Nam, giai đoạn đấu tranh chính trị giành chính quyền về tay nhân dân.", "isTrue": false},{"content": "mở ra một giai đoạn mới của cách mạng Việt Nam: tập trung giải quyết hoàn thành nhiệm vụ dân chủ.", "isTrue": false}]
+ },
+ {
+  "Question": "Từ tháng 6 - 1941, ai là người giữ chức Tổng bí thư Đảng Cộng sản Đông Dương ?",
+  "Answer": [{"content": "Trường Chinh.", "isTrue": true},{"content": "Hà Huy Tập.", "isTrue": false},{"content": "Phan Đăng Lưu.", "isTrue": false},{"content": "Võ Văn Tần.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng lần thứ 8 (5\/1941) đã đưa ra quyết định gì ?",
+  "Answer": [{"content": "Thành lập mặt trận dân tộc thống nhất riêng cho mỗi nước ở Đông Dương.", "isTrue": true},{"content": "Thành lập Đảng Cộng sản riêng cho mỗi nước ở Đông Dương.", "isTrue": false},{"content": "Thành lập Đảng Dân chủ Việt Nam đứng trong Mặt trận Việt Minh.", "isTrue": false},{"content": "Thành lập Đảng Cộng sản chung cho ba nước Đông Dương.", "isTrue": false}]
+ },
+ {
+  "Question": "Tất cả các tổ chức đoàn thể trong Mặt trận Việt Minh đều có tên gọi là",
+  "Answer": [{"content": "hội Cứu quốc.", "isTrue": true},{"content": "hội Ái hữu.", "isTrue": false},{"content": "hội Cứu tế.", "isTrue": false},{"content": "hội Phản đế.", "isTrue": false}]
+ },
+ {
+  "Question": "Năm 1942, tỉnh nào sau đây có ba châu “hoàn toàn” trong xây dựng các hội Cứu quốc?",
+  "Answer": [{"content": "Cao Bằng.", "isTrue": true},{"content": "Bắc Giang.", "isTrue": false},{"content": "Tuyên Quang.", "isTrue": false},{"content": "Lạng Sơn.", "isTrue": false}]
+ },
+ {
+  "Question": "Trung đội Cứu quốc quân được thành lập năm 1941 dựa trên cơ sở ban đầu là",
+  "Answer": [{"content": "những đội du kích Bắc Sơn.", "isTrue": true},{"content": "những đội du kích Nam Kì.", "isTrue": false},{"content": "những đội du kích Ba Tơ.", "isTrue": false},{"content": "những đội du kích Đô Lương.", "isTrue": false}]
+ },
+ {
+  "Question": "Căn cứ địa cách mạng đầu tiên được xây dựng ở đâu ?",
+  "Answer": [{"content": "Bắc Sơn - Võ Nhai.", "isTrue": true},{"content": "Bắc Bó.", "isTrue": false},{"content": "Tân Trào.", "isTrue": false},{"content": "Vũ Lăng.", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị nào sau đây đã khẳng định vấn đề chuẩn bị khởi nghĩa giành chính quyền là \"nhiệm vụ trung tâm của toàn Đảng, toàn dân\"?",
+  "Answer": [{"content": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 5\/1941.", "isTrue": true},{"content": "Hội nghị Ban Thường vụ Trung ương Đảng tháng 3\/1945.", "isTrue": false},{"content": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 11\/1939.", "isTrue": false},{"content": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 7\/1936.", "isTrue": false}]
+ },
+ {
+  "Question": "Sự kiện Nhật đảo chính Pháp ngày 9\/3\/1945 đã đặt ra nhiệm vụ cho cách mạng Việt Nam là",
+  "Answer": [{"content": "tập trung lực lượng đánh đổ ách thống trị của phát xít Nhật.", "isTrue": true},{"content": "chống đế quốc và tay sai, giành độc lập dân tộc.", "isTrue": false},{"content": "tập trung lực lượng đánh đổ ách thống trị của Nhật - Pháp.", "isTrue": false},{"content": "tập trung lực lượng đánh đổ ách thống trị của bọn phản động thuộc địa Pháp.", "isTrue": false}]
+ },
+ {
+  "Question": "Chỉ thị “Nhật – Pháp bắn nhau và hành động của chúng ta” ngày 12\/3\/1945 của Đảng đưa ra khẩu hiệu",
+  "Answer": [{"content": "\"Đánh đuổi phát xít Nhật\".", "isTrue": true},{"content": "\"Đánh đuổi Pháp - Nhật\".", "isTrue": false},{"content": "\"Đánh đuổi đế quốc Pháp\".", "isTrue": false},{"content": "\"Đánh đuổi bọn đế quốc, Việt gian\".", "isTrue": false}]
+ },
+ {
+  "Question": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 5\/1941 khẳng định nhiệm vụ chủ yếu trước mắt của cách mạng là",
+  "Answer": [{"content": "giải phóng dân tộc.", "isTrue": true},{"content": "đánh đổ phong kiến.", "isTrue": false},{"content": "đòi tự do, dân chủ.", "isTrue": false},{"content": "chống chủ nghĩa phát xít.", "isTrue": false}]
+ },
+ {
+  "Question": "Năm 1945, Việt Nam Giải phóng quân được thành lập dựa trên các lực lượng",
+  "Answer": [{"content": "Việt Nam Tuyên truyền Giải phóng quân và Việt Nam Cứu quốc quân.", "isTrue": true},{"content": "Việt Nam Tuyên truyền Giải phóng quân và Cứu quốc quân III.", "isTrue": false},{"content": "Việt Nam Tuyên truyền Giải phóng quân và Cứu quốc quân II.", "isTrue": false},{"content": "Việt Nam Tuyên truyền Giải phóng quân và đội du kích Ba Tơ.", "isTrue": false}]
+ }
+]

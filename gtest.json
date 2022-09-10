@@ -1,0 +1,798 @@
+[
+    {
+     "Question": "Thi hành pháp luật là việc các cá nhân, tổ chức thực hiện đầy đủ những nhiệm vụ, làm những gì pháp luật",
+     "Answer": [{"content": "quy định phải làm.", "isTrue": true},{"content": "dự kiến sửa đổi.", "isTrue": false},{"content": "chuẩn bị thử nghiệm.", "isTrue": false},{"content": ". thăm dò dư luận.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những dấu hiệu cơ bản xác định hành vi vi phạm pháp luật là người vi phạm",
+     "Answer": [{"content": "chịu trách nhiệm kỉ luật.", "isTrue": true},{"content": "tự chuyển quyền nhân thân.", "isTrue": false},{"content": "tham gia hoạt động thiện nguyện.", "isTrue": false},{"content": "thành lập quỹ bảo trợ xã hội.", "isTrue": false}]
+    },
+    {
+     "Question": "Bất kỳ cá nhân nào, nếu đủ điều kiện theo quy định của pháp luật đều được",
+     "Answer": [{"content": "hướng các quyền công dân.", "isTrue": true},{"content": "lũng đoạn thị trường chung.", "isTrue": false},{"content": "xóa bỏ cạnh tranh.", "isTrue": false},{"content": "sàng lọc giới tính.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, sự thỏa thuận giữa người lao động và người sử dụng lao động về việc làm có trả công phải tuân thủ nguyên tắc nào sau đây?",
+     "Answer": [{"content": "Trung lập.", "isTrue": true},{"content": "Gián đoạn.", "isTrue": false},{"content": "Ủy nhiệm.", "isTrue": false},{"content": "Trực tiếp.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, vợ, chồng có quyền và nghĩa vụ ngang nhau trong việc",
+     "Answer": [{"content": "cùng lựa chọn nơi cư trú.", "isTrue": true},{"content": "định đoạt tài sản công cộng.", "isTrue": false},{"content": "bảo lưu mọi nguồn thu nhập.", "isTrue": false},{"content": "sàng lọc giới tính thai nhi.", "isTrue": false}]
+    },
+    {
+     "Question": "Mọi loại hình doanh nghiệp thuộc các thành phần kinh tế khác nhau đều bình đẳng trong việc",
+     "Answer": [{"content": "khuyến khích phát triển lâu dài.", "isTrue": true},{"content": "xóa bỏ các loại hình cạnh tranh.", "isTrue": false},{"content": "sở hữu tài nguyên thiên nhiên.", "isTrue": false},{"content": "chia đều của cải trong xã hội.", "isTrue": false}]
+    },
+    {
+     "Question": "Chỉ những người có thẩm quyền theo quy định của pháp luật mới có quyền ra lệnh",
+     "Answer": [{"content": "bắt người trong trường hợp khẩn cấp.", "isTrue": true},{"content": "thay đổi danh tính người tố cáo.", "isTrue": false},{"content": "xóa bỏ dấu vết hiện trường vụ án.", "isTrue": false},{"content": "mở rộng diện tích lãnh thổ quốc gia.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân không vi phạm quyền bất khả xâm phạm thân thể và bắt người đang",
+     "Answer": [{"content": "bị truy nã.", "isTrue": true},{"content": "cần bảo trợ.", "isTrue": false},{"content": "cách li y tế.", "isTrue": false},{"content": "khai báo dịch tễ.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những nội dung của quyền tự do ngôn luận là mọi công dân có quyền",
+     "Answer": [{"content": ". bày tỏ quan điểm của mình", "isTrue": true},{"content": ". ủy nhiệm nghĩa vụ bầu cử.", "isTrue": false},{"content": "chia sẻ mọi loại thông tin.", "isTrue": false},{"content": "sưu tầm tài liệu tham khảo.", "isTrue": false}]
+    },
+    {
+     "Question": "Quyền ứng cử của công dân được thực hiện bằng hình thức",
+     "Answer": [{"content": "được giới thiệu ứng cử.", "isTrue": true},{"content": "tham khảo danh sách ứng cử.", "isTrue": false},{"content": "thẩm định công tác ứng cử.", "isTrue": false},{"content": ". kiểm tra hoạt động bầu cử.", "isTrue": false}]
+    },
+    {
+     "Question": "Quyền tham gia quản lí nhà nước và xã hội có nghĩa là mọi công dân được biểu quyết các vấn đề trọng đại khi Nhà nước",
+     "Answer": [{"content": "tổ chức trưng cầu ý dân.", "isTrue": true},{"content": "yêu cầu giãn cách xã hội.", "isTrue": false},{"content": "ban bố tình trạng khẩn cấp.", "isTrue": false},{"content": "tiến hành hoạt động cứu trợ.", "isTrue": false}]
+    },
+    {
+     "Question": "Mục đích của tố cáo là nhằm phát hiện, ngăn chặn",
+     "Answer": [{"content": "các việc làm trái pháp luật.", "isTrue": true},{"content": "các việc làm trái pháp luật.", "isTrue": false},{"content": "những trào lưu thịnh hành.", "isTrue": false},{"content": "các việc làm đúng với pháp luật", "isTrue": false}]
+    },
+    {
+     "Question": "Việc Nhà nước áp dụng hình thức điều trị y tế miễn phí cho toàn bộ người dân Việt Nam bị nhiễm Covid-19 đã thể hiện nội dung quyền nào sau đây của công dân?",
+     "Answer": [{"content": "Được phát triển.", "isTrue": true},{"content": "Chủ động thẩm tra.", "isTrue": false},{"content": "Tham gia đối thoại.", "isTrue": false},{"content": "Tự phản biện", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những nội dung cơ bản của quyền học tập là mọi công dân đều được",
+     "Answer": [{"content": "học bằng nhiều hình thức.", "isTrue": true},{"content": "thay đổi đồng bộ chương trình.", "isTrue": false},{"content": "cấp học bổng toàn phần.", "isTrue": false},{"content": "điều chỉnh phương thức đào tạo.", "isTrue": false}]
+    },
+    {
+     "Question": "Việc Nhà nước thực hiện chủ trương cấp phát nhu yếu phẩm cho người nghèo trong chiến dịch phòng, chống dịch Covid-19 đã thể hiện nội dung cơ bản của pháp luật về",
+     "Answer": [{"content": "phát triển các lĩnh vực xã hội.", "isTrue": true},{"content": "ứng phó với biến đổi khí hậu.", "isTrue": false},{"content": "nguyên tắc kiểm toán nội bộ.", "isTrue": false},{"content": "quy trình tham gia bảo hiểm.", "isTrue": false}]
+    },
+    {
+     "Question": "Những yếu tố của tự nhiên mà lao động của con người tác động vào nhằm biến đổi nó cho phù hợp với mục đích của mình được gọi là",
+     "Answer": [{"content": "đối tượng lao động.", "isTrue": true},{"content": "quan hệ sản xuất.", "isTrue": false},{"content": "sản phẩm lao động.", "isTrue": false},{"content": "quy trình sản xuất.", "isTrue": false}]
+    },
+    {
+     "Question": "Trong nền kinh tế hàng hóa, thị trường có chức năng cơ bản nào sau đây?",
+     "Answer": [{"content": "Kích thích tiêu dùng.", "isTrue": true},{"content": "Bảo mật thông tin.", "isTrue": false},{"content": "Phương tiện cất trữ.", "isTrue": false},{"content": "Xóa bỏ cạnh tranh.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những tác động tích cực của quy luật giá trị đối với sản xuất và lưu thông hàng hóa là",
+     "Answer": [{"content": "làm cho năng suất lao động tăng lên.", "isTrue": true},{"content": "gia tăng phân hóa giàu - nghèo.", "isTrue": false},{"content": "đẩy mạnh hoạt động đầu cơ, tích trữ.", "isTrue": false},{"content": "thúc đẩy khủng hoảng kinh tế.", "isTrue": false}]
+    },
+    {
+     "Question": "Khối lượng hàng hóa, dịch vụ mà người tiêu dùng cần mua trong một thời kì nhất định tương ứng với mức giá cả và thu nhập xác định được gọi là",
+     "Answer": [{"content": "cầu.", "isTrue": true},{"content": "độc quyền.", "isTrue": false},{"content": "cung.", "isTrue": false},{"content": "sản xuất.", "isTrue": false}]
+    },
+    {
+     "Question": "Công dân thi hành pháp luật khi thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Khai báo dịch tễ.", "isTrue": true},{"content": "Che giấu tội phạm.", "isTrue": false},{"content": "Từ bỏ định kiến.", "isTrue": false},{"content": "Hiến máu nhân đạo.", "isTrue": false}]
+    },
+    {
+     "Question": "Người có đủ năng lực trách nhiệm pháp lí vi phạm pháp luật hành chính khi tự ý thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Đi sai làn đường quy định.", "isTrue": true},{"content": "Giúp đỡ phạm nhân vượt ngục.", "isTrue": false},{"content": "Đơn phương đề nghị li hôn.", "isTrue": false},{"content": "Đề xuất thay đổi giới tính.", "isTrue": false}]
+    },
+    {
+     "Question": "Người có đủ năng lực trách nhiệm pháp lí phải chịu trách nhiệm hình sự khi thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Tàng trữ, vận chuyển và lưu hành tiền giả.", "isTrue": true},{"content": "Từ chối nhận tài sản thừa kế.", "isTrue": false},{"content": "Lấn chiếm công trình giao thông.", "isTrue": false},{"content": "Xây dựng nhà ở khi chưa được cấp phép.", "isTrue": false}]
+    },
+    {
+     "Question": "Bình đẳng về việc hưởng quyền trước pháp luật là mọi công dân đều được",
+     "Answer": [{"content": "tìm kiếm việc làm theo quy định.", "isTrue": true},{"content": "miễn, giảm mọi loại thuế", "isTrue": false},{"content": "công khai danh tính người tố cáo.", "isTrue": false},{"content": "ủy quyền bỏ phiếu bầu cử.", "isTrue": false}]
+    },
+    {
+     "Question": "Quyền bình đẳng trong lao động của công dân không thể hiện ở nội dung nào sau đây?",
+     "Answer": [{"content": "Tự do khai thác tài nguyên thiên nhiên.", "isTrue": true},{"content": "Tìm kiếm việc làm theo quy định.", "isTrue": false},{"content": "Trực tiếp giao kết hợp đồng lao động.", "isTrue": false},{"content": "Thực hiện thỏa ước lao động tập thể.", "isTrue": false}]
+    },
+    {
+     "Question": "Việc khám xét chỗ ở của một người chỉ được tiến hành khi có căn cứ và quyết định của",
+     "Answer": [{"content": "cơ quan nhà nước có thẩm quyền.", "isTrue": true},{"content": "đội ngũ thông tấn và báo chí.", "isTrue": false},{"content": "các tổ chức phi chính phủ.", "isTrue": false},{"content": "lực lượng tìm kiếm và cứu nạn.", "isTrue": false}]
+    },
+    {
+     "Question": "Công dân tự ý sử dụng hộp thư của người khác là vi phạm quyền nào sau đây?",
+     "Answer": [{"content": "Được đảm bảo an toàn và bí mật thư tín", "isTrue": true},{"content": "Điều chỉnh giá cước viễn thông.", "isTrue": false},{"content": "Tương tác qua hình thức trực tiếp.", "isTrue": false},{"content": "Quảng bá dịch vụ truyền dẫn.", "isTrue": false}]
+    },
+    {
+     "Question": "Người đủ 18 tuổi không được thực hiện quyền bầu cử trong trường hợp nào sau đây?",
+     "Answer": [{"content": "Mất năng lực hành vi dân sự.", "isTrue": true},{"content": "Đang bị tạm giam.", "isTrue": false},{"content": "Thực hiện cách li tập trung.", "isTrue": false},{"content": "Quản chế bắt buộc tại địa phương.", "isTrue": false}]
+    },
+    {
+     "Question": "Công dân có thể thực hiện quyền tố cáo trong trường hợp phát hiện",
+     "Answer": [{"content": "hành vi khai thác gỗ trái phép.", "isTrue": true},{"content": "thông tin niêm yết chứng khoán.", "isTrue": false},{"content": "dấu hiệu biến đổi khí hậu.", "isTrue": false},{"content": "sự thay đổi của chủng virus mới.", "isTrue": false}]
+    },
+    {
+     "Question": "Công dân không thực hiện quyền sáng tạo trong trường hợp nào sau đây?",
+     "Answer": [{"content": "Tìm hiểu giá cổ phiếu.", "isTrue": true},{"content": "Nghiên cứu khoa học, công nghệ.", "isTrue": false},{"content": "Hợp lí hóa sản xuất.", "isTrue": false},{"content": "Đưa ra phát minh, sáng chế.", "isTrue": false}]
+    },
+    {
+     "Question": "Với tinh thần xây dựng tổ dân phố kiểu mẫu, ông Q đã viết bài chia sẻ kinh nghiệm phòng, chống tệ nạn xã hội cho bà con. Ông Q đã thực hiện pháp luật theo hình thức nào sau đây?",
+     "Answer": [{"content": "Sử dụng pháp luật.", "isTrue": true},{"content": "Tuyên truyền pháp luật.", "isTrue": false},{"content": "Áp dụng pháp luật.", "isTrue": false},{"content": "Phổ biến pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Anh A là công chức của Ủy ban nhân dân X đã nhận 40 triệu đồng và làm giả giấy chứng nhận quyền sử dụng đất cho chị B. Anh A đã vi phạm pháp luật nào sau đây?",
+     "Answer": [{"content": "Hình sự và kỉ luật.", "isTrue": true},{"content": "Dân sự và kỉ luật.", "isTrue": false},{"content": "Dân sự và hình sự.", "isTrue": false},{"content": "Hành chính và dân sự.", "isTrue": false}]
+    },
+    {
+     "Question": "Anh C cùng vợ cố ý vi phạm quy định về an toàn thực phẩm trong chế biến thức ăn khiến hai khách hàng bị tử vong. Vợ chồng anh C phải chịu trách nhiệm pháp lí nào sau đây?",
+     "Answer": [{"content": "Hình sự và hành chính.", "isTrue": true},{"content": "Dân sự và hình sự.", "isTrue": false},{"content": "Hành chính và kỉ luật.", "isTrue": false},{"content": "Hình sự và dân sự.", "isTrue": false}]
+    },
+    {
+     "Question": "Không thuyết phục được chồng là anh A cho mình đi nghiên cứu sinh ở nước ngoài nên chị B bỏ về nhà mẹ đẻ là bà P để sinh sống. Vì cần tiền cho con trai đi du học, bà P liên tục gây sức ép, buộc chị B phải bí mật rút tiền tiết kiệm của hai vợ chồng chị và đưa cho bà 200 triệu đồng. Chị B và bà P cùng vi phạm quyền bình đẳng trong lĩnh vực nào sau đây?",
+     "Answer": [{"content": "Hôn nhân và gia đình.", "isTrue": true},{"content": "Huyết thống và dòng tộc.", "isTrue": false},{"content": "Chiếm hữu định đoạt.", "isTrue": false},{"content": "Tài chính và công vụ.", "isTrue": false}]
+    },
+    {
+     "Question": "Sau 3 năm làm việc tại công ty X, chị A đã được giám đốc công ty điều chuyển từ phân xưởng khai thác than sang làm việc tại phòng hành chính theo đúng thỏa thuận trước đó. Chị A đã được thực hiện quyền bình đẳng trong lao động ở nội dung nào sau đây?",
+     "Answer": [{"content": "Giao kết hợp đồng lao động.", "isTrue": true},{"content": "Nâng cao năng lực cạnh tranh.", "isTrue": false},{"content": "Thay đổi quy trình tuyển dụng.", "isTrue": false},{"content": "Lựa chọn hình thức bảo hiểm.", "isTrue": false}]
+    },
+    {
+     "Question": "Phát hiện mình bị sốt nhẹ, chị A nhờ chồng là anh B đăng kí cho chị làm xét nghiệm sàng lọc Covid-19. Tuy nhiên, anh B đã khóa cửa buộc vợ phải ở trong nhà kho 14 ngày để tránh lây nhiễm dù chị không đồng ý. Anh B đã vi phạm quyền nào sau đây của công dân? ",
+     "Answer": [{"content": "Bất khả xâm phạm về thân thể.", "isTrue": true},{"content": "Bất khả xâm phạm về chỗ ở.", "isTrue": false},{"content": "Được bảo mật về danh tính cá nhân.", "isTrue": false},{"content": "Được lựa chọn mọi dịch vụ y tế.", "isTrue": false}]
+    },
+    {
+     "Question": "Trong quá trình xây dựng pháp luật, Nhà nước luôn cố gắng đưa những quy phạm đạo đức phù hợp với sự phát triển và tiến bộ xã hội vào trong các quy phạm pháp luật là nội dung mối quan hệ giữa pháp luật với",
+     "Answer": [{"content": "đạo đức.", "isTrue": true},{"content": " chính trị.", "isTrue": false},{"content": "văn hóa.", "isTrue": false},{"content": "kinh tế.", "isTrue": false}]
+    },
+    {
+     "Question": " Trong các phương tiện mà nhà nước dùng để quản lý xã hội thì phương tiện hữu hiệu nhất để nhà nước quản lý xã hội là",
+     "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+    },
+    {
+     "Question": "Hình thức thực hiện pháp luật nào dưới đây mà chủ thể có thể lựa chọn việc làm hoặc không làm?",
+     "Answer": [{"content": "Sử dụng pháp luật.", "isTrue": true},{"content": "Tuân thủ pháp luật.", "isTrue": false},{"content": "Áp dụng pháp luật.", "isTrue": false},{"content": " Thi hành pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, quyền của công dân không tách rời",
+     "Answer": [{"content": " nghĩa vụ của công dân", "isTrue": true},{"content": "trách nhiệm của công dân.", "isTrue": false},{"content": "lợi ích của công dân.", "isTrue": false},{"content": "quyền lợi của công dân.", "isTrue": false}]
+    },
+    {
+     "Question": " Đâu không phải là mục đích của cạnh tranh?",
+     "Answer": [{"content": " Giành thành tích.", "isTrue": true},{"content": "Giành thị trường.", "isTrue": false},{"content": "Giành ưu thế về khoa học.", "isTrue": false},{"content": "Giành nguồn nguyên liệu.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những nhiệm vụ của Giáo dục và Đào tạo là nâng cao",
+     "Answer": [{"content": "dân trí.", "isTrue": true},{"content": "việc học.", "isTrue": false},{"content": "trình độ.", "isTrue": false},{"content": "hiểu biết", "isTrue": false}]
+    },
+    {
+     "Question": "Nghĩa vụ và quyền ngang nhau về mọi mặt trong gia đình là bình đẳng giữa",
+     "Answer": [{"content": "vợ - chồng.", "isTrue": true},{"content": "ông bà - con cháu.", "isTrue": false},{"content": "cha mẹ - con cái.", "isTrue": false},{"content": "anh, chị, em.", "isTrue": false}]
+    },
+    {
+     "Question": "Giam giữ người quá thời hạn quy định là vi phạm quyền",
+     "Answer": [{"content": "ất khả xâm phạm về thân thể của công dân.", "isTrue": true},{"content": "được pháp luật bảo hộ về tính mạng, sức khoẻ của công dân.", "isTrue": false},{"content": "được pháp luật bảo hộ về danh dự, nhân phẩm của công dân.", "isTrue": false},{"content": "bất khả xâm phạm về chỗ ở của công dân.", "isTrue": false}]
+    },
+    {
+     "Question": "Đánh người gây thương tích là vi phạm quyền",
+     "Answer": [{"content": "được pháp luật bảo hộ về tính mạng, sức khỏe của công dân.", "isTrue": true},{"content": "bất khả xâm phạm về thân thể của công dân.", "isTrue": false},{"content": "được pháp luật bảo hộ về danh dự, nhân phẩm của công dân.", "isTrue": false},{"content": "tự do về thân thể của công dân.", "isTrue": false}]
+    },
+    {
+     "Question": " Khẳng định nào sau đây là đúng với quyền bất khả xâm phạm về chỗ ở của công dân?",
+     "Answer": [{"content": "Công an khám nhà của công dân khi có lệnh của tòa án.", "isTrue": true},{"content": "Thủ trưởng cơ quan khám xét chỗ ở của nhân viên.", "isTrue": false},{"content": " Cơ quan điều tra khám xét chỗ ở của công dân.", "isTrue": false},{"content": "Bất kỳ ai cũng có quyền khám xét chỗ ở của người khác nếu có chứng cứ người đó phạm tội.", "isTrue": false}]
+    },
+    {
+     "Question": "Quyền công dân tham gia quản lý Nhà nước, giám sát hoạt động của cơ quan Nhà nước, cán bộ, công chức Nhà nước là",
+     "Answer": [{"content": "quyền kiến nghị với các cơ quan nhà nước.", "isTrue": true},{"content": "quyền tự do bầu cử.", "isTrue": false},{"content": "uyền tự do báo chí.", "isTrue": false},{"content": "quyền tự do ngôn luận.", "isTrue": false}]
+    },
+    {
+     "Question": "Quyền của mỗi người được tự do nghiên cứu khoa học, tìm tòi, suy nghĩ để đưa ra các phát minh, sáng kiến,...là quyền",
+     "Answer": [{"content": "sáng tạo.", "isTrue": true},{"content": "được tự do thông tin.", "isTrue": false},{"content": "tự do ngôn luận, tự do báo chí.", "isTrue": false},{"content": "phát triển.", "isTrue": false}]
+    },
+    {
+     "Question": "Công dân có quyền được khuyến khích bồi dưỡng để phát triển",
+     "Answer": [{"content": "tài năng.", "isTrue": true},{"content": "tư duy.", "isTrue": false},{"content": "trí tuệ.", "isTrue": false},{"content": "kĩ năng.", "isTrue": false}]
+    },
+    {
+     "Question": "Thực hiện công bằng xã hội trong giáo dục, tạo điều kiện để mọi công dân đều có cơ hội học tập là ý nghĩa quyền nào dưới đây?",
+     "Answer": [{"content": "Học tập.", "isTrue": true},{"content": "Phát triển.", "isTrue": false},{"content": "Công dân.", "isTrue": false},{"content": "Sáng tạo.", "isTrue": false}]
+    },
+    {
+     "Question": "Quyền bình đẳng giữa các dân tộc được hiểu là",
+     "Answer": [{"content": "Các dân tộc được nhà nước và pháp luật tôn trọng, bảo vệ và pháp luật tạo điều kiện phát triển.", "isTrue": true},{"content": "Các dân tộc được nhà nước tôn trọng, bảo vệ.", "isTrue": false},{"content": "Các dân tộc được nhà nước và pháp luật bảo vệ.", "isTrue": false},{"content": "Các dân tộc được nhà nước và pháp luật tôn trọng.", "isTrue": false}]
+    },
+    {
+     "Question": "Bảo tồn và sử dụng hợp lí nguồn tài nguyên thiên nhiên là nội dung cơ bản của phát luật về lĩnh vực",
+     "Answer": [{"content": "môi trường.", "isTrue": true},{"content": " kinh tế.", "isTrue": false},{"content": "xã hội.", "isTrue": false},{"content": "quốc phòng, an ninh.", "isTrue": false}]
+    },
+    {
+     "Question": " A là học sinh lớp 11. Vì chơi với bạn bè xấu nên A đã tham gia cướp tài sản của người đi đường để lấy tiền chơi game. Việc cướp tài sản của A là vi phạm",
+     "Answer": [{"content": " pháp luật.", "isTrue": true},{"content": "nội quy học sinh.", "isTrue": false},{"content": "Điều lệ Đoàn TNCS Hồ Chí Minh.", "isTrue": false},{"content": "kỷ luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Đâu không phải là điều kiện để sản phẩm trở thành hàng hoá?",
+     "Answer": [{"content": "Được đông đảo người tiêu dùng chấp nhận.", "isTrue": true},{"content": "Sản phẩm do lao động tạo ra.", "isTrue": false},{"content": "Có công dụng nhất định để thoả mãn nhu cầu con người.", "isTrue": false},{"content": "Được đem ra trao đổi mua, bán.", "isTrue": false}]
+    },
+    {
+     "Question": "Ở nước ta hiện nay, chúng ta phải tiến hành công nghiệp hóa nhưng phải gắn với quá trình hiện đại hóa. Nguyên nhân là do quá trình công nghiệp hóa của nước ta diễn ra",
+     "Answer": [{"content": "muộn.", "isTrue": true},{"content": "sớm.", "isTrue": false},{"content": "rất muộn.", "isTrue": false},{"content": "vừa phải.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong các chức năng quan trọng của nhà nước pháp quyền xã hội chủ nghĩa Việt Nam là đảm bảo",
+     "Answer": [{"content": "dân chủ.", "isTrue": true},{"content": "hạnh phúc.", "isTrue": false},{"content": "an toàn.", "isTrue": false},{"content": "chủ quyền.", "isTrue": false}]
+    },
+    {
+     "Question": "Bất kỳ công dân nào vi phạm pháp luật đều phải gánh chịu trách nhiệm về hành vi vi phạm của mình là quyền bình đẳng của công dân về",
+     "Answer": [{"content": "trách nhiệm pháp lí.", "isTrue": true},{"content": "việc học.", "isTrue": false},{"content": "quyền và nghĩa vụ.", "isTrue": false},{"content": "trách nhiệm.", "isTrue": false}]
+    },
+    {
+     "Question": "Trong gia đình A, mọi thành viên đều được đưa ra ý kiến riêng của mình về một vấn đề nào đó mà gia đình quan tâm. Bố mẹ A rất lắng nghe ý kiến của các con và tôn trọng các ý kiến đó nếu phù hợp. Việc tôn trọng ý kiến của nhau trong gia đình A chính là biểu hiện của",
+     "Answer": [{"content": "bình đẳng trong gia đình.", "isTrue": true},{"content": "sự tôn trọng lẫn nhau.", "isTrue": false},{"content": "sự bình đẳng giữa các thành viên.", "isTrue": false},{"content": "sự yêu thương lẫn nhau.", "isTrue": false}]
+    },
+    {
+     "Question": "Quy định pháp luật về khiếu nại, tố cáo là cơ sở pháp lý để công dân thực hiện hiệu quả quyền công dân của mình là một nội dung thuộc",
+     "Answer": [{"content": "ý nghĩa quyền khiếu nại, tố cáo.", "isTrue": true},{"content": " nội dung quyền khiếu nại, tố cáo.", "isTrue": false},{"content": "khái niệm quyền khiếu nại, tố cáo.", "isTrue": false},{"content": "bình đẳng trong thực hiện quyền khiếu nại, tố cáo.", "isTrue": false}]
+    },
+    {
+     "Question": "Một số nội dung của pháp luật về phát triển kinh tế chính là cho phép công dân có quyền tự do kinh doanh nhưng đồng thời cũng yêu cầu công dân phải thực hiện",
+     "Answer": [{"content": "nghĩa vụ với nhà nước và xã hội.", "isTrue": true},{"content": "các quy luật của thị trường.", "isTrue": false},{"content": "kinh doanh phải hiệu quả.", "isTrue": false},{"content": "kinh doanh đúng luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Nhà trường ra quyết định đình chỉ học của học sinh do vi phạm kỷ luật. Trong trường hợp này nhà trường đã sử dụng hình thức thực hiện pháp luật nào sau đây?",
+     "Answer": [{"content": "Áp dụng pháp luật.", "isTrue": true},{"content": "Tuân thủ pháp luật.", "isTrue": false},{"content": " Sử dụng pháp luật.", "isTrue": false},{"content": "Thi hành pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Nước ta chủ trương phát triển kinh tế phải gắn với bảo vệ môi trường để đảm bảo phát triển",
+     "Answer": [{"content": "bền vững.", "isTrue": true},{"content": "hiệu quả.", "isTrue": false},{"content": "thần tốc.", "isTrue": false},{"content": "nhanh.", "isTrue": false}]
+    },
+    {
+     "Question": "Khi thấy công ty B đưa ra sản phẩm giống y chang sản phẩm của công ty mình thì công ty A nên làm gì để bảo vệ quyền lợi hợp pháp của mình theo quy định của pháp luật?",
+     "Answer": [{"content": "Tố cáo với cơ quan chức năng.", "isTrue": true},{"content": "Gặp giám đốc công ty B và khuyên không nên làm thế.", "isTrue": false},{"content": "Thuê người đến cổng công ty B chửi bới.", "isTrue": false},{"content": "Mặc kệ công ty B.", "isTrue": false}]
+    },
+    {
+     "Question": " Là người muốn mua một chiếc điện thoại thông minh để phục vụ cho nhu cầu cá nhân của mình thì em nên mua điện thoại ở trong điều kiện nào sao cho có lợi nhất?",
+     "Answer": [{"content": "Cung nhỏ hơn cầu nhiều.", "isTrue": true},{"content": "Cung nhỏ hơn cầu.", "isTrue": false},{"content": "Cung lớn hơn cầu.", "isTrue": false},{"content": " Cung bằng cầu.", "isTrue": false}]
+    },
+    {
+     "Question": "Chủ Nghĩa Xã Hội mà chúng ta đã và đang xây dựng với 8 đặc trưng là một chế độ xã hội mà em thấy cần phải",
+     "Answer": [{"content": " tin tưởng.", "isTrue": true},{"content": "chấp nhận.", "isTrue": false},{"content": " tẩy chay.", "isTrue": false},{"content": "lên án.", "isTrue": false}]
+    },
+    {
+     "Question": "Bố mẹ của A sinh được hai cô con gái. Bố A bắt mẹ A phải sinh thêm con trai để nối dõi tông đường. Nếu trong hoàn cảnh của A thì em sẽ chọn giải pháp nào sau đây để thay đổi quan điểm của bố mình?",
+     "Answer": [{"content": "Nhờ người thuyết phục bố.", "isTrue": true},{"content": "Khuyên mẹ ly hôn.", "isTrue": false},{"content": "Tỏ thái độ giận dỗi và coi thường bố.", "isTrue": false},{"content": "Dọa bỏ nhà đi.", "isTrue": false}]
+    },
+    {
+     "Question": "Là người yêu động vật và có ý thức bảo vệ môi trường rất cao, em nên tham gia câu lạc bộ nào để thể hiện trách nhiệm bảo vệ môi trường?",
+     "Answer": [{"content": "Nhặt rác Hồ Gươm.", "isTrue": true},{"content": "Bảo vệ động vật hoang dã.", "isTrue": false},{"content": "Ngày chủ nhật đỏ.", "isTrue": false},{"content": "Tiếp sức mùa thi.", "isTrue": false}]
+    },
+    {
+     "Question": "Giải thưởng SAO VÀNG ĐẤT VIỆT được tổ chức nhằm vinh danh các doanh nghiệp hoạt động hiệu quả và có những đóng góp nhất định cho nền kinh tế và xã hội. Việc vinh danh này chỉ áp dụng cho một số doanh nghiệp chứ không phải tất cả các doanh nghiệp trong nền kinh tế. Đây chính là biểu hiện bình đẳng trong",
+     "Answer": [{"content": " kinh doanh.", "isTrue": true},{"content": "kinh tế.", "isTrue": false},{"content": "lao động.", "isTrue": false},{"content": "sản xuất.", "isTrue": false}]
+    },
+    {
+     "Question": "Do mâu thuẫn nên một nhóm thanh niên đã tự tiện xông vào nhà ông B vì cho rằng một người đánh nhau với họ chạy vào nhà ông. Ông B khẳng định không có ai chạy vào nhà nhưng nhóm thanh niên kia không tin cứ xông vào nhà ông. Trong trường hợp này ông B nên chọn cách hành xử nào sau đây cho phù hợp với quy định của pháp luật?",
+     "Answer": [{"content": "Kêu lên để hàng xóm can thiệp và gọi công an tới.", "isTrue": true},{"content": "Mặc kệ cho khám nhà.", "isTrue": false},{"content": "Gọi gia đình lại và đánh nhau.", "isTrue": false},{"content": "Kêu lên để hàng xóm can thiệp.", "isTrue": false}]
+    },
+    {
+     "Question": " Khi thông tin về thuê bao di động của mình bị lộ và một số cá nhân, tổ chức đã lợi dụng điều đó để trục lợi và gây phiền nhiễu tới cuộc sống của mình thì công dân có thể làm gì để bảo vệ quyền, lợi ích hợp pháp của mình theo quy định của pháp luật?",
+     "Answer": [{"content": "Khiếu nại với nhà cung cấp dịch vụ mạng.", "isTrue": true},{"content": "Tố cáo với công an.", "isTrue": false},{"content": "Thay sim khác.", "isTrue": false},{"content": "Tố cáo với nhà mạng.", "isTrue": false}]
+    },
+    {
+     "Question": "Nhờ người khác bầu cử giúp mình là vi phạm",
+     "Answer": [{"content": " luật bầu cử.", "isTrue": true},{"content": "luật ứng cử.", "isTrue": false},{"content": "luật dân chủ.", "isTrue": false},{"content": "luật quản lý xã hội.", "isTrue": false}]
+    },
+    {
+     "Question": "Cuộc thi sáng tạo khoa học trẻ cho đối tượng học sinh cấp 3 trên cả nước nhằm mục đính tạo điều kiện cho các em được hưởng quyền nào dưới đây?",
+     "Answer": [{"content": "Quyền sáng tạo.", "isTrue": true},{"content": "Quyền học tập.", "isTrue": false},{"content": "Quyền phát triển.", "isTrue": false},{"content": "Quyền lao động.", "isTrue": false}]
+    },
+    {
+     "Question": "Anh B tham gia giao thông và đã vượt đèn đỏ. Cảnh sát giao thông đã ra hiệu lệnh dừng xe anh B nhưng anh B không dừng lại và cố tình đâm thẳng vào đồng chí cảnh sát giao thông đang làm nhiệm vụ dẫn đến đồng chí cảnh sát giao thông tử vong. Trong trường hợp này anh B phải chịu trách nhiệm pháp lý nào?",
+     "Answer": [{"content": "Hình sự.", "isTrue": true},{"content": "Hành chính.", "isTrue": false},{"content": " Dân sự.", "isTrue": false},{"content": "Kỷ luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Nhận thấy việc bầu cử Đại biểu Quốc hội và hội đồng nhân dân các cấp có nhiều điểm không hợp lý và không khoa học nên ông A đã viết tâm thư gửi tới bà Chủ tịch Quốc hội, đề đạt một số giải pháp để quá trình bầu cử đúng luật, công bằng, chọn được người có đức có tài cho đất nước. Ông A đã sử dụng quyền nào của công dân?",
+     "Answer": [{"content": "Quyền tham gia quản lý nhà nước.", "isTrue": true},{"content": "Quyền khiếu nại.", "isTrue": false},{"content": " Quyền tự do ngôn luận.", "isTrue": false},{"content": "Quyền bầu cử và ứng cử.", "isTrue": false}]
+    },
+    {
+     "Question": "Khi bắt được hai thanh niên trộm chó của làng mình thì cả làng X đã đánh cho một trận, sau đó giam vào một chỗ kín hơn 1 ngày và yêu cầu gia đình hai kẻ trộm chó phải mang 10 triệu đồng rồi mới thả cho về. Hành động bắt giam người của làng X đã vi phạm quyền",
+     "Answer": [{"content": "Bất khả xâm phạm về thân thể.", "isTrue": true},{"content": "Bất khả xâm phạm về chỗ ở.", "isTrue": false},{"content": " Được pháp luật bảo hộ về danh dự và nhân phẩm.", "isTrue": false},{"content": "Được pháp luật bảo hộ về tính mạng, sức khỏe.", "isTrue": false}]
+    },
+    {
+     "Question": "Khi một bạn nam trong lớp đã đưa cho bạn nữ xem những hình ảnh khiêu dâm, đồi trụy và có những câu nói và hành động thô tục, đụng chạm đến người bạn nữ. Nếu là bạn của bạn nữ đó em sẽ làm gì để bảo vệ bạn nhưng không vi phạm pháp luật?",
+     "Answer": [{"content": "Tố cáo với hiệu trưởng.", "isTrue": true},{"content": "Chửi thẳng vào mặt nam đó.", "isTrue": false},{"content": "Khiếu nại lên hiệu trưởng.", "isTrue": false},{"content": "Nhờ người đánh cho bạn nam kia một trận.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, hành vi cố ý tung tin xấu nhằm hạ uy tín của người khác là xâm phạm quyền được pháp luật bảo hộ về",
+     "Answer": [{"content": "danh dự, nhân phẩm.", "isTrue": true},{"content": "tính mạng, sức khỏe.", "isTrue": false},{"content": "hồ sơ tư pháp.", "isTrue": false},{"content": "bí mật thư tín.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân bình đẳng trước Nhà nước và xã hội khi thực hiện nghĩa vụ",
+     "Answer": [{"content": "xây dựng nền quốc phòng toàn dân.", "isTrue": true},{"content": "thành lập doanh nghiệp tư nhân.", "isTrue": false},{"content": "đóng góp quỹ bảo trợ xã hội.", "isTrue": false},{"content": "đầu tư các dự án kinh tế.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, chỗ ở của công dân đều được Nhà nước và mọi người",
+     "Answer": [{"content": "tôn trọng.", "isTrue": true},{"content": "kiểm soát.", "isTrue": false},{"content": "xâm nhập.", "isTrue": false},{"content": "theo dõi.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, người dân bàn bạc và quyết định việc đóng góp xây dựng nông thôn mới ở địa phương là thực hiện quyền tham gia quản lý nhà nước và xã hội ở phạm vi nào sau đây?",
+     "Answer": [{"content": "Cơ sở.", "isTrue": true},{"content": "Trung ương", "isTrue": false},{"content": "Quốc gia.", "isTrue": false},{"content": "Cả nước.", "isTrue": false}]
+    },
+    {
+     "Question": "Vi phạm hành chính là hành vi vi phạm pháp luật có mức độ nguy hiểm cho xã hội thấp hơn tội phạm, xâm phạm các",
+     "Answer": [{"content": "quy tắc quản lí nhà nước.", "isTrue": true},{"content": "quy ước hoạt động cộng đồng.", "isTrue": false},{"content": "quy trình phân phối sản phẩm.", "isTrue": false},{"content": "quy chế nội bộ công ty tư nhân.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những mục đích của hình thức áp dụng pháp luật là các cơ quan nhà nước có thẩm quyền căn cứ vào pháp luật để ra quyết định làm phát sinh",
+     "Answer": [{"content": "các quyền cụ thể của công dân.", "isTrue": true},{"content": "những quan điểm trái chiều.", "isTrue": false},{"content": "tất cả nhu cầu của cá nhân.", "isTrue": false},{"content": "mọi giao dịch dân sự.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những nội dung cơ bản của pháp luật về phát triển các lĩnh vực xã hội được thể hiệnviệc làm nào sau đây của Nhà nước?",
+     "Answer": [{"content": "Làm giảm tỷ lệ người mắc bệnh.", "isTrue": true},{"content": "Kiềm chế thương mại điện tử.", "isTrue": false},{"content": "Từ chối xuất khẩu hàng hóa.", "isTrue": false},{"content": "Quy định mức thuế khác nhau.", "isTrue": false}]
+    },
+    {
+     "Question": "Công dân trực tiếp đóng góp ý kiến về tình trạng ô nhiễm môi trường ở địa phương với đại biểu Quốc hội trong dịp đại biểu tiếp xúc cử tri là thực hiện quyền nào sau đây?",
+     "Answer": [{"content": "Tự do ngôn luận.", "isTrue": true},{"content": "Sáng tạo.", "isTrue": false},{"content": "Bảo hộ danh dự.", "isTrue": false},{"content": "Học tập.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân có trình độ chuyên môn cao được Nhà nước tạo điều kiện để phát huy tài năng là thể hiện nội dung của quyền bình đẳng trong lĩnh vực",
+     "Answer": [{"content": "lao động.", "isTrue": true},{"content": "thông tin.", "isTrue": false},{"content": "thương mại.", "isTrue": false},{"content": "kiểm toán.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những mục đích của việc áp dụng trách nhiệm pháp lí đối với người vi phạmpháp luật là",
+     "Answer": [{"content": "kiềm chế mọi việc làm trái pháp luật.", "isTrue": true},{"content": "chấm dứt mọi nguồn thu nhập.", "isTrue": false},{"content": "riệt tiêu mọi nhu cầu cá nhân.", "isTrue": false},{"content": "hủy bỏ mọi loại giao dịch.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân báo cho cơ quan nhà nước có thẩm quyền về hành vi làm giả căn cước công dân của người khác là sử dụng quyền nào sau đây?",
+     "Answer": [{"content": "Tố cáo.", "isTrue": true},{"content": "Truy tố.", "isTrue": false},{"content": "Khiếu nại.", "isTrue": false},{"content": "Khởi kiện.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, mỗi cử tri đều được tự viết phiếu và bỏ phiếu bầu vào hòm phiếu là thể hiện nguyên tắc bầu cử nào sau đây?",
+     "Answer": [{"content": "Trực tiếp", "isTrue": true},{"content": "Phổ thông", "isTrue": false},{"content": "Gián tiếp.", "isTrue": false},{"content": "Đại diện.", "isTrue": false}]
+    },
+    {
+     "Question": "Việc Nhà nước tổ chức tuyên truyền đến người dân về các biện pháp phòng, chống tội phạm trên không gian mạng là thể hiện nội dung nào sau đây củy quyền được phát triển?",
+     "Answer": [{"content": "khả năng thu nhập.", "isTrue": true},{"content": "đối tượng lao động.", "isTrue": false},{"content": "hạn mức kinh doanh.", "isTrue": false},{"content": "cơ cấu kinh tế.", "isTrue": false}]
+    },
+    {
+     "Question": "Các yếu tố cơ bản của quá trình sản xuất của cải vật chất bao gồm sức lao động, tư liệu lao động và",
+     "Answer": [{"content": "đối tượng lao động.", "isTrue": true},{"content": "hạn mức kinh doanh.", "isTrue": false},{"content": "khả năng thu nhập.", "isTrue": false},{"content": "cơ cấu kinh tế.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân được học từ thấp đến cao thông qua việc tham gia các kì thi tuyển sinh hoặc xét tuyển là thực hiện",
+     "Answer": [{"content": "quyền học tập không hạn chế.", "isTrue": true},{"content": "việc quyết định chính sách giáo dục.", "isTrue": false},{"content": "việc định đoạt quy trình tuyển sinh.", "isTrue": false},{"content": "quyền cấp văn bằng tốt nghiệp.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, quyền bình đẳng giữa vợ và chồng trong quan hệ nhân thân được thể hiện ở việc vợ, chồng",
+     "Answer": [{"content": "tôn trọng ý kiến của nhau.", "isTrue": true},{"content": "tự định đoạt tài sản riêng.", "isTrue": false},{"content": "lựa chọn giới tính thai nhi.", "isTrue": false},{"content": "áp đặt vị trí việc làm.", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành và được bảo đảm thực hiện bằng",
+     "Answer": [{"content": "quyền lực nhà nước.", "isTrue": true},{"content": "dư luận xã hội", "isTrue": false},{"content": "thói quen vùng miền.", "isTrue": false},{"content": "ý thức tự nguyện.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, các dân tộc trong một quốc gia không phân biệt đa số hay thiểu số đều được Nhà nước",
+     "Answer": [{"content": "đầu tư phát triển kinh tế.", "isTrue": true},{"content": "ấn định một nơi cư trú.", "isTrue": false},{"content": "cho phép sở hữu đất đai.", "isTrue": false},{"content": "áp đặt mức thu nhập.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, một trong những nội dung bình đẳng trong kinh doanh là mọi doanh nghiệp phải thực hiện nghĩa vụ",
+     "Answer": [{"content": "bảo vệ quyền lợi người tiêu dùng.", "isTrue": true},{"content": "điều chỉnh quy mô sản xuất.", "isTrue": false},{"content": "áp dụng công nghệ sinh học.", "isTrue": false},{"content": "liên kết hợp tác quốc tế.", "isTrue": false}]
+    },
+    {
+     "Question": "Quy luật giá trị yêu cầu việc sản xuất và lưu thông hàng hóa phải dựa trên cơ sở",
+     "Answer": [{"content": "hời gian lao động xã hội cần thiết.", "isTrue": true},{"content": "giá trị thặng dư được tạo ra.", "isTrue": false},{"content": "thời gian lao động cá biệt tối thiểu.", "isTrue": false},{"content": "giá trị sử dụng của hàng hóa.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân vi phạm quyền bình đẳng giữa các dân tộc khi thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Chia rẽ khối đại đoàn kết dân tộc.", "isTrue": true},{"content": "Bảo tồn giá trị văn hóa truyền thống.", "isTrue": false},{"content": "Tham gia sinh hoạt cộng đồng.", "isTrue": false},{"content": "Tham gia sinh hoạt cộng đồng.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân có thể thực hiện quyền khiếu nại khi nhận",
+     "Answer": [{"content": "quyết định xử phạt chưa thỏa đáng.", "isTrue": true},{"content": "dự án hợp tác đầu tư nước ngoài.", "isTrue": false},{"content": "ế hoạch thử nghiệm vacxin.", "isTrue": false},{"content": "thông tin do nhân chứng cung cấp.", "isTrue": false}]
+    },
+    {
+     "Question": "Trong sản xuất và lưu thông hàng hóa việc làm nào sau đây của các chủ thể kinh doanh thể hiện mặt hạn chế của cạnh tranh?",
+     "Answer": [{"content": "Đầu cơ gây rối loạn thị trường.", "isTrue": true},{"content": "Quản lí nhân sự trực tuyến.", "isTrue": false},{"content": "Đầu cơ gây rối loạn thị trường.", "isTrue": false},{"content": "Bảo mật chiến lược đầu tư.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân thi hành pháp luật khi thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Tham gia bảo vệ Tổ quốc.", "isTrue": true},{"content": "Tàng trữ vũ khí quân dụng.", "isTrue": false},{"content": "Vận chuyển trái phép pháo nổ.", "isTrue": false},{"content": "Lưu hành các loại tiền giả.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân hưởng quyền được phát triển trong trường hợp nào sau đây?",
+     "Answer": [{"content": "Tham gia các hoạt động văn hóa.", "isTrue": true},{"content": "Chuyển giao quyền nhân thân.", "isTrue": false},{"content": "Thay đổi nội dung trong di chúc.", "isTrue": false},{"content": "Chủ động chuyển quyền tác giả", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân vi phạm nguyên tắc bầu cử đại biểu Hội đồng nhân dân các cấp khi thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Sao chép nội dung phiếu bầu của người khác.", "isTrue": true},{"content": "Tìm hiểu danh sách các ứng cử viên.", "isTrue": false},{"content": "Giám sát quy trình niêm phong hòm phiếu.", "isTrue": false},{"content": "Tham khảo lí lịch trích ngang của đại biểu.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, công dân vi phạm hành chính khi thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Sử dụng trái phép lòng đường đô thị.", "isTrue": true},{"content": "Tổ chức trốn khỏi cơ sở giam giữ.", "isTrue": false},{"content": "Bắt người đang bị truy nã.", "isTrue": false},{"content": "Chế tạo vũ khí quân dụng.", "isTrue": false}]
+    },
+    {
+     "Question": "Theo quy định của pháp luật, nhân viên bưu chính vi phạm quyền được bảo đảm an toànvà bí mật thư tín điện thoại, điện tín của khách hàng khi tự ý thực hiện hành vi nào sau đây?",
+     "Answer": [{"content": "Công khai nội dung điện tín.", "isTrue": true},{"content": "Tính sai cước phí vận chuyển.", "isTrue": false},{"content": "Đăng kí tài khoản thư điện tử.", "isTrue": false},{"content": "Giam giữ người bị tinh nghi.", "isTrue": false}]
+    },
+    {
+     "Question": "Trong nền kinh tế hàng hóa, công dân dùng tiền để nộp thuế thu nhập cá nhân là thể hiện chức năng nào sau đây của tiền tệ?",
+     "Answer": [{"content": "Phương tiện thanh toán.", "isTrue": true},{"content": "Thước đo giá trị.", "isTrue": false},{"content": "Điều tiết sản xuất.", "isTrue": false},{"content": "Cung cấp thông tin.", "isTrue": false}]
+    },
+    {
+     "Question": "Tại một điểm bầu cử đại biểu Hội đồng nhân dân các cấp, sau khi nhận phiếu bầu, vì có việc đột xuất nên anh V đã nhờ chị H viết hộ phiếu bầu cho hai vợ chồng anh theo ý của anh V. Biết chị H đang viết phiếu bầu giúp cho anh V, ông T thành viên tổ bầu cử đã nhờ và được chị H đồng ý sửa lại nội dung trong phiếu bầu của anh V theo ý của ông T. Sau đó, chị H đã bỏ phiếu của mình và phiếu của vợ chồng anh V vào hòm phiếu. Chị H, ông T và anh V cùng vi phạm nguyên tắc bầu cử nào sau đây?",
+     "Answer": [{"content": "Bỏ phiếu kín", "isTrue": true},{"content": "Phổ thông.", "isTrue": false},{"content": "Bình đẳng.", "isTrue": false},{"content": "Trực tiếp.", "isTrue": false}]
+    },
+    {
+     "Question": "Phát hiện anh H phá khóa vào nhà mình để trộm tài sản, anh M đã giữ anh H trong nhà kho của gia đình. Biết chuyện, bà V là mẹ anh H đến nhà anh M xin lỗi và thỏa thuận bồi thường. Do gia đình anh M đi vắng, thấy cửa không khóa nên bà V đã tự ý vào nhà tìm kiếm anh H. Bà V và anh H cùng vi phạm quyền nào sau đây của công dân?",
+     "Answer": [{"content": "Bất khả xâm phạm về chỗ ở.", "isTrue": true},{"content": "Được pháp luật bảo hộ về danh dự.", "isTrue": false},{"content": "Bất khả xâm phạm về tài sản.", "isTrue": false},{"content": "Được pháp luật bảo hộ về thân thể.", "isTrue": false}]
+    },
+    {
+     "Question": "Sau khi cùng tốt nghiệp đại học, anh V tham gia phát triển kinh tế gia đình, chị P nhận dạy ngoại ngữ miễn phí cho các em nhỏ vùng cao. Tại cuộc họp lấy ý kiến của nhân dân về việc triển khai dự án tái định cư của chính quyền xã, anh V phát biểu về những bất cập của dự án còn chị P đã đề xuất một số giải pháp tháo gỡ khó khăn trên. Anh V và chị P cùng thực hiện quyền bình đẳng giữa các dân tộc ở phương diện nào sau đây?",
+     "Answer": [{"content": "Chính trị.", "isTrue": true},{"content": "Kinh tế.", "isTrue": false},{"content": "Văn hóa, đối ngoại.", "isTrue": false},{"content": "Quốc phòng, an ninh.", "isTrue": false}]
+    },
+    {
+     "Question": "Anh N là lao động tự do đã thuê nhà của bà M trong thời hạn một năm. Tại đây, anh N chế tạo trái phép một số loại vũ khí quân dụng để dùng vào mục đích cá nhân. Trong quá trình thực hiện công việc của mình, anh N đã làm hỏng một số tài sản có giá trị của bà M trong ngôi nhà anh thuê. Những hành vi trên của anh N đã vi phạm pháp luật nào sau đây?",
+     "Answer": [{"content": "Hình sự và dân sự.", "isTrue": true},{"content": "Kỉ luật và dân sự.", "isTrue": false},{"content": "Hành chính và hình sự.", "isTrue": false},{"content": "Dân sự và hành chính.", "isTrue": false}]
+    },
+    {
+     "Question": "Anh H ở địa phương X đã nghiên cứu, chế tạo thành công sản phẩm tiêu dùng thân thiện với môi trường từ lá cây bàng biển và được nhiều khách hàng đón nhận. Anh H đã thực hiện quyền sáng tạo ở nội dung nào sau đây?",
+     "Answer": [{"content": "Tự do phát minh, sáng chế.", "isTrue": true},{"content": "Quản lí khoa học, công nghệ.", "isTrue": false},{"content": "Kết nối thông tin nội bộ.", "isTrue": false},{"content": "Sử dụng nguồn vốn ưu đãi.", "isTrue": false}]
+    },
+    {
+     "Question": "Ông S là giám đốc, anh K và anh M là nhân viên cùng làm việc tại doanh nghiệp nhà nước X. Khi bị anh M cung cấp bằng chứng về việc mình đã tuyên dụng chị Q vào vị trí kế toán dù chị chưa đáp ứng đủ điều kiện theo quy định, ông S đã chỉ đạo chị Q ngụy tạo tình huống để vu khống anh M mắc sai phạm trong công việc. Dựa vào đó, ông S thực hiện quy trình và ra quyết định kỉ luật buộc thôi việc đối với anh M. Nhân cơ hội này, chị Q cố ý thanh toán không đủ các khoản phụ cấp cho anh M. Vì có quan hệ họ hàng và được anh M kể lại sự việc, anh K gửi đơn tới ông T là cán bộ có thẩm quyền để nghị ông xem xét và giải quyết sự việc cho anh M.Do đã nhận 20 triệu đồng của ông S nên ông Thủy đơn của anh K. Được anh K thông tin về việc làm của ông T, anh M bí mật tung tin đồn thất thiệt khiến uy tín của ông T bị ảnh hưởng nghiêm trọng. Hành vi của những ai sau đây không phải là đối tượng có thể vừa bị khiếu nại vừa bị tố cáo?",
+     "Answer": [{"content": "Anh K, chị Q và anh M.", "isTrue": true},{"content": "Anh K, anh M và ông T.", "isTrue": false},{"content": "Ông T, anh K và ông S.", "isTrue": false},{"content": "Ông S, ông T và chị Q.", "isTrue": false}]
+    },
+    {
+     "Question": " Doanh nghiệp X có ông S là giám đốc, chị V, chị T và anh B là nhân viên. Hằng năm, anh B và chị T đều được đánh giá hoàn thành tốt nhiệm vụ. Khi cơ quan có chủ trương cử nhân viên đi học nâng cao trình độ, anh B và chị T đã hoàn thiện hồ sơ đồng thời nộp cho ông S để đăng kí theo quy định. Trong cuộc họp bình xét, vì chị T vắng mặt do con của chị bị ốm nên ông S quyết định cử anh B. Bất mãn vì không được chọn, chị T thường xuyên đi làm muộn và không hoàn thành công việc theo yêu cầu. Được chị V giới thiệu, chị P là người đang có nhu cầu xin việc làm đã tìm gặp ông S để được tạo điều kiện nhận vào làm việc thay thế vị trí của chị T. Biết chuyện, anh Qlà anh rể của chị T đang là giám đốc một công ty tư nhân đã ép buộc khiến chị T phải bỏ việc ở cơ quan cũ về làm việc cho anh để trừ khoản nợ mà vợ chồng chị đã vay. Những ai sau đây vi phạm nội dung bình đẳng trong lao động?",
+     "Answer": [{"content": "Ông S, chị T và anh Q.", "isTrue": true},{"content": "Chị T, anh Q và chị P.", "isTrue": false},{"content": "Ông S, chị V và chị P.", "isTrue": false},{"content": "Chị T, chị V và ông S", "isTrue": false}]
+    },
+    {
+     "Question": "Địa bàn X có ông K là trưởng công an xã, anh N là công an xã; anh S, vợ chồng anh T và chị P. là người dân. Nhận được tin báo chị P tổ chức đánh bạc tại nhà, ông K cử anh N đến nhà chị P để kiểm tra. Vì chị P kiên quyết không thừa nhận nên anh N đã lớn tiếng xúc phạm chị đồng thời báo cáo tình hình với ông K. Ngay sau đó, ông K trực tiếp đến nhà chị P yêu cầu chị về trụ sở để lấy lời khai. Vào thời điểm đó, anh S đã chứng kiến và quay video toàn bộ sự việc. Vốn có mâu thuẫn với chị P, anh S đăng công khai đoạn video đó lên mạng xã hội. Vì có rất nhiều bình luận tiêu cực về mình dưới bài đăng của anh S, chị P đến gặp và yêu cầu anh S gỡ bài đăng trên. Do anh S không đồng ý nên hai bên xảy ra xô xát, anh S vô ý làm chị P bị ngã gãy tay. Biết anh N đã đến nhà và xúc phạm vợ mình, anh T đã tìm gặp anh N yêu cầu anh công khai xin lỗi nhưng bị anh N đẩy ngã gây chấn thương. Những ai sau đây vừa vi phạm quyền được pháp luật bảo hộ về danh dự, nhân phẩm vừa vi phạm quyền được pháp luật bảo hộ về tính mạng, sức khỏe của công dân?",
+     "Answer": [{"content": "Anh S và anh N.", "isTrue": true},{"content": "Anh N và anh T.", "isTrue": false},{"content": "Anh S và ông K", "isTrue": false},{"content": "Anh N và ông K.", "isTrue": false}]
+    },
+    {
+     "Question": "Vợ chồng chị K, anh D có con trai 10 tuổi là cháu B; anh G, anh S là nhân viên ở một công ty nhà nước, trong đó anh S là anh họ của chị K. Một lần, được chị K nhờ trông giữ cháu B là bạn cùng lớp với con trai mình, anh G đã đưa con trai và cháu B đến phòng điều hành hệ thống điện trong ca trực của mình. Vì tò mò, cháu B bật công tắc điện làm hỏng một hệ thống máy sản xuất nên anh G đã đến gặp chị K yêu cầu bồi thường. Bức xúc vì chị K tránh mặt, anh G đã liên tục gọi điện thoại nhằm gây sức ép với chị K. Biết được thông tin từ vợ, anh D là lao động tự do đã tự ý nghỉ làm và nhờ anh S đến nhà anh G để giúp mình hòa giải. Nhận được điện thoại của anh D, anh S vội vàng bỏ ca trực để cùng anh D đến nhà anh G. Tại đây, do anh G không đồng ý với mức bồi thường nên hai bên đã xảy ra xô xát, anh S và anh D vô ý làm hỏng một số tài sản của gia đình anh G. Những ai sau đây vừa phải chịu trách nhiệm dân sự vừa phải chịu trách nhiệm kỉ luật?",
+     "Answer": [{"content": "Anh G và anh S.", "isTrue": true},{"content": "Anh D và anh S.", "isTrue": false},{"content": "Chị K và anh G.", "isTrue": false},{"content": "Anh G và anh D", "isTrue": false}]
+    },
+    {
+     "Question": "Chị H là chủ một nhà hàng ẩm thực, anh A là chủ một đại lý thuốc tân dược. Cơ sở kinh doanh của chị H và anh A luôn đảm bảo quyền lợi hợp pháp của khách hàng là thể hiện đặc trưng nào sau đây của pháp luật?",
+     "Answer": [{"content": "Tính quy phạm phổ biến.", "isTrue": true},{"content": "Tính đa nghĩa về nội dung.", "isTrue": false},{"content": "Tính khái quát về thuật ngữ.", "isTrue": false},{"content": "Tính bảo mật của văn bản.", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật nước ta có mấy đặc trưng cơ bản",
+     "Answer": [{"content": "Ba.", "isTrue": true},{"content": "Hai.", "isTrue": false},{"content": "Bốn.", "isTrue": false},{"content": "Năm", "isTrue": false}]
+    },
+    {
+     "Question": "Các quy phạm pháp luật do nhà nước ban hành",
+     "Answer": [{"content": "mang tính chặt chẽ, tính quyền lực và tính bắt buộc chung", "isTrue": true},{"content": "", "isTrue": false},{"content": "phù hợp với ý chí của nhân dân do nhà nước đại diệ", "isTrue": false},{"content": "thể hiện nguyện vọng của nhân dân do nhà nước quản lí", "isTrue": false}]
+    },
+    {
+     "Question": "Các cá nhân, tổ chức kiềm chế để không làm những điều mà pháp luật cấm là",
+     "Answer": [{"content": ". tuân thủ pháp luật", "isTrue": true},{"content": "sử dụng pháp luật", "isTrue": false},{"content": "thi hành pháp luật", "isTrue": false},{"content": "D. áp dụng pháp luậ", "isTrue": false}]
+    },
+    {
+     "Question": "Người ở độ tuổi phải chịu trách nhiệm hình sự về tội phạm rất nghiêm trọng do cố ý hoặc tội phạm đặc biệt nghiêm trọng là",
+     "Answer": [{"content": "từ đủ 14 đến dưới 16.", "isTrue": true},{"content": ". từ 14 đến đủ 16", "isTrue": false},{"content": "từ đủ 16 đến dưới 18.", "isTrue": false},{"content": ". từ 16 đến đủ 1", "isTrue": false}]
+    },
+    {
+     "Question": "Trách nhiệm pháp lý được áp dụng đối với người vi phạm pháp luật nhằ",
+     "Answer": [{"content": "kiềm chế những việc làm trái luật", "isTrue": true},{"content": "giáo dục, răn đe, hành hạ", "isTrue": false},{"content": "xử phạt hành chính", "isTrue": false},{"content": "phạt tù hoặc tử hình", "isTrue": false}]
+    },
+    {
+     "Question": "Vi phạm pháp luật hành chính là hành vi vi phạm pháp luật, xâm phạm tới",
+     "Answer": [{"content": "các quy tắc quản lí nhà nước", "isTrue": true},{"content": "quan hệ xã hội và quan hệ kinh tế", "isTrue": false},{"content": "các điều luật và các quan hệ hành chín", "isTrue": false},{"content": "quan hệ xã hội và quan hệ hành chính", "isTrue": false}]
+    },
+    {
+     "Question": "Tính giai cấp của nhà nước thể hiện ở phương diệ",
+     "Answer": [{"content": "kinh tế, chính trị, tư tưởng", "isTrue": true},{"content": "kinh tế, chính trị, xã hội", "isTrue": false},{"content": "kinh tế, văn hóa, xã hội", "isTrue": false},{"content": ".kinh tế, chính trị, văn hóa", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật là ",
+     "Answer": [{"content": "các quy tắc xử xự chung, do nhà nước ban hành hoặc công nhận", "isTrue": true},{"content": "các hệ thống chuẩn mực, được quy định trong Hiến pháp, do Nhà nước thừa nhậ", "isTrue": false},{"content": "các quy tắc xử xự chung, do nhà nước thừa nhận trên những chuẩn mực của đời sốn", "isTrue": false},{"content": "các quy tắc xử xự chung, do nhà nước thừa nhận trên những chuẩn mực của đời sốn", "isTrue": false}]
+    },
+    {
+     "Question": "“Vợ chồng bình đẳng với nhau, có nghĩa vụ và quyền ngang nhau về mọi mặt trong gia đình” (Điều 19. Bình dẳng về quyền và nghĩa vụ giữa vợ, chồng, Luật hôn nhân và gia đình năm 2000 sửa đổi, bổ sung năm 2010) thể hiện đặc trưng nào của pháp luật?",
+     "Answer": [{"content": "Tính quy phạm phổ biến.", "isTrue": true},{"content": "Tính xác định chặt chẽ về mặt hình thứ", "isTrue": false},{"content": "Tính quyền lực, bắt buộc chung", "isTrue": false},{"content": ". Tính ý chí và khách quan", "isTrue": false}]
+    },
+    {
+     "Question": "Hình phạt trong pháp luật hình sự của các nước thể hiện “hậu quả pháp lý” nặng nề nhất mà chủ thể phải gánh chịu do hành vi vi phạm pháp luật gây ra thể hiện đặc trưng",
+     "Answer": [{"content": " Tính quyền lực, bắt buộc chung", "isTrue": true},{"content": "Tính xác định chặt chẽ về mặt hình thức", "isTrue": false},{"content": "Tính chủ quan, quy phạm phổ biến", "isTrue": false},{"content": "Tính ý chí", "isTrue": false}]
+    },
+    {
+     "Question": "Đâu là bản chất của pháp luật Việt Nam",
+     "Answer": [{"content": "Tính giai cấp và tính xã hội", "isTrue": true},{"content": "Tính giai cấp và tính chính tr", "isTrue": false},{"content": "Tính xã hội và tính kinh tế.", "isTrue": false},{"content": ". Tính kinh tế và tính xã hộ", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật mang bản chất của xã hội vì",
+     "Answer": [{"content": "pháp luật bắt nguồn từ xã hội", "isTrue": true},{"content": "pháp luật là cơ sở đảm bảo an toàn trật tự xã hội", "isTrue": false},{"content": "pháp luật góp phần hoàn chỉnh hệ thống xã hội", "isTrue": false},{"content": "pháp luật đem đến một hệ thống chính trị hoàn chỉn", "isTrue": false}]
+    },
+    {
+     "Question": "Nhà nước Việt Nam đại diện cho lợi ích của",
+     "Answer": [{"content": "giai cấp công nhân và nhân dân lao động", "isTrue": true},{"content": ".giai cấp công dân", "isTrue": false},{"content": "các tầng lớp bị áp bức", "isTrue": false},{"content": "nhân dân lao độn", "isTrue": false}]
+    },
+    {
+     "Question": "Con cái chửi, mắng cha, mẹ thì sẽ bị",
+     "Answer": [{"content": "dư luận lên án.", "isTrue": true},{"content": "vi phạm pháp luật hành chính", "isTrue": false},{"content": "vi phạm pháp luật dân sự.", "isTrue": false},{"content": "vi phạm pháp luật hình s", "isTrue": false}]
+    },
+    {
+     "Question": "Nhận định nào sai khi nói về vai trò của pháp luật",
+     "Answer": [{"content": "Pháp luật tạo ra môi trường ổn định cho việc thiết lập mối quan hệ giữa các nước", "isTrue": true},{"content": "Pháp luật là cơ sở để thiết lập, củng cố và tăng cường quyền lực nhà nướ", "isTrue": false},{"content": "Pháp luật là phương tiện đề nhà nước quản lí kinh tế, xã hộ", "isTrue": false},{"content": "Pháp luật là phương tiện để nhân dân bảo vệ quyền chính đáng của mình .", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật là",
+     "Answer": [{"content": "Hệ thống các quy tắc sử xự chung do nhà nước ban hànhvà được bảo đảm thực hiện bằng quyền lực nhà nước", "isTrue": true},{"content": "Hệ thống các văn bản và nghị định do các cấp ban hành và thực hiện", "isTrue": false},{"content": "Những luật và điều luật cụ thể trong thực tế đời sống", "isTrue": false},{"content": "Hệ thống các quy tắc sử xự được hình thành theo điều kiện cụ thể của từng địa phươn", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật có đặc điểm là",
+     "Answer": [{"content": "Pháp luật có tính quy phạm phổ biến ;mang tính quyền lực, bắt buộc chung; có tính xác định chặt chẽ về mặt hình thức", "isTrue": true},{"content": "Bắt nguồn từ thực tiễn đời sống xã hội", "isTrue": false},{"content": "Vì sự phát triển của xã hội", "isTrue": false},{"content": "Mang bản chất giai cấp và bản chất xã hội", "isTrue": false}]
+    },
+    {
+     "Question": "Bản chất xã hội của pháp luật thể hiện",
+     "Answer": [{"content": "Pháp luật bắt nguồn từ xã hội, do các thành viên của xã hội thực hiện, vì sự phát triển của xã h", "isTrue": true},{"content": "Pháp luật được ban hành vì sự phát triển của xã hội.", "isTrue": false},{"content": "Pháp luật phản ánh những nhu cầu, lợi ích của các tầng lớp trong xã hội.", "isTrue": false},{"content": "Pháp luật bảo vệ quyền tự do, dân chủ rộng rãi cho nhân dân lao động", "isTrue": false}]
+    },
+    {
+     "Question": "Nội dung cơ bản của pháp luật bao gồm",
+     "Answer": [{"content": "Các quy tắc xử sự (việc được làm, việc phải làm, việc không được làm", "isTrue": true},{"content": "Quy định các bổn phận của công dân", "isTrue": false},{"content": "Quy định các hành vi không được làm", "isTrue": false},{"content": "Các chuẩn mực thuộc về đời sống tinh thần, tình cảm của con người", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật và đạo đức có quan hệ",
+     "Answer": [{"content": "Tất cả các ý ", "isTrue": true},{"content": "Chặt chẽ với nhau, người tuân thủ pháp luật là người có đạo đức, ngược lại người đạo đức là người tuân thủ pháp luật .", "isTrue": false},{"content": "Pháp luật là phương tiện đặc thù để thể hiện và bảo vệ các giá trị đạo đức", "isTrue": false},{"content": "Đạo đức là nền tảng hình thành nhân cách, pháp luật là nền tảng đảm bảo trật tự xã hội", "isTrue": false}]
+    },
+    {
+     "Question": "Nhà nước ban hành luật giao thông đường bộ và bắt buộc tất cả mọi người phải tuân theo, không được làm trái. Thể hiện đặc trưng",
+     "Answer": [{"content": "Tính quy định, bắt buộc chun", "isTrue": true},{"content": "Tính quy phạm, phổ biến", "isTrue": false},{"content": "Tính xác định chặt chẽ về mặt hình thứ", "isTrue": false},{"content": "Tính quy định, bắt buộc chung", "isTrue": false}]
+    },
+    {
+     "Question": "Nhà Nước ban hành Hiến Pháp vì",
+     "Answer": [{"content": "Hiến Pháp chứa các luật dân sự, hành chính , hôn nhân và gia đình , thuế,...cụ thể hóa nội dung.", "isTrue": true},{"content": "Hiến Pháp quy định các quyền và nghĩa vụ cơ bản của công dân", "isTrue": false},{"content": "Hiến Pháp quyết định chặt chẽ về luật, đầy đủ các mức độ nặng, nhẹ của các luật", "isTrue": false},{"content": "các ý trên đều đúng", "isTrue": false}]
+    },
+    {
+     "Question": "Điền vào chỗ trống, Hồ Chí Minh: “ Pháp luật của ta là pháp luật thật sự dân chủ vì nó bảo vệ.......rộng rãi cho nhân dân lao động.”",
+     "Answer": [{"content": "Quyền tự do, dân chủ.", "isTrue": true},{"content": "Lợi ích chính đáng.", "isTrue": false},{"content": "Quyền và nghĩa vụ.", "isTrue": false},{"content": "Quyền và nghĩa vụ cơ bản.", "isTrue": false}]
+    },
+    {
+     "Question": "Bản chất giai cấp của Pháp luật",
+     "Answer": [{"content": "Đảm bảo lợi ích của giai cấp công nhân và nhân dân lao động Việt Nam.", "isTrue": true},{"content": "Đảm bảo lợi ích của giai cấp lãnh đạo, nhưng giai cấp công nhân và nông dân được tự do dân chủ", "isTrue": false},{"content": "Pháp luật là điều kiện để nhà nước ràng buộc mọi công dân.", "isTrue": false},{"content": "Hai ý đầu đúng.", "isTrue": false}]
+    },
+    {
+     "Question": "Từ ngày 15-12-2007, theo nghị quyết 32\/CP\/2007 mọi người ngồi trên xe gắn máy phải đội mũ bảo hiểm, điều này thể hiện",
+     "Answer": [{"content": "Đặc trưng của pháp luật.", "isTrue": true},{"content": "Nội dung của pháp luật.", "isTrue": false},{"content": "Bản chất của pháp luật.", "isTrue": false},{"content": "Vai trò của pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Trong hệ thống các văn bản quy phạm pháp luật, văn bản có giá trị pháp lý cao nhất là:",
+     "Answer": [{"content": "Hiến pháp và luật.", "isTrue": true},{"content": "Hiến pháp.", "isTrue": false},{"content": "Hiến pháp, luật và pháp lệnh.", "isTrue": false},{"content": "Nghị định của chính phủ.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những đặc điểm để phân biệt pháp luật với quy phạm đạo đức là:",
+     "Answer": [{"content": "Pháp luật có tính quyền lực, bắt buộc chung.", "isTrue": true},{"content": "Pháp luật có tính quyền lực.", "isTrue": false},{"content": "Pháp luật có tính bắt buộc chung.", "isTrue": false},{"content": "Pháp luật có tính quy phạm", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật là phương tiện để công dân:",
+     "Answer": [{"content": "Thực hiện và bảo vệ quyền, lợi ích hợp pháp của mình.", "isTrue": true},{"content": "Sống tự do, dân chủ.", "isTrue": false},{"content": "Quyền con người được tôn trọng và bảo vệ.", "isTrue": false},{"content": "Công dân phát triển toàn diện.", "isTrue": false}]
+    },
+    {
+     "Question": "Quản lí bằng pháp luật là phương pháp quản lí",
+     "Answer": [{"content": "dân chủ và hiệu quả nhất", "isTrue": true},{"content": "hữu hiệu và phức tạp nhất.", "isTrue": false},{"content": "hiệu quả và khó khăn nhất", "isTrue": false},{"content": "dân chủ và cứng rắn nhất", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật là hệ thống các quy tắc xử sự chung do ……… ban hành và đảm bảo thực hiệnbằng quyền lực nhà nước",
+     "Answer": [{"content": "Nhà nước", "isTrue": true},{"content": "Đảng", "isTrue": false},{"content": "Chính phủ", "isTrue": false},{"content": "Tổ chức xã hội", "isTrue": false}]
+    },
+    {
+     "Question": "Các quy tắc xử sự ( việc được làm, việc phải làm, việc không được làm ) thể hiện vấn đề nào của pháp luật?",
+     "Answer": [{"content": "Phương thức tác động.", "isTrue": true},{"content": "Nội dung.", "isTrue": false},{"content": "Nguồn gốc.", "isTrue": false},{"content": "Hình thức thể hiện.", "isTrue": false}]
+    },
+    {
+     "Question": "Nhà nước ta điều hành đất nước bằng",
+     "Answer": [{"content": "Hiến pháp và pháp luật.", "isTrue": true},{"content": "Văn hoá, giáo dục, chính trị", "isTrue": false},{"content": "Kế hoạch phát triển kinh tế.", "isTrue": false},{"content": "Quân đội và chính quyền.", "isTrue": false}]
+    },
+    {
+     "Question": "Nếu không có pháp luật thì xã hội sẽ ra sao?",
+     "Answer": [{"content": "Tồn tại nhưng không phát triển được.", "isTrue": true},{"content": "Vẫn tồn tại và phát triển bình thường.", "isTrue": false},{"content": "Không thể tồn tại và phát triển.", "isTrue": false},{"content": "Cả 3 ý trên đều sai.", "isTrue": false}]
+    },
+    {
+     "Question": "Các quy phạm pháp luật bắt nguồn từ đâu?",
+     "Answer": [{"content": "Từ thực tiễn đời sống xã hội.", "isTrue": true},{"content": "Từ tư duy trừu tượng của con người.", "isTrue": false},{"content": "Từ quyền lực của giai cấp thống trị.", "isTrue": false},{"content": "Từ ý thức của các cá nhân trong xã hội", "isTrue": false}]
+    },
+    {
+     "Question": "Câuhỏi: “Pháp luật là của ai, do ai và vì ai?” Đề cập đến vấn đề nào của pháp luật?",
+     "Answer": [{"content": "Bản chất của pháp luật", "isTrue": true},{"content": "Nội dung của pháp luật.", "isTrue": false},{"content": "Hình thức thể hiện của pháp luật.", "isTrue": false},{"content": "Khái niệm cơ bản của pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật là hệ thống quy tắc xử sự mang tính .............,do............ ban hành và bảo đảm thực hiện, thể hiện ................. của giai cấp thống trị và phụ thuộc vào các điều kiện ..............., là nhân tố điều chỉnh các quan hệ xã hội",
+     "Answer": [{"content": "Bắt buộc chung – nhà nước – ý chí – kinh tế xã hội", "isTrue": true},{"content": "Bắt buộc – quốc hội – lý tưởng – kinh tế xã hội", "isTrue": false},{"content": "Bắt buộc chung – nhà nước – lý tưởng – chính trị", "isTrue": false},{"content": "Bắt buộc – quốc hội – ý chí – chính trị", "isTrue": false}]
+    },
+    {
+     "Question": "Nói đến vai trò của pháp luật đối với sự phát triển bền vững của đất nước là nói đến sự tác động của pháp luật đối với",
+     "Answer": [{"content": "Các lĩnh vực của đời sống xã hội", "isTrue": true},{"content": "Việc xây dựng và bảo vệ đất nước", "isTrue": false},{"content": "Lĩnh vực bảo vệ môi trường", "isTrue": false},{"content": "Phát triển kinh tế đất nước", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật phát triển các lĩnh vực xã hội bao gồm các quy định về",
+     "Answer": [{"content": "Tất cả đều đúng", "isTrue": true},{"content": "Dân số và giải quyết việc làm", "isTrue": false},{"content": "Phòng, chống tệ nạn xã hội", "isTrue": false},{"content": "Xóa đói giảm nghèo và chăm sóc sức khỏe cho nhân dân", "isTrue": false}]
+    },
+    {
+     "Question": "Một học sinh lớp 11 (16 tuổi) chạy xe gắn máy trên 50cc ra đường chơi (Có đội mũ bảo hiểm), được xem là:",
+     "Answer": [{"content": "Vi phạm pháp luật vì có đủ năng lực trách nhiệm pháp lý.", "isTrue": true},{"content": "Không vi phạm pháp luật vì thực hiện quyền tự do đi lại.", "isTrue": false},{"content": "Không phải chịu trách nhiệm về hành vi của mình.", "isTrue": false},{"content": "Không vi phạm vì có đội mũ bảo hiểm theo quy định.", "isTrue": false}]
+    },
+    {
+     "Question": "Trường hợp nào sau đây thì mới được bắt, giam, giữ người",
+     "Answer": [{"content": "Bắt người phạm tội quả tang hoặc đang bị truy nã.", "isTrue": true},{"content": "Bắt người phạm tội quả tang hoặc đang bị truy nã.", "isTrue": false},{"content": "Bắt, giam, giữ người khi người này đang nghiện ma tuý.", "isTrue": false},{"content": "Bắt giam người khi người này có người thân phạm pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Cứ đến ngày Quốc khánh (2\/9) người nào cải tạo tốt, biết hối cải thì được Chủ tịch nước ân xá cho ra tù trước thời hạn. Thể hiện bản chất gì của pháp luật?",
+     "Answer": [{"content": "Bản chất giai cấp.", "isTrue": true},{"content": "Bản chất xã hội", "isTrue": false},{"content": "Bản chất nhân đạo sâu sắc pháp luật xã hội chủ nghĩa.", "isTrue": false},{"content": "Bản chất nhân dân", "isTrue": false}]
+    },
+    {
+     "Question": "Phương thức tác động của Nhà nước lên quan hệ pháp luật là",
+     "Answer": [{"content": "giáo dục, thuyết phục và cưỡng chế", "isTrue": true},{"content": "giáo dục, cưỡng chế.", "isTrue": false},{"content": "Cưỡng chế.", "isTrue": false},{"content": "giáo dục.", "isTrue": false}]
+    },
+    {
+     "Question": "Khoan hồng đối với người tự thú, thành khẩn khai báo, tố giác người đồng phạm, lập công chuộc tội, ăn năn hối cải, tự nguyện sửa chữa hoặc bồi thường thiệt hại gây ra. Thể hiện điều gì của pháp luật nước ta",
+     "Answer": [{"content": "tính xã hội.", "isTrue": true},{"content": "tính dân chủ.", "isTrue": false},{"content": "tính quyền lực.", "isTrue": false},{"content": "tính nhân đạo.", "isTrue": false}]
+    },
+    {
+     "Question": "Nhận định nào sau đây sai khi nói đến vai trò của pháp luật",
+     "Answer": [{"content": "Pháp luật là công cụ bảo vệ mọi quyền và lợi ích của công dân.", "isTrue": true},{"content": "Pháp luật là công cụ bảo vệ mọi quyền và lợi ích của công dân.", "isTrue": false},{"content": "Pháp luật là phương tiện thực hiện và bảo vệ quyền, lợi ích hợp pháp của mỗi công dân", "isTrue": false},{"content": "Pháp luật là phương tiện để Nhà nước quản lý mọi mặt đời sống xã hội", "isTrue": false}]
+    },
+    {
+     "Question": "Nội dung nào sau đây phù hợp với tính quy phạm và phổ biến của pháp luật?",
+     "Answer": [{"content": "Phạm vi tác động của pháp luật rộng lớn cả về không gian, thời gian và đối tượng áp dụng", "isTrue": true},{"content": "Cơ quan có quyền ban hành pháp luật thì cũng có quyền không thực hiện pháp luật", "isTrue": false},{"content": "Ai cũng cần phải thực hiện theo các tín điều tôn giáo được ban hành", "isTrue": false},{"content": "Phạm vi tác động của quy phạm xã hội rộng hơn so với pháp luật", "isTrue": false}]
+    },
+    {
+     "Question": "Ưu thế vượt trội của pháp luật so với các quy phạm xã hội khác là?",
+     "Answer": [{"content": "Tính cưỡng chế", "isTrue": true},{"content": "Tính rộng rãi", "isTrue": false},{"content": "Tồn tại trong thời gian dài.", "isTrue": false},{"content": "Tính xã hội", "isTrue": false}]
+    },
+    {
+     "Question": "Tính cưỡng chế của pháp luật được thể hiện:",
+     "Answer": [{"content": "Những hành vi vi phạm pháp luật đều có thể bị áp dụng biện pháp chế tài", "isTrue": true},{"content": "Những hành vi vi phạm pháp luật đều bị xử phạt hành chính", "isTrue": false},{"content": "Những hành vi vi phạm pháp luật đều bị áp dụng hình phạt", "isTrue": false},{"content": "Những hành vi vi phạm pháp luật đều bị xử lý kỷ luật", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật và đạo đức là hai hiện tượng:",
+     "Answer": [{"content": "Đều mang tính quy phạm", "isTrue": true},{"content": "Đều mang tính quy phạm bắt buộc chung", "isTrue": false},{"content": "Đều là quy phạm tồn tại ở dạng thành văn", "isTrue": false},{"content": "Đều do nhà nước đặt ra hoặc thừa nhận", "isTrue": false}]
+    },
+    {
+     "Question": "Luật bảo vệ môi trường do cơ quan nào sau đây ban hành?",
+     "Answer": [{"content": "Quốc hội", "isTrue": true},{"content": "Bộ Tài nguyên môi trường", "isTrue": false},{"content": "Chính phủ", "isTrue": false},{"content": "Ủy ban thường vụ Quốc hội", "isTrue": false}]
+    },
+    {
+     "Question": "Cha mẹ mất, T không chia tài sản cho em trai theo di chúc. Trong trường hợp này, T đã vi phạm",
+     "Answer": [{"content": "dân sự.", "isTrue": true},{"content": "ình sự.", "isTrue": false},{"content": "nh chính.", "isTrue": false},{"content": "luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Bản chất nào của pháp luật được thực hiện trong thực tiễn vì sự phát triển của con người?",
+     "Answer": [{"content": "Bản chất xã hội của pháp luật.", "isTrue": true},{"content": "Bản chất giáo dục của pháp luật.", "isTrue": false},{"content": "Bản chất văn hóa của pháp luật.", "isTrue": false},{"content": "Bản chất giai cấp của pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "A là công nhân của nhà máy xi măng H. Nhiều lần A nghỉ việc không lí do nên Giám đốc nhà máy đã ra quyết định buộc thôi việc đối với A. Vậy A đang chịu trách nhiệm",
+     "Answer": [{"content": "kỉ luật.", "isTrue": true},{"content": "dân sự.", "isTrue": false},{"content": "hinh sự.", "isTrue": false},{"content": "hành chính.", "isTrue": false}]
+    },
+    {
+     "Question": "Tổ chức duy nhất có quyền ban hành và bảo đảm thực hiện pháp luật là",
+     "Answer": [{"content": "Nhà nước.", "isTrue": true},{"content": "Tòa án.", "isTrue": false},{"content": "Chính phủ.", "isTrue": false},{"content": "Quốc hội.", "isTrue": false}]
+    },
+    {
+     "Question": "P bị phạt 2 năm tù giam vì lấy cắp xe máy của chị B. Trường hợp này thể hiện đặc trưng nào dưới đây của pháp luật?",
+     "Answer": [{"content": "Tính quyền lực, bắt buộc chung.", "isTrue": true},{"content": "Tính xác định chặt chẽ về mặt nội dung.", "isTrue": false},{"content": "Tính xác định chặt chẽ về mặt hình thức.", "isTrue": false},{"content": "ính quy phạm phổ biến.", "isTrue": false}]
+    },
+    {
+     "Question": "Việc Nhà nước có thể kiểm tra, kiểm soát được các hoạt động của mọi cá nhân, tổ chức là thể hiện",
+     "Answer": [{"content": "vai trò của pháp luật.", "isTrue": true},{"content": "chức năng của pháp luật.", "isTrue": false},{"content": "đặc trưng của pháp luật.", "isTrue": false},{"content": "bản chất của pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Những quy tắc xử sự chung được áp dụng nhiều lần, nhiều nơi đối với tất cả mọi người là thể hiện đặc trưng nào dưới đây của pháp luật?",
+     "Answer": [{"content": "Tính quy phạm phổ biến.", "isTrue": true},{"content": "Tính quy định phổ thông.", "isTrue": false},{"content": "Tính quyền lực bắt buộc chung.", "isTrue": false},{"content": "Tính xác định chặt chẽ về mặt hình thức.", "isTrue": false}]
+    },
+    {
+     "Question": "Trường hợp nào sau đây là vi phạm hình sự?",
+     "Answer": [{"content": "Cố ý gây thương tích hoặc gây tổn hại nghiêm trọng sức khỏe người khác.", "isTrue": true},{"content": "Công chức nhà nước vi phạm các điều cấm công chức làm.", "isTrue": false},{"content": "Không trả tiền đầy đủ và đúng thời hạn theo hợp đồng.", "isTrue": false},{"content": "Sản xuất, buôn bán hàng giả, hàng không rõ nguồn gốc.", "isTrue": false}]
+    },
+    {
+     "Question": "Quyền và nghĩa vụ của công dân được Nhà nước ghi nhận trong",
+     "Answer": [{"content": "iến pháp và luật.", "isTrue": true},{"content": "Hiến pháp.", "isTrue": false},{"content": "Luật dân sự.", "isTrue": false},{"content": "luật và chính sách.", "isTrue": false}]
+    },
+    {
+     "Question": "Tòa án xét xử các vụ án tham nhũng không phụ thuộc vào người đó là ai, giữ chức vụ gì. Điều này thể hiện công dân bình đẳng về",
+     "Answer": [{"content": "rách nhiệm pháp lí.", "isTrue": true},{"content": "nghĩa vụ trong kinh doanh.", "isTrue": false},{"content": "uyền tự chủ trong kinh doanh.", "isTrue": false},{"content": "yền lao động của công dân.", "isTrue": false}]
+    },
+    {
+     "Question": "Bất kì công dân nào vi phạm pháp luật cũng phải",
+     "Answer": [{"content": "bị xử lí theo quy định của pháp luật.", "isTrue": true},{"content": "chịu trách nhiệm hành chính.", "isTrue": false},{"content": "chịu trách nhiệm hình sự.", "isTrue": false},{"content": "truy tố và xét xử trước tòa.", "isTrue": false}]
+    },
+    {
+     "Question": "Vì mâu thuẫn với chồng là anh M nên chị B bỏ nhà đi biệt tích trong khi đang chờ bổ nhiệm chức danh trưởng phòng. Nhân cơ hội này, ông H Giám đốc sở X nơi chị B công tác đã nhận của anh Q là nhân viên dưới quyền một trăm triệu đồng và kí quyết định điều động anh Q vào vị trí trưởng phòng dự kiến dành cho chị B trước đây. Biết chuyện, anh K nảy sinh ý định rủ anh M tống tiền ông H. Những ai dưới đây phải chịu trách nhiệm kỉ luật?",
+     "Answer": [{"content": "Chị B, ông H và anh Q.", "isTrue": true},{"content": "Ông H, anh M và anh K.", "isTrue": false},{"content": "nh M, ông H, anh Q và anh K.", "isTrue": false},{"content": "Anh M, anh K và anh Q.", "isTrue": false}]
+    },
+    {
+     "Question": "Mọi công dân, nam, nữ thuộc các dân tộc, tôn giáo, thành phần, địa vị xã hội khác nhau đều không bị phân biệt đối xử trong việc hưởng quyền, thực hiện nghĩa vụ và chịu trách nhiệm pháp lí theo quy định của pháp luật là nội dung của khái niệm nào?",
+     "Answer": [{"content": "Bình đẳng về quyền và nghĩa vụ.", "isTrue": true},{"content": "Bình đẳng trước pháp luật.", "isTrue": false},{"content": "Bình đẳng về trách nhiệm pháp lí.", "isTrue": false},{"content": "Bình đẳng về quyền con người.", "isTrue": false}]
+    },
+    {
+     "Question": "Một trong những mục đích của việc áp dụng trách nhiệm pháp lí là nhằm",
+     "Answer": [{"content": "giáo dục, răn đe.", "isTrue": true},{"content": "huyến khích, động viên.", "isTrue": false},{"content": "tuyên truyền, giáo dục.", "isTrue": false},{"content": "ác ngộ tư tưởng.", "isTrue": false}]
+    },
+    {
+     "Question": "Đặc trưng nào sau đây làm nên giá trị công bằng, bình đẳng của pháp luật?",
+     "Answer": [{"content": "Tính quy phạm phổ biến.", "isTrue": true},{"content": "Tính xác định chặt chẽ về mặt nội dung.", "isTrue": false},{"content": "Tính quyền lực, bắt buộc chung.", "isTrue": false},{"content": "Tính xác định chặt chẽ về mặt hình thức.", "isTrue": false}]
+    },
+    {
+     "Question": "Anh H và chị T đi đăng kí kết hôn. Việc đăng kí kết hôn của anh H và chị T là hình thức thực hiện pháp luật nào?",
+     "Answer": [{"content": "Sử dụng pháp luật.", "isTrue": true},{"content": "Thi hành pháp luật.", "isTrue": false},{"content": "Tuân thủ pháp luật.", "isTrue": false},{"content": "Áp dụng pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Ông A rủ ông B cùng đột nhập vào tiệm vàng X để ăn trộm, phát hiện có người đang ngủ. Ông B hoảng sợ bỏ đi. Sau khi lấy hết vàng hiện có trong tiệm X, ông A kể lại toàn bộ sự việc với người bạn thân là ông T và nhờ ông cất giữ hộ sổ vàng đó nhưng đã bị ông T từ chối. Ba tháng sau, khi sửa nhà, con trai ông A phát hiện có khá nhiều vàng được chôn dưới phòng ngủ của bố nên đến trình báo cơ quan công an thì sáng tỏ. Những ai dưới đây phải chịu trách nhiệm pháp lí?",
+     "Answer": [{"content": "Ông A, ông B và ông T.", "isTrue": true},{"content": "Ông B và bố con ông A.", "isTrue": false},{"content": "Ông A và ông T.", "isTrue": false},{"content": "Ông A và ông B.", "isTrue": false}]
+    },
+    {
+     "Question": "Ranh giới để phân biệt pháp luật với các quy phạm xã hội khác thể hiện ở chỗ pháp luật được áp dụng với",
+     "Answer": [{"content": "tất cả mọi người.", "isTrue": true},{"content": "ừ 16 tuổi trở lên.", "isTrue": false},{"content": "viên chức nhà nước.", "isTrue": false},{"content": "người vi phạm pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "M là con của Trưởng công an huyện. M đã rủ N đua xe. Cả hai đều bị cảnh sát giao thông xử phạt về hành vi đua xe trái phép. Việc xử phạt này thể hiện điều gì?",
+     "Answer": [{"content": "Bình đẳng về trách nhiệm pháp lí.", "isTrue": true},{"content": "Bình đẳng trong xã hội.", "isTrue": false},{"content": "Bình đẳng về quyền.", "isTrue": false},{"content": "Bình đẳng về nghĩa vụ.", "isTrue": false}]
+    },
+    {
+     "Question": "Trong cùng một lớp học, A được nhận học bổng, B được dự thi học sinh giỏi, C được giao lưu thể thao cấp thành phố. Điều này cho thấy mức độ sử dụng quyền và thực hiện nghĩa vụ",
+     "Answer": [{"content": "tùy thuộc vào khả năng, hoàn cảnh của mỗi người.", "isTrue": true},{"content": "phụ thuộc vào người đứng đầu tổ chức.", "isTrue": false},{"content": "tùy vào nguyện vọng của cá nhân học sinh.", "isTrue": false},{"content": "giữa các học sinh cùng lớp.", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật là hệ thống các quy tắc xử sự được áp dụng đối với ai?",
+     "Answer": [{"content": "Tất cả mọi công dân trong xã hội.", "isTrue": true},{"content": "Một số người trong xã hội.", "isTrue": false},{"content": "Tất cả các giai cấp trong xã hội.", "isTrue": false},{"content": "Một số giai cấp trong xã hội.", "isTrue": false}]
+    },
+    {
+     "Question": "X bán gia cầm bệnh ra thị trường. Hành vi vủa X là vi phạm",
+     "Answer": [{"content": "hành chính.", "isTrue": true},{"content": "dân sự.", "isTrue": false},{"content": "kỉ luật.", "isTrue": false},{"content": "hình sự.", "isTrue": false}]
+    },
+    {
+     "Question": "Chủ thể tự do thực hiện điều mà pháp luật cho phép là hình thức",
+     "Answer": [{"content": "sử dụng pháp luật.", "isTrue": true},{"content": "tuân thủ pháp luật.", "isTrue": false},{"content": "áp dụng pháp luật.", "isTrue": false},{"content": "thi hành pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Hành vi của con người được điều chỉnh bởi quy phạm mang tính bắt buộc nào?",
+     "Answer": [{"content": "Pháp luật.", "isTrue": true},{"content": "Phong tục.", "isTrue": false},{"content": "Đạo đức.", "isTrue": false},{"content": "lễ giáo.", "isTrue": false}]
+    },
+    {
+     "Question": "Công ty A đơn phương chấm dứt hợp đồng lao động với công nhân B vì lý do anh này đã hơn 35 tuổi. Công ty A đã vi phạm",
+     "Answer": [{"content": "kỉ luật.", "isTrue": true},{"content": "hình sự", "isTrue": false},{"content": "hình chính.", "isTrue": false},{"content": "dân sự.", "isTrue": false}]
+    },
+    {
+     "Question": "A chở 2 bạn cùng lớp và chạy trên vỉa hè bị cảnh sát giao thông phạt. Trong trường hợp này, cảnh sát giao thông đã",
+     "Answer": [{"content": "áp dụng pháp luật.", "isTrue": true},{"content": "thi hành pháp luật.", "isTrue": false},{"content": "sử dụng pháp luật.", "isTrue": false},{"content": "tuân thủ pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Hành vi trái pháp luật nào sau đây là không hành động?",
+     "Answer": [{"content": "Kinh doanh nhưng không nộp thuế.", "isTrue": true},{"content": "Sử dụng điện thoại khi đang điều khiển xe.", "isTrue": false},{"content": "Đi xe vào đường ngược chiều.", "isTrue": false},{"content": "Buôn bán động vật quý hiếm.", "isTrue": false}]
+    },
+    {
+     "Question": " Các quy phạm pháp luật do Nhà nước ban hành phải phù hợp với ý chí và nguyện vọng của",
+     "Answer": [{"content": "giai cấp cầm quyền", "isTrue": true},{"content": "mọi người trong xã hội", "isTrue": false},{"content": "giai cấp trong xã hội", "isTrue": false},{"content": "mọi tầng lớp nhân dân", "isTrue": false}]
+    },
+    {
+     "Question": "Quá trình hoạt động có mục đích, làm cho những quy định của pháp luật đi vào cuộc sống, trở thành những hành vi hợp pháp của cá nhân, tổ chức là",
+     "Answer": [{"content": "thực hiện pháp luật.", "isTrue": true},{"content": "ban hành pháp luật.", "isTrue": false},{"content": "phổ biến pháp luật.", "isTrue": false},{"content": "xây dựng pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Mức độ bình đẳng về quyền và nghĩa vụ của công dân phụ thuộc vào khả năng và điều kiện của",
+     "Answer": [{"content": "mỗi người.", "isTrue": true},{"content": "gia đình.", "isTrue": false},{"content": "Nhà nước.", "isTrue": false},{"content": "xã hội.", "isTrue": false}]
+    },
+    {
+     "Question": "Ở nước ta, công dân nam đủ 17 tuổi phải đăng kí nghĩa vụ quân sự. Đây là việc làm thể hiện công dân bình đẳng về",
+     "Answer": [{"content": "quyền và nghĩa vụ.", "isTrue": true},{"content": "trách nhiệm công dân.", "isTrue": false},{"content": "nghĩa vụ và lợi ích.", "isTrue": false},{"content": "quyền của công dân.", "isTrue": false}]
+    },
+    {
+     "Question": "Công dân dù ở địa vị nào khi vi phạm pháp luật đều phải chịu trách nhiệm pháp lí theo quy định của",
+     "Answer": [{"content": "pháp luật.", "isTrue": true},{"content": "cơ quan  ", "isTrue": false},{"content": "đơn vị", "isTrue": false},{"content": "tòa án", "isTrue": false}]
+    },
+    {
+     "Question": "Trách nhiệm pháp lí là việc các cơ quan Nhà nước có thẩm quyền áp dụng đối với",
+     "Answer": [{"content": "chủ thể vi phạm pháp luật.", "isTrue": true},{"content": "mọi công dân trong xã hội.", "isTrue": false},{"content": "cá nhân và tổ chức trong xã hội.", "isTrue": false},{"content": "mọi hành vi trái pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Pháp luật được quy định thành văn bản rõ ràng, có tên gọi xác định và chỉ do cơ quan Nhà nước có thẩm quyền ban hành. Điều này thể hiện",
+     "Answer": [{"content": "tính xác định chặt chẽ về mặt hình thức của pháp luật.", "isTrue": true},{"content": "tính ổn định, lâu dài của pháp luật.", "isTrue": false},{"content": "ính quyền lực, bắt buộc chung của pháp luật.", "isTrue": false},{"content": "tính quy phạm phổ biến của pháp luật.", "isTrue": false}]
+    },
+    {
+     "Question": "Cơ quan quyền lực cao nhất của nước ta là",
+     "Answer": [{"content": "Quốc hội.", "isTrue": true},{"content": "Thanh tra Nhà nước.", "isTrue": false},{"content": "Chính phủ.", "isTrue": false},{"content": "Mặt trận tổ quốc.", "isTrue": false}]
+    },
+    {
+     "Question": "Nội dung của tất cả các loại văn bản quy phạm pháp luật phải phù hợp với văn bản nào dưới đây?",
+     "Answer": [{"content": "hiến pháp.", "isTrue": true},{"content": "Pháp lệnh.", "isTrue": false},{"content": "Lệnh.", "isTrue": false},{"content": "Luật.", "isTrue": false}]
+    }
+   ]

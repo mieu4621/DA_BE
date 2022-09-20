@@ -12,8 +12,8 @@ const saltRounds = 10;
 //const router = express.Router();
 //const MyModel = require("../Models/MyModels");
 
-const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
-
+//const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
+const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
 app.use(express.json())
 
 mongoClient.connect(url, (err, db) =>{
@@ -99,8 +99,7 @@ mongoClient.connect(url, (err, db) =>{
             } else {
               res.status(404).send()
             }
-          })
-          
+          })          
         
           /*collection.find(function(err, result) {
             if (result!=null) {
@@ -115,6 +114,76 @@ mongoClient.connect(url, (err, db) =>{
             }
           }).toArray;*/
       })
+
+      // // GET đề theo yêu cầu
+      app.get('/list', (req,res) =>{
+        const myDb = db.db('da')
+        var collection
+        if(req.body.sub=="eng")
+        {
+          collection = myDb.collection('Eng_Exam')
+        }else if(req.body.sub=="his")
+        {
+          collection = myDb.collection('His_Exam')
+        }else if(req.body.sub=="geo")
+        {
+          collection = myDb.collection('Geo_Exam')
+        }else if(req.body.sub=="gdcd")
+        {
+          collection = myDb.collection('GDCD_Exam')
+        }
+        // const myDb = db.db('da')
+        // const collection = myDb.collection('Eng_Exam')
+              
+        const query = {Code: req.body.Code}
+        collection.find(query,{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+        //collection.findOne(query, {projection: { _id: 0, Questions: 1 }} , (err, result) =>{
+        //collection.findOne({query},{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+            if (result!=null) {
+              res.status(200).send(JSON.stringify(result))
+            } else {
+              res.status(404).send()
+            }
+          }) 
+
+      })
+
+      // GET toàn bộ đề
+      // app.get('/list', (req,res) =>{
+      //   const myDb = db.db('da')
+      //   const collection = myDb.collection('Eng_Exam')
+
+      //   console.log(JSON.stringify(req.body))
+
+      //   if(req.body!="{}")
+      //   {
+      //     collection.find({},{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+      //       //collection.find({}, {projection: { _id: 0, Questions: 1 }} , (err, result) =>{
+      //           if (result!=null) {
+      //             res.status(200).send(JSON.stringify(result))
+                
+      //           } else {
+      //             res.status(404).send()
+      //           }
+      //         })  
+      //   } else if(req.body!=null)
+      //   {
+      //     const query = {Code: req.body.Code}
+      //     collection.findOne(query, {projection: { _id: 0, Questions: 1 }} , (err, result) =>{
+      //   //collection.findOne({query},{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+      //       if (result!=null) {
+      //         res.status(200).send(JSON.stringify(result))
+      //       } else {
+      //         res.status(404).send()
+      //       }
+      //     })    
+      //   } else {
+      //     res.status(404).send()
+      //   }       
+      // })
+      
+
+      
     }
     
 });

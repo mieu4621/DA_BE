@@ -6,14 +6,15 @@ const mongoose = require("mongoose");
 //const flash = require('connect-flash');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
+const nodemailer = require("nodemailer");
 
 
 //const PostModel = require("../Models/PostModel");
 //const router = express.Router();
 //const MyModel = require("../Models/MyModels");
 
-//const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
-const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
+const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
+//const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
 app.use(express.json())
 
 mongoClient.connect(url, (err, db) =>{
@@ -28,7 +29,10 @@ mongoClient.connect(url, (err, db) =>{
         const newUser = {
           email: req.body.email,
           tenngdung: req.body.tenngdung,
-          matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds)
+          matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds),
+          otp: "",
+          createAt: Date.now(),
+          expiresAt: Date.now()
         }
 
         const query = { email: newUser.email }
@@ -116,9 +120,9 @@ mongoClient.connect(url, (err, db) =>{
       })
 
       // // GET đề theo yêu cầu
-      app.get('/list', (req,res) =>{
-        const myDb = db.db('da')
-        var collection
+      app.post('/list', (req,res) =>{
+        const myDb = db.db('database')
+        const collection = myDb.collection('listCauHoi')
         if(req.body.sub=="eng")
         {
           collection = myDb.collection('Eng_Exam')
@@ -147,6 +151,92 @@ mongoClient.connect(url, (err, db) =>{
           }) 
 
       })
+      
+
+      app.post('/sendOTP', function(req, res) {
+        const myDb = db.db('database')
+        const collection = myDb.collection('Users')
+       
+        const query = { email: req.body.email }
+        collection.findOne(query, (err, result) => {
+           if (result!=null) {
+              var transporter =  nodemailer.createTransport({ // config mail server
+              service: 'Gmail',
+              auth: {
+                user: 'kaitothompson273@gmail.com',
+                pass: 'splupebjgkienvib'
+              }
+              });
+              const otp = `${Math.floor(1000+ Math.random() * 9000)}`;
+              var mainOptions = { // thiết lập đối tượng, nội dung gửi mail
+                from: 'App',
+                to: result.email,
+                subject: 'Xác thực OTP',
+                html: `<p>Mã OTP của bạn là: <b>${otp}</b></p>`,
+              }
+              //const hashedOTP = bcrypt.hashSync(otp, saltRounds);
+              
+              const userOTPverify={
+                $set: {
+                  otp: bcrypt.hashSync(otp, saltRounds),
+                  createAt: Date.now(),
+                  expiresAt: Date.now()+300000 
+                }
+              };
+             
+              collection.updateOne(query, userOTPverify, function(err, res){
+                if (err) throw err;
+              })
+              transporter.sendMail(mainOptions, function(err, info){
+                if (err) {
+                    console.log(err);
+                    res.redirect('/');
+                } else {
+                    console.log('Message sent: ' +  info.response);
+                    res.status(200).send()
+                    res.redirect('/');
+                }
+              });
+
+            }else {
+              res.status(404).send()
+              //khong tim thay tk
+            } 
+
+          })
+        
+      });
+
+      app.get('/verifyOTP', function(req, res){
+        const myDb = db.db('database')
+        const collection = myDb.collection('Users')
+
+        const query = { email: req.body.email}
+        const otp=  req.body.otp
+        console.log(otp)
+        collection.findOne(query, (err,result)=>{
+          if (result!=null){
+            if(result.expiresAt<Date.now()){
+              //timeout
+              res.status(201).send()
+            } else{
+              if (bcrypt.compareSync(otp, result.otp)){
+                res.status(200).send()
+                const deleteOTP= { $set:{ otp: ""}}
+                collection.updateOne(query, deleteOTP, function(err, res){
+                  if (err) throw err;
+                })
+              }
+              else res.status(202).send()
+              //sai otp 
+            }
+          }
+          else res.status(400).send()
+          //không tìm thấy tk
+        })
+
+      });
+
 
       // GET toàn bộ đề
       // app.get('/list', (req,res) =>{
@@ -239,3 +329,5 @@ app.listen(3000, () => {
 
 // @GET("/ques")
 // Call<Ques> getQues(@Body Map(ObjectId, String, Array) map)
+
+

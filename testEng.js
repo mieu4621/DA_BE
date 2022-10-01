@@ -21,7 +21,7 @@ mongoClient.connect(url, (err, db) =>{
     if (err) {
       console.log("Error while connecting mongo client")
     }else {
-
+      // Đăng ký
       app.post('/signup', (req,res) =>{
         const myDb = db.db('database')
         const collection = myDb.collection('Users')
@@ -53,6 +53,7 @@ mongoClient.connect(url, (err, db) =>{
         })
       })
 
+      // Đăng nhập
       app.post('/login', (req,res) =>{
         const myDb = db.db('database')
         const collection = myDb.collection('Users')
@@ -82,6 +83,7 @@ mongoClient.connect(url, (err, db) =>{
         })
       })
 
+      // Lấy câu hỏi
       app.get('/ques', (req,res) =>{
         const myDb = db.db('database')
         const collection = myDb.collection('listCauHoi')
@@ -152,7 +154,7 @@ mongoClient.connect(url, (err, db) =>{
 
       })
       
-
+      // Gửi OTP
       app.post('/sendOTP', function(req, res) {
         const myDb = db.db('database')
         const collection = myDb.collection('Users')
@@ -174,30 +176,24 @@ mongoClient.connect(url, (err, db) =>{
                 subject: 'Xác thực OTP',
                 html: `<p>Mã OTP của bạn là: <b>${otp}</b></p>`,
               }
-              //const hashedOTP = bcrypt.hashSync(otp, saltRounds);
-              
-              const userOTPverify={
-                $set: {
-                  otp: bcrypt.hashSync(otp, saltRounds),
-                  createAt: Date.now(),
-                  expiresAt: Date.now()+300000 
-                }
-              };
-             
-              collection.updateOne(query, userOTPverify, function(err, res){
-                if (err) throw err;
-              })
               transporter.sendMail(mainOptions, function(err, info){
                 if (err) {
                     console.log(err);
-                    res.redirect('/');
                 } else {
-                    console.log('Message sent: ' +  info.response);
                     res.status(200).send()
-                    res.redirect('/');
+                    //gửi thành công
+                    const userOTPverify={
+                      $set: {
+                        otp: bcrypt.hashSync(otp, saltRounds),
+                        createAt: Date.now(),
+                        expiresAt: Date.now()+300000 
+                      }
+                    };
+                    collection.updateOne(query, userOTPverify, function(err, res){
+                      if (err) throw err;
+                    })
                 }
               });
-
             }else {
               res.status(404).send()
               //khong tim thay tk
@@ -207,6 +203,7 @@ mongoClient.connect(url, (err, db) =>{
         
       });
 
+      // Xác nhận OTP
       app.get('/verifyOTP', function(req, res){
         const myDb = db.db('database')
         const collection = myDb.collection('Users')

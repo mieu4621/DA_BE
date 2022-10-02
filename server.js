@@ -1,64 +1,242 @@
 const express = require('express');
+const { ObjectId } = require('mongodb');
 const app = express();
 const mongoClient = require('mongodb').MongoClient;
+const mongoose = require("mongoose");
+//const flash = require('connect-flash');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
+const nodemailer = require("nodemailer");
+
+
+//const PostModel = require("../Models/PostModel");
 //const router = express.Router();
 //const MyModel = require("../Models/MyModels");
-const mongoose = require("mongoose");
-//const PostModel = require("../Models/PostModel");
 
 const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
-
+//const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
 app.use(express.json())
 
 mongoClient.connect(url, (err, db) =>{
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
-    // useFindAndModify: false,
-    // useCreateIndex: true
     if (err) {
       console.log("Error while connecting mongo client")
     }else {
-      const myDb = db.db('database')
-      const collection = myDb.collection('Users')
+      // Đăng ký
       app.post('/signup', (req,res) =>{
+        const myDb = db.db('database')
+        const collection = myDb.collection('Users')
+
         const newUser = {
           email: req.body.email,
           tenngdung: req.body.tenngdung,
-          matkhau: req.body.matkhau
+          matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds),
+          otp: "",
+          createAt: Date.now(),
+          expiresAt: Date.now()
         }
-        // const query = { email: newUser.email }
+
         const query = { email: newUser.email }
         collection.findOne(query, (err, result) => {
           if (result==null) {
             collection.insertOne(newUser, (err, result) =>{
               res.status(200).send()
             })
+          }
+          else if (query.email==result.email) {
+            res.status(201).send()
+            //Đã có email trên db
+
           }else {
             res.status(404).send()
           }
+
         })
       })
+
+      // Đăng nhập
       app.post('/login', (req,res) =>{
-        const query = {
-          email: req.body.email,
-          matkhau: req.body.matkhau
-        }
-        console.log(req.body.email);
+        const myDb = db.db('database')
+        const collection = myDb.collection('Users')
+        const query = {email: req.body.email}
+        const matkhau = req.body.matkhau
+
         collection.findOne(query, (err, result) =>{
           if (result!=null) {
-            const objToSend = {
-              email : result.email,
-              matkhau : result.matkhau
-              //email: result.email
+            if (bcrypt.compareSync(matkhau, result.matkhau))
+            {
+              const objToSend = {
+                email : result.email,
+                tenngdung : result.tenngdung
+              }
+              res.status(200).send(JSON.stringify(objToSend))
             }
-            res.status(200).send(JSON.stringify(objToSend))
+            else {
+              res.status(402).send()
+              //Sai mật khẩu
+            }
+          } else if (result==null) {
+            res.status(401).send()
+              //Sai email
           } else {
             res.status(404).send()
           }
         })
       })
+
+      // Lấy câu hỏi
+      app.get('/ques', (req,res) =>{
+        const myDb = db.db('database')
+        const collection = myDb.collection('listCauHoi')
+        collection.find().toArray((err, result) =>{
+            if (result!=null) {
+              console.log(result.length)
+              res.status(200).send(JSON.stringify(result))
+            } else {
+              res.status(404).send()
+            }
+          })          
+      
+      })
+
+      // // GET đề theo yêu cầu
+      app.post('/list', (req,res) =>{
+        const myDb = db.db('database')
+        const collection = myDb.collection('listCauHoi')
+        if(req.body.sub=="eng")
+        {
+          collection = myDb.collection('Eng_Exam')
+        }else if(req.body.sub=="his")
+        {
+          collection = myDb.collection('His_Exam')
+        }else if(req.body.sub=="geo")
+        {
+          collection = myDb.collection('Geo_Exam')
+        }else if(req.body.sub=="gdcd")
+        {
+          collection = myDb.collection('GDCD_Exam')
+        }              
+        const query = {Code: req.body.Code}
+        collection.find(query,{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+            if (result!=null) {
+              res.status(200).send(JSON.stringify(result))
+            } else {
+              res.status(404).send()
+            }
+          }) 
+
+      })
+      
+      // Gửi OTP
+      app.post('/sendOTP', function(req, res) {
+        const myDb = db.db('database')
+        const collection = myDb.collection('Users')
+        
+        const query = { email: req.body.email }
+        collection.findOne(query, (err, result) => {
+           if (result!=null) {
+              var transporter =  nodemailer.createTransport({ // config mail server
+              service: 'Gmail',
+              auth: {
+                user: 'kaitothompson273@gmail.com',
+                pass: 'splupebjgkienvib'
+              }
+              });
+              const otp = `${Math.floor(1000+ Math.random() * 9000)}`;
+              var mainOptions = { // thiết lập đối tượng, nội dung gửi mail
+                from: 'App',
+                to: result.email,
+                subject: 'Xác thực OTP',
+                html: `<p>Mã OTP của bạn là: <b>${otp}</b></p>`,
+              }
+              transporter.sendMail(mainOptions, function(err, info){
+                if (err) {
+                    console.log(err);
+                } else {
+                    res.status(200).send()
+                    //gửi thành công
+                    const userOTPverify={
+                      $set: {
+                        otp: bcrypt.hashSync(otp, saltRounds),
+                        createAt: Date.now(),
+                        expiresAt: Date.now()+300000 
+                      }
+                    };
+                    collection.updateOne(query, userOTPverify, function(err, res){
+                      if (err) throw err;
+                    })
+                }
+              });
+            } else if (result==null){
+              res.status(400).send()
+              //khong tim thay tk
+            } else res.status(404).send()
+
+          })
+        
+      });
+
+      // Xác nhận OTP
+      app.post('/verifyOTP', function(req, res){
+        const myDb = db.db('database')
+        const collection = myDb.collection('Users')
+
+        
+        const query = { email: req.body.email}
+        console.log(req.body)
+        const otp=  req.body.otp
+        console.log(otp)
+        
+        collection.findOne(query, (err,result)=>{
+          if (result!=null){
+            if(result.expiresAt<Date.now()){
+              //timeout
+              res.status(201).send()
+            } else{
+              if (bcrypt.compareSync(otp, result.otp)){
+                res.status(200).send()
+                console.log("done")
+                const deleteOTP= { $set:{ otp: ""}}
+                collection.updateOne(query, deleteOTP, function(err, res){
+                  if (err) throw err;
+                })
+              }
+              else res.status(202).send()
+              //sai otp 
+            }
+          }
+          else if (result==null)res.status(400).send()
+          //không tìm thấy tk
+          else res.status(404).send()
+        })
+
+      });
+
+      app.post('changepasss', function(req,res){
+        const myDb = db.db('database')
+        const collection = myDb.collection('Users')
+
+        const query = { email: req.body.email }
+        collection.findOne(query, (err, result) => {
+           if (result!=null) {
+              
+            } else if (result==null){
+              res.status(400).send()
+              //khong tim thay tk
+            } else res.status(404).send()
+
+          })
+      })
+
+
+
+      
+      
+
+      
     }
+    
 });
+
 
 app.listen(3000, () => {
   console.log("Listening on port 3000")
@@ -101,3 +279,14 @@ app.listen(3000, () => {
 //     res.json(posts);
   
 // })
+
+
+// @GET("/ques")
+// Call<Ques> getQues(@Body("Question") String Question
+//                   @Body("Anwser") Array Answer
+//                   @Body("_id") ObjectId _id);
+
+// @GET("/ques")
+// Call<Ques> getQues(@Body Map(ObjectId, String, Array) map)
+
+

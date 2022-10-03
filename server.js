@@ -243,9 +243,15 @@ mongoClient.connect(url, (err, db) =>{
         const collection = myDb.collection('Users')
 
         const query = { email: req.body.email }
+
         collection.findOne(query, (err, result) => {
            if (result!=null) {
-              const newinfo= { $set:{ tenngdung: req.body.tenngdung}}
+              if (req.body.matkhau!=null){
+                newinfo= { $set:{ tenngdung: req.body.tenngdung, matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds) }}
+              }
+              else if (req.body.matkhau==null) {
+                newinfo= { $set:{ tenngdung: req.body.tenngdung}}
+              }
               collection.updateOne(query, newinfo, function(err, result){
               if (!err) res.status(200).send(newinfo.$set);
             })

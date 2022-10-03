@@ -55,7 +55,7 @@ mongoClient.connect(url, (err, db) =>{
 
       // Đăng nhập
       app.post('/login', (req,res) =>{
-        const myDb = db.db('da-test')
+        const myDb = db.db('test')
         const collection = myDb.collection('Users')
         const query = {email: req.body.email}
         const matkhau = req.body.matkhau
@@ -136,7 +136,7 @@ mongoClient.connect(url, (err, db) =>{
       
       // Gửi OTP
       app.post('/sendOTP', function(req, res) {
-        const myDb = db.db('database')
+        const myDb = db.db('test')
         const collection = myDb.collection('Users')
         
         const query = { email: req.body.email }
@@ -186,7 +186,7 @@ mongoClient.connect(url, (err, db) =>{
 
       // Xác nhận OTP
       app.post('/verifyOTP', function(req, res){
-        const myDb = db.db('database')
+        const myDb = db.db('test')
         const collection = myDb.collection('Users')
 
         

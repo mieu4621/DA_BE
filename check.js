@@ -13,8 +13,8 @@ const nodemailer = require("nodemailer");
 //const router = express.Router();
 //const MyModel = require("../Models/MyModels");
 
-//const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
-const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
+const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
+//const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
 app.use(express.json())
 
 mongoClient.connect(url, (err, db) =>{
@@ -23,7 +23,7 @@ mongoClient.connect(url, (err, db) =>{
     }else {
       // Đăng ký
       app.post('/signup', (req,res) =>{
-        const myDb = db.db('test')
+        const myDb = db.db('database')
         const collection = myDb.collection('Users')
 
         const newUser = {
@@ -55,7 +55,7 @@ mongoClient.connect(url, (err, db) =>{
 
       // Đăng nhập
       app.post('/login', (req,res) =>{
-        const myDb = db.db('da-test')
+        const myDb = db.db('database')
         const collection = myDb.collection('Users')
         const query = {email: req.body.email}
         const matkhau = req.body.matkhau
@@ -85,46 +85,66 @@ mongoClient.connect(url, (err, db) =>{
 
       // Lấy câu hỏi
       app.get('/ques', (req,res) =>{
-        const myDb = db.db('da')
-        const collection = myDb.collection('Gdcd')
-
+        const myDb = db.db('database')
+        const collection = myDb.collection('listCauHoi')
         collection.find().toArray((err, result) =>{
+        //collection.findOne( (err, result) =>{
             if (result!=null) {
               console.log(result.length)
+              // const objToSend = {
+              //   result
+              //   // _id: result._id,
+              //   // Question : result.Question,
+              //   // a: result.a,
+              //   // b: result.b,
+              //   // c: result.c,
+              //   // d: result.d,
+              //   // anw: result.Answer
+              // }
               res.status(200).send(JSON.stringify(result))
             } else {
               res.status(404).send()
             }
           })          
-      
+        
+          /*collection.find(function(err, result) {
+            if (result!=null) {
+              const objToSend = {
+                _id: result._id,
+                Question : result.Question,
+                Answer: result.Answer
+              }
+              res.status(200).send(JSON.stringify(objToSend))
+            } else {
+              res.status(404).send()
+            }
+          }).toArray;*/
       })
 
       // // GET đề theo yêu cầu
       app.get('/list', (req,res) =>{
-        const myDb = db.db('da')
-
+        const myDb = db.db('database')
+        
         if(req.body.sub=="eng")
         {
-          collection = myDb.collection('Eng_exam')
-        }
-        
-        else if(req.body.sub=="his")
+          collection = myDb.collection('Eng_Exam')
+        }else if(req.body.sub=="his")
         {
-          collection = myDb.collection('His_exam')
-        }
-        
-        else if(req.body.sub=="geo")
+          collection = myDb.collection('His_Exam')
+        }else if(req.body.sub=="geo")
         {
-          collection = myDb.collection('Geo_exam')
-        }
-        
-        else if(req.body.sub=="gdcd")
+          collection = myDb.collection('Geo_Exam')
+        }else if(req.body.sub=="gdcd")
         {
-          collection = myDb.collection('Gdcd_exam')
-        }              
+          collection = myDb.collection('GDCD_Exam')
+        }
+        // const myDb = db.db('da')
+        // const collection = myDb.collection('Eng_Exam')
+              
         const query = {Code: req.body.Code}
         collection.find(query,{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
-          console.log(result)
+        //collection.findOne(query, {projection: { _id: 0, Questions: 1 }} , (err, result) =>{
+        //collection.findOne({query},{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
             if (result!=null) {
               res.status(200).send(JSON.stringify(result))
             } else {
@@ -138,7 +158,7 @@ mongoClient.connect(url, (err, db) =>{
       app.post('/sendOTP', function(req, res) {
         const myDb = db.db('database')
         const collection = myDb.collection('Users')
-        
+       
         const query = { email: req.body.email }
         collection.findOne(query, (err, result) => {
            if (result!=null) {
@@ -154,8 +174,7 @@ mongoClient.connect(url, (err, db) =>{
                 from: 'App',
                 to: result.email,
                 subject: 'Xác thực OTP',
-                html: `<p>Mã OTP của bạn là: <b>${otp}</b></p>
-                        <p>Mã sẽ hết hiệu lực sau 5 phút.</p>`,
+                html: `<p>Mã OTP của bạn là: <b>${otp}</b></p>`,
               }
               transporter.sendMail(mainOptions, function(err, info){
                 if (err) {
@@ -175,25 +194,23 @@ mongoClient.connect(url, (err, db) =>{
                     })
                 }
               });
-            } else if (result==null){
-              res.status(400).send()
+            }else {
+              res.status(404).send()
               //khong tim thay tk
-            } else res.status(404).send()
+            } 
 
           })
         
       });
 
       // Xác nhận OTP
-      app.post('/verifyOTP', function(req, res){
+      app.get('/verifyOTP', function(req, res){
         const myDb = db.db('database')
         const collection = myDb.collection('Users')
 
-        
         const query = { email: req.body.email}
-        console.log(req.body)
         const otp=  req.body.otp
-        
+        console.log(otp)
         collection.findOne(query, (err,result)=>{
           if (result!=null){
             if(result.expiresAt<Date.now()){
@@ -202,7 +219,6 @@ mongoClient.connect(url, (err, db) =>{
             } else{
               if (bcrypt.compareSync(otp, result.otp)){
                 res.status(200).send()
-                console.log("done")
                 const deleteOTP= { $set:{ otp: ""}}
                 collection.updateOne(query, deleteOTP, function(err, res){
                   if (err) throw err;
@@ -212,54 +228,46 @@ mongoClient.connect(url, (err, db) =>{
               //sai otp 
             }
           }
-          else if (result==null)res.status(400).send()
+          else res.status(400).send()
           //không tìm thấy tk
-          else res.status(404).send()
         })
 
       });
 
-      app.post('/changepass', function(req,res){
-        const myDb = db.db('test')
-        const collection = myDb.collection('Users')
 
-        const query = { email: req.body.email }
-        collection.findOne(query, (err, result) => {
-           if (result!=null) {
-              const newpass= { $set:{ matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds)}}
-              collection.updateOne(query, newpass, function(err, result){
-              if (!err) res.status(200).send();
-            })
-            } else if (result==null){
-              res.status(400).send()
-              //khong tim thay tk
-            } else res.status(404).send()
+      // GET toàn bộ đề
+      // app.get('/list', (req,res) =>{
+      //   const myDb = db.db('da')
+      //   const collection = myDb.collection('Eng_Exam')
 
-          })
-      })
+      //   console.log(JSON.stringify(req.body))
 
-      app.post('/changeinfo', function(req,res){
-        const myDb = db.db('test')
-        const collection = myDb.collection('Users')
-
-        const query = { email: req.body.email }
-        collection.findOne(query, (err, result) => {
-           if (result!=null) {
-              const newinfo= { $set:{ tenngdung: req.body.tenngdung}}
-              collection.updateOne(query, newinfo, function(err, result){
-              if (!err) res.status(200).send(newinfo.$set);
-            })
-            } else if (result==null){
-              res.status(400).send()
-              //khong tim thay tk
-            } else res.status(404).send()
-
-          })
-      })
-
-
-
-      
+      //   if(req.body!="{}")
+      //   {
+      //     collection.find({},{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+      //       //collection.find({}, {projection: { _id: 0, Questions: 1 }} , (err, result) =>{
+      //           if (result!=null) {
+      //             res.status(200).send(JSON.stringify(result))
+                
+      //           } else {
+      //             res.status(404).send()
+      //           }
+      //         })  
+      //   } else if(req.body!=null)
+      //   {
+      //     const query = {Code: req.body.Code}
+      //     collection.findOne(query, {projection: { _id: 0, Questions: 1 }} , (err, result) =>{
+      //   //collection.findOne({query},{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+      //       if (result!=null) {
+      //         res.status(200).send(JSON.stringify(result))
+      //       } else {
+      //         res.status(404).send()
+      //       }
+      //     })    
+      //   } else {
+      //     res.status(404).send()
+      //   }       
+      // })
       
 
       

@@ -246,16 +246,19 @@ mongoClient.connect(url, (err, db) =>{
 
         collection.findOne(query, (err, result) => {
            if (result!=null) {
-              if (req.body.matkhau!=null){
+              if (req.body.matkhau!=""){
                 newinfo= { $set:{ tenngdung: req.body.tenngdung, matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds) }}
+                console.log("!null")
               }
-              else if (req.body.matkhau==null) {
+              else if (req.body.matkhau=="") {
                 newinfo= { $set:{ tenngdung: req.body.tenngdung}}
+                console.log("null")
               }
               collection.updateOne(query, newinfo, function(err, result){
               if (!err) res.status(200).send(newinfo.$set);
-            })
-            } else if (result==null){
+              })
+            } else if (result==null)
+            {
               res.status(400).send()
               //khong tim thay tk
             } else res.status(404).send()

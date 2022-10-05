@@ -7,6 +7,7 @@ const mongoose = require("mongoose");
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const nodemailer = require("nodemailer");
+const { json } = require('express');
 
 
 //const PostModel = require("../Models/PostModel");
@@ -86,14 +87,18 @@ mongoClient.connect(url, (err, db) =>{
       // Lấy câu hỏi
       app.get('/ques', (req,res) =>{
         const myDb = db.db('da')
+        console.log(req.body)
         const collection = myDb.collection('Gdcd')
-
-        collection.find().toArray((err, result) =>{
+        const query = { _id: new ObjectId("632752d3d3f2b2a566dff726") }
+        
+        collection.findOne(query, (err, result) => {
+        //collection.find().toArray((err, result) =>{
             if (result!=null) {
-              console.log(result.length)
-              res.status(200).send(JSON.stringify(result))
+              console.log(result)
+              res.status(200).send(JSON.stringify(result[0]))
             } else {
               res.status(404).send()
+              console.log("die")
             }
           })          
       
@@ -102,10 +107,46 @@ mongoClient.connect(url, (err, db) =>{
       // // GET đề theo yêu cầu
       app.get('/list', (req,res) =>{
         const myDb = db.db('da')
+        const query = {Code: req.body.Code}
+
 
         if(req.body.sub=="eng")
         {
           collection = myDb.collection('Eng_exam')
+          //collection.find(query,{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
+            collection.findOne(query,(err, result) =>{
+              if (result!=null) {
+                collection = myDb.collection('English')
+                
+                //var obj = json.
+                
+                 //for(i=0;i<=result.Questions.length;i++)
+                 for(i=0;i<=2;i++)
+                 {
+
+                  const ques = {_id: result.Questions[i]}
+                  collection.findOne(ques,(err, result) =>{
+                  if (result!=null) {
+                    //console.log(result)
+                    obj.put(result)
+                    
+                    //console.log(obj)
+                  } else {
+                    res.status(404).send()
+                  }
+                })  
+                }
+                console.log(obj)
+                //res.status(200).send(JSON.stringify(obj[1]))
+                res.status(200).send(obj)
+                
+                
+                
+              } else {
+                res.status(404).send()
+                console.log("die1")
+              }
+            }) 
         }
         
         else if(req.body.sub=="his")
@@ -122,15 +163,8 @@ mongoClient.connect(url, (err, db) =>{
         {
           collection = myDb.collection('Gdcd_exam')
         }              
-        const query = {Code: req.body.Code}
-        collection.find(query,{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
-          console.log(result)
-            if (result!=null) {
-              res.status(200).send(JSON.stringify(result))
-            } else {
-              res.status(404).send()
-            }
-          }) 
+        
+        
 
       })
       
@@ -255,7 +289,7 @@ mongoClient.connect(url, (err, db) =>{
                 console.log("null")
               }
               collection.updateOne(query, newinfo, function(err, result){
-              if (!err) res.status(200).send(newinfo.$set);
+              if (!err) res.status(200).send();
               })
             } else if (result==null)
             {

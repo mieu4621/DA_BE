@@ -105,67 +105,60 @@ mongoClient.connect(url, (err, db) =>{
       })
 
       // // GET đề theo yêu cầu
-      app.get('/list', (req,res) =>{
+            app.get('/list', (req,res) =>{
         const myDb = db.db('da')
         const query = {Code: req.body.Code}
 
-
-        if(req.body.sub=="eng")
+        function funct(col1,col2)
         {
-          collection = myDb.collection('Eng_exam')
+          collection = myDb.collection(col1)
           //collection.find(query,{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
-            collection.findOne(query,(err, result) =>{
+            collection.findOne(query,async(err, result) =>{
               if (result!=null) {
-                collection = myDb.collection('English')
+                collection = myDb.collection(col2)
                 
-                //var obj = json.
-                
-                 //for(i=0;i<=result.Questions.length;i++)
-                 for(i=0;i<=2;i++)
+                 let obj = new Array()
+                 for(i=0;i<result.Questions.length;i++)
                  {
-
                   const ques = {_id: result.Questions[i]}
-                  collection.findOne(ques,(err, result) =>{
-                  if (result!=null) {
-                    //console.log(result)
-                    obj.put(result)
-                    
-                    //console.log(obj)
-                  } else {
-                    res.status(404).send()
-                  }
-                })  
-                }
-                console.log(obj)
-                //res.status(200).send(JSON.stringify(obj[1]))
-                res.status(200).send(obj)
-                
-                
-                
+                  var found = await collection.findOne(ques)
+                  obj.push(found)
+                 }
+                res.status(200).send(obj)                    
               } else {
                 res.status(404).send()
                 console.log("die1")
               }
             }) 
         }
-        
+
+        if(req.body.sub=="eng")
+        {
+          col1="Eng_exam"
+          col2="English"
+          funct(col1, col2)
+        }
+
         else if(req.body.sub=="his")
         {
-          collection = myDb.collection('His_exam')
+          col1="His_exam"
+          col2="History"
+          funct(col1, col2)
         }
         
         else if(req.body.sub=="geo")
         {
-          collection = myDb.collection('Geo_exam')
+          col1="Geo_exam"
+          col2="Geography"
+          funct(col1, col2)
         }
         
         else if(req.body.sub=="gdcd")
         {
-          collection = myDb.collection('Gdcd_exam')
+          col1="Gdcd_exam"
+          col2="Gdcd"
+          funct(col1, col2)
         }              
-        
-        
-
       })
       
       // Gửi OTP

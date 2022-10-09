@@ -22,6 +22,7 @@ mongoClient.connect(url, (err, db) =>{
     if (err) {
       console.log("Error while connecting mongo client")
     }else {
+
       // Đăng ký
       app.post('/signup', (req,res) =>{
         const myDb = db.db('test')
@@ -84,32 +85,28 @@ mongoClient.connect(url, (err, db) =>{
         })
       })
 
-      // Lấy câu hỏi
-      app.get('/ques', (req,res) =>{
+      // Get bo đề
+      app.get('/list', (req,res) =>{
         const myDb = db.db('da')
-        console.log(req.body)
-        const collection = myDb.collection('Gdcd')
-        const query = { _id: new ObjectId("632752d3d3f2b2a566dff726") }
-        
-        collection.findOne(query, (err, result) => {
-        //collection.find().toArray((err, result) =>{
-            if (result!=null) {
-              console.log(result)
-              res.status(200).send(JSON.stringify(result[0]))
-            } else {
-              res.status(404).send()
-              console.log("die")
-            }
-          })          
-      
+       
+        collection = myDb.collection(req.body.sub)
+          collection.find({},{ projection: { _id: 0, Code: 1 } }).toArray(function(err, result) {
+          if (result!=null) {
+            res.status(200).send(JSON.stringify(result))
+          } else {
+            res.status(404).send()
+            console.log("die")
+          }
+          })
+
       })
 
-      // // GET đề theo yêu cầu
-            app.get('/list', (req,res) =>{
+      // Get câu hỏi
+      app.get('/ques', (req,res) =>{
         const myDb = db.db('da')
         const query = {Code: req.body.Code}
 
-        function funct(col1,col2)
+        function fond(col1,col2)
         {
           collection = myDb.collection(col1)
           //collection.find(query,{ projection: { _id: 0, Questions: 1 } }).toArray((err, result) =>{
@@ -124,7 +121,8 @@ mongoClient.connect(url, (err, db) =>{
                   var found = await collection.findOne(ques)
                   obj.push(found)
                  }
-                res.status(200).send(obj)                    
+                res.status(200).send(obj)
+                    
               } else {
                 res.status(404).send()
                 console.log("die1")
@@ -132,33 +130,34 @@ mongoClient.connect(url, (err, db) =>{
             }) 
         }
 
-        if(req.body.sub=="eng")
+        if(req.body.sub=="Eng_exam"||req.body.sub=="Eng_review")
         {
-          col1="Eng_exam"
+          
           col2="English"
-          funct(col1, col2)
+          fond(req.body.sub, col2)
         }
 
-        else if(req.body.sub=="his")
+        else if(req.body.sub=="His_exam"||req.body.sub=="His_review")
         {
-          col1="His_exam"
           col2="History"
-          funct(col1, col2)
+          fond(req.body.sub, col2)
         }
         
-        else if(req.body.sub=="geo")
+        else if(req.body.sub=="Geo_exam"||req.body.sub=="Geo_review")
         {
-          col1="Geo_exam"
+          
           col2="Geography"
-          funct(col1, col2)
+          fond(req.body.sub, col2)
         }
         
-        else if(req.body.sub=="gdcd")
+        else if(req.body.sub=="Gdcd_exam"||req.body.sub=="Gdcd_review")
         {
-          col1="Gdcd_exam"
           col2="Gdcd"
-          funct(col1, col2)
+          fond(req.body.sub, col2)
         }              
+        
+        
+
       })
       
       // Gửi OTP

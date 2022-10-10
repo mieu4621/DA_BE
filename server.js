@@ -85,8 +85,8 @@ mongoClient.connect(url, (err, db) =>{
         })
       })
 
-      // Get bo đề
-      app.get('/list', (req,res) =>{
+      // Post bo đề
+      app.post('/list', (req,res) =>{
         const myDb = db.db('da')
        
         collection = myDb.collection(req.body.sub)
@@ -101,8 +101,8 @@ mongoClient.connect(url, (err, db) =>{
 
       })
 
-      // Get câu hỏi
-      app.get('/ques', (req,res) =>{
+      // post câu hỏi
+      app.post('/ques', (req,res) =>{
         const myDb = db.db('da')
         const query = {Code: req.body.Code}
 

@@ -1,0 +1,801 @@
+[
+ {
+  "Question": "Nước ta nằm ở vị trí:",
+  "Answer": [{"content": "rìa phía Đông của bán đảo Đông Dương.", "isTrue":  true},{"content": "rìa phía Tây của bán đảo Đông Dương.", "isTrue":  false},{"content": "trung tâm châu Á.", "isTrue":  false},{"content": "phía đông Đông Nam Á.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nằm ở rìa phía Đông của bán đảo Đông Dương là nước:",
+  "Answer": [{"content": "Việt Nam", "isTrue":  true},{"content": "Lào", "isTrue":  false},{"content": "Campuchia", "isTrue":  false},{"content": "Mi-an-ma", "isTrue":  false}]
+ },
+ {
+  "Question": "Điểm cực Bắc của nước ta là xã Lũng Cú thuộc tỉnh:",
+  "Answer": [{"content": "Hà Giang", "isTrue":  true},{"content": "Cao Bằng", "isTrue":  false},{"content": "Yên Bái", "isTrue":  false},{"content": "Lạng Sơn", "isTrue":  false}]
+ },
+ {
+  "Question": "Vị trí địa lí của nước ta là:",
+  "Answer": [{"content": "nằm ở phía Đông bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á", "isTrue":  true},{"content": "nằm ở phía Tây bán đảo Đông Dương, gần trung tâm khu vực Đông Nam Á", "isTrue":  false},{"content": "nằm ở phía Đông bán đảo Đông Dương, gần trung tâm khu vực châu Á", "isTrue":  false},{"content": "nằm ở phía Tây bán đảo Đông Dương, gần trung tâm khu vực châu Á", "isTrue":  false}]
+ },
+ {
+  "Question": "Điểm cực Đông của nước ta là xã Vạn Thạnh thuộc tỉnh:",
+  "Answer": [{"content": "Khánh Hòa.", "isTrue":  true},{"content": "Ninh Thuận.", "isTrue":  false},{"content": "Đà Nẵng.", "isTrue":  false},{"content": "Phú Yên.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ở tỉnh Khánh Hòa có một đặc điểm tự nhiên rất đặc biệt là:",
+  "Answer": [{"content": "Là tỉnh có điểm cực Đông nước ta.", "isTrue":  true},{"content": "Là tỉnh duy nhất có nhiều đảo.", "isTrue":  false},{"content": "Là tỉnh có nhiều hải sản nhất.", "isTrue":  false},{"content": "Là tỉnh có nhiều than nhất.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đâu không phải là đặc điểm của vị trí địa lí nước ta:",
+  "Answer": [{"content": "nằm ở trung tâm của châu Á.", "isTrue":  true},{"content": "trong khu vực có nền kinh tế năng động của thế giới.", "isTrue":  false},{"content": "nằm trên các tuyến đường giao thông hàng hải, đường bộ, đường hàng không quốc.", "isTrue":  false},{"content": "vừa gắn liền với lục địa Á – Âu, vừa tiếp giáp với Thái Bình Dương.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm nào sau đây không đúng với lãnh thổ nước ta",
+  "Answer": [{"content": "Nằm trọn trong múi giờ số 8.", "isTrue":  true},{"content": "Nằm hoàn toàn trong vùng nhiệt đới nửa cầu Bắc.", "isTrue":  false},{"content": "Nằm trong vùng có khí hậu nhiệt đới ẩm gió mùa.", "isTrue":  false},{"content": "Nằm trong vùng chịu ảnh hưởng của gió Mậu dịch.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta nằm trong múi giờ thứ mấy?",
+  "Answer": [{"content": "7", "isTrue":  true},{"content": "5", "isTrue":  false},{"content": "6", "isTrue":  false},{"content": "8", "isTrue":  false}]
+ },
+ {
+  "Question": "Vùng đất là:",
+  "Answer": [{"content": "toàn bộ phần đất liền và các hải đảo.", "isTrue":  true},{"content": "phần đất liền giáp biển.", "isTrue":  false},{"content": "phần được giới hạn bởi các đường biên giới và đường bờ biển.", "isTrue":  false},{"content": "các hải đảo và vùng đồng bằng ven biển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta có 4600km đường biên giới trên đất liền, 3260km đường bờ biển,… là đặc điểm của vùng:",
+  "Answer": [{"content": "đất.", "isTrue":  true},{"content": "biển.", "isTrue":  false},{"content": "trời.", "isTrue":  false},{"content": "nội thủy.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đường biên giới dài nhất trên đất liền nước ta là với quốc gia nào sau đây:",
+  "Answer": [{"content": "Lào.", "isTrue":  true},{"content": "Trung Quốc.", "isTrue":  false},{"content": "Campuchia.", "isTrue":  false},{"content": "Thái Lan.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta có đường biên giới trên đất liền với:",
+  "Answer": [{"content": "Trung Quốc, Lào, Campuchia", "isTrue":  true},{"content": "Trung Quốc, Lào, Mi-an-ma", "isTrue":  false},{"content": "Trung Quốc, Lào, Campuchia", "isTrue":  false},{"content": "Lào, Thái Lan, Campuchia", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 23, cho biết cửa khẩu nào sau đây nằm trên đường biên giới Việt Nam – Lào?",
+  "Answer": [{"content": "Cầu Treo.", "isTrue":  true},{"content": "Móng Cái.", "isTrue":  false},{"content": "Lệ Thanh.", "isTrue":  false},{"content": "Mường Khương.", "isTrue":  false}]
+ },
+ {
+  "Question": "Dựa vào Atlat Địa lí Việt Nam trang 23, cho biết cửa khẩu Cầu Treo nằm trên đường biên giới Việt Nam – Lào thuộc tỉnh:",
+  "Answer": [{"content": "Hà Tĩnh.", "isTrue":  true},{"content": "Quảng Ninh.", "isTrue":  false},{"content": "Điện Biên.", "isTrue":  false},{"content": "Lạng Sơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 4 -5, cho biết tỉnh nào sau đây của nước ta không giáp biển?",
+  "Answer": [{"content": "Hà Nam.", "isTrue":  true},{"content": "Quảng Ninh.", "isTrue":  false},{"content": "Ninh Bình.", "isTrue":  false},{"content": "Ninh Thuận.", "isTrue":  false}]
+ },
+ {
+  "Question": "Dựa vào Atlat Địa lí Việt Nam trang 4 -5, cho biết tỉnh nào của nước ta giáp biển?",
+  "Answer": [{"content": "Quảng Ninh.", "isTrue":  true},{"content": "Hà Giang.", "isTrue":  false},{"content": "Điện Biên.", "isTrue":  false},{"content": "Sơn La.", "isTrue":  false}]
+ },
+ {
+  "Question": "Bộ phận nào sau đây được xem như bộ phận lãnh thổ trên đất liền:",
+  "Answer": [{"content": "Nội thủy.", "isTrue":  true},{"content": "Lãnh hải.", "isTrue":  false},{"content": "Vùng đặc quyền kinh tế.", "isTrue":  false},{"content": "Thềm lục địa.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nội thủy là:",
+  "Answer": [{"content": "vùng nước tiếp giáp với đất liền, ở phía trong đường cơ sở.", "isTrue":  true},{"content": "vùng nước tiếp giáp với lãnh hải.", "isTrue":  false},{"content": "vùng nước tiếp giáp với đặc quyền kinh tế.", "isTrue":  false},{"content": "vùng nước tiếp giáp với thềm lục địa.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hiện nay, về vấn đề cắm mốc phân định chủ quyền biên giới quốc gia Việt Nam cần tiếp tục đàm phán với:",
+  "Answer": [{"content": "Cam-pu-chia và Trung Quốc.", "isTrue":  true},{"content": "Trung Quốc và Lào.", "isTrue":  false},{"content": "Lào và Cam- pu - chia.", "isTrue":  false},{"content": "Trung Quốc, Lào và Cam-pu-chia.", "isTrue":  false}]
+ },
+ {
+  "Question": "Trên đất liền, nước ta không có chung biên giới với nước nào?",
+  "Answer": [{"content": "Thái Lan", "isTrue":  true},{"content": "Trung Quốc", "isTrue":  false},{"content": "Lào", "isTrue":  false},{"content": "Campuchia", "isTrue":  false}]
+ },
+ {
+  "Question": "Ý nghĩa kinh tế của vị trí địa lí nước ta là",
+  "Answer": [{"content": "Tạo điều kiện thực hiện chính sách mở cửa, hội nhập với các nước trên thế giới, thu hút vốn đầu tư của nước ngoài.", "isTrue":  true},{"content": "Có vị trí địa lí đặc biệt quan trọng ở vùng Đông Nam Á, khu vực nhạy cảm với những biến động chính trị thế giới.", "isTrue":  false},{"content": "Tạo điều kiện thuận lợi cho nước ta cùng chung sống hòa bình, hợp tác hữu nghị và cùng phát triển với các nước.", "isTrue":  false},{"content": "Có nhiều nét tương đồng về lịch sử, văn hóa – xã hội với các nước láng giềng.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ý nghĩa tích cực của vị trí địa lí nước ta không phải là:",
+  "Answer": [{"content": "xảy ra các vấn đề tranh chấp biển Đông, ranh giới trên đất liền với Trung Quốc.", "isTrue":  true},{"content": "có vị trí địa lí đặc biệt quan trọng ở vùng Đông Nam Á, châu Á.", "isTrue":  false},{"content": "tạo điều kiện thực hiện chính sách mở cửa, hội nhập với các nước trên thế giới.", "isTrue":  false},{"content": "chung sống hòa bình, hợp tác hữu nghị và cùng phát triển với các nước.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thiên nhiên nước ta bốn mùa xanh tươi khác hẳn với các nước có cùng độ vĩ ở Tây Á, châu Phi là nhờ :",
+  "Answer": [{"content": "Nước ta nằm tiếp giáp Biển Đông với chiều dài bờ biển trên 3260 km.", "isTrue":  true},{"content": "Nước ta nằm hoàn toàn trong vùng nội chí tuyến.", "isTrue":  false},{"content": "Nước ta nằm ở trung tâm vùng Đông Nam Á.", "isTrue":  false},{"content": "Nước ta nằm ở vị trí tiếp giáp của nhiều hệ thống tự nhiên.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhờ có biển Đông mà nước ta có:",
+  "Answer": [{"content": "Thiên nhiên nước ta bốn mùa xanh tươi", "isTrue":  true},{"content": "Thiên nhiên nhiệt đới gió mùa với mùa đông lạnh.", "isTrue":  false},{"content": "Thiên nhiên phân hóa đa dạng theo độ cao.", "isTrue":  false},{"content": "Khí hậu khô, nóng với các nước ở Tây Á, châu Phi.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nằm ở vị trí tiếp giáp giữa lục địa và đại dương trên vành đai sinh khoáng Thái Bình Dương, nên Việt Nam có nhiều:",
+  "Answer": [{"content": "Tài nguyên khoáng sản.", "isTrue":  true},{"content": "Vùng tự nhiên khác nhau trên lãnh thổ.", "isTrue":  false},{"content": "Tài nguyên sinh vật quý giá.", "isTrue":  false},{"content": "Bão và lũ lụt.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta giàu có về tài nguyên khoáng sản là do:",
+  "Answer": [{"content": "nằm trên vành đai sinh khoáng Thái Bình Dương và Địa Trung Hải.", "isTrue":  true},{"content": "tiếp giáp với đường hàng hải, hàng không quốc tế.", "isTrue":  false},{"content": "nằm liền kề với vành đai lửa Thái Bình Dương và Địa Trung Hải.", "isTrue":  false},{"content": "nằm trên đường di cư, di lưu của nhiều động thực vật.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thế mạnh của vị trí địa lí nước ta trong khu vực Đông Nam Á sẽ được phát huy cao độ nếu biết kết hợp xây dựng các loại hình giao thông vận tải:",
+  "Answer": [{"content": "Đường hàng không và đường biển.", "isTrue":  true},{"content": "Đường ô tô và đường sắt.", "isTrue":  false},{"content": "Đường biển và đường sắt.", "isTrue":  false},{"content": "Đường ô tô và đường biển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta có thuận lợi rất lớn để xây dựng đường hàng hải và hàng không quốc tế là do:",
+  "Answer": [{"content": "gần đường hàng hải, hàng không quốc tế và cửa ngõ ra biển của nhiều nước.", "isTrue":  true},{"content": "gần các vành đai sinh khoáng Thái Bình Dương và cửa ngõ ra biển của nhiều nước.", "isTrue":  false},{"content": "gần đường di lưu, di cư của các luồng sinh vật và cửa ngõ ra biển của nhiều nước.", "isTrue":  false},{"content": "", "isTrue":  false}]
+ },
+ {
+  "Question": "Vị trí địa lí đã quy định đặc điểm cơ bản của thiên nhiên nước ta:",
+  "Answer": [{"content": "mang tính chất nhiệt đới ẩm gió mùa.", "isTrue":  true},{"content": "chịu ảnh hưởng sâu sắc của biển.", "isTrue":  false},{"content": "có thảm thực vật bốn màu xanh tốt.", "isTrue":  false},{"content": "mang tính chất nhiệt đới ẩm gió mùa.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta có khí hậu nhiệt đới ẩm gió mùa không phải do:",
+  "Answer": [{"content": "Có lãnh thổ kéo dài 15 vĩ tuyến Bắc – Nam.", "isTrue":  true},{"content": "Nằm trong vùng có khí hậu điển hình châu Á.", "isTrue":  false},{"content": "Nằm trong khu vực nội chí tuyến bán cầu Bắc.", "isTrue":  false},{"content": "Có vùng biển Đông kín, nóng, ẩm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Do nước ta nằm hoàn toàn trong vùng nhiệt đới ở bán cầu Bắc, nên:",
+  "Answer": [{"content": "nền nhiệt độ cao, các cân bức xạ quanh năm dương", "isTrue":  true},{"content": "khí hậu có hai mùa rõ rệt: mùa đông bớt nóng, khô và mùa hạ nóng, mưa nhiều.", "isTrue":  false},{"content": "có nhiều tài nguyên sinh vật quý giá.", "isTrue":  false},{"content": "có sự phân hóa tự nhiên rõ rệt.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hạn chế nào không phải do hình dạng dài và hẹp của lãnh thổ Việt Nam mang lại:",
+  "Answer": [{"content": "Khoáng sản nước ta đa dạng, nhưng trữ lượng không lớn.", "isTrue":  true},{"content": "Giao thông Bắc – Nam trắc trở.", "isTrue":  false},{"content": "Việc bảo vệ an ninh và chủ quyền lãnh thổ khó khăn.", "isTrue":  false},{"content": "Khí hậu phân hóa phức tạp.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta có hình dạng lãnh thổ kéo dài và hẹp ngang nên:",
+  "Answer": [{"content": "khí hậu có sự phân hóa Bắc – Nam.", "isTrue":  true},{"content": "nước ta giàu có về tài nguyên khoáng sản.", "isTrue":  false},{"content": "nước ta giàu có về tài nguyên thủy sản.", "isTrue":  false},{"content": "thuận lợi cho giao thông vận tải phát triển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ý nghĩa của biển Đông đối với an ninh quốc phòng nước ta là:",
+  "Answer": [{"content": "Là một hướng chiến lược có ý nghĩa rất quan trọng trong công cuộc xây dựng, phát triển và bảo vệ đất nước.", "isTrue":  true},{"content": "Nước ta có khả năng phát triển tổng hợp kinh tế biển.", "isTrue":  false},{"content": "Thúc đẩy mở rộng, giao lưu hợp tác quốc tế bằng đường biển.", "isTrue":  false},{"content": "Là bàn đạp để nước ta tiến dần ra biển trong thời đại mới.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đây là cảng biển mở lối ra biển thuận lợi cho vùng Đông Bắc Cam-pu-chia?",
+  "Answer": [{"content": "Cam Ranh", "isTrue":  true},{"content": "Rạch Giá", "isTrue":  false},{"content": "Cửa Lò", "isTrue":  false},{"content": "Hải Phòng", "isTrue":  false}]
+ },
+ {
+  "Question": "Cam Ranh là Cảng biển mở lối ra biển thuận lợi cho vùng nào dưới đây?",
+  "Answer": [{"content": "Đông Bắc Cam-pu-chia.", "isTrue":  true},{"content": "Đông Bắc Lào.", "isTrue":  false},{"content": "Tây Nam Trung Quốc.", "isTrue":  false},{"content": "Đông Thái Lan.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ở nước ta, loại tài nguyên có triển vọng khai thác lớn nhưng chưa được chú ý đúng mức là",
+  "Answer": [{"content": "tài nguyên biển.", "isTrue":  true},{"content": "tài nguyên đất.", "isTrue":  false},{"content": "tài nguyên rừng.", "isTrue":  false},{"content": "tài nguyên khoáng sản.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nước ta tài nguyên biển là tài nguyên có triển vọng khai thác lớn nhưng",
+  "Answer": [{"content": "chưa được chú ý đúng mức.", "isTrue":  true},{"content": "biển Đông rất rộng và sâu khó khai thác.", "isTrue":  false},{"content": "đã khai thác quá mức.", "isTrue":  false},{"content": "có nguy cơ cạn kiệt và ô nhiễm nước.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đâu là nguồn lực tạo điều kiện để nước ta mở cửa, hội nhập với các nước trên thế giới?",
+  "Answer": [{"content": "Vị trí địa lí thuận lợi.", "isTrue":  true},{"content": "Chính sách đổi mới của nhà nước trong thời kì mới.", "isTrue":  false},{"content": "Nền kinh tế trong nước phát triển.", "isTrue":  false},{"content": "Tài nguyên giàu có, nguồn lao động dồi dào.", "isTrue":  false}]
+ },
+ {
+  "Question": "Vị trí địa lí nước ta đã tạo điều kiện thuận lợi để",
+  "Answer": [{"content": "nước ta mở cửa, hội nhập với các nước trên thế giới.", "isTrue":  true},{"content": "nước ta nằm gần trung tâm gió mùa châu Á.", "isTrue":  false},{"content": "nước ta tiếp giáp với Biển Đông rộng lớn.", "isTrue":  false},{"content": "nước ta có tài nguyên giàu có, nguồn lao động dồi dào.", "isTrue":  false}]
+ },
+ {
+  "Question": "Dạng địa hình chiếm diện tích lớn nhất trên lãnh thổ nước ta là:",
+  "Answer": [{"content": "Đồi núi thấp.", "isTrue":  true},{"content": "Đồng bằng.", "isTrue":  false},{"content": "Núi trung bình.", "isTrue":  false},{"content": "Núi cao.", "isTrue":  false}]
+ },
+ {
+  "Question": "Địa hình nhiệt đới ẩm gió mùa của nước ta được biểu hiện rõ rệt ở:",
+  "Answer": [{"content": "sự xâm thực mạnh mẽ tại miền đồi núi và bồi lắng phù sa tại các vùng trũng.", "isTrue":  true},{"content": "sự xâm thực mạnh mẽ tại miền đồi núi và bồi lắng phù sa tại các vùng trũng.", "isTrue":  false},{"content": "sự phân hóa rõ theo độ cao với nhiều bậc địa hình.", "isTrue":  false},{"content": "cấu trúc địa hình gồm 2 hướng chính: tây bắc – đông nam và vòng cung.", "isTrue":  false}]
+ },
+ {
+  "Question": "Sự xâm thực mạnh mẽ tại miền đồi núi và bồi lắng phù sa tại các vùng trũng là biểu hiện đặc điểm nào của địa hình nước ta?",
+  "Answer": [{"content": "Địa hình của vùng nhiệt đới ẩm gió mùa.", "isTrue":  true},{"content": "Địa hình đồi núi chiếm phần lớn diện tích nhưng chủ yếu là đồi núi thấp.", "isTrue":  false},{"content": "Địa hình nước ta khá đa dạng.", "isTrue":  false},{"content": "Địa hình chịu tác động mạnh mẽ của con người.", "isTrue":  false}]
+ },
+ {
+  "Question": "Địa hình núi nước ta được chia thành bốn vùng là:",
+  "Answer": [{"content": "Đông Bắc, Tây Bắc, Trường Sơn Bắc, Trường Sơn Nam.", "isTrue":  true},{"content": "Đông Bắc, Đông Nam, Tây Bắc, Tây Nam.", "isTrue":  false},{"content": "Hoàng Liên Sơn, Trường Sơn Bắc, Trường Sơn Nam, Tây Bắc.", "isTrue":  false},{"content": "Hoàng Liên Sơn, Tây Bắc, Đông Bắc, Trường Sơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ranh giới tự nhiên của vùng núi Trường Sơn Bắc và Trường Sơn Nam là:",
+  "Answer": [{"content": "dãy Bạch Mã.", "isTrue":  true},{"content": "dãy Hoàng Liên Sơn.", "isTrue":  false},{"content": "dãy Hoành Sơn.", "isTrue":  false},{"content": "sông Cả.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nét nổi bật của địa hình vùng núi Tây Bắc là:",
+  "Answer": [{"content": "Có nhiều dãy núi cao và đồ sộ nhất nước ta.", "isTrue":  true},{"content": "Gồm các khối núi và cao nguyên.", "isTrue":  false},{"content": "Có bốn cánh cung.", "isTrue":  false},{"content": "Địa hình thấp và hẹp ngang.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 13, hãy cho biết Đèo Ngang nằm giữa hai tỉnh nào:",
+  "Answer": [{"content": "Hà Tĩnh và Quảng Bình.", "isTrue":  true},{"content": "Thừa Thiên Huế và Đà Nẵng.", "isTrue":  false},{"content": "Quảng Trị và Quảng Bình.", "isTrue":  false},{"content": "Thanh Hóa và Nghệ An.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm chung của vùng đồi núi Trường Sơn Bắc là:",
+  "Answer": [{"content": "Gồm các dãy núi song song và so le theo hướng Tây bắc – Đông nam", "isTrue":  true},{"content": "Có các cánh cung lớn mở ra về phía Bắc và Đông.", "isTrue":  false},{"content": "Địa hình cao nhất nước ta với các dãy núi lớn, hướng Tây bắc – Đông Nam.", "isTrue":  false},{"content": "Gồm các khối núi và các cao nguyên xếp tầng đất đỏ badan.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm chung của vùng đồi núi Trường Sơn Nam là:",
+  "Answer": [{"content": "Gồm các khối núi và các cao nguyên xếp tầng đất đỏ badan.", "isTrue":  true},{"content": "Có các cánh cung lớn mở ra về phía Bắc và Đông.", "isTrue":  false},{"content": "Địa hình cao nhất nước ta với các dãy núi lớn, hướng Tây bắc – Đông Nam.", "isTrue":  false},{"content": "Gồm các dãy núi song song và so le theo hướng Tây bắc – Đông nam.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hệ quả của quá trình xâm thực, bào mòn mạnh mẽ bề mặt địa hình ở miền đồi núi là:",
+  "Answer": [{"content": "sự bồi tụ mở mang các đồng bằng hạ lưu sông.", "isTrue":  true},{"content": "sự hình thành các đồng bằng giữa núi.", "isTrue":  false},{"content": "sự hình thành các vùng đồi núi thấp.", "isTrue":  false},{"content": "sự hình thành các bán bình nguyên xen đồi.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào atlat địa lí Việt Nam trang 10, hệ thống sông lớn duy nhất ở nước ta có dòng chảy đổ sang Trung Quốc là",
+  "Answer": [{"content": "Sông Kì Cùng- Bằng Giang", "isTrue":  true},{"content": "Sông Hồng", "isTrue":  false},{"content": "Sông Mê Công", "isTrue":  false},{"content": "Sông Thái Bình", "isTrue":  false}]
+ },
+ {
+  "Question": "Loại đất chiếm diện tích lớn nhất ở vùng đồi núi nước ta là",
+  "Answer": [{"content": "đất feralit.", "isTrue":  true},{"content": "đất phù sa cổ.", "isTrue":  false},{"content": "đất phù sa mới.", "isTrue":  false},{"content": "đất mùn alit.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nơi diễn ra sự bào mòn, rửa trôi đất đai mạnh nhất là ở",
+  "Answer": [{"content": "miền núi.", "isTrue":  true},{"content": "đồng bằng.", "isTrue":  false},{"content": "trung du.", "isTrue":  false},{"content": "ven biển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atalat Địa lí Việt Nam trang 10, hãy cho biết sông nào sau đây không thuộc chín hệ thống sông lớn của nước ta?",
+  "Answer": [{"content": "Sông Gianh.", "isTrue":  true},{"content": "Sông Thu Bồn.", "isTrue":  false},{"content": "Sông Mã.", "isTrue":  false},{"content": "Sông Hồng.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 11, hãy cho biết loại đất nào sau đây chiếm diện tích lớn nhất ở nước ta?",
+  "Answer": [{"content": "Đất fealit trên các loại đá khác.", "isTrue":  true},{"content": "Đất feralit trên đá badan.", "isTrue":  false},{"content": "Đất phù sa sông.", "isTrue":  false},{"content": "Đất phèn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hệ sinh thái rừng đặc trưng cho khí hậu nóng ẩm là:",
+  "Answer": [{"content": "rừng rậm nhiệt đới ẩm lá rộng thường xanh.", "isTrue":  true},{"content": "rừng nhiệt đới ẩm gió mùa thường xanh.", "isTrue":  false},{"content": "rừng nhiệt đới gió mùa nửa rụng lá.", "isTrue":  false},{"content": "rừng thưa nhiệt đới khô.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thiên nhiên nhiệt đới ẩm gió mùa của nước ta ảnh hưởng trực tiếp và rõ rệt nhất đến hoạt động sản xuất",
+  "Answer": [{"content": "nông nghiệp.", "isTrue":  true},{"content": "công nghiệp.", "isTrue":  false},{"content": "du lịch.", "isTrue":  false},{"content": "giao thông vận tải.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hoạt động ngoại lực đóng vai trò quan trọng trong sự hình thành và biến đổi địa hình Việt Nam hiện tại là",
+  "Answer": [{"content": "xâm thực - bồi tụ.", "isTrue":  true},{"content": "xâm thực - mài mòn.", "isTrue":  false},{"content": "xói mòn - rửa trôi.", "isTrue":  false},{"content": "mài mòn - bồi tụ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Feralit là loại đất chính ở Việt Nam vì, nước ta",
+  "Answer": [{"content": "có khí hậu nhiệt đới ẩm gió mùa và địa hình chủ yếu là đồi núi thấp.", "isTrue":  true},{"content": "có địa hình chủ yếu là đồi núi, chiếm tới 3\/4 diện tích lãnh thổ.", "isTrue":  false},{"content": "có khí hậu nhiệt đới ẩm gió mùa, mưa lớn theo mùa", "isTrue":  false},{"content": "trong năm có hai mùa mưa, khô rõ rệt", "isTrue":  false}]
+ },
+ {
+  "Question": "Chế độ nước của sông ngòi nước ta theo mùa, do:",
+  "Answer": [{"content": "trong năm có hai mùa mưa và khô.", "isTrue":  true},{"content": "độ dốc địa hình lớn, mưa nhiều.", "isTrue":  false},{"content": "mưa nhiều trên địa hình đồi núi chiếm diện tích lớn.", "isTrue":  false},{"content": "đồi núi bị cắt xẻ, độ dốc lớn và mưa nhiều.", "isTrue":  false}]
+ },
+ {
+  "Question": "Khó khăn lớn nhất của thiên nhiên nhiệt đới ẩm gió mùa đối với sản xuất nông nghiệp là:",
+  "Answer": [{"content": "tính thất thường của các yếu tố thời tiết và khí hậu.", "isTrue":  true},{"content": "sự khác nhau về đặc điểm khí hậu giữa các vùng.", "isTrue":  false},{"content": "khí hậu có một mùa mưa và một mùa khô.", "isTrue":  false},{"content": "sự phân hóa khí hậu theo chiều bắc nam.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hệ thống cây trồng của nước ta phong phú, đa dạng là do ảnh hưởng quyết định của nhân tố",
+  "Answer": [{"content": "khí hậu.", "isTrue":  true},{"content": "địa hình.", "isTrue":  false},{"content": "đất.", "isTrue":  false},{"content": "nguồn nước.", "isTrue":  false}]
+ },
+ {
+  "Question": "Quá trình phong hóa hóa học tham gia vào việc làm biến đổi bề mặt địa hình hiện tại được biểu hiện:",
+  "Answer": [{"content": "thành tạo địa hình cácxtơ.", "isTrue":  true},{"content": "hiện tượng xâm thực.", "isTrue":  false},{"content": "hiện tượng bào mòn, rửa trôi đất.", "isTrue":  false},{"content": "đất trượt, đá lở ở sườn dốc.", "isTrue":  false}]
+ },
+ {
+  "Question": "Tính chất mùa vụ trong sản xuất nông nghiệp của nước ta là do ảnh hưởng của yếu tố",
+  "Answer": [{"content": "sự phân hoá theo mùa của khí hậu.", "isTrue":  true},{"content": "nhu cầu đa dạng của thị trường trong và ngoài nước.", "isTrue":  false},{"content": "lao động theo mùa vụ ở các vùng nông thôn.", "isTrue":  false},{"content": "thiên nhiên nước ta mang tính chất nhiệt đới ẩm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Yếu tố ảnh hưởng trực tiếp làm cho sông ngòi nước ta nhỏ, ngắn, dốc là",
+  "Answer": [{"content": "hình dáng và lãnh thổ địa hình.", "isTrue":  true},{"content": "khí hậu và địa hình.", "isTrue":  false},{"content": "hình dáng và khí hậu.", "isTrue":  false},{"content": "địa hình và sinh vật, thổ nhưỡng.", "isTrue":  false}]
+ },
+ {
+  "Question": "Khu vực có chế độ nước sông chênh lệch rất lớn giữa mùa lũ và mùa cạn ở nước ta là",
+  "Answer": [{"content": "Tây Nguyên.", "isTrue":  true},{"content": "Bắc Trung Bộ.", "isTrue":  false},{"content": "Tây Bắc.", "isTrue":  false},{"content": "cực Nam Trung Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Biện pháp nào không thích hợp để hạn chế tính thất thường của khí hậu tới sản xuất nông nghiệp ở nước ta?",
+  "Answer": [{"content": "Đẩy mạnh thâm canh tăng vụ.", "isTrue":  true},{"content": "Chuyển đổi cơ cấu mùa vụ hợp lí.", "isTrue":  false},{"content": "Làm tốt công tác dự báo thời tiết.", "isTrue":  false},{"content": "Tích cực làm công tác thuỷ lợi, trồng rừng.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ngành nào sau đây ít chịu ảnh hưởng trực tiếp của thiên nhiên nhiệt đới ẩm gió mùa?",
+  "Answer": [{"content": "Công nghiệp chế biến.", "isTrue":  true},{"content": "Lâm nghiệp.", "isTrue":  false},{"content": "Thủy sản.", "isTrue":  false},{"content": "Giao thông vận tải.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nguyên nhân làm cho đất đai nước ta dễ bị suy thoái là",
+  "Answer": [{"content": "Khí hậu nhiệt ẩm cao, mưa theo mùa, địa hình nhiều đồi núi.", "isTrue":  true},{"content": "Khí hậu nhiệt ẩm cao, mưa theo mùa, địa hình nhiều đồi núi thấp.", "isTrue":  false},{"content": "Địa hình nhiều đồi núi, mưa lớn và tập trung một mùa.", "isTrue":  false},{"content": "Mưa theo mùa, xói mòn nhiều, địa hình nhiều đồi núi.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thiên nhiên phần lãnh thổ phía Bắc (từ dãy Bạch Mã trở ra) đặc trưng cho khí hậu",
+  "Answer": [{"content": "nhiệt đới ẩm gió mùa có mùa đông lạnh.", "isTrue":  true},{"content": "nhiệt đới ẩm gió mùa có mùa hạ nóng ẩm.", "isTrue":  false},{"content": "cận nhiệt đới gió mùa có mùa hạ ít mưa.", "isTrue":  false},{"content": "cận xích đạo gió mùa có mùa khô sâu sắc.", "isTrue":  false}]
+ },
+ {
+  "Question": "Do hình dạng lãnh thổ kéo dài và hẹp ngang nên thiên nhiên nước ta:",
+  "Answer": [{"content": "phân hóa theo chiều Bắc – Nam", "isTrue":  true},{"content": "phân hóa đa dạng", "isTrue":  false},{"content": "phân hóa Đông – Tây", "isTrue":  false},{"content": "phân hóa theo độ cao", "isTrue":  false}]
+ },
+ {
+  "Question": "Cảnh quan thiên nhiên tiêu biểu cho phần lãnh thổ phía Nam nước ta là đới rừng:",
+  "Answer": [{"content": "cận xích đạo gió mùa.", "isTrue":  true},{"content": "", "isTrue":  false},{"content": "nhiệt đới gió mùa.", "isTrue":  false},{"content": "ôn đới gió mùa.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đới rừng cận xích đạo gió mùa là cảnh quan tiêu biểu cho",
+  "Answer": [{"content": "phần lãnh thổ phía Nam.", "isTrue":  true},{"content": "phần lãnh thổ phía Bắc.", "isTrue":  false},{"content": "đồi núi và trung du.", "isTrue":  false},{"content": "đồng bằng và ven biển, đảo.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm nào sau đây không đúng với khí hậu của phần lãnh thổ phía Nam nước ta (từ 160B trở vào)?",
+  "Answer": [{"content": "Về mùa khô có mưa phùn.", "isTrue":  true},{"content": "Quanh năm nóng.", "isTrue":  false},{"content": "Không có tháng nào nhiệt độ dưới 200C.", "isTrue":  false},{"content": "Có hai mùa mưa và khô rõ rệt.", "isTrue":  false}]
+ },
+ {
+  "Question": "Khí hậu nhiệt đới ẩm gió mùa có mùa đông lạnh là đặc trưng của:",
+  "Answer": [{"content": "miền khí hậu phía Bắc", "isTrue":  true},{"content": "miền khí hậu phía Nam", "isTrue":  false},{"content": "miền khí hậu Tây Nguyên và Nam Bộ", "isTrue":  false},{"content": "miền khí hậu Bắc Trung Bộ", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 9, hãy cho biết miền khí hậu phía Bắc có những vùng khí hậu nào sau đây?",
+  "Answer": [{"content": "Tây Bắc Bộ, Đông Bắc Bộ, Trung và Nam Bắc Bộ, Bắc Trung Bộ.", "isTrue":  true},{"content": "Tây Bắc Bộ, Đông Bắc Bộ, Trung và Nam Bắc Bộ, Nam Trung Bộ.", "isTrue":  false},{"content": "Tây Bắc Bộ, Đông Bắc Bộ, Trung và Nam Bắc Bộ, Tây Nguyên.", "isTrue":  false},{"content": "Tây Bắc Bộ, Đông Bắc Bộ, Trung và Nam Bắc Bộ, Nam Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 9, hãy cho biết miền khí hậu phía Bắc không có vùng khí hậu nào sau đây?",
+  "Answer": [{"content": "Nam Trung Bộ.", "isTrue":  true},{"content": "Tây Bắc Bộ.", "isTrue":  false},{"content": "Bắc Trung Bộ.", "isTrue":  false},{"content": "Đông Bắc Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ven biển, vùng đồi núi”, đây là biểu hiện của sự phân hóa thiên nhiên theo:",
+  "Answer": [{"content": "đông – tây.", "isTrue":  true},{"content": "độ cao.", "isTrue":  false},{"content": "bắc - nam.", "isTrue":  false},{"content": "các miền tự nhiên.", "isTrue":  false}]
+ },
+ {
+  "Question": "Từ Đông sang Tây nước ta có sự phân hóa thành 3 dải rõ rệt, đó là:",
+  "Answer": [{"content": "Vùng biển và thềm lục địa, đồng bằng ven biển và đồi núi.", "isTrue":  true},{"content": "Vùng biển, thềm lực địa và đồi núi.", "isTrue":  false},{"content": "Vùng thềm lục địa, đồng bằng ven biển và vùng đồi núi.", "isTrue":  false},{"content": "Vùng biển, đồng bằng ven biển và đồi núi.", "isTrue":  false}]
+ },
+ {
+  "Question": "Vùng biển miền Trung không phải là nơi có",
+  "Answer": [{"content": "nhiều bãi triều thấp phẳng.", "isTrue":  true},{"content": "đường bờ biển khúc khuỷu.", "isTrue":  false},{"content": "nhiều bãi triều thấp phẳng.", "isTrue":  false},{"content": "phổ biến cồn cát, đầm phá.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ở nước ta, nơi có thềm lục địa hẹp nhất:",
+  "Answer": [{"content": "Vùng biển Nam Trung Bộ.", "isTrue":  true},{"content": "Vùng biên Nam Bộ.", "isTrue":  false},{"content": "Vùng biển Bắc Bộ.", "isTrue":  false},{"content": "Vùng biển Bắc Trung Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ở miền Bắc, đai nhiệt đới gió mùa có độ cao trung bình dưới (m):",
+  "Answer": [{"content": "600 – 700.", "isTrue":  true},{"content": "400 – 500.", "isTrue":  false},{"content": "500 – 600.", "isTrue":  false},{"content": "700 – 800.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ở miền Nam nước ta, đai nhiệt đới gió mùa lên đến độ cao?",
+  "Answer": [{"content": "900-1000m.", "isTrue":  true},{"content": "600-700m.", "isTrue":  false},{"content": "700-800m.", "isTrue":  false},{"content": "800-900m.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đất vùng đồi núi thấp của đai nhiệt đới gió mùa chủ yếu là nhóm đất",
+  "Answer": [{"content": "đất feralit.", "isTrue":  true},{"content": "phù sa.", "isTrue":  false},{"content": "xám bạc màu.", "isTrue":  false},{"content": "đất núi đá.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhóm đất chiếm tới 60% diện tích của vùng đồi núi thấp thuộc đai nhiệt đới gió mùa là",
+  "Answer": [{"content": "đất feralit.", "isTrue":  true},{"content": "phù sa.", "isTrue":  false},{"content": "xám bạc màu", "isTrue":  false},{"content": "đất núi đá.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đai ôn đới gió mùa trên núi chỉ có ở vùng núi",
+  "Answer": [{"content": "Tây Bắc.", "isTrue":  true},{"content": "Đông Bắc.", "isTrue":  false},{"content": "Trường Sơn Bắc.", "isTrue":  false},{"content": "Trường Sơn Nam.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đai ôn đới gió mùa trên núi ở độ cao trên (m):",
+  "Answer": [{"content": "2.600.", "isTrue":  true},{"content": "2.500.", "isTrue":  false},{"content": "2.700.", "isTrue":  false},{"content": "2.800.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thiên nhiên vùng núi Đông Bắc khác với Tây Bắc ở điểm:",
+  "Answer": [{"content": "Mùa đông lạnh đến sớm hơn các vùng núi thấp.", "isTrue":  true},{"content": "Mùa đông bớt lạnh nhưng khô hơn.", "isTrue":  false},{"content": "Mùa hạ đến sớm, đôi khi có gió Tây, lượng mưa giảm.", "isTrue":  false},{"content": "Khí hậu lạnh chủ yếu do độ cao của địa hình.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thiên nhiên vùng núi Đông Bắc khác với Tây Bắc ở điểm:",
+  "Answer": [{"content": "thiên nhiên mang sắc thái cận nhiệt đới gió mùa.", "isTrue":  true},{"content": "thiên nhiên mang sắc thái ôn đới núi cao.", "isTrue":  false},{"content": "thiên nhiên mang sắc thái nhiệt đới gió mùa.", "isTrue":  false},{"content": "thiên nhiên mang sắc thái cận nhiệt địa trung hải.", "isTrue":  false}]
+ },
+ {
+  "Question": "Sự hình thành ba đai cao trước hết là do sự thay đổi theo độ cao của:",
+  "Answer": [{"content": "Khí hậu.", "isTrue":  true},{"content": "Sinh vật.", "isTrue":  false},{"content": "Đất đai.", "isTrue":  false},{"content": "Lượng mưa.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thành phần tự nhiên nào không có sự thay đổi theo đai cao?",
+  "Answer": [{"content": "Sông ngòi", "isTrue":  true},{"content": "Khí hậu", "isTrue":  false},{"content": "Thổ nhưỡng", "isTrue":  false},{"content": "Sinh vật", "isTrue":  false}]
+ },
+ {
+  "Question": "Càng về phía Nam thì:",
+  "Answer": [{"content": "Nhiệt độ trung bình càng tăng.", "isTrue":  true},{"content": "Biên độ nhiệt càng tăng.", "isTrue":  false},{"content": "Nhiệt độ trung bình tháng lạnh càng giảm.", "isTrue":  false},{"content": "Nhiệt độ trung bình tháng nóng càng giảm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhận định nào sau đây đúng với đặc điểm nhiệt độ nước ta từ Nam ra Bắc?",
+  "Answer": [{"content": "Biên độ nhiệt năm tăng dần", "isTrue":  true},{"content": "Nhiệt độ trung bình tăng dần", "isTrue":  false},{"content": "Nhiệt độ trung bình tháng lạnh càng tăng", "isTrue":  false},{"content": "Nhiệt độ trung bình tháng nóng càng giảm", "isTrue":  false}]
+ },
+ {
+  "Question": "Sự phân hóa thiên nhiên theo Đông – Tây ở vùng đồi núi nước ta chủ yếu do tác động của",
+  "Answer": [{"content": "gió mùa với hướng của các dãy núi.", "isTrue":  true},{"content": "gió mùa Đông Bắc và Tín phong bán cầu Bắc.", "isTrue":  false},{"content": "các dãy núi hướng tây bắc – đông nam và vòng cung.", "isTrue":  false},{"content": "địa hình phân hóa đa dạng.", "isTrue":  false}]
+ },
+ {
+  "Question": "Thiên nhiên giữa vùng núi Đông Bắc và Tây Bắc có sự khác nhau là do",
+  "Answer": [{"content": "Gió mùa, hướng các dãy núi và độ cao địa hình.", "isTrue":  true},{"content": "Hướng gió và độ cao địa hình.", "isTrue":  false},{"content": "Độ cao địa hình, hướng của địa hình.", "isTrue":  false},{"content": "Các đặc điểm của địa hình (hướng, độ cao,…).", "isTrue":  false}]
+ },
+ {
+  "Question": "Biên độ nhiệt năm ở phía Bắc cao hơn ở phía Nam, vì phía Bắc:",
+  "Answer": [{"content": "Có một mùa đông lạnh.", "isTrue":  true},{"content": "Có một mùa hạ có gió phơn Tây Nam", "isTrue":  false},{"content": "Gần chí tuyến.", "isTrue":  false},{"content": "Có lượng mưa ít hơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Điểm thiên nhiên miền Bắc nước ta?",
+  "Answer": [{"content": "Có mùa đông lạnh, biên độ nhiệt năm lớn do ảnh hưởng của gió mùa đông bắc", "isTrue":  true},{"content": "Có mùa đông không lạnh, biên độ nhiệt năm lớn do ảnh hưởng của gió mùa đông bắc", "isTrue":  false},{"content": "Có mùa đông không lạnh, biên độ nhiệt năm nhỏ, do ảnh hưởng của gió mùa tây nam", "isTrue":  false},{"content": "Có mùa đông lạnh, biên độ nhiệt năm nhỏ do ảnh hưởng của gió mùa tây nam", "isTrue":  false}]
+ },
+ {
+  "Question": "Miền Bắc ở độ cao trên 600 m, còn miền Nam phải 1000 m mới có khí hậu á nhiệt. Lí do chính là vì:",
+  "Answer": [{"content": "Nhiệt độ trung bình năm của miền Nam cao hơn miền Bắc.", "isTrue":  true},{"content": "Địa hình miền Bắc cao hơn miền Nam.", "isTrue":  false},{"content": "Miền Bắc mưa nhiều hơn miền Nam.", "isTrue":  false},{"content": "Miền Bắc giáp biển nhiều hơn miền Nam.", "isTrue":  false}]
+ },
+ {
+  "Question": "Phạm vi của đai nhiệt đới gió mùa ở miền Nam cao hơn ở miền Bắc, nguyên nhân chính là do:",
+  "Answer": [{"content": "Miền Bắc nằm gần chí tuyến hơn miền Nam.", "isTrue":  true},{"content": "Miền Bắc có mưa nhiều hơn miền Nam.", "isTrue":  false},{"content": "Miền Bắc có độ cao địa hình cao hơn miền Nam.", "isTrue":  false},{"content": "Miền Bắc giáp biển nhiều hơn miền Nam.", "isTrue":  false}]
+ },
+ {
+  "Question": "So với Hà Nội, TP. Hồ Chí Minh có",
+  "Answer": [{"content": "biên độ nhiệt độ trung bình năm nhỏ hơn.", "isTrue":  true},{"content": "nhiệt độ trung bình năm nhỏ hơn.", "isTrue":  false},{"content": "nhiệt độ trung bình tháng lạnh nhất thấp hơn.", "isTrue":  false},{"content": "nhiệt độ tối thấp tuyệt đối thấp hơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Mùa mưa miền Trung đến muộn hơn so với cả nước do tác động của",
+  "Answer": [{"content": "gió phơn tây nam khô nóng vào đầu mùa hạ.", "isTrue":  true},{"content": "frông lạnh vào thu – đông.", "isTrue":  false},{"content": "các dãy núi đâm ngang ra biển.", "isTrue":  false},{"content": "bão đến tương đối muộn so với miền Bắc.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đông Trường Sơn là:",
+  "Answer": [{"content": "lũ tiểu mãn vào tháng 5, tháng 6", "isTrue":  true},{"content": "mưa phùn vào cuối mùa đông", "isTrue":  false},{"content": "gió phơn khô nóng vào cuối mùa hạ", "isTrue":  false},{"content": "chịu ảnh hưởng mạnh của gió mùa đông bắc", "isTrue":  false}]
+ },
+ {
+  "Question": "Sự phân hoá khí hậu theo độ cao đã tạo khả năng cho vùng nào ở nước ta trồng được nhiều loại cây từ nhiệt đới, cận nhiệt đới và ôn đới",
+  "Answer":[{"content": "Trung du và miền núi Bắc Bộ", "isTrue":  true},{"content": "Đồng bằng Bắc Bộ.", "isTrue":  false},{"content": "Bắc Trung Bộ.", "isTrue":  false},{"content": "Đông Nam Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Trung du và miền núi Bắc Bộ trồng được nhiều loại cây từ nhiệt đới, cận nhiệt đới và ôn đới là do",
+  "Answer": [{"content": "Sự phân hoá khí hậu theo độ cao.", "isTrue":  true},{"content": "Tài nguyên đất phong phú, đa dạng.", "isTrue":  false},{"content": "Tài nguyên nước dồi dào.", "isTrue":  false},{"content": "Khí hậu có sự phân mùa sâu sắc.", "isTrue":  false}]
+ },
+ {
+  "Question": "Sự khác nhau về mùa khô và mưa ở Tây Nguyên (sườn Tây Trường Sơn) và sườn Đông của Trường Sơn vào mùa hạ là do tác động của hướng dãy núi Trường Sơn đối với các luồng gió:",
+  "Answer": [{"content": "Tây Nam.", "isTrue":  true},{"content": "Đông Nam.", "isTrue":  false},{"content": "Đông Bắc.", "isTrue":  false},{"content": "Tây.", "isTrue":  false}]
+ },
+ {
+  "Question": "Giữa Tây Trường Sơn và Đông Trường Sơn có sự khác nhau về mùa khô và mùa mưa là do tác động của dãy Trường Sơn kết hợp với",
+  "Answer": [{"content": "Gió mùa Tây Nam và Tín phong Bắc bán cầu", "isTrue":  true},{"content": "Gió mùa Đông Nam và gió mùa Tây Nam", "isTrue":  false},{"content": "Gió mùa mùa hạ và gió mùa mùa đông.", "isTrue":  false},{"content": "Gió mùa Đông Bắc và gió mùa Tây Nam", "isTrue":  false}]
+ },
+ {
+  "Question": "Trong khu vực Đông Nam Á, dân số nước ta xếp thứ 3 sau",
+  "Answer": [{"content": "In-đô-nê-xi-a và Phi-lip-pin.", "isTrue":  true},{"content": "In-đô-nê-xi-a và Thái Lan.", "isTrue":  false},{"content": "In-đô-nê-xi-a và Mi-an-ma.", "isTrue":  false},{"content": "In-đô-nê-xi-a và Ma-lai-xi-a.", "isTrue":  false}]
+ },
+ {
+  "Question": "Dân số nước ta đứng thứ mấy trong khu vực Đông Nam Á?",
+  "Answer": [{"content": "Thứ ba.", "isTrue":  true},{"content": "Thứ nhất.", "isTrue":  false},{"content": "Thứ hai.", "isTrue":  false},{"content": "Thứ tư.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 16, hãy cho biết dân tộc ít người nào có số dân lớn nhất?",
+  "Answer": [{"content": "Tày.", "isTrue":  true},{"content": "Thái", "isTrue":  false},{"content": "Mường.", "isTrue":  false},{"content": "Khơ –me.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat trang 16, dân tộc ít người có dân số đứng thứ 3 ở Việt Nam là",
+  "Answer": [{"content": "Mường.", "isTrue":  true},{"content": "Tày.", "isTrue":  false},{"content": "Thái.", "isTrue":  false},{"content": "Hmong.", "isTrue":  false}]
+ },
+ {
+  "Question": "Vùng có mật độ dân số cao nhất cả nước ta là",
+  "Answer": [{"content": "Đồng bằng sông Hồng.", "isTrue":  true},{"content": "Đồng bằng sông Cửu Long.", "isTrue":  false},{"content": "Duyên hải miền Trung.", "isTrue":  false},{"content": "Đông Nam Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm nổi bật về dân cư của Đồng bằng sông Hồng là",
+  "Answer": [{"content": "mật độ dân số cao nhất nước ta.", "isTrue":  true},{"content": "mật độ dân số thấp nhất nước ta.", "isTrue":  false},{"content": "dân cư phân bố đồng đều giữa thành thị và nông thôn", "isTrue":  false},{"content": "tỉ lệ dân số thành thị cao hơn dân nông thôn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Vùng có mật đô dân số thấp nhất hiện nay của nước ta là:",
+  "Answer": [{"content": "Tây Bắc.", "isTrue":  true},{"content": "Đông Nam Bộ.", "isTrue":  false},{"content": "Bắc Trung Bộ.", "isTrue":  false},{"content": "Tây Nguyên.", "isTrue":  false}]
+ },
+ {
+  "Question": "Người Việt Nam ở nước ngoài tập trung nhiều nhất tại các quốc gia và khu vực nào sau đây?",
+  "Answer": [{"content": "Bắc Mĩ, châu Âu, Ôxtrâylia.", "isTrue":  true},{"content": "Trung Á, châu Âu, Ôxtrâylia.", "isTrue":  false},{"content": "Bắc Mĩ, châu Âu, Nam Á.", "isTrue":  false},{"content": "Bắc Mĩ, Ôxtrâylia, Đông Á.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 15, hãy cho biết nhận xét nào sau đây đúng về sự thay đổi hình dạng tháp dân số năm 2007 so với năm 1999?",
+  "Answer": [{"content": "đáy tháp thu hẹp, thân tháp mở rộng, đỉnh tù.", "isTrue":  true},{"content": "đáy tháp và đỉnh tháp thu hẹp, thân tháp mở rộng.", "isTrue":  false},{"content": "đáy tháp mở rộng , thân tháp thu hẹp.", "isTrue":  false},{"content": "đáy tháp thu hẹp, thân tháp mở rộng, đỉnh nhọn hơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 15, hãy cho biết nhận xét nào sau đây đúng về sự thay đổi hình dạng tháp dân số năm 2007 so với năm 1999?",
+  "Answer": [{"content": "Đáy tháp thu hẹp.", "isTrue":  true},{"content": "Đáy tháp mở rộng.", "isTrue":  false},{"content": "Đỉnh tháp nhọn.", "isTrue":  false},{"content": "Thân tháp thu hẹp.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 15, hãy cho biết tỉnh nào sau đây phổ biến mật độ dân số dưới 50 người\/km2?",
+  "Answer": [{"content": "Lai Châu.", "isTrue":  true},{"content": "Nam Định.", "isTrue":  false},{"content": "Hà Tĩnh.", "isTrue":  false},{"content": "Thái Bình.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 15, hãy cho biết tỉnh nào sau đây phổ biến mật độ dân số từ 50 - 100 người\/km2?",
+  "Answer": [{"content": "Sơn La.", "isTrue":  true},{"content": "Lai Châu.", "isTrue":  false},{"content": "Kon Tum.", "isTrue":  false},{"content": "Thái Nguyên.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hậu quả của dân số tăng nhanh về mặt môi trường là",
+  "Answer": [{"content": "tăng sức ép lên tài nguyên nước.", "isTrue":  true},{"content": "làm giảm tốc độ phát triển kinh tế.", "isTrue":  false},{"content": "chất lượng cuộc sống chậm được cải thiện.", "isTrue":  false},{"content": "tỉ lệ thiếu việc làm và thất nghiệp cao.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hậu quả của gia tăng dân số nhanh về mặt môi trường là:",
+  "Answer": [{"content": "hạn chế sự phát triển bền vững.", "isTrue":  true},{"content": "làm giảm tốc độ phát triển kinh tế.", "isTrue":  false},{"content": "tỉ lệ thiếu việc làm và thất nghiệp cao.", "isTrue":  false},{"content": "chất lượng cuộc sống thấp", "isTrue":  false}]
+ },
+ {
+  "Question": "Những biểu hiện của dân số nước ta đang ngày càng già đi:",
+  "Answer": [{"content": "Nhóm tuổi 0 – 14 giảm, nhóm tuổi 15 – 59 và trên 60 tuổi tăng.", "isTrue":  true},{"content": "Nhóm tuổi 0 -14 và 15 – 59 giảm nhanh, trên 60 tuổi tăng khá nhanh.", "isTrue":  false},{"content": "Nhóm tuổi 0 – 14 và 15 – 59 tăng nhanh, trên 60 tuổi tăng chậm.", "isTrue":  false},{"content": "Nhóm tuổi 0 -14 và trên 60 tăng lên, nhóm tuổi 15 – 59 giảm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hiện nay, dân số nước ta thuộc nhóm",
+  "Answer": [{"content": "cơ cấu dân số vàng.", "isTrue":  true},{"content": "cơ cấu dân số rất trẻ", "isTrue":  false},{"content": "cơ cấu dân số già.", "isTrue":  false},{"content": "cơ cấu dân số ổn định.", "isTrue":  false}]
+ },
+ {
+  "Question": "Việc phát triển kinh tế - xã hội vùng dân tộc ít người ở nước ta cần được chú trọng hơn nữa do",
+  "Answer": [{"content": "sự phát triển kinh tế - xã hội giữa các dân tộc hiện có sự chênh lệch đáng kể, mức sống của bộ phận dân tộc ít người thấp.", "isTrue":  true},{"content": "các dân tộc ít người đóng vai trò rất quan trọng trong việc đảm bảo an ninh quốc phòng.", "isTrue":  false},{"content": "một số dân tộc ít người có những kinh nghiệm sản xuất quí báu.", "isTrue":  false},{"content": "trước đây chúng ta chưa chú trọng vấn đề này.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm nào không đúng với dân cư, dân tộc ở nước ta?",
+  "Answer": [{"content": "Chất lượng đời sống của các dân tộc ít người đã ở mức cao.", "isTrue":  true},{"content": "Các dân tộc luôn phát huy truyền thống sản xuất.", "isTrue":  false},{"content": "Các dân tộc luôn đoàn kết bên nhau.", "isTrue":  false},{"content": "Sự phát triển kinh tế - xã hội giữa các vùng còn chênh lệch.", "isTrue":  false}]
+ },
+ {
+  "Question": "Gia tăng dân số giảm nhưng mỗi năm dân số nước ta vẫn tăng thêm trung bình hơn 1 triệu người, nguyên nhân là do",
+  "Answer": [{"content": "quy mô dân số lớn, cơ cấu dân số trẻ.", "isTrue":  true},{"content": "mức chết xuống thấp và ổn định.", "isTrue":  false},{"content": "sự phát triển kinh tế - xã hội và chính sách dân số.", "isTrue":  false},{"content": "đời sống nhân dân được nâng cao.", "isTrue":  false}]
+ },
+ {
+  "Question": "Gia tăng tự nhiên đã giảm nhưng mỗi năm nước ta vẫn thêm khoảng 1 triệu người là do:",
+  "Answer": [{"content": "quy mô dân số lớn, cơ cấu dân số trẻ.", "isTrue":  true},{"content": "y tế phát triển nên tỉ lệ tử thấp", "isTrue":  false},{"content": "sự phát triển kinh tế - xã hội.", "isTrue":  false},{"content": "chất lượng cuộc sống ngày càng được nâng lên.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hiện nay, dân số nước ta có tỉ suất sinh tương đối thấp là do",
+  "Answer": [{"content": "thực hiện tốt công tác dân số, kế hoạch hoá gia đình.", "isTrue":  true},{"content": "số người trong độ tuổi sinh đẻ ít.", "isTrue":  false},{"content": "đời sống nhân dân khó khăn.", "isTrue":  false},{"content": "xu hướng sống độc thân ngày càng phổ biến.", "isTrue":  false}]
+ },
+ {
+  "Question": "Sự gia tăng dân số nhanh hiện nay ở nước ta đã tạo điều kiện thuận lợi cho việc",
+  "Answer": [{"content": "mở rộng thị trường tiêu thụ.", "isTrue":  true},{"content": "phát triển ngành công nghiệp sản xuất hàng tiêu dùng.", "isTrue":  false},{"content": "cải thiện chất lượng cuộc sống của nhân dân.", "isTrue":  false},{"content": "khai thác hiệu quả tài nguyên thiên nhiên.", "isTrue":  false}]
+ },
+ {
+  "Question": "Phát biểu nào không đúng với ảnh hưởng của đô thị hoá đến phát triển kinh tế - xã hội nước ta?",
+  "Answer": [{"content": "Sử dụng ít lực lượng lao động có trình độ chuyên môn kĩ thuật.", "isTrue":  true},{"content": "Có khả năng tạo ra nhiều việc làm và thu nhập cho người lao động.", "isTrue":  false},{"content": "Tác động mạnh tới quá trình chuyển dịch cơ cấu kinh tế của nước ta.", "isTrue":  false},{"content": "Ảnh hưởng rất lớn đến sự phát triển kinh tế - xã hội của các địa phương.", "isTrue":  false}]
+ },
+ {
+  "Question": "Trung du và miền núi nước ta có mật độ dân số thấp hơn vùng đồng bằng chủ yếu là vì",
+  "Answer": [{"content": "điều kiện tự nhiên khó khăn hơn.", "isTrue":  true},{"content": "lịch sử định cư sớm hơn.", "isTrue":  false},{"content": "nguồn lao động ít hơn.", "isTrue":  false},{"content": "kinh tế - xã hội còn chậm phát triển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Do đặc điểm địa hình hiểm trở, giao thông qua lại khó khăn nên Tây Bắc là vùng có",
+  "Answer": [{"content": "Mật độ dân số thấp nhất.", "isTrue":  true},{"content": "Ngành du lịch phát triển nhất.", "isTrue":  false},{"content": "Nền kinh tế phát triển nhất.", "isTrue":  false},{"content": "Ngành chăn nuôi phát triển nhất.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhân tố ảnh hưởng đến sự phân bố dân cư ở nước ta:",
+  "Answer": [{"content": "Lịch sử định cư và phương thức sản xuất.", "isTrue":  true},{"content": "Tập quán canh tác và thâm canh cây lúa nước.", "isTrue":  false},{"content": "Chính sách phát triển dân số của Nhà nước.", "isTrue":  false},{"content": "Tăng cường đầu tư khai hoang mở rộng đất ở.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhân tố đóng vai trò quyết định đến phân bố nước ta hiện nay là",
+  "Answer": [{"content": "trình độ phát triển của lực lượng sản xuất.", "isTrue":  true},{"content": "các điều kiện tự nhiên.", "isTrue":  false},{"content": "lịch sử khai thác lãnh thổ.", "isTrue":  false},{"content": "chuyển cư, nhập cư.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nguyên nhân cơ bản khiến đồng bằng sông Hồng có mật độ dân số cao hơn đồng bằng sông Cửu Long là",
+  "Answer": [{"content": "lịch sử định cư sớm hơn.", "isTrue":  true},{"content": "đất đai màu mỡ, phì nhiêu hơn.", "isTrue":  false},{"content": "khí hậu thuận lợi hơn.", "isTrue":  false},{"content": "giao thông thuận tiện hơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nguyên nhân cơ bản nhất khiến Đồng bằng sông Hồng có mật độ dân số cao nhất cả nước là",
+  "Answer": [{"content": "có lịch sử khai thác lãnh thổ lâu đời nhất.", "isTrue":  true},{"content": "có khí hậu thuận lợi, ôn hòa.", "isTrue":  false},{"content": "có nền kinh tế rất phát triển.", "isTrue":  false},{"content": "có lực lượng sản xuất có trình độ, chuyên môn cao.", "isTrue":  false}]
+ },
+ {
+  "Question": "Biểu đồ thích hợp nhất thể hiện tình hình phát triển dân số Việt Nam thời kì 2005 – 2015 theo bảng số liệu là:",
+  "Answer": [{"content": "Cột chồng.", "isTrue":  true},{"content": "Cột ghép.", "isTrue":  false},{"content": "Đường.", "isTrue":  false},{"content": "Kết hợp cột với đường.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhận định đúng nhất là:",
+  "Answer": [{"content": "Thời kì 1960 - 1985 có dân số tăng trung bình hằng năm cao nhất.", "isTrue":  true},{"content": "Dân số nước ta ngày càng giảm.", "isTrue":  false},{"content": "Dân số nước ta tăng nhanh nhưng còn nhiều biến động", "isTrue":  false},{"content": "Thời kì 1956 - 1960 có tỉ lệ tăng dân số hằng năm cao nhất.", "isTrue":  false}]
+ },
+ {
+  "Question": "Tình trạng di dân tự do tới những vùng trung du và miền núi những năm gần đây dẫn đến",
+  "Answer": [{"content": "tài nguyên và môi trường ở các vùng nhập cư bị suy giảm.", "isTrue":  true},{"content": "gia tăng sự mất cân đối tỉ số giới tính giữa các vùng ở nước ta.", "isTrue":  false},{"content": "các vùng xuất cư thiếu hụt lao động.", "isTrue":  false},{"content": "làm tăng thêm khó khăn cho vấn đề việc làm ở vùng nhập cư.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đẩy mạnh phát triển công nghiệp ở trung du và miền núi nhằm:",
+  "Answer": [{"content": "Phân bố lại dân cư và lao động giữa các vùng.", "isTrue":  true},{"content": "Giảm tỉ lệ gia tăng dân số ở khu vực này.", "isTrue":  false},{"content": "Tăng tỉ lệ dân thành thị trong cơ cấu dân số.", "isTrue":  false},{"content": "Phát huy truyền thống sản xuất của các dân tộc ít người.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ý nào sau đây không phải là đặc điểm chính của khu công nghiệp?",
+  "Answer": [{"content": "Đồng nhất với một điểm dân cư.", "isTrue":  true},{"content": "Không có dân cư sinh sống.", "isTrue":  false},{"content": "Chuyên sản xuất công nghiệp.", "isTrue":  false},{"content": "Có ranh giới địa lý xác định.", "isTrue":  false}]
+ },
+ {
+  "Question": "Các khu công nghiệp tập trung phân bố chủ yếu ở vùng nào sau đây:",
+  "Answer": [{"content": "Đông Nam Bộ.", "isTrue":  true},{"content": "Duyên hải Nam Trung Bộ.", "isTrue":  false},{"content": "Đông bằng sông Hồng.", "isTrue":  false},{"content": "Đồng bằng sông Cửu Long.", "isTrue":  false}]
+ },
+ {
+  "Question": "Sự phân chia các trung tâm công nghiệp thành 3 nhóm: rất lớn, lớn và trung bình là dựa vào :",
+  "Answer": [{"content": "Giá trị sản xuất công nghiệp của các trung tâm.", "isTrue":  true},{"content": "Quy mô và chức năng của các trung tâm.", "isTrue":  false},{"content": "Sự phân bố các trung tâm trên phạm vi lãnh thổ.", "isTrue":  false},{"content": "Hướng chuyên môn hoá và quy mô của các trung tâm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hình thức tổ chức lãnh thổ công nghiệp do Chính phủ quyết định thành lập, có ranh giới địa lí rõ ràng, chuyên sản xuất công nghiệp và thực hiện các dịch vụ hỗ trợ sản xuất công nghiệp là:",
+  "Answer": [{"content": "Khu công nghiệp.", "isTrue":  true},{"content": "Điểm công nghiệp.", "isTrue":  false},{"content": "Trung tâm công nghiệp.", "isTrue":  false},{"content": "Vùng công nghiệp.", "isTrue":  false}]
+ },
+ {
+  "Question": "Những trung tâm công nghiệp nào sau đây được xếp vào nhóm có ý nghĩa quốc gia?",
+  "Answer": [{"content": "TP. Hồ Chí Minh, Hà Nội.", "isTrue":  true},{"content": "Hà Nội, Hải Phòng.", "isTrue":  false},{"content": "Hải Phòng, TP. Hồ Chí Minh.", "isTrue":  false},{"content": "TP. Hồ Chí Minh, Đà Nẵng.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hình thức tổ chức lãnh thổ công nghiệp ở trình độ cao nhất, có không gian rộng lớn là:",
+  "Answer": [{"content": "Vùng công nghiệp.", "isTrue":  true},{"content": "Điểm công nghiệp.", "isTrue":  false},{"content": "Khu công nghiệp.", "isTrue":  false},{"content": "Trung tâm công nghiệp.", "isTrue":  false}]
+ },
+ {
+  "Question": "Các điểm công nghiệp đơn lẻ thường hình thành ở các tỉnh miền núi của:",
+  "Answer": [{"content": "Tây Bắc, Tây Nguyên.", "isTrue":  true},{"content": "Bắc Trung Bộ, Tây Bắc.", "isTrue":  false},{"content": "Đông Nam Bộ, Tây Nguyên.", "isTrue":  false},{"content": "Duyên hải Nam Trung Bộ, Đông Nam Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 21, hãy cho biết cơ cấu ngành của trung tâm công nghiệp Việt Trì là:",
+  "Answer": [{"content": "Hóa chất, vật liệu xây dựng, chế biến nông sản, sản xuất giấy.", "isTrue":  true},{"content": "Năng lượng, chế biến lâm sản, hóa chất, vật liệu xây dựng.", "isTrue":  false},{"content": "Luyện kim, cơ khí, hóa chất, chế biến nông sản.", "isTrue":  false},{"content": "Hóa chất, chế biến lâm sản, chế biến thực phẩm, cơ khí.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đây là tỉnh không nằm trong vùng công nghiệp số 3 theo quy hoạch của Bộ Công nghiệp:",
+  "Answer": [{"content": "Nghệ An.", "isTrue":  true},{"content": "Thừa Thiên – Huế.", "isTrue":  false},{"content": "Quảng Trị.", "isTrue":  false},{"content": "Khánh Hòa.", "isTrue":  false}]
+ },
+ {
+  "Question": "Theo quy hoạch của Bộ Công nghiệp (năm 2011), vùng công nghiệp 4 bao gồm các tỉnh",
+  "Answer": [{"content": "thuộc Tây Nguyên (trừ Lâm Đồng).", "isTrue":  true},{"content": "từ Quảng Bình đến Ninh Thuận.", "isTrue":  false},{"content": "Đông Nam Bộ và Bình Thuận, Lâm Đồng.", "isTrue":  false},{"content": "thuộc đồng bằng sông Cửu Long.", "isTrue":  false}]
+ },
+ {
+  "Question": "Hình thức tổ chức lãnh thổ công nghiệp nào dưới đây không được xem tương đương như khu công nghiệp:",
+  "Answer": [{"content": "Khu kinh tế ven biển.", "isTrue":  true},{"content": "Khu chế xuất.", "isTrue":  false},{"content": "Khu công nghệ cao.", "isTrue":  false},{"content": "Khu công nghiệp tập trung.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm nào sau đây không đúng với trung tâm công nghiệp nước ta hiện nay",
+  "Answer": [{"content": "Hải Phòng, Vũng Tàu, Cần Thơ là các trung tâm rất lớn.", "isTrue":  true},{"content": "Hầu hết các trung tâm đều có nhiều ngành công nghiệp.", "isTrue":  false},{"content": "Trung tâm TP. Hồ Chí Minh, Hà Nội có ý nghĩa quốc gia.", "isTrue":  false},{"content": "Nhiều trung tâm ra đời trong quá trình công nghiệp hóa.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đây là các khu công nghiệp tập trung của nước ta xếp theo thứ tự từ Bắc vào Nam:",
+  "Answer": [{"content": "Đồ Sơn, Chân Mây, Hòa Khánh, Nhơn Hội, Tân Thuận.", "isTrue":  true},{"content": "Đồ Sơn, Nhơn Hội, Hoà Khánh, Chân Mây, Tân Thuận.", "isTrue":  false},{"content": "Tân Thuận, Nhơn Hội, Hoà Khánh, Chân Mây, Đồ Sơn.", "isTrue":  false},{"content": "Đồ Sơn, Hòa Khánh, Tân Thuận, Chân Mây, Nhơn Hội.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhân tố nào sau đây ảnh hưởng đến sự hình thành các điểm công nghiệp Quỳnh Nhai, Cam Đường, Tĩnh Túc?",
+  "Answer": [{"content": "Tài nguyên thiên nhiên giàu có.", "isTrue":  true},{"content": "Tập trung nguồn lao động có tay nghề.", "isTrue":  false},{"content": "Vị trí địa lí thuận lợi.", "isTrue":  false},{"content": "Kết cấu hạ tầng phát triển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Vai trò quan trọng của việc hình thành các khu công nghiệp ở nước ta trong thời kì đổi mới:",
+  "Answer": [{"content": "Thu hút vốn đầu tư nước ngoài, thúc đẩy sự chuyển dịch cơ cấu kinh tế, tạo việc làm cho lực lượng lao động đông đảo.", "isTrue":  true},{"content": "Đào tạo nguồn nhân lực, nâng cao thu nhập, đời sống và trình độ của người lao động.", "isTrue":  false},{"content": "Nâng cao sức cạnh trạnh của nền kinh tế và góp phần bảo vệ môi trường sinh thái.", "isTrue":  false},{"content": "Nhận sự hỗ trợ vốn đầu tư, chuyển giao kĩ thuật và công nghệ từ các nước kinh tế phát triển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhân tố có vai trò quan trọng hàng đầu ảnh hưởng đến sự phân bố các khu chế xuất, khu công nghiệp ở nước ta là:",
+  "Answer": [{"content": "Vị trí địa lí.", "isTrue":  true},{"content": "Tài nguyên khoáng sản", "isTrue":  false},{"content": "Tài nguyên đất, nước, khí hậu.", "isTrue":  false},{"content": "Dân cư và nguồn lao động.", "isTrue":  false}]
+ },
+ {
+  "Question": "Yếu tố khí hậu cũng ảnh hưởng đến tổ chức lãnh thổ công nghiệp vì :",
+  "Answer": [{"content": "Chi phối việc chọn lựa kĩ thuật và công nghệ.", "isTrue":  true},{"content": "Ảnh hưởng đến các nguồn nguyên liệu.", "isTrue":  false},{"content": "Thiên tai thường gây tổn thất cho sản xuất công nghiệp.", "isTrue":  false},{"content": "Chi phối quy mô và cơ cấu của các xí nghiệp công nghiệp.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 29, hãy cho biết tỉnh (thành phố) nào sau đây thuộc Đông Nam Bộ có chung đường biên giới trên đất liền với Campuchia?",
+  "Answer": [{"content": "Tây Ninh.", "isTrue":  true},{"content": "Bà Rịa – Vũng Tàu.", "isTrue":  false},{"content": "Đồng Nai.", "isTrue":  false},{"content": "Bình Dương.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 29, hãy cho biết cây cao su phân bố chủ yếu ở tỉnh nào sau đây thuộc Đông Nam Bộ?",
+  "Answer": [{"content": "Bình Phước.", "isTrue":  true},{"content": "Tây Ninh.", "isTrue":  false},{"content": "Đồng Nai.", "isTrue":  false},{"content": "Bình Dương.", "isTrue":  false}]
+ },
+ {
+  "Question": "Việc phát triển công nghiệp ở Đông Nam Bộ đặt ra nhu cầu lớn về",
+  "Answer": [{"content": "cơ sở năng lượng.", "isTrue":  true},{"content": "vốn đầu tư.", "isTrue":  false},{"content": "nguồn nguyên, nhiêu liệu.", "isTrue":  false},{"content": "thị trường tiêu thụ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 22, hãy cho biết nhà máy điện nào sau đây ở Đông Nam Bộ chạy bằng tuabin khí?",
+  "Answer": [{"content": "Bà Rịa.", "isTrue":  true},{"content": "Trị An.", "isTrue":  false},{"content": "Thác Mơ.", "isTrue":  false},{"content": "Cần Đơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Mục đích của khai thác lãnh thổ theo chiều sâu ở Đông Nam Bộ là:",
+  "Answer": [{"content": "nâng cao hiệu quả khai thác lãnh thổ.", "isTrue":  true},{"content": "đẩy mạnh đầu tư vốn.", "isTrue":  false},{"content": "đẩy mạnh đầu tư công nghệ.", "isTrue":  false},{"content": "tăng cường đầu tư lao động chuyên môn cao.", "isTrue":  false}]
+ },
+ {
+  "Question": "Về nông nghiệp, Đông Nam Bộ là vùng",
+  "Answer": [{"content": "chuyên canh cây công nghiệp hàng đầu cả nước.", "isTrue":  true},{"content": "chuyên canh cây lương thực hàng đầu cả nước.", "isTrue":  false},{"content": "chuyên canh cây thực phẩm hàng đầu cả nước.", "isTrue":  false},{"content": "chăn nuôi gia súc hàng đầu cả nước.", "isTrue":  false}]
+ },
+ {
+  "Question": "Việc phát triển công nghiệp lọc, hóa dầu và các ngành dịch vụ khai thác dầu khí ở Đông Nam Bộ góp phần",
+  "Answer": [{"content": "thúc đẩy sự chuyển dịch cơ cấu kinh tế và sự phân hóa lãnh thổ của vùng.", "isTrue":  true},{"content": "tạo nhiều việc làm cho người lao động.", "isTrue":  false},{"content": "đảm bảo an ninh, quốc phòng.", "isTrue":  false},{"content": "làm đa dạng hóa các sản phẩm công nghiệp của vùng.", "isTrue":  false}]
+ },
+ {
+  "Question": "Phát biểu nào sau đây đúng với các đặc điểm chung của Đông Nam Bộ",
+  "Answer": [{"content": "Dẫn đầu cả nước về GDP, giá trị sản lượng công nghiệp.", "isTrue":  true},{"content": "Giá trị sản lượng xuất khẩu vào loại trung bình so với cả nước.", "isTrue":  false},{"content": "Có diện tích vào loại lớn so với các vùng khác.", "isTrue":  false},{"content": "Có dân số vào loại nhỏ so với các vùng khác.", "isTrue":  false}]
+ },
+ {
+  "Question": "Vấn đề khai thác lãnh thổ theo chiều sâu là vấn đề tiêu biểu trong sự phát triển của vùng Đông Nam Bộ là do",
+  "Answer": [{"content": "đây là vùng có nhiều thuận lợi để phát triển kinh tế nhưng sự phát triển chưa tương xứng vì lãnh thổ hẹp.", "isTrue":  true},{"content": "đây là vùng có cơ cấu kinh tế công nghiệp, nông nghiệp và dịch vụ phát triển hơn so với các vùng khác.", "isTrue":  false},{"content": "đây là vùng có GDP, giá trị sản lượng công nghiệp và giá trị xuất khẩu cao nhất cả nước.", "isTrue":  false},{"content": "sức ép dân số lên các vấn đề kinh tế - xã hội và môi trường.", "isTrue":  false}]
+ },
+ {
+  "Question": "Điểm nào sau đây không đúng với ngành dịch vụ ở Đông Nam Bộ?",
+  "Answer": [{"content": "Các hoạt động dịch vụ thương mại, ngân hàng tín dụng, phát triển chậm.", "isTrue":  true},{"content": "Các ngành dịch vụ chiếm tỉ trọng ngày càng cao trong cơ cấu kinh tế của vùng.", "isTrue":  false},{"content": "Các hoạt động dịch vụ ngày càng phát triển đa dạng.", "isTrue":  false},{"content": "Dẫn đầu cả nước về tăng trưởng nhanh và phát triển có hiệu quả ngành dịch vụ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Trong việc phát triển cây công nghiệp lâu năm ở Đông Nam Bộ, ngoài thủy lợi thì biện pháp quan trọng tiếp theo là:",
+  "Answer": [{"content": "thay đổi cơ cấu cây trồng.", "isTrue":  true},{"content": "áp dụng cơ giới hóa trong sản xuất.", "isTrue":  false},{"content": "tăng cường phân bón và thuốc trừ sâu.", "isTrue":  false},{"content": "nâng cao trình độ cho nguồn lao động.", "isTrue":  false}]
+ },
+ {
+  "Question": "Tỉ trọng công nghiệp trong cơ cấu ngành kinh tế những năm gần đây ở Đông Nam Bộ tăng nhanh, chủ yếu do",
+  "Answer": [{"content": "hình thành và phát triển công nghiệp khai thác dầu khí.", "isTrue":  true},{"content": "đẩy mạnh phát triển các ngành công nghiệp điện, điện tử.", "isTrue":  false},{"content": "tăng cường đầu tư vào ngành dệt, may, da giày.", "isTrue":  false},{"content": "phát triển công nghiệp chế biến lương thực, thực phẩm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nguyên nhân quan trọng nhất về mặt tự nhiên để cây cao su phát triển mạnh ở Đông Nam Bộ là:",
+  "Answer": [{"content": "có loại đất xám rất thích hợp cho cây cao su, khí hậu nóng ẩm, ít bão.", "isTrue":  true},{"content": "nguồn nước mặt phong phú.", "isTrue":  false},{"content": "có nhiều cơ sở chế biến mủ cao su trong vùng.", "isTrue":  false},{"content": "thị trường tiêu thụ cao su rộng lớn và ổn định.", "isTrue":  false}]
+ },
+ {
+  "Question": "Vấn đề phát triển tổng hợp kinh tế biển có ảnh hưởng rất lớn đến sự hình thành và thay đổi cơ cấu lãnh thổ kinh tế của Đông Nam Bộ, vì kinh tế biển",
+  "Answer": [{"content": "mang lại hiệu quả cao.", "isTrue":  true},{"content": "đa dạng về ngành.", "isTrue":  false},{"content": "gắn liền với vùng ven biển.", "isTrue":  false},{"content": "tác động đến nhiều khu vực kinh tế khác.", "isTrue":  false}]
+ },
+ {
+  "Question": "Nhiệm vụ quan trọng nhất để phát triển bền vững công nghiệp ở Đông Nam Bộ là:",
+  "Answer": [{"content": "bảo vệ môi trường đi đôi với phát triển công nghiệp theo chiều sâu.", "isTrue":  true},{"content": "tăng cường đầu tư nâng cấp cơ sở hạ tầng.", "isTrue":  false},{"content": "hình thành thêm nhiều khu công nghiệp, khu chế xuất mới.", "isTrue":  false},{"content": "phát triển mạnh công nghiệp khai thác dầu khí.", "isTrue":  false}]
+ },
+ {
+  "Question": "Theo bảng số liệu trên, nhận xét nào sau đây không chính xác về tỉ trọng giá trị sản xuất công nghiệp phân theo thành phần kinh tế của vùng Đông Nam Bộ?",
+  "Answer": [{"content": "Khu vực kinh tế nhà nước chiếm tỉ trọng thấp nhất và có xu hướng giảm.", "isTrue":  true},{"content": "Khu vực kinh tế ngoài nhà nước chiếm tỉ trọng thấp nhất và có xu hướng tăng khá nhanh.", "isTrue":  false},{"content": "Khu vực kinh tế nhà nước chiếm tỉ trọng khá cao và có xu hướng giảm.", "isTrue":  false},{"content": "Khu vực có vốn đầu tư nước ngoài chiếm tỉ trọng cao nhất và có xu hướng tăng nhanh.", "isTrue":  false}]
+ },
+ {
+  "Question": "Biểu đồ thích hợp nhất thể hiện sự so sánh giá trị sản xuất ngành xây dựng của vùng Đồng bằng sông Hồng và Đông Nam Bộ giai đoạn 2005 – 2013 là",
+  "Answer": [{"content": "Cột ghép.", "isTrue":  true},{"content": "Kết hợp.", "isTrue":  false},{"content": "Tròn.", "isTrue":  false},{"content": "Đường.", "isTrue":  false}]
+ },
+ {
+  "Question": "Về nông nghiệp, Đông Nam Bộ là vùng",
+  "Answer": [{"content": "chuyên canh cây công nghiệp hàng đầu của nước ta.", "isTrue":  true},{"content": "chuyên canh cây lương thực hàng đầu của nước ta.", "isTrue":  false},{"content": "chuyên canh cây thực phẩm hàng đầu của nước ta.", "isTrue":  false},{"content": "chăn nuôi gia súc hàng đầu của nước ta.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đặc điểm nào sau đây đúng với nguồn lợi sinh vật biển nước ta?",
+  "Answer": [{"content": "Sinh vật biển giàu có, nhiều thành phần loài.", "isTrue":  true},{"content": "Biển có độ sâu trung bình.", "isTrue":  false},{"content": "Độ muối trung bình khoảng 20 – 30%.", "isTrue":  false},{"content": "Biển nhiệt đới ấm quanh năm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Chim yến (loài chim cho yến sào là mặt hàng xuất khẩu có giá trị cao) tập trung nhiều trên các đảo đá ven bờ ở",
+  "Answer": [{"content": "Nam Trung Bộ.", "isTrue":  true},{"content": "Bắc Trung Bộ.", "isTrue":  false},{"content": "Nam Bộ.", "isTrue":  false},{"content": "Bắc Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Loại khoáng sản có giá trị cao và tập trung nhiều ở vùng thềm lục địa nước ta là:",
+  "Answer": [{"content": "Dầu khí.", "isTrue":  true},{"content": "Titan.", "isTrue":  false},{"content": "Cát trắng.", "isTrue":  false},{"content": "Muối.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 25 , hãy cho biết các bãi biển ở nước ta theo tứ tự từ Bắc vào Nam là:",
+  "Answer": [{"content": "Cửa Lò, Mỹ Khê, Quy Nhơn, Nha Trang, Mũi Né.", "isTrue":  true},{"content": "Cửa Lò, Quy Nhơn, Mỹ Khê,Nha Trang, Mũi Né.", "isTrue":  false},{"content": "Mỹ Khê, Cửa Lò, Quy Nhơn, Nha Trang, Mũi Né.", "isTrue":  false},{"content": "Mỹ Khê, Cửa Lò, Quy Nhơn, Mũi Né, Nha Trang.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 23, hãy cho biết các cảng biển của nước ta tập trung chủ yếu ở ven biển của khu vực nào sau đây",
+  "Answer": [{"content": "Duyên hải miền Trung.", "isTrue":  true},{"content": "Bắc Bộ.", "isTrue":  false},{"content": "Đồng bằng sông Cửu Long.", "isTrue":  false},{"content": "Nam Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Căn cứ vào Atlat Địa lí Việt Nam trang 23, hãy cho biết đảo (quần đảo) nào sau đây ở nước ta có hệ thống sân bay nội địa?",
+  "Answer": [{"content": "Quần đảo Côn Sơn.", "isTrue":  true},{"content": "Đảo Phú Quý.", "isTrue":  false},{"content": "Quần đảo Cô Tô.", "isTrue":  false},{"content": "Đảo Lý Sơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Đảo nào sau đây không được xếp vào các đảo đông dân của vùng biển nước ta?",
+  "Answer": [{"content": "Cồn Cỏ.", "isTrue":  true},{"content": "Cái Bầu.", "isTrue":  false},{"content": "Cát Bà.", "isTrue":  false},{"content": "Lý Sơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Việc giữ vững chủ quyền của một hòn đảo, dù nhỏ, lại có ý nghĩa rất lớn, vì các đảo là:",
+  "Answer": [{"content": "cơ sở để khẳng định chủ quyền đối với vùng biển và thềm lục địa của nước ta.", "isTrue":  true},{"content": "hệ thống căn cứ để tiến ra khai thác biển và đại dương trong thời đại mới.", "isTrue":  false},{"content": "nơi có thể tổ chức quần cư, phát triển sản xuất.", "isTrue":  false},{"content": "hệ thống tiền tiêu của vùng biển nước ta.", "isTrue":  false}]
+ },
+ {
+  "Question": "Phát biểu nào không đúng đối với việc khai thác tài nguyên sinh vật biển và hải đảo?",
+  "Answer": [{"content": "Hạn chế việc đánh bắt xa bờ để tránh thiệt hại do bão gây ra.", "isTrue":  true},{"content": "Tránh khai thác quá mức nguồn lợi ven bờ.", "isTrue":  false},{"content": "Tránh khai thác quá mức các đối tượng đánh bắt có giá trị kinh tế cao.", "isTrue":  false},{"content": "Cấm sử dụng các phương tiện đánh bắt có", "isTrue":  false}]
+ },
+ {
+  "Question": "Ý nghĩa của các đảo đối với an ninh quốc phòng nước ta là:",
+  "Answer": [{"content": "là hệ thống tiền tiêu bảo vệ đất liền.", "isTrue":  true},{"content": "có nhiều tài nguyên hải sản.", "isTrue":  false},{"content": "có nhiều điều kiện thuận lợi cho phát triển du lịch.", "isTrue":  false},{"content": "thuận lợi cho phát triển giao thông biển.", "isTrue":  false}]
+ },
+ {
+  "Question": "Phát biểu nào sau đây không đúng với hoạt động du lịch biển của nước ta trong những năm gần đây?",
+  "Answer": [{"content": "Du khách nước ngoài đến Việt Nam chủ yếu du lịch biển.", "isTrue":  true},{"content": "Các trung tâm du lịch biển đã được nâng cấp.", "isTrue":  false},{"content": "Nhiều vùng biển, đảo mới được đưa vào khai thác.", "isTrue":  false},{"content": "Có nhiều khu du lịch biển nổi tiếng cả Bắc, Trung, Nam.", "isTrue":  false}]
+ },
+ {
+  "Question": "Phương hướng khai thác nguồn lợi hải sản vừa có hiệu quả, vừa góp phần bảo vệ vùng trời, vùng biển và thềm lục địa nước ta là:",
+  "Answer": [{"content": "đánh bắt xa bờ.", "isTrue":  true},{"content": "đánh bắt ven bờ.", "isTrue":  false},{"content": "trang bị vũ khí quân sự.", "isTrue":  false},{"content": "đẩy mạnh chế biến tại chỗ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Các tài nguyên biển và hải đảo nước ta phải đươc khai thác tổng hợp vì",
+  "Answer": [{"content": "Đảm bảo việc khai thác hợp lí, có hiệu quả đối với các nguồn tài nguyên biển và hải đảo.", "isTrue":  true},{"content": "Nhằm khai thác triệt để các nguồn lợi biển và hải đảo làm cơ sở cho sự phát triển các ngành kinh tế biến.", "isTrue":  false},{"content": "Môi trường biển và hải đảo đang bị suy thoái và ô nhiễm nghiêm trọng.", "isTrue":  false},{"content": "Để giải quyết việc làm, tăng nguồn thu nhập cho lực lượng lao động trong cả nước.", "isTrue":  false}]
+ },
+ {
+  "Question": "Loại tài nguyên mới khai thác gần đây nhưng có giá trị rất lớn trên vùng biển và thềm lục địa nước ta là:",
+  "Answer": [{"content": "dầu khí.", "isTrue":  true},{"content": "cát thủy tinh.", "isTrue":  false},{"content": "muối biển.", "isTrue":  false},{"content": "hải sản.", "isTrue":  false}]
+ },
+ {
+  "Question": "Lịch sử hình thành và phát triển lãnh thổ nước ta bao gồm mấy giai đoạn?",
+  "Answer": [{"content": "3", "isTrue":  true},{"content": "2", "isTrue":  false},{"content": "4", "isTrue":  false},{"content": "5", "isTrue":  false}]
+ },
+ {
+  "Question": "Lịch sử hình thành và phát triển lãnh thổ nước ta bao gồm những giai đoạn nào dưới đây?",
+  "Answer": [{"content": "Tiền Cambri, Cổ kiến tạo và tân kiến tạo.", "isTrue":  true},{"content": "Tiền Cambri, cổ kiến tạo và đại trung sinh.", "isTrue":  false},{"content": "Cổ kiến tạo, tân kiến tạo và đại trung sinh.", "isTrue":  false},{"content": "Tân kiến tạo, Tiền Cambri và đại trung sinh.", "isTrue":  false}]
+ },
+ {
+  "Question": "Giai đoạn cổ nhất, kéo dài nhất nước ta là giai đoạn nào dưới đây?",
+  "Answer": [{"content": "Tiền Cambri.", "isTrue":  true},{"content": "Cổ kiến tạo.", "isTrue":  false},{"content": "Đại trung sinh.", "isTrue":  false},{"content": "Tân kiến tạo.", "isTrue":  false}]
+ },
+ {
+  "Question": "Dấu vết còn sót lại của giai đoạn Tiền Cambri ở nước ta là",
+  "Answer": [{"content": "Dãy Hoàng Liên Sơn, Kon Tum.", "isTrue":  true},{"content": "Dãy Bạch Mã, Kon Tum.", "isTrue":  false},{"content": "Khối nền cổ Kon tum, Nam Bộ.", "isTrue":  false},{"content": "Nam Bộ, Hoàng Liên Sơn.", "isTrue":  false}]
+ },
+ {
+  "Question": "Giai đoạn Tiền Cambri kéo dài ở nước ta khoảng",
+  "Answer": [{"content": "2,5 tỉ năm.", "isTrue":  true},{"content": "1,5 tỉ năm.", "isTrue":  false},{"content": "2 tỉ năm.", "isTrue":  false},{"content": "3 tỉ năm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Chứng cứ cho thấy lãnh thổ nước ta được hình thành trong giai đoạn Tiền Cambri là",
+  "Answer": [{"content": "", "isTrue":  true},{"content": "", "isTrue":  false},{"content": "", "isTrue":  false},{"content": "", "isTrue":  false}]
+ },
+ {
+  "Question": "Đá biến chất có tuổi 2,3 tỉ năm được tìm thấy ở Kon Tum.",
+  "Answer": [{"content": "Đá biến chất có tuổi 2,3 tỉ năm được tìm thấy ở Kon Tum.", "isTrue":  true},{"content": "Sự có mặt của các hoá thạch san hô ở nhiều nơi.", "isTrue":  false},{"content": "Sự có mặt của các hoá thạch than ở nhiều nơi.", "isTrue":  false},{"content": "Các đá trầm tích biển phân bố rộng khắp trên cả nước.", "isTrue":  false}]
+ },
+ {
+  "Question": "Giai đoạn Tiền Cambri kết thúc ở nước ta cách đây",
+  "Answer": [{"content": "542 năm.", "isTrue":  true},{"content": "425 năm.", "isTrue":  false},{"content": "524 năm.", "isTrue":  false},{"content": "452 năm.", "isTrue":  false}]
+ },
+ {
+  "Question": "Giai đoạn Tiền Cambri chỉ diễn ra trong một phạm vi hẹp trên phần lãnh thổ nước ta hiện nay, đó là khu vực nào dưới đây?",
+  "Answer": [{"content": "Hoàng Liên Sơn, Trung Trung Bộ.", "isTrue":  true},{"content": "Hoàng Liên Sơn, Bắc Trung Bộ.", "isTrue":  false},{"content": "Khối nền cổ Kon Tum, Nam Bộ.", "isTrue":  false},{"content": "Trung Trung Bộ, Đông Bắc Bộ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Ở Việt Nam, giai đoạn Tiền Cambri được xem là",
+  "Answer": [{"content": "giai đoạn hình thành nền móng ban đầu của lãnh thổ.", "isTrue":  true},{"content": "giai đoạn hình thành nên lãnh thổ nước ta bây giời.", "isTrue":  false},{"content": "giai đoạn đầu và cuối cùng hình thành nên lãnh thổ.", "isTrue":  false},{"content": "giai đoạn tạo nên nền móng vững chắc cho lãnh thổ.", "isTrue":  false}]
+ },
+ {
+  "Question": "Các nghiên cứu địa chất mới nhất xác định Trái Đất được hình thành từ cách đây"
+ }
+]

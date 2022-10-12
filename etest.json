@@ -1,0 +1,754 @@
+[
+ {
+  "Question": "Mark the letter A, B, C or D on your answer sheet to indicate the word whose underlined part differs from the other three in pronunciation in each of the following questions.",
+  "Answer": [{"content": "come", "isTrue": true},{"content": "hole", "isTrue": false},{"content": "home", "isTrue": false},{"content": "hold", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C or D on your answer sheet to indicate the word whose underlined part differs from the other three in pronunciation in each of the following questions.",
+  "Answer": [{"content": "cleaned", "isTrue": true},{"content": "watched", "isTrue": false},{"content": "picked", "isTrue": false},{"content": "liked", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C or D on your answer sheet to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "manage ", "isTrue": true},{"content": "admit ", "isTrue": false},{"content": "suggest", "isTrue": false},{"content": "remind", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C or D on your answer sheet to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "approval", "isTrue": true},{"content": "applicant", "isTrue": false},{"content": "energy", "isTrue": false},{"content": "influence ", "isTrue": false}]
+ },
+ {
+  "Question": ": More and more investors are pouring ________ money into food and beverage start–ups.",
+  "Answer": [{"content": "Ø", "isTrue": true},{"content": "the", "isTrue": false},{"content": "a", "isTrue": false},{"content": "an", "isTrue": false}]
+ },
+ {
+  "Question": "Do you think there _____ less conflict in the world if all people spoke the same language?",
+  "Answer": [{"content": "would be", "isTrue": true},{"content": "were", "isTrue": false},{"content": "will be", "isTrue": false},{"content": "are", "isTrue": false}]
+ },
+ {
+  "Question": "Linda rarely goes to school by bike, but today she ______ a bike.",
+  "Answer": [{"content": "is riding ", "isTrue": true},{"content": "rides", "isTrue": false},{"content": "is going to ride", "isTrue": false},{"content": "will ride", "isTrue": false}]
+ },
+ {
+  "Question": "John has worked very late at night these days, ______ he is physically exhausted.",
+  "Answer": [{"content": "so", "isTrue": true},{"content": "yet ", "isTrue": false},{"content": "hence ", "isTrue": false},{"content": "because", "isTrue": false}]
+ },
+ {
+  "Question": "I agree ______ one point with Chris: it will be hard for us to walk 80km.",
+  "Answer": [{"content": "on", "isTrue": true},{"content": "in", "isTrue": false},{"content": "of", "isTrue": false},{"content": "for", "isTrue": false}]
+ },
+ {
+  "Question": "____________________, the ancient place is still popular with modern tourists.",
+  "Answer": [{"content": "Built thousands of years ago", "isTrue": true},{"content": "Building thousands of years ago ", "isTrue": false},{"content": "It was built thousands of years ago ", "isTrue": false},{"content": "To have built thousands of years ago ", "isTrue": false}]
+ },
+ {
+  "Question": "Once ___________ in the UK, the book will definitely win a number of awards in regional book fairs.",
+  "Answer": [{"content": "published ", "isTrue": true},{"content": "is published ", "isTrue": false},{"content": "having published ", "isTrue": false},{"content": "publishing", "isTrue": false}]
+ },
+ {
+  "Question": "Your hair needs _______. You’d better have it done tomorrow. ",
+  "Answer": [{"content": "cutting ", "isTrue": true},{"content": "cut", "isTrue": false},{"content": "to cut", "isTrue": false},{"content": "being cut", "isTrue": false}]
+ },
+ {
+  "Question": "He was pleased that things were going on _______.",
+  "Answer": [{"content": "satisfactorily", "isTrue": true},{"content": "satisfied", "isTrue": false},{"content": "satisfying", "isTrue": false},{"content": "satisfaction", "isTrue": false}]
+ },
+ {
+  "Question": "Although our opinions on many things ______, we still maintain a good relationship with each other.",
+  "Answer": [{"content": "differ ", "isTrue": true},{"content": "receive", "isTrue": false},{"content": "maintain", "isTrue": false},{"content": "separate ", "isTrue": false}]
+ },
+ {
+  "Question": "Daniel ______ a better understanding of Algebra than we do.",
+  "Answer": [{"content": "has ", "isTrue": true},{"content": "makes", "isTrue": false},{"content": "takes", "isTrue": false},{"content": "gives", "isTrue": false}]
+ },
+ {
+  "Question": "The pointless war between the two countries left thousands of people dead and seriously _______.",
+  "Answer": [{"content": "wounded ", "isTrue": true},{"content": "injured", "isTrue": false},{"content": "spoilt", "isTrue": false},{"content": "damaged", "isTrue": false}]
+ },
+ {
+  "Question": "Eager to be able to discuss my work _____ in French, I hired a tutor to help polish my language skills.",
+  "Answer": [{"content": "articulately ", "isTrue": true},{"content": "expressively", "isTrue": false},{"content": "ambiguously", "isTrue": false},{"content": "understandably", "isTrue": false}]
+ },
+ {
+  "Question": "The sight of his pale face brought ________ to me how ill he really was.",
+  "Answer": [{"content": "home ", "isTrue": true},{"content": "place", "isTrue": false},{"content": "house", "isTrue": false},{"content": "life", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the Letter A, B, C, or D on your answer sheet to indicate the word(s) OPPOSITE in meaning to the underlined word(s) in each of the following questions. In a study, more Asian students than American students hold a belief that a husband is obliged to tell his wife his whereabouts if he comes home late. ",
+  "Answer": [{"content": "free", "isTrue": true},{"content": "urged", "isTrue": false},{"content": "required", "isTrue": false},{"content": "suggested", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the Letter A, B, C, or D on your answer sheet to indicate the word(s) OPPOSITE in meaning to the underlined word(s) in each of the following questions.Though I persuaded my boss to solve a very serious problem in the new management system, he just made light of it. ",
+  "Answer": [{"content": "treated as important ", "isTrue": true},{"content": "completely ignored", "isTrue": false},{"content": "disagreed with", "isTrue": false},{"content": "discovered by chance", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the Letter A, B, C, or D on your answer sheet to indicate the word(s) CLOSEST in meaning to the underlined word(s) in each of the following questions.Students from that university have conducted a survey to find out the most effective study habit. ",
+  "Answer": [{"content": "organized ", "isTrue": true},{"content": "delayed ", "isTrue": false},{"content": "encouraged ", "isTrue": false},{"content": "proposed ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the Letter A, B, C, or D on your answer sheet to indicate the word(s) CLOSEST in meaning to the underlined word(s) in each of the following questions.Some operations may have to be halted unless more blood donors come forward to help. ",
+  "Answer": [{"content": "offer", "isTrue": true},{"content": "claim ", "isTrue": false},{"content": "attempt", "isTrue": false},{"content": "refuse", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D on your answer sheet to indicate the most suitable response to complete each of the following exchanges.Bill is talking to his colleague. Bill: “_________, Jack?” – Jack: “Fine! I have just got a promotion.” ",
+  "Answer": [{"content": "How are you doing ", "isTrue": true},{"content": "What happened", "isTrue": false},{"content": "What are you doing ", "isTrue": false},{"content": "How come", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D on your answer sheet to indicate the most suitable response to complete each of the following exchanges.",
+  "Answer": [{"content": "Sorry, the seat is taken. ", "isTrue": true},{"content": "No, thanks. ", "isTrue": false},{"content": "Yes, I am so glad", "isTrue": false},{"content": "Yes, yes. You can sit here. ", "isTrue": false}]
+ },
+ {
+  "Question": "the sentence that is closest in meaning to each of the following questions. “I agree that I am narrow–minded,” said the manager.",
+  "Answer": [{"content": "The manager admitted being narrow–minded. ", "isTrue": true},{"content": "The manager denied being narrow–minded. ", "isTrue": false},{"content": "The manager refused to be narrow–minded. ", "isTrue": false},{"content": "The manager promised to be narrow–minded. ", "isTrue": false}]
+ },
+ {
+  "Question": "the sentence that is closest in meaning to each of the following questions. A supermarket is more convenient than a shopping centre. ",
+  "Answer": [{"content": "A shopping centre is not as convenient as a supermarket. ", "isTrue": true},{"content": "A shopping centre is more convenient than a supermarket. ", "isTrue": false},{"content": "A supermarket is not as convenient as a shopping centre.", "isTrue": false},{"content": "A supermarket is as inconvenient as a shopping centre. ", "isTrue": false}]
+ },
+ {
+  "Question": "the sentence that is closest in meaning to each of the following questions.It was a mistake for Tony to buy that house. ",
+  "Answer": [{"content": "Tony shouldn’t have bought that house. ", "isTrue": true},{"content": "Tony couldn’t have bought that house. ", "isTrue": false},{"content": "Tony can’t have bought that house. ", "isTrue": false},{"content": "Tony needn’t have bought that house. ", "isTrue": false}]
+ },
+ {
+  "Question": "the sentence that best combines each pair of sentences in the following questions. Julian dropped out of college after his first year. Now he regrets it. ",
+  "Answer": [{"content": "If only Julian hadn’t dropped out of college after his first year. ", "isTrue": true},{"content": "Julian regrets not having dropped out of college after his first year. ", "isTrue": false},{"content": "Julian wishes he didn’t drop out of college after his first year. ", "isTrue": false},{"content": "Only if Julian had dropped out of college after his first year would he not regret it. ", "isTrue": false}]
+ },
+ {
+  "Question": "the sentence that best combines each pair of sentences in the following questions.Seth informed us of his retirement from the company. He did it when arriving at the meeting. ",
+  "Answer": [{"content": "No sooner had Seth arrived at the meeting than we were told about his leaving the company.", "isTrue": true},{"content": ". Only after his retiring from the company did Seth tell us about his arrival at the meeting. ", "isTrue": false},{"content": "Hardly had Seth notified us of his retiring from the company when he arrived at the meeting. ", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Question": "The word whose underlined part differs from the other three in pronunciation in each of the following questions. ",
+  "Answer": [{"content": "pressure ", "isTrue": true},{"content": "future ", "isTrue": false},{"content": "enthusiasm", "isTrue": false},{"content": "resume", "isTrue": false}]
+ },
+ {
+  "Question": "The word whose underlined part differs from the other three in pronunciation in each of the following questions.",
+  "Answer": [{"content": "wanted ", "isTrue": true},{"content": "tried ", "isTrue": false},{"content": "smiled", "isTrue": false},{"content": "played", "isTrue": false}]
+ },
+ {
+  "Question": "the word that differs from the other three in each position of primary stress in each of the following questions.",
+  "Answer": [{"content": "horizon ", "isTrue": true},{"content": "critical ", "isTrue": false},{"content": "motivate ", "isTrue": false},{"content": "dominant", "isTrue": false}]
+ },
+ {
+  "Question": "the word that differs from the other three in each position of primary stress in each of the following questions.",
+  "Answer": [{"content": "wonder ", "isTrue": true},{"content": "mistake ", "isTrue": false},{"content": "unite", "isTrue": false},{"content": "behave", "isTrue": false}]
+ },
+ {
+  "Question": "The word or phrase that is CLOSET in meaning to the underlined part in each of the following questions. The company will only employ competent engineers, so they want to see evidence of their work as well the references from previous employers. ",
+  "Answer": [{"content": "proficient ", "isTrue": true},{"content": "ambitious", "isTrue": false},{"content": "unqualified", "isTrue": false},{"content": "inconvenient", "isTrue": false}]
+ },
+ {
+  "Question": "The word or phrase that is CLOSET in meaning to the underlined part in each of the following questions.The protesters were angry with the council’s plan to do away with a lovely old building and put a car park there instead. ",
+  "Answer": [{"content": "destroy ", "isTrue": true},{"content": "replace", "isTrue": false},{"content": "remain", "isTrue": false},{"content": "keep", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in each of the following questions. ",
+  "Answer": [{"content": "frequent ", "isTrue": true},{"content": "unusual ", "isTrue": false},{"content": "extraordinary", "isTrue": false},{"content": "rare", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in each of the following questions.",
+  "Answer": [{"content": "compulsory ", "isTrue": true},{"content": "acceptable ", "isTrue": false},{"content": "uncomfortable ", "isTrue": false},{"content": "voluntary ", "isTrue": false}]
+ },
+ {
+  "Question": ". His clothes are in a mess because he ______ the house all morning. ",
+  "Answer": [{"content": "has been painting ", "isTrue": true},{"content": "will be painting", "isTrue": false},{"content": "will have painted", "isTrue": false},{"content": "had been painting", "isTrue": false}]
+ },
+ {
+  "Question": "If you follow my direction, you _______ her house easily.",
+  "Answer": [{"content": " will find", "isTrue": true},{"content": "would have found", "isTrue": false},{"content": "found", "isTrue": false},{"content": "would find", "isTrue": false}]
+ },
+ {
+  "Question": "Backpacking is best suited for those who are in good physical condition _______.",
+  "Answer": [{"content": "as it may require walking several miles", "isTrue": true},{"content": "so as not to require walking several miles", "isTrue": false},{"content": "so as not to require walking several miles", "isTrue": false},{"content": ". without being required to walk several miles", "isTrue": false}]
+ },
+ {
+  "Question": "I’m sorry. I didn’t mean to _______ your feelings when I said such a thing.",
+  "Answer": [{"content": "hurt", "isTrue": true},{"content": " injure", "isTrue": false},{"content": "destroy", "isTrue": false},{"content": "break", "isTrue": false}]
+ },
+ {
+  "Question": "Laura came to _______ me for taking care of her dog when she was away.",
+  "Answer": [{"content": " thank", "isTrue": true},{"content": "thankfully", "isTrue": false},{"content": "thankful", "isTrue": false},{"content": "thankfulness", "isTrue": false}]
+ },
+ {
+  "Question": "The aroma of freshly baked bread in the morning has always _______ memories of this childhood home.",
+  "Answer": [{"content": "evoked", "isTrue": true},{"content": "instilled", "isTrue": false},{"content": "reminisced", "isTrue": false},{"content": "incited", "isTrue": false}]
+ },
+ {
+  "Question": "Schoolchildren shouldn’t make fun of those who are intellectually _______ to them.",
+  "Answer": [{"content": "inferior", "isTrue": true},{"content": "essential", "isTrue": false},{"content": "familiar", "isTrue": false},{"content": "responsible", "isTrue": false}]
+ },
+ {
+  "Question": "The film was so intriguing that the audience were all _______ to the sceen until the end.",
+  "Answer": [{"content": "glued", "isTrue": true},{"content": "stuck", "isTrue": false},{"content": "hooked", "isTrue": false},{"content": "attached", "isTrue": false}]
+ },
+ {
+  "Question": "My uncle tries to spend time playing with his children _______ he is very busy.",
+  "Answer": [{"content": "although", "isTrue": true},{"content": "despite", "isTrue": false},{"content": "because of", "isTrue": false},{"content": "moreover", "isTrue": false}]
+ },
+ {
+  "Question": "Linda took great photos of butterflies while she _______ in the forest.",
+  "Answer": [{"content": "was hiking", "isTrue": true},{"content": "is hiking", "isTrue": false},{"content": "hiked", "isTrue": false},{"content": "had hiked", "isTrue": false}]
+ },
+ {
+  "Question": "The children are highly excited _______ the coming holiday.",
+  "Answer": [{"content": "about", "isTrue": true},{"content": "for", "isTrue": false},{"content": "to", "isTrue": false},{"content": "with", "isTrue": false}]
+ },
+ {
+  "Question": "A key component of Industry 4.0 is the Internet of Things characterised by the connections of all mobile _______",
+  "Answer": [{"content": "devices", "isTrue": true},{"content": "accessories", "isTrue": false},{"content": "utensils", "isTrue": false},{"content": "vehicles", "isTrue": false}]
+ },
+ {
+  "Question": "Joseph would never forget _______ by his boss through no fault of his own.",
+  "Answer": [{"content": "being criticised", "isTrue": true},{"content": "to criticise", "isTrue": false},{"content": "to be criticised", "isTrue": false},{"content": "criticising", "isTrue": false}]
+ },
+ {
+  "Question": "Once _______ with ufficient information, the freshmen will feel more confident to start the new course",
+  "Answer": [{"content": "provided", "isTrue": true},{"content": "having provided", "isTrue": false},{"content": "are provided", "isTrue": false},{"content": "providing", "isTrue": false}]
+ },
+ {
+  "Question": "John is _______ most hard-working student I’ve ever know.",
+  "Answer": [{"content": "the", "isTrue": true},{"content": "a", "isTrue": false},{"content": "an", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Question": "Linda and Peter are talking about safe drving.- Linda: “I think drinking-driving should be severly punished.”- Peter: “_______. It may cause accidents or even deaths.”",
+  "Answer": [{"content": "I absolutely agree with you", "isTrue": true},{"content": "You must be kidding", "isTrue": false},{"content": "I don’t understand what you mean", "isTrue": false},{"content": "I don’t think so", "isTrue": false}]
+ },
+ {
+  "Question": ": A porter is talking to Mary in the hotel lobby.- Porter: “May I help you with your suitcase?”- Mary: “_______”",
+  "Answer": [{"content": "Yes, please.", "isTrue": true},{"content": "What a shame!", "isTrue": false},{"content": "You are welcome.", "isTrue": false},{"content": "Me too.", "isTrue": false}]
+ },
+ {
+  "Question": "choose the answer to indicate the word whose underlined part that differs from the other three in the pronunciation in each of the following questions.",
+  "Answer": [{"content": "learn", "isTrue": true},{"content": " speak", "isTrue": false},{"content": "leave", "isTrue": false},{"content": "teach", "isTrue": false}]
+ },
+ {
+  "Question": "choose the answer to indicate the word whose underlined part that differs from the other three in the pronunciation in each of the following questions.",
+  "Answer": [{"content": "discussed", "isTrue": true},{"content": "followed", "isTrue": false},{"content": "performed", "isTrue": false},{"content": "cancelled", "isTrue": false}]
+ },
+ {
+  "Question": "choose the answer to indicate the word whose underlined part that differs from the other three in the pronunciation in each of the following questions.",
+  "Answer": [{"content": "terrific", "isTrue": true},{"content": "chemical", "isTrue": false},{"content": "general", "isTrue": false},{"content": "beautiful", "isTrue": false}]
+ },
+ {
+  "Question": "choose the answer to indicate the word whose underlined part that differs from the other three in the pronunciation in each of the following questions.For a fruitful dicission, the chairman should make sure that every member is at liberty to voice their opinons.",
+  "Answer": [{"content": " listen", "isTrue": true},{"content": "provide", "isTrue": false},{"content": " repeat", "isTrue": false},{"content": "collect", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in each of the following questions.",
+  "Answer": [{"content": "having no freedom", "isTrue": true},{"content": "having no restriction", "isTrue": false},{"content": "getting approval", "isTrue": false},{"content": "getting satisfaction", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in each of the following questions.",
+  "Answer": [{"content": "clear", "isTrue": true},{"content": "quick", "isTrue": false},{"content": "poor", "isTrue": false},{"content": "vague", "isTrue": false}]
+ },
+ {
+  "Question": "The word or phrase that is CLOSET in meaning to the underlined part in each of the following questions.Many experts support the view that children should start learning English as early as possible",
+  "Answer": [{"content": "opinion", "isTrue": true},{"content": "reason", "isTrue": false},{"content": "reaction", "isTrue": false},{"content": "problem", "isTrue": false}]
+ },
+ {
+  "Question": "The word or phrase that is CLOSET in meaning to the underlined part in each of the following questions.The young singer’s career took off after her latest album topped the charts.",
+  "Answer": [{"content": "became successful", "isTrue": true},{"content": "remained unchanged", "isTrue": false},{"content": "ended in failure", "isTrue": false},{"content": "went unnoticed", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter  to indicate underlined part that needs correction in below questions.Our grandfather, who had an excellent memory when young, has become very forgettable in recent years due to his old age.",
+  "Answer": [{"content": "forgettable", "isTrue": true},{"content": " excellent ", "isTrue": false},{"content": "when young", "isTrue": false},{"content": "old age", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter  to indicate underlined part that needs correction in below questions.With his important contributions, Albert Einstein considered one of the greatest physicists of all time.",
+  "Answer": [{"content": "considered ", "isTrue": true},{"content": "important", "isTrue": false},{"content": "With", "isTrue": false},{"content": "greatest", "isTrue": false}]
+ },
+ {
+  "Question": " Mark the letter  to indicate underlined part that needs correction in below questions.Jack cycles usually to work to avoid traffic jams at rush hour.",
+  "Answer": [{"content": "cycles usually ", "isTrue": true},{"content": "avoid ", "isTrue": false},{"content": "jams", "isTrue": false},{"content": "rush hour.", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation in below questions.",
+  "Answer": [{"content": "accepts ", "isTrue": true},{"content": "attends ", "isTrue": false},{"content": "appears ", "isTrue": false},{"content": "complains ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation in below questions.",
+  "Answer": [{"content": "gift ", "isTrue": true},{"content": "mile ", "isTrue": false},{"content": "mile ", "isTrue": false},{"content": "light", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "marry", "isTrue": true},{"content": "respect", "isTrue": false},{"content": "depend ", "isTrue": false},{"content": "predict ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "fantastic ", "isTrue": true},{"content": "powerful ", "isTrue": false},{"content": "sensitive", "isTrue": false},{"content": "personal ", "isTrue": false}]
+ },
+ {
+  "Question": "The view is great, _______? ",
+  "Answer": [{"content": "isn't it ", "isTrue": true},{"content": "was it ", "isTrue": false},{"content": "doesn't it ", "isTrue": false},{"content": "did it ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark hopes _______ a small part in the school play. ",
+  "Answer": [{"content": "to get ", "isTrue": true},{"content": "getting", "isTrue": false},{"content": "get ", "isTrue": false},{"content": "got", "isTrue": false}]
+ },
+ {
+  "Question": "If I _______ just one year younger, I would be eligible for the scholarship. ",
+  "Answer": [{"content": "were ", "isTrue": true},{"content": "would be ", "isTrue": false},{"content": "will be ", "isTrue": false},{"content": "am ", "isTrue": false}]
+ },
+ {
+  "Question": "His health has improved a lot since he ________ doing regular exercise. ",
+  "Answer": [{"content": "started ", "isTrue": true},{"content": " starts ", "isTrue": false},{"content": "has started ", "isTrue": false},{"content": "had started ", "isTrue": false}]
+ },
+ {
+  "Question": "Parents shouldn't use physical punishment ___ it negatively influences children's development. ",
+  "Answer": [{"content": "because ", "isTrue": true},{"content": "because of ", "isTrue": false},{"content": "although ", "isTrue": false},{"content": "in spite of", "isTrue": false}]
+ },
+ {
+  "Question": "We'll send you an email of confirmation _________. ",
+  "Answer": [{"content": "as soon as we have made our final decision ", "isTrue": true},{"content": "after we had made our final decision ", "isTrue": false},{"content": "before we made our final decision ", "isTrue": false},{"content": "while we were making our final decision ", "isTrue": false}]
+ },
+ {
+  "Question": "You should book _______ advance because the restaurant is very popular in the area.",
+  "Answer": [{"content": "in", "isTrue": true},{"content": "on ", "isTrue": false},{"content": "by ", "isTrue": false},{"content": "with ", "isTrue": false}]
+ },
+ {
+  "Question": "Tommy is on the way to his friend's birthday party, carrying a gift box _____ colourful paper. ",
+  "Answer": [{"content": "nicely wrapped ", "isTrue": true},{"content": "were nicely wrapped ", "isTrue": false},{"content": "having wrapped nicely ", "isTrue": false},{"content": "nicely wrapping ", "isTrue": false}]
+ },
+ {
+  "Question": "Many twelfth graders find it hard to _______ what university to apply to.",
+  "Answer": [{"content": "decide ", "isTrue": true},{"content": "decision ", "isTrue": false},{"content": "decisive ", "isTrue": false},{"content": "decisively ", "isTrue": false}]
+ },
+ {
+  "Question": "He is disappointed at not winning the competition, but he will soon _______ it. ",
+  "Answer": [{"content": "get over ", "isTrue": true},{"content": "take after ", "isTrue": false},{"content": "look after ", "isTrue": false},{"content": "go over ", "isTrue": false}]
+ },
+ {
+  "Question": "The government has _______ every effort to stop the rapid spread of COVID-19. ",
+  "Answer": [{"content": "made ", "isTrue": true},{"content": "done", "isTrue": false},{"content": "created ", "isTrue": false},{"content": "brought ", "isTrue": false}]
+ },
+ {
+  "Question": "Making chicken soup is not difficult; it's just a matter of following the ______. ",
+  "Answer": [{"content": "recipe ", "isTrue": true},{"content": "spices", "isTrue": false},{"content": "design ", "isTrue": false},{"content": "ingredients", "isTrue": false}]
+ },
+ {
+  "Question": "After his miraculous recovery from the stroke, the man spent the ______ of his life travelling and doing charity work. ",
+  "Answer": [{"content": "remainder ", "isTrue": true},{"content": "abundance", "isTrue": false},{"content": "legacy ", "isTrue": false},{"content": "excess ", "isTrue": false}]
+ },
+ {
+  "Question": "Despite our careful planning, the whole surprise party was a ______ of accidents. ",
+  "Answer": [{"content": "chapter ", "isTrue": true},{"content": "volume", "isTrue": false},{"content": "verse ", "isTrue": false},{"content": "page ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word(s) CLOSEST in meaning to the underlined word(s) in each of the below questions.Laura handled the vase with great care for fear of breaking it. ",
+  "Answer": [{"content": "attention ", "isTrue": true},{"content": "success", "isTrue": false},{"content": "comfort", "isTrue": false},{"content": "strength ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word(s) CLOSEST in meaning to the underlined word(s) in each of the below questions.It is considered wise to keep silent when one is angry because saying anything then may make matters worse. ",
+  "Answer": [{"content": "sensible ", "isTrue": true},{"content": "generous ", "isTrue": false},{"content": "modest ", "isTrue": false},{"content": "careless ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word(s) OPPOSITE in meaning to the underlined word(s) in each of the following questions.",
+  "Answer": [{"content": "avoid ", "isTrue": true},{"content": "receive", "isTrue": false},{"content": "prevent ", "isTrue": false},{"content": "carry ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word(s) OPPOSITE in meaning to the underlined word(s) in each of the following questions.The athlete's bitter defeat in the match dealt a blow to his hopes of defending his title at the championship. ",
+  "Answer": [{"content": "raised ", "isTrue": true},{"content": "destroyed", "isTrue": false},{"content": "expressed ", "isTrue": false},{"content": "weakened ", "isTrue": false}]
+ },
+ {
+  "Question": ": David is talking to Lucy about her painting.- David: “What a beautiful painting!”- Lucy: “_________.” ",
+  "Answer": [{"content": "I'm glad you like it ", "isTrue": true},{"content": "No problem ", "isTrue": false},{"content": "It's on the wall ", "isTrue": false},{"content": "You're welcome ", "isTrue": false}]
+ },
+ {
+  "Question": "Peter and Dane are talking about environmental protection.- Peter: “We should limit the use of plastic bags.”- Dane: “________. We can use paper bags instead.” ",
+  "Answer": [{"content": "I completely agree ", "isTrue": true},{"content": "It's not true ", "isTrue": false},{"content": "I don't quite agree ", "isTrue": false},{"content": "You're wrong ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the underlined part that needs correction in each of the following questions.Maths were one of his favourite subjects when he was at primary school. ",
+  "Answer": [{"content": "were ", "isTrue": true},{"content": "his ", "isTrue": false},{"content": "subjects ", "isTrue": false},{"content": "at ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the underlined part that needs correction in each of the following questions.Daisy enjoys going shopping, playing sports, and to hang out with friends in her free time.  ",
+  "Answer": [{"content": "to hang out ", "isTrue": true},{"content": "enjoys", "isTrue": false},{"content": "playing", "isTrue": false},{"content": "in", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the underlined part that needs correction in each of the following questions.It was inconsiderable of him not to call home and let his parents know he wouldn't come back until the next day. ",
+  "Answer": [{"content": "inconsiderable ", "isTrue": true},{"content": "not to call ", "isTrue": false},{"content": "wouldn't ", "isTrue": false},{"content": "until ", "isTrue": false}]
+ },
+ {
+  "Question": "Joe is more hard-working than his brother. ",
+  "Answer": [{"content": "Joe's brother is not as hard-working as he is. ", "isTrue": true},{"content": ". Joe is less hard-working than his brother. ", "isTrue": false},{"content": "Joe is not as hard-working as his brother. ", "isTrue": false},{"content": "Joe's brother is more hard-working than he is. ", "isTrue": false}]
+ },
+ {
+  "Question": "“You'd better stay at home during this time,” he said to Lan.",
+  "Answer": [{"content": "He advised Lan to stay at home during that time. ", "isTrue": true},{"content": "He ordered Lan to stay at home during that time. ", "isTrue": false},{"content": "He warned Lan against staying at home during that time. ", "isTrue": false},{"content": "He thanked Lan for staying at home during that time. ", "isTrue": false}]
+ },
+ {
+  "Question": "You are not allowed to take photos in the museum. ",
+  "Answer": [{"content": "You mustn't take photos in the museum. ", "isTrue": true},{"content": "You may take photos in the museum. ", "isTrue": false},{"content": "You should take photos in the museum. ", "isTrue": false},{"content": "You needn't take photos in the museum. ", "isTrue": false}]
+ },
+ {
+  "Question": "The film is not perfect. Its abrupt ending spoils it. ",
+  "Answer": [{"content": "But for its abrupt ending, the film would be perfect. ", "isTrue": true},{"content": "The film would be perfect if it ended abruptly. ", "isTrue": false},{"content": "Provided the film ended abruptly, it would not be perfect. ", "isTrue": false},{"content": "Unless the film ends abruptly, it won't be perfect. ", "isTrue": false}]
+ },
+ {
+  "Question": "Olga handed in her exam paper. She then realised that she had missed one question. ",
+  "Answer": [{"content": "Not until Olga had handed in her exam paper did she realise that she had missed one question. ", "isTrue": true},{"content": ". Having realised that she had missed one question, Olga handed in her exam paper. ", "isTrue": false},{"content": "Had Olga realised that she had missed one question, she wouldn't hand in her exam paper. ", "isTrue": false},{"content": "Only after Olga realised that she had missed one question did she hand in her exam paper. ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation in each of the following questions.",
+  "Answer": [{"content": "books ", "isTrue": true},{"content": "dreams ", "isTrue": false},{"content": "falls ", "isTrue": false},{"content": "builds", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation in each of the following questions.",
+  "Answer": [{"content": " pick ", "isTrue": true},{"content": "climb", "isTrue": false},{"content": "mind ", "isTrue": false},{"content": "line", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "correct", "isTrue": true},{"content": "final", "isTrue": false},{"content": "heavy", "isTrue": false},{"content": "normal ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "attractive ", "isTrue": true},{"content": "average ", "isTrue": false},{"content": "classical ", "isTrue": false},{"content": "regular ", "isTrue": false}]
+ },
+ {
+  "Question": "The view is really funny, _______? ",
+  "Answer": [{"content": "isn't he ", "isTrue": true},{"content": "was he ", "isTrue": false},{"content": "doesn't he ", "isTrue": false},{"content": "did he ", "isTrue": false}]
+ },
+ {
+  "Question": "You shouldn’t sit in _______ sun for too long.",
+  "Answer": [{"content": "the", "isTrue": true},{"content": "a", "isTrue": false},{"content": "an", "isTrue": false},{"content": "no article", "isTrue": false}]
+ },
+ {
+  "Question": "There were lots of black clouds _______ the sky just before the storm.",
+  "Answer": [{"content": "in", "isTrue": true},{"content": "above ", "isTrue": false},{"content": "at ", "isTrue": false},{"content": "on ", "isTrue": false}]
+ },
+ {
+  "Question": "One effective way to lose weight is to avoid ________ between meals",
+  "Answer": [{"content": "eating ", "isTrue": true},{"content": "to eat ", "isTrue": false},{"content": "eat ", "isTrue": false},{"content": "eaten", "isTrue": false}]
+ },
+ {
+  "Question": "If my father ________ here now, he would help me fix my bicycle.",
+  "Answer": [{"content": "were ", "isTrue": true},{"content": "is", "isTrue": false},{"content": "will be ", "isTrue": false},{"content": "would be ", "isTrue": false}]
+ },
+ {
+  "Question": "I have made a lot of new friends since my family _________ here. ",
+  "Answer": [{"content": "moved", "isTrue": true},{"content": "move ", "isTrue": false},{"content": "will move ", "isTrue": false},{"content": "was moving ", "isTrue": false}]
+ },
+ {
+  "Question": "It’s really important to have a true friendship _______ it makes your life more meaningful.",
+  "Answer": [{"content": "because ", "isTrue": true},{"content": "in spite of ", "isTrue": false},{"content": "although ", "isTrue": false},{"content": "because of ", "isTrue": false}]
+ },
+ {
+  "Question": "I will come and see you _________.",
+  "Answer": [{"content": "as soon as I have finished my homework ", "isTrue": true},{"content": "when I was finishing my home work ", "isTrue": false},{"content": "until I finished my homework ", "isTrue": false},{"content": "after I had finished my homework ", "isTrue": false}]
+ },
+ {
+  "Question": "My lifelong dream is to live in a house _______ by a big garden full of flowers and trees.",
+  "Answer": [{"content": "surrounded", "isTrue": true},{"content": "is surrounding ", "isTrue": false},{"content": "surrounding ", "isTrue": false},{"content": "is surrounded ", "isTrue": false}]
+ },
+ {
+  "Question": "A _______ party was prepared to welcome the honoured guests. ",
+  "Answer": [{"content": "special ", "isTrue": true},{"content": "specialise", "isTrue": false},{"content": "specially ", "isTrue": false},{"content": "specialisation ", "isTrue": false}]
+ },
+ {
+  "Question": "Jack _______ his best suit to make a good impression on his future in-laws.",
+  "Answer": [{"content": "put on ", "isTrue": true},{"content": "took off ", "isTrue": false},{"content": "took on", "isTrue": false},{"content": "put off ", "isTrue": false}]
+ },
+ {
+  "Question": "Janice ______ some useful sugggestions for the class extra-curricular activities. ",
+  "Answer": [{"content": "made", "isTrue": true},{"content": "caused", "isTrue": false},{"content": "thought ", "isTrue": false},{"content": "caught", "isTrue": false}]
+ },
+ {
+  "Question": "Kevin enjoyed working with children so much that he decided to pursue a ______ in teaching.",
+  "Answer": [{"content": "career", "isTrue": true},{"content": "task", "isTrue": false},{"content": "duty", "isTrue": false},{"content": "work", "isTrue": false}]
+ },
+ {
+  "Question": "A reduction in the amount of paperwork has been proposed in an attempt to ease the ______ on busy teachers. ",
+  "Answer": [{"content": "pressure ", "isTrue": true},{"content": "power ", "isTrue": false},{"content": "density ", "isTrue": false},{"content": "emphasis", "isTrue": false}]
+ },
+ {
+  "Question": "Having so many hobbies in common, Ted and Nick got on like a(n) ______ on fire.",
+  "Answer": [{"content": " house ", "isTrue": true},{"content": "block", "isTrue": false},{"content": "apartment ", "isTrue": false},{"content": "bungalow", "isTrue": false}]
+ },
+ {
+  "Question": "The word or phrase that is CLOSET in meaning to the underlined part in each of the following questions.The fire brigade responded to the scene instantly upon receiving the emergency all.",
+  "Answer": [{"content": "immediately ", "isTrue": true},{"content": "suddenly ", "isTrue": false},{"content": "early ", "isTrue": false},{"content": "steadily", "isTrue": false}]
+ },
+ {
+  "Question": "The word or phrase that is CLOSET in meaning to the underlined part in each of the following questions.He is a naughty boy who likes teasing and playing tricks on his classmates.",
+  "Answer": [{"content": "mischievou", "isTrue": true},{"content": "guilty ", "isTrue": false},{"content": "anxious ", "isTrue": false},{"content": "adventurous", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in each of the following questions.The students felt more confident to enter the competition thanks to the encouraging words from their teacher",
+  "Answer": [{"content": "negative", "isTrue": true},{"content": " impressive ", "isTrue": false},{"content": "progressive ", "isTrue": false},{"content": "passive", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in each of the following questions.",
+  "Answer": [{"content": "decisive", "isTrue": true},{"content": "decisive", "isTrue": false},{"content": "reluctant", "isTrue": false},{"content": "intentional ", "isTrue": false}]
+ },
+ {
+  "Question": ": Ben is talking to a waiter in a restaurant.- Ben: “Can I have the menu, please?”- Waiter: “_________” ",
+  "Answer": [{"content": "Here you are, sir.", "isTrue": true},{"content": "But I don’t like it. ", "isTrue": false},{"content": "No, I’ll think it over. ", "isTrue": false},{"content": "Enjoy your meal.", "isTrue": false}]
+ },
+ {
+  "Question": ": Laura and Mitchell are talking about online learning.- Laura: “Online learning seems the best solution now.”- Mitchell: “________.It helps students keep learning while schools are closed.” ",
+  "Answer": [{"content": "I quite agree ", "isTrue": true},{"content": "I’m not sure", "isTrue": false},{"content": "You must be kidding", "isTrue": false},{"content": "I don’t think that’s a good idea", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the underlined part that needs correction in each of the following questions.Tom and Jerry are one of my son’s favourite cartoons.",
+  "Answer": [{"content": "are", "isTrue": true},{"content": "of", "isTrue": false},{"content": "son's", "isTrue": false},{"content": "carrtoons", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the underlined part that needs correction in the following question.Doing regular exercise can keep you in shape, improve your health, and reducing stress.",
+  "Answer": [{"content": "reducing", "isTrue": true},{"content": "exercise", "isTrue": false},{"content": "in", "isTrue": false},{"content": "improve ", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the underlined part that needs correction in the following question.TikTok, a very entertained application, has become popular with the young recently.",
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Question": "Jane is less sociable than her sister",
+  "Answer": [{"content": "Jane is not as sociable as her sister.", "isTrue": true},{"content": "Jane is more sociable than her sister", "isTrue": false},{"content": "Jane’s sister is less sociable than she is", "isTrue": false},{"content": "Jane’s sister is not as sociable as she is", "isTrue": false}]
+ },
+ {
+  "Question": "“I went out with my friends last night,” Tim said. ",
+  "Answer": [{"content": "Time said that he had gone out with his friends the previous night.", "isTrue": true},{"content": "Time said that I had gone out with his friends last night.", "isTrue": false},{"content": "Tim said that I would go out with his friends last night.", "isTrue": false},{"content": "Tim said that he went out with my friends the previous night.", "isTrue": false}]
+ },
+ {
+  "Question": " Perhaps we will be late for the meeting. ",
+  "Answer": [{"content": "We may not get to the meeting on time. ", "isTrue": true},{"content": "We must get to the meeting on time. ", "isTrue": false},{"content": "We should get to the meeting on time.", "isTrue": false},{"content": "We needn’t get to the meeting on time. ", "isTrue": false}]
+ },
+ {
+  "Question": "You can use my car. Make sure you bring it back by 7 p.m.",
+  "Answer": [{"content": "You can use my car provided you bring it back by 7 p.m. ", "isTrue": true},{"content": "You can’t use my car in case you forget to bring it back by 7 p.m.", "isTrue": false},{"content": "You can’t use my car if you bring it back by 7 p.m.", "isTrue": false},{"content": "You can use my car unless you bring it back by 7 p.m. ", "isTrue": false}]
+ },
+ {
+  "Question": "The #Trashtag Challenge has had a great influence on people around the world. They have started to clean up their nearby polluted areas. ",
+  "Answer": [{"content": "So influential is the #Trashtag Challenge that people around the world would they start cleaning up their nearby polluted areas.", "isTrue": true},{"content": "Only if the #Trashtag Challenge greatly influenced people around the world have started to clean up their nearby polluted areas.", "isTrue": false},{"content": "Not until people around the world had started cleaning up their nearby polluted areas did the #Trashtag Challenge greatly influence them.", "isTrue": false},{"content": "But for the great influence of the #Trashtag Challenge, people around the world would have started cleaning up their nearby polluted areas.", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation in  the following question",
+  "Answer": [{"content": "belonged", "isTrue": true},{"content": "laughed", "isTrue": false},{"content": "cooked", "isTrue": false},{"content": "thanked", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation in  the following question",
+  "Answer": [{"content": "sour        ", "isTrue": true},{"content": "flour", "isTrue": false},{"content": "hour", "isTrue": false},{"content": "pour", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "attract", "isTrue": true},{"content": "common", "isTrue": false},{"content": "signal", "isTrue": false},{"content": "verbal", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+  "Answer": [{"content": "uncertainty", "isTrue": true},{"content": "understanding", "isTrue": false},{"content": "inorganic", "isTrue": false},{"content": "academic", "isTrue": false}]
+ },
+ {
+  "Question": "Donald Trump is _______president of _______United States",
+  "Answer": [{"content": "theor the", "isTrue": true},{"content": "a or ∅", "isTrue": false},{"content": "the or ∅", "isTrue": false},{"content": "theor an", "isTrue": false}]
+ },
+ {
+  "Question": "If _______, that tree would look more impressive",
+  "Answer": [{"content": "it were done carefully", "isTrue": true},{"content": "it is done carefully", "isTrue": false},{"content": "being done careful", "isTrue": false},{"content": "it were careful done", "isTrue": false}]
+ },
+ {
+  "Question": "By the year 2060, many people currently employed _______the job.",
+  "Answer": [{"content": "will have lost", "isTrue": true},{"content": "have lost", "isTrue": false},{"content": "will be losing", "isTrue": false},{"content": "are losing", "isTrue": false}]
+ },
+ {
+  "Question": "Nam is motivated to study _______he knows that a good education can improve his life.",
+  "Answer": [{"content": "because", "isTrue": true},{"content": "so", "isTrue": false},{"content": "therefore", "isTrue": false},{"content": "so that", "isTrue": false}]
+ },
+ {
+  "Question": "We should make full use _______the Internet as it is an endless source of information",
+  "Answer": [{"content": "of", "isTrue": true},{"content": "in", "isTrue": false},{"content": "with", "isTrue": false},{"content": "from", "isTrue": false}]
+ },
+ {
+  "Question": "_______to the national park before, Sue was amazed to see the geyser. ",
+  "Answer": [{"content": "Not having been", "isTrue": true},{"content": "Being not ", "isTrue": false},{"content": "Not being ", "isTrue": false},{"content": "Having not been", "isTrue": false}]
+ },
+ {
+  "Question": "_______, she received a big applause. ",
+  "Answer": [{"content": "Once finishing her lecture ", "isTrue": true},{"content": "Speaking has finished ", "isTrue": false},{"content": "After she finishes speaking ", "isTrue": false},{"content": "When the speaker finished", "isTrue": false}]
+ },
+ {
+  "Question": "The new students hope _______ in many of the school’s social activities.",
+  "Answer": [{"content": "to be included", "isTrue": true},{"content": "to include", "isTrue": false},{"content": "including", "isTrue": false},{"content": "being included", "isTrue": false}]
+ },
+ {
+  "Question": "Are you taking _______this semester?",
+  "Answer": [{"content": "home economics", "isTrue": true},{"content": "house economics", "isTrue": false},{"content": "house economic", "isTrue": false},{"content": "home economic", "isTrue": false}]
+ },
+ {
+  "Question": ": It’s important to know about how developed countries have solved the urbanization problems and_______ some solutions to those in Viet Nam",
+  "Answer": [{"content": " propose", "isTrue": true},{"content": "think", "isTrue": false},{"content": "advise", "isTrue": false},{"content": "expect", "isTrue": false}]
+ },
+ {
+  "Question": "Since he failed his exam, he had to_______for it again",
+  "Answer": [{"content": "sit", "isTrue": true},{"content": "take", "isTrue": false},{"content": "make", "isTrue": false},{"content": "pass", "isTrue": false}]
+ },
+ {
+  "Question": "Tim’s encouraging words gave me_______to undertake the task once again.",
+  "Answer": [{"content": "an incentive", "isTrue": true},{"content": "a resolution", "isTrue": false},{"content": "a target ", "isTrue": false},{"content": "a point", "isTrue": false}]
+ },
+ {
+  "Question": "Shortly after my father started his own business, our life style changed_______.",
+  "Answer": [{"content": "considerably", "isTrue": true},{"content": "eventually", "isTrue": false},{"content": "reluctantly", "isTrue": false},{"content": "urgently", "isTrue": false}]
+ },
+ {
+  "Question": "You should start revising for your exam as soon as possible. Any delay will result in _______time being lost.",
+  "Answer": [{"content": "invaluable", "isTrue": true},{"content": "vital", "isTrue": false},{"content": "priceless", "isTrue": false},{"content": "conclusive", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the word(s) CLOSEST in meaning to the underlined word(s) in the following question.School uniform is compulsory in most of Vietnamese schools",
+  "Answer": [{"content": "required", "isTrue": true},{"content": "paid", "isTrue": false},{"content": "depended", "isTrue": false},{"content": "divided", "isTrue": false}]
+ },
+ {
+  "Question": "Mark the letter A, B, C, or D  to indicate the word(s) CLOSEST in meaning to the underlined word(s) in the following question.",
+  "Answer": [{"content": "voyage", "isTrue": true},{"content": "route", "isTrue": false},{"content": "flight", "isTrue": false},{"content": "excursion", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in the following question.Mark was a reckless driver. He had been fined for speeding and had his license suspended for 3 months.",
+  "Answer": [{"content": "dangerous", "isTrue": true},{"content": "dangerous", "isTrue": false},{"content": "patient", "isTrue": false},{"content": "considerate", "isTrue": false}]
+ },
+ {
+  "Question": "The word(s) that is OPPOSITE in meaning to the underlined word(s) in the following question.Now, when so many frogs were killed, there were more and more insects.",
+  "Answer": [{"content": "fewer and fewer", "isTrue": true},{"content": "lesser and lesser", "isTrue": false},{"content": "lesser and fewer", "isTrue": false},{"content": "less and less", "isTrue": false}]
+ },
+ {
+  "Question": "Jack is talking to Mary about watching TV.- Jack: _______? - Mary:  Not now, but I used to. ",
+  "Answer": [{"content": "Do you watch TV very often", "isTrue": true},{"content": "Are you going to bed", "isTrue": false},{"content": "Won’t you have some tea", "isTrue": false},{"content": "Did you enjoy it", "isTrue": false}]
+ },
+ {
+  "Question": "John was in Hanoi and wanted to send a parcel to his parents. He asked a local passer-by the way to the post-office. - John: “Can you show me the way to the nearest post office, please?”- Passer-by: “_______”",
+  "Answer": [{"content": "Just around the corner over there.", "isTrue": true},{"content": "No way! I hate him.", "isTrue": false},{"content": "Look it up in a dictionary!", "isTrue": false},{"content": "There’s no traffic near here.", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ },
+ {
+  "Answer": [{"content": "", "isTrue": true},{"content": "", "isTrue": false},{"content": "", "isTrue": false},{"content": "", "isTrue": false}]
+ }
+ 
+]

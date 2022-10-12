@@ -51,6 +51,9 @@ mongoClient.connect(url, (err, db) =>{
     }else {
 
       // Đăng ký
+      app.get('/', (req,res)=>{
+        <p>Hello</p>
+      })
       app.post('/signup', (req,res) =>{
         const myDb = db.db('test')
         const collection = myDb.collection('Users')

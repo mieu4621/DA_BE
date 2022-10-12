@@ -50,10 +50,12 @@ mongoClient.connect(url, (err, db) =>{
       console.log("Error while connecting mongo client")
     }else {
 
-      // Đăng ký
+      
       app.get('/', (req,res)=>{
-        <p>Hello</p>
+        res.send(`<p>Hello</p>`)
       })
+
+      // Đăng ký
       app.post('/signup', (req,res) =>{
         const myDb = db.db('test')
         const collection = myDb.collection('Users')

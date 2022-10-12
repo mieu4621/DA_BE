@@ -3,11 +3,39 @@ const { ObjectId } = require('mongodb');
 const app = express();
 const mongoClient = require('mongodb').MongoClient;
 const mongoose = require("mongoose");
-//const flash = require('connect-flash');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const nodemailer = require("nodemailer");
+const dontenv= require("dotenv")
+dontenv.config();
 const { json } = require('express');
+const cloudinary= require("cloudinary").v2
+const multer = require("multer")
+const path = require("path")
+
+cloudinary.config({
+  cloud_name: 'dcllp2b8r',
+  api_key: '786475196392548',
+  api_secret: '0FHkZlrgOAFGqcOk1mhKwi5oYbI'
+})
+
+
+const filestore= multer.diskStorage({
+  
+  fileFilter: (req, file, cb)=>{
+    let ext = path.extname(file.originalname);
+    if (ext !== ".jpg" && ext !== "/jpeg" && ext !== ".png"){
+      cb(new Error("File type is not supported"), false);
+      return;
+    }
+    cb(null, true);
+  },
+})
+
+const upload= multer({ storage: filestore})
+
+
+
 
 
 //const PostModel = require("../Models/PostModel");
@@ -245,6 +273,7 @@ mongoClient.connect(url, (err, db) =>{
 
       });
 
+      // Đổi mật khẩu
       app.post('/changepass', function(req,res){
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
@@ -264,6 +293,7 @@ mongoClient.connect(url, (err, db) =>{
           })
       })
 
+      // Đổi thông tin user
       app.post('/changeinfo', function(req,res){
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
@@ -292,6 +322,34 @@ mongoClient.connect(url, (err, db) =>{
           })
       })
 
+      // Upload ảnh
+      app.post('/uploadimg',upload.single('image'), async function(req,res){
+         const upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
+        
+         const myDb = db.db('test')
+         const collection = myDb.collection('Users')
+         // up anh len mongo
+         const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
+         const query = { email: req.body.email }
+         collection.findOne(query, async (err, result) => {
+            if (result!=null) {
+              if(result.avatar != "")
+              {
+                await cloudinary.uploader.destroy(result.cloudinary_id)
+              }
+                collection.updateOne(query, ava, function(err, result){
+                  if (!err) res.status(200).send();
+                })
+             } 
+             else if (result==null){
+               res.status(400).send()
+             } 
+             else res.status(404).send()
+ 
+           })
+         
+      })
+
 
 
       
@@ -303,8 +361,9 @@ mongoClient.connect(url, (err, db) =>{
 });
 
 
-app.listen(3000, () => {
-  console.log("Listening on port 3000")
+const port = process.env.PORT || 3000
+app.listen(port, () => {
+  console.log("Listening on port: ",port)
 })
 
 

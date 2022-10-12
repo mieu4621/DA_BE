@@ -113,7 +113,7 @@ mongoClient.connect(url, (err, db) =>{
       })
 
       // Post bo đề
-      app.post('/list', (req,res) =>{
+      app.get('/list', (req,res) =>{
         const myDb = db.db('da')
        
         //collection = myDb.collection(req.body.sub)

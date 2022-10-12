@@ -6,8 +6,8 @@ const mongoose = require("mongoose");
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const nodemailer = require("nodemailer");
-const dontenv= require("dotenv")
-dontenv.config();
+// const dontenv= require("dotenv")
+// dontenv.config();
 const { json } = require('express');
 const cloudinary= require("cloudinary").v2
 const multer = require("multer")
@@ -18,7 +18,6 @@ cloudinary.config({
   api_key: '786475196392548',
   api_secret: '0FHkZlrgOAFGqcOk1mhKwi5oYbI'
 })
-
 
 const filestore= multer.diskStorage({
   

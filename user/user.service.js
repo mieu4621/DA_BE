@@ -1,1 +1,0 @@
-//viết cái hàm gọi

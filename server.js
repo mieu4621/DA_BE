@@ -118,11 +118,11 @@ mongoClient.connect(url, (err, db) =>{
       })
 
       // Post bo đề
-      app.get('/list', (req,res) =>{
+      app.post('/list', (req,res) =>{
         const myDb = db.db('da')
        
-        //collection = myDb.collection(req.body.sub)
-        collection = myDb.collection("His_review")
+        collection = myDb.collection(req.body.sub)
+        //collection = myDb.collection("His_review")
           collection.find({},{ projection: { _id: 0, Code: 1 } }).toArray(function(err, result) {
           if (result!=null) {
             res.status(200).send(JSON.stringify(result))

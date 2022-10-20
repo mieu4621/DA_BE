@@ -52,7 +52,7 @@ mongoClient.connect(url, (err, db) =>{
 
       
       app.get('/', (req,res)=>{
-        res.send(`<p>Hello</p>`)
+        res.status(200).send(`<p>Hello</p>`)
       })
 
       // Đăng ký

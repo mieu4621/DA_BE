@@ -122,7 +122,6 @@ mongoClient.connect(url, (err, db) =>{
         const myDb = db.db('da')
        
         collection = myDb.collection(req.body.sub)
-        //collection = myDb.collection("His_review")
           collection.find({},{ projection: { _id: 0, Code: 1 } }).toArray(function(err, result) {
           if (result!=null) {
             res.status(200).send(JSON.stringify(result))
@@ -328,40 +327,33 @@ mongoClient.connect(url, (err, db) =>{
       })
 
       // Upload ảnh
-      app.post('/uploadimg',upload.single('image'), async function(req,res){
-         const upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
+      app.post('/uploadimg', upload.single('image'), async function(req,res){
+        const upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
+       
+        const myDb = db.db('test')
+        const collection = myDb.collection('Users')
+        // up anh len mongo
+        const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
+        const query = { email: req.body.email }
+        collection.findOne(query, async (err, result) => {
+           if (result!=null) {
+             if(result.avatar != "")
+             {
+               await cloudinary.uploader.destroy(result.cloudinary_id)
+             }
+               collection.updateOne(query, ava, function(err, result){
+                 if (!err) res.status(200).send();
+               })
+            } 
+            else if (result==null){
+              res.status(400).send()
+            } 
+            else res.status(404).send()
+
+          })
         
-         const myDb = db.db('test')
-         const collection = myDb.collection('Users')
-         // up anh len mongo
-         const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
-         const query = { email: req.body.email }
-         collection.findOne(query, async (err, result) => {
-            if (result!=null) {
-              if(result.avatar != "")
-              {
-                await cloudinary.uploader.destroy(result.cloudinary_id)
-              }
-                collection.updateOne(query, ava, function(err, result){
-                  if (!err) res.status(200).send();
-                })
-             } 
-             else if (result==null){
-               res.status(400).send()
-             } 
-             else res.status(404).send()
- 
-           })
-         
-      })
-
-
-
-      
-      
-
-      
-    }
+     })
+   }
     
 });
 

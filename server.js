@@ -50,11 +50,6 @@ mongoClient.connect(url, (err, db) =>{
       console.log("Error while connecting mongo client")
     }else {
 
-      
-      app.get('/', (req,res)=>{
-        res.status(200).send(`<p>Hello</p>`)
-      })
-
       // Đăng ký
       app.post('/signup', (req,res) =>{
         const myDb = db.db('test')
@@ -66,7 +61,9 @@ mongoClient.connect(url, (err, db) =>{
           matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds),
           otp: "",
           createAt: Date.now(),
-          expiresAt: Date.now()
+          expiresAt: Date.now(),
+          avatar: "",
+          cloudinary_id: ""
         }
 
         const query = { email: newUser.email }

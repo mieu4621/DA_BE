@@ -61,7 +61,9 @@ mongoClient.connect(url, (err, db) =>{
           matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds),
           otp: "",
           createAt: Date.now(),
-          expiresAt: Date.now()
+          expiresAt: Date.now(),
+          avatar: "",
+          cloudinary_id: ""
         }
 
         const query = { email: newUser.email }

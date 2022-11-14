@@ -51,6 +51,10 @@ mongoClient.connect(url, (err, db) =>{
     }else {
 
       // Đăng ký
+      app.get('/', (req,res) =>{
+        res.status(200).send("Hello")
+      })
+
       app.post('/signup', (req,res) =>{
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
@@ -97,7 +101,8 @@ mongoClient.connect(url, (err, db) =>{
             {
               const objToSend = {
                 email : result.email,
-                tenngdung : result.tenngdung
+                tenngdung : result.tenngdung,
+                avatar : result.avatar
               }
               res.status(200).send(JSON.stringify(objToSend))
             }
@@ -127,13 +132,33 @@ mongoClient.connect(url, (err, db) =>{
             console.log("die")
           }
           })
-
       })
 
       // post câu hỏi
       app.post('/ques', (req,res) =>{
         const myDb = db.db('da')
         const query = {Code: req.body.Code}
+
+        function ran(obj)
+        {
+          sourceArray=["a", "b", "c", "d"]
+          for (var i = 0; i < sourceArray.length - 1; i++) {
+            var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+    
+            var temp = sourceArray[j];
+            sourceArray[j] = sourceArray[i];
+            sourceArray[i] = temp;
+          }
+          obj1 = { a: "", b: "", c: "", d: ""}
+          for (var i = 0; i < sourceArray.length ; i++) {
+            obj1[sourceArray[i]] = obj[sourceArray[i]]
+          }
+          obj.a=obj1[sourceArray[0]]
+          obj.b=obj1[sourceArray[1]]
+          obj.c=obj1[sourceArray[2]]
+          obj.d=obj1[sourceArray[3]]
+          return obj
+        }
 
         function fond(col1,col2)
         {
@@ -148,7 +173,7 @@ mongoClient.connect(url, (err, db) =>{
                  {
                   const ques = {_id: result.Questions[i]}
                   var found = await collection.findOne(ques)
-                  obj.push(found)
+                  obj.push(ran(found))
                  }
                 res.status(200).send(obj)
                     
@@ -324,7 +349,8 @@ mongoClient.connect(url, (err, db) =>{
       })
 
       // Upload ảnh
-      app.post('/uploadimg', upload.single('image'), async function(req,res){
+      app.post('/uploadimg', upload.single('image'), async (req,res)=>{
+
         const upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
        
         const myDb = db.db('test')
@@ -350,9 +376,144 @@ mongoClient.connect(url, (err, db) =>{
           })
         
      })
+
+     app.post('/changeinfo2', upload.single('image'), async (req,res)=>{
+      const myDb = db.db('test')
+      const collection = myDb.collection('Users')
+
+      var temp=0
+      const query = { email: req.body.email }
+      collection.findOne(query, async (err, result) => {
+         if (result!=null) {
+
+
+          // if (req.file==null)
+          //   {
+          //     const upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
+          //     const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
+          //     if(result.avatar != "")
+          //     {
+          //      await cloudinary.uploader.destroy(result.cloudinary_id)
+          //     }
+          //      collection.updateOne(query, ava, function(err, result){
+          //        if (!err) temp+=1;
+          //      })
+          //   }  
+          
+           if (req.body.matkhau!=""){
+              newinfo= { $set:{ tenngdung: req.body.tenngdung, matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds) }}
+              collection.updateOne(query, newinfo, function(err, result){
+                temp+=4;
+                })
+            }
+            else if (req.body.matkhau=="") {
+              newinfo= { $set:{ tenngdung: req.body.tenngdung}}
+              collection.updateOne(query, newinfo, function(err, result){
+                temp+=2;
+              })
+            }
+            collection.findOne(query, (err, result) =>{
+              const objToSend = {
+                email : result.email,
+                tenngdung : result.tenngdung,
+                avatar : result.avatar
+              }
+              console.log(temp)
+              switch(temp){
+                case 5:  //cập nhật tất cả
+                  res.status(200).send(JSON.stringify(objToSend));
+                  break;
+                case 4:   //cập nhật tên, mk
+                  res.status(201).send(JSON.stringify(objToSend));
+                  break;
+                case 3:   //cập nhật tên, hinh
+                  res.status(202).send(JSON.stringify(objToSend))
+                case 2:    //cập nhật tên
+                  res.status(203).send(JSON.stringify(objToSend));
+                  break;
+                case 1:     //cập nhật hình
+                  res.status(204).send(JSON.stringify(objToSend));
+                  break;
+                default:
+                  res.status(401).send()
+                  break;   //không cập nhật được gì
+              }
+            })
+            
+
+          } else if (result==null)
+          {
+            res.status(400).send()
+            //khong tim thay tk
+          } else res.status(404).send()
+
+
+
+        })
+    })
+
+    // var findDocuments = function(collection, callback) {
+       
+    //   // Find some documents
+    //   collection.find({ '$text': {'$search' : 'Garden' } } ).toArray(function(err, docs) {
+    //     assert.equal(err, null);
+    //     console.log("Found the following records");
+    //     console.log(docs);
+    //     callback(docs);
+    //   });      
+    // }   
+
+    app.post('/search', async (req,res)=>{
+      const myDb = db.db('database')
+      const collection = myDb.collection('listcauhoi')
+      console.log("hi")
+      
+      //collection.createIndex({"Question":"text"})
+
+      let data = collection.find()
+      console.log(data)
+      res.send(data)
+      })
+      
+
+
+
+
+     app.post('/search2', async (req,res)=>{
+      const myDb = db.db('da')
+      
+      collection = myDb.collection(req.body.sub)
+     
+      collection.createIndex({ "Question": "text"})
+
+      //const query = { $text: { $search: "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions." } };
+      
+
+
+        // const refind = collection.find(query,{ projection: { _id: 1, Question: 1, anw: 1 } }).toArray(function(err, result) {
+        //   if (result!=null) {
+        //     console.log(result.length)
+        //     res.status(200).send(JSON.stringify(result))
+        //   } else {
+        //     res.status(404).send()
+        //     console.log("die")
+        //   }
+        // })
+
+
+
+    })
+
+
+
    }
     
 });
+
+
+
+
+
 
 
 const port = process.env.PORT || 3000

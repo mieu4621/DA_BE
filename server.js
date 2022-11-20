@@ -13,14 +13,13 @@ const cloudinary= require("cloudinary").v2
 const multer = require("multer")
 const path = require("path")
 
+
 cloudinary.config({
   cloud_name: 'dcllp2b8r',
   api_key: '786475196392548',
   api_secret: '0FHkZlrgOAFGqcOk1mhKwi5oYbI'
 })
-
 const filestore= multer.diskStorage({
-  
   fileFilter: (req, file, cb)=>{
     let ext = path.extname(file.originalname);
     if (ext !== ".jpg" && ext !== "/jpeg" && ext !== ".png"){
@@ -30,29 +29,22 @@ const filestore= multer.diskStorage({
     cb(null, true);
   },
 })
-
 const upload= multer({ storage: filestore})
-
-
-
-
 
 //const PostModel = require("../Models/PostModel");
 //const router = express.Router();
 //const MyModel = require("../Models/MyModels");
 
-//const url = "mongodb+srv://oenoen:just123@cluster0.jaoidri.mongodb.net/test"
-const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
+const url = "mongodb+srv://oenoen:oenoen@dacn.kxrrsop.mongodb.net/test"
+//const url ="mongodb+srv://admin:admin@cluster0.mxicf65.mongodb.net/da"
 app.use(express.json())
 
 mongoClient.connect(url, (err, db) =>{
     if (err) {
       console.log("Error while connecting mongo client")
     }else {
-
       // Đăng ký
       app.get('/', (req,res) =>{
-        '<h1>Hello</h1>'
         res.status(200).send("Hello")
       })
 
@@ -70,7 +62,6 @@ mongoClient.connect(url, (err, db) =>{
           avatar: "",
           cloudinary_id: ""
         }
-
         const query = { email: newUser.email }
         collection.findOne(query, (err, result) => {
           if (result==null) {
@@ -81,11 +72,9 @@ mongoClient.connect(url, (err, db) =>{
           else if (query.email==result.email) {
             res.status(201).send()
             //Đã có email trên db
-
           }else {
             res.status(404).send()
           }
-
         })
       })
 
@@ -351,8 +340,10 @@ mongoClient.connect(url, (err, db) =>{
 
       // Upload ảnh
       app.post('/uploadimg', upload.single('image'), async (req,res)=>{
-
-        const upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
+        if (req.body.image != "")
+        {
+          var upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
+        
        
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
@@ -375,50 +366,65 @@ mongoClient.connect(url, (err, db) =>{
             else res.status(404).send()
 
           })
+
+        }
+        else res.status(404).send("Không có ảnh")
+        
         
      })
 
      app.post('/changeinfo2', upload.single('image'), async (req,res)=>{
-      const myDb = db.db('test')
-      const collection = myDb.collection('Users')
+      try{
+        const myDb = db.db('test')
+        const collection = myDb.collection('Users')
 
-      var temp=0
-      const query = { email: req.body.email }
-      collection.findOne(query, async (err, result) => {
-         if (result!=null) {
-
-
-          // if (req.file==null)
-          //   {
-          //     const upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
-          //     const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
-          //     if(result.avatar != "")
-          //     {
-          //      await cloudinary.uploader.destroy(result.cloudinary_id)
-          //     }
-          //      collection.updateOne(query, ava, function(err, result){
-          //        if (!err) temp+=1;
-          //      })
-          //   }  
+        
+        const query = { email: req.body.email }
+        await collection.findOne(query, async (err, result) => {
           
-           if (req.body.matkhau!=""){
+          if (result!=null) {
+            let temp=0
+            //nếu có mk
+            if (req.body.matkhau!=""){
               newinfo= { $set:{ tenngdung: req.body.tenngdung, matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds) }}
-              collection.updateOne(query, newinfo, function(err, result){
-                temp+=4;
+                collection.updateOne(query, newinfo, function(err, result)
+                {
+                  if (result!=null) temp+=4;
+                  console.log("mk ten")
                 })
             }
+            //nếu không có mk
             else if (req.body.matkhau=="") {
               newinfo= { $set:{ tenngdung: req.body.tenngdung}}
-              collection.updateOne(query, newinfo, function(err, result){
-                temp+=2;
-              })
+                collection.updateOne(query, newinfo, function(err, result)
+                {
+                  if (result!=null) temp+=2;
+                  console.log("ten")
+                })
             }
-            collection.findOne(query, (err, result) =>{
-              const objToSend = {
-                email : result.email,
-                tenngdung : result.tenngdung,
-                avatar : result.avatar
+
+            //nếu có ảnh
+            if (req.body.image != "")
+            {
+              var upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
+              const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
+              await collection.updateOne(query, ava, function(err, result)
+              {
+                if (result!="") temp+=1;
+                console.log("hinh")
+              })
+              if(result.avatar != "")
+              {
+                await cloudinary.uploader.destroy(result.cloudinary_id)
               }
+            }  
+            
+            const resul= collection.findOne(query, (err, resul) => {
+              const objToSend = {
+                email : resul.email,
+                tenngdung : resul.tenngdung,
+                avatar : resul.avatar
+              }       
               console.log(temp)
               switch(temp){
                 case 5:  //cập nhật tất cả
@@ -428,29 +434,30 @@ mongoClient.connect(url, (err, db) =>{
                   res.status(201).send(JSON.stringify(objToSend));
                   break;
                 case 3:   //cập nhật tên, hinh
-                  res.status(202).send(JSON.stringify(objToSend))
+                  res.status(202).send(JSON.stringify(objToSend));
+                  break;
                 case 2:    //cập nhật tên
                   res.status(203).send(JSON.stringify(objToSend));
                   break;
-                case 1:     //cập nhật hình
-                  res.status(204).send(JSON.stringify(objToSend));
-                  break;
                 default:
-                  res.status(401).send()
-                  break;   //không cập nhật được gì
+                  res.status(203).send(JSON.stringify(objToSend));
+                  break;
               }
             })
-            
 
-          } else if (result==null)
-          {
+          } else if (result==null){
             res.status(400).send()
             //khong tim thay tk
           } else res.status(404).send()
-
-
-
         })
+
+      }
+      catch(err)
+      {
+        console.log(err)
+        throw(err)
+      }
+      
     })
 
     // var findDocuments = function(collection, callback) {

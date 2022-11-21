@@ -59,8 +59,8 @@ mongoClient.connect(url, (err, db) =>{
           otp: "",
           createAt: Date.now(),
           expiresAt: Date.now(),
-          avatar: "",
-          cloudinary_id: ""
+          avatar: "http://res.cloudinary.com/dcllp2b8r/image/upload/v1669049364/galqynrofgin4x6cyxsq.jpg",
+          cloudinary_id: "galqynrofgin4x6cyxsq"
         }
         const query = { email: newUser.email }
         collection.findOne(query, (err, result) => {
@@ -344,28 +344,28 @@ mongoClient.connect(url, (err, db) =>{
         {
           var upImg = await cloudinary.uploader.upload(req.file.path) //up anh len cloudinary
         
-       
-        const myDb = db.db('test')
-        const collection = myDb.collection('Users')
-        // up anh len mongo
-        const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
-        const query = { email: req.body.email }
-        collection.findOne(query, async (err, result) => {
-           if (result!=null) {
-             if(result.avatar != "")
-             {
-               await cloudinary.uploader.destroy(result.cloudinary_id)
-             }
-               collection.updateOne(query, ava, function(err, result){
-                 if (!err) res.status(200).send();
-               })
-            } 
-            else if (result==null){
-              res.status(400).send()
-            } 
-            else res.status(404).send()
+        
+          const myDb = db.db('test')
+          const collection = myDb.collection('Users')
+          // up anh len mongo
+          const ava= { $set:{avatar: upImg.url, cloudinary_id: upImg.public_id}}
+          const query = { email: req.body.email }
+          collection.findOne(query, async (err, result) => {
+            if (result!=null) {
+              if(result.avatar != "" && result.cloudinary_id != "galqynrofgin4x6cyxsq")
+              {
+                await cloudinary.uploader.destroy(result.cloudinary_id)
+              }
+                collection.updateOne(query, ava, function(err, result){
+                  if (!err) res.status(200).send();
+                })
+              } 
+              else if (result==null){
+                res.status(400).send()
+              } 
+              else res.status(404).send()
 
-          })
+            })
 
         }
         else res.status(404).send("Không có ảnh")
@@ -413,7 +413,7 @@ mongoClient.connect(url, (err, db) =>{
                 if (result!="") temp+=1;
                 console.log("hinh")
               })
-              if(result.avatar != "")
+              if(result.avatar != "" && result.cloudinary_id != "galqynrofgin4x6cyxsq")
               {
                 await cloudinary.uploader.destroy(result.cloudinary_id)
               }
@@ -471,46 +471,61 @@ mongoClient.connect(url, (err, db) =>{
     //   });      
     // }   
 
-    app.post('/search', async (req,res)=>{
-      const myDb = db.db('database')
-      const collection = myDb.collection('listcauhoi')
+    app.get('/search', async (req,res)=>{
+      const myDb = db.db('da')
+      const collection = myDb.collection('Gdcd')
       console.log("hi")
       
-      //collection.createIndex({"Question":"text"})
+      let payload = req.body.keyword.trim()
+      let r = await collection.find({Question: {$regex: new RegExp('^'+payload+'.*','i')}}).exec();
+      res.send(r)
+      console.log(r)
 
-      let data = collection.find()
-      console.log(data)
-      res.send(data)
+          // collection.find({},{ projection: { _id: 0, Code: 1 } }).toArray(function(err, result) {
+          // if (result!=null) {
+          //   res.status(200).send(JSON.stringify(result))
+          // } else {
+          //   res.status(404).send()
+          //   console.log("die")
+          // }
+          // })
+
+      // const querry = {$text:{$Question: 'John'}}
+      // collection.find(querry, function(err,result){
+      //   res.status(200).send(result)
+      //   console.log("done")
+      // })
+
+      
+
       })
       
-
-
-
-
-     app.post('/search2', async (req,res)=>{
-      const myDb = db.db('da')
-      
-      collection = myDb.collection(req.body.sub)
-     
-      collection.createIndex({ "Question": "text"})
-
-      //const query = { $text: { $search: "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions." } };
       
 
 
-        // const refind = collection.find(query,{ projection: { _id: 1, Question: 1, anw: 1 } }).toArray(function(err, result) {
-        //   if (result!=null) {
-        //     console.log(result.length)
-        //     res.status(200).send(JSON.stringify(result))
-        //   } else {
-        //     res.status(404).send()
-        //     console.log("die")
-        //   }
-        // })
+     app.post('/search2', async (req,res)=>
+     {
+        const myDb = db.db('da')
+        
+        collection = myDb.collection(req.body.sub)
+      
+        collection.createIndex({ "Question": "text"})
+
+        //const query = { $text: { $search: "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions." } };
+        
 
 
-
-    })
+          // const refind = collection.find(query,{ projection: { _id: 1, Question: 1, anw: 1 } }).toArray(function(err, result) {
+          //   if (result!=null) {
+          //     console.log(result.length)
+          //     res.status(200).send(JSON.stringify(result))
+          //   } else {
+          //     res.status(404).send()
+          //     console.log("die")
+          //   }
+          // })
+      })
+      
 
 
 

@@ -457,7 +457,7 @@ mongoClient.connect(url, (err, db) =>{
       
     })
 
-      app.get('/search', async (req,res)=>{
+      app.post('/search', async (req,res)=>{
         const myDb = db.db('da')
         const collection = myDb.collection(req.body.sub)   
         var collection1, collection2
@@ -496,21 +496,23 @@ mongoClient.connect(url, (err, db) =>{
           if (err) throw err;
           else{
             let obj = new Array()
-            for( let i=0; i<result.length;i++ )
+            //for( let i=0; i<result.length;i++ )
+            for( let i=0; i<1;i++ )
             {
-              const ques = {Questions: result[i]._id}
               const send ={
                 Question: result[i].Question,
                 anw: result[i].anw
               }
 
-              var result1 = await collection1.findOne(ques)
+              const ques = {Questions: result[i]._id}
+              var result1 = await collection1.find(ques)
+              
               if (result1!=null){
                 Object.assign(send,{Code: result1.Code, Sub: collection1.collectionName})
                 obj.push(send)
               }
 
-              var result2 = await collection2.findOne(ques)
+              var result2 = await collection2.find(ques)
               if (result2!=null){
                 Object.assign(send,{Code: result2.Code, Sub: collection2.collectionName})
                 obj.push(send)
@@ -522,6 +524,20 @@ mongoClient.connect(url, (err, db) =>{
       })
 
       app.get('/searchid', async(req,res)=>{
+        const myDb = db.db('da')
+        collection = myDb.collection(req.body.sub)
+        const ques = {Questions :req.body.id}
+
+        console.log(ques)
+          collection.find(ques,{ projection: { _id: 0, Code: 1 } }).toArray(function(err, result) {
+          if (result!=null) {
+            console.log(result)
+            res.status(200).send(JSON.stringify(result))
+          } else {
+            res.status(404).send()
+            console.log("die")
+          }
+          })
         
       })
 

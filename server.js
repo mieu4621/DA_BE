@@ -11,7 +11,8 @@ const nodemailer = require("nodemailer");
 const { json } = require('express');
 const cloudinary= require("cloudinary").v2
 const multer = require("multer")
-const path = require("path")
+const path = require("path");
+const { type } = require('os');
 
 
 cloudinary.config({
@@ -162,6 +163,7 @@ mongoClient.connect(url, (err, db) =>{
                  for(i=0;i<result.Questions.length;i++)
                  {
                   const ques = {_id: result.Questions[i]}
+                  console.log(ques)
                   var found = await collection.findOne(ques)
                   obj.push(ran(found))
                  }
@@ -176,7 +178,6 @@ mongoClient.connect(url, (err, db) =>{
 
         if(req.body.sub=="Eng_exam"||req.body.sub=="Eng_review")
         {
-          
           col2="English"
           fond(req.body.sub, col2)
         }
@@ -199,9 +200,6 @@ mongoClient.connect(url, (err, db) =>{
           col2="Gdcd"
           fond(req.body.sub, col2)
         }              
-        
-        
-
       })
       
       // Gửi OTP
@@ -259,7 +257,6 @@ mongoClient.connect(url, (err, db) =>{
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
 
-        
         const query = { email: req.body.email}
         console.log(req.body)
         const otp=  req.body.otp
@@ -460,77 +457,77 @@ mongoClient.connect(url, (err, db) =>{
       
     })
 
-    // var findDocuments = function(collection, callback) {
-       
-    //   // Find some documents
-    //   collection.find({ '$text': {'$search' : 'Garden' } } ).toArray(function(err, docs) {
-    //     assert.equal(err, null);
-    //     console.log("Found the following records");
-    //     console.log(docs);
-    //     callback(docs);
-    //   });      
-    // }   
-
-    app.get('/search', async (req,res)=>{
-      const myDb = db.db('da')
-      const collection = myDb.collection('Gdcd')
-      console.log("hi")
-      
-      let payload = req.body.keyword.trim()
-      let r = await collection.find({Question: {$regex: new RegExp('^'+payload+'.*','i')}}).exec();
-      res.send(r)
-      console.log(r)
-
-          // collection.find({},{ projection: { _id: 0, Code: 1 } }).toArray(function(err, result) {
-          // if (result!=null) {
-          //   res.status(200).send(JSON.stringify(result))
-          // } else {
-          //   res.status(404).send()
-          //   console.log("die")
-          // }
-          // })
-
-      // const querry = {$text:{$Question: 'John'}}
-      // collection.find(querry, function(err,result){
-      //   res.status(200).send(result)
-      //   console.log("done")
-      // })
-
-      
-
-      })
-      
-      
-
-
-     app.post('/search2', async (req,res)=>
-     {
+      app.get('/search', async (req,res)=>{
         const myDb = db.db('da')
-        
-        collection = myDb.collection(req.body.sub)
-      
-        collection.createIndex({ "Question": "text"})
+        const collection = myDb.collection(req.body.sub)   
+        var collection1, collection2
+             
+        if(req.body.sub=="English")
+        {
+          collection1 = myDb.collection('Eng_exam')
+          collection2 = myDb.collection('Eng_review')
+        }
+        else if(req.body.sub=="History")
+        {
+          collection1 = myDb.collection('His_exam')
+          collection2 = myDb.collection('His_review')
+        }
+        else if(req.body.sub=="Geography")
+        {
+          collection1 = myDb.collection('Geo_exam')
+          collection2 = myDb.collection('Geo_review')
+        }
+        else if(req.body.sub=="Gdcd")
+        {
+          collection1 = myDb.collection('Gdcd_exam')
+          collection2 = myDb.collection('Gdcd_review')
+        }   
 
-        //const query = { $text: { $search: "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress in each of the following questions." } };
-        
+        var query = {
+          "$or":[
+            {Question:{ $regex: '.*' + req.body.search + '.*'}},
+            {a:{ $regex: '.*' + req.body.search + '.*'}},
+            {b:{ $regex: '.*' + req.body.search + '.*'}},
+            {c:{ $regex: '.*' + req.body.search + '.*'}},
+            {d:{ $regex: '.*' + req.body.search + '.*'}},
+          ]
+        }
+        collection.find(query).toArray(async function(err,result){
+          if (err) throw err;
+          else{
+            let obj = new Array()
+            for( let i=0; i<result.length;i++ )
+            {
+              const ques = {Questions: result[i]._id}
+              const send ={
+                Question: result[i].Question,
+                anw: result[i].anw
+              }
 
+              var result1 = await collection1.findOne(ques)
+              if (result1!=null){
+                Object.assign(send,{Code: result1.Code, Sub: collection1.collectionName})
+                obj.push(send)
+              }
 
-          // const refind = collection.find(query,{ projection: { _id: 1, Question: 1, anw: 1 } }).toArray(function(err, result) {
-          //   if (result!=null) {
-          //     console.log(result.length)
-          //     res.status(200).send(JSON.stringify(result))
-          //   } else {
-          //     res.status(404).send()
-          //     console.log("die")
-          //   }
-          // })
+              var result2 = await collection2.findOne(ques)
+              if (result2!=null){
+                Object.assign(send,{Code: result2.Code, Sub: collection2.collectionName})
+                obj.push(send)
+              }
+            }    
+            res.status(200).send(obj)           
+          }
+        })
       })
-      
+
+      app.get('/searchid', async(req,res)=>{
+        
+      })
 
 
 
-   }
-    
+    }
 });
 
 

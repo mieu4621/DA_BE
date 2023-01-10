@@ -1,18 +1,16 @@
 const express = require('express');
-const { ObjectId } = require('mongodb');
+//const { ObjectId } = require('mongodb');
 const app = express();
 const mongoClient = require('mongodb').MongoClient;
-const mongoose = require("mongoose");
-const bcrypt = require('bcrypt');
+//const mongoose = require("mongoose");
+const bcrypt = require('bcryptjs');
 const saltRounds = 10;
 const nodemailer = require("nodemailer");
-// const dontenv= require("dotenv")
-// dontenv.config();
-const { json } = require('express');
+//const { json } = require('express');
 const cloudinary= require("cloudinary").v2
 const multer = require("multer")
 const path = require("path");
-const { type } = require('os');
+//const { type } = require('os');
 
 
 cloudinary.config({
@@ -74,7 +72,7 @@ mongoClient.connect(url, (err, db) =>{
             res.status(201).send()
             //Đã có email trên db
           }else {
-            res.status(404).send()
+            res.status(404).send("Lỗi")
           }
         })
       })
@@ -102,10 +100,10 @@ mongoClient.connect(url, (err, db) =>{
               //Sai mật khẩu
             }
           } else if (result==null) {
-            res.status(401).send()
+            res.status(401).send("Không tìm thấy tài khoản")
               //Sai email
           } else {
-            res.status(404).send()
+            res.status(404).send("Lỗi")
           }
         })
       })
@@ -207,14 +205,17 @@ mongoClient.connect(url, (err, db) =>{
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
         
+        
         const query = { email: req.body.email }
+        
         collection.findOne(query, (err, result) => {
            if (result!=null) {
+            console.log(result)
               var transporter =  nodemailer.createTransport({ // config mail server
               service: 'Gmail',
               auth: {
                 user: 'kaitothompson273@gmail.com',
-                pass: 'splupebjgkienvib'
+                pass: 'rfeuydoyskalctfh'
               }
               });
               const otp = `${Math.floor(1000+ Math.random() * 9000)}`;
@@ -229,7 +230,8 @@ mongoClient.connect(url, (err, db) =>{
                 if (err) {
                     console.log(err);
                 } else {
-                    res.status(200).send()
+                    res.status(200).send("Gửi mail thành công")
+                    console.log("Gửi mail thành công")
                     //gửi thành công
                     const userOTPverify={
                       $set: {
@@ -258,8 +260,10 @@ mongoClient.connect(url, (err, db) =>{
         const collection = myDb.collection('Users')
 
         const query = { email: req.body.email}
-        console.log(req.body)
         const otp=  req.body.otp
+
+        console.log("verifyOTP")
+        console.log(req.body)
         
         collection.findOne(query, (err,result)=>{
           if (result!=null){
@@ -268,20 +272,29 @@ mongoClient.connect(url, (err, db) =>{
               res.status(201).send()
             } else{
               if (bcrypt.compareSync(otp, result.otp)){
-                res.status(200).send()
-                console.log("done")
+                res.status(200).send("Đổi mật khẩu thành công")
+                console.log("Đổi mật khẩu thành công")
                 const deleteOTP= { $set:{ otp: ""}}
                 collection.updateOne(query, deleteOTP, function(err, res){
                   if (err) throw err;
                 })
               }
-              else res.status(202).send()
+              else{
+                res.status(202).send("Sai OTP")
+                console.log("Sai OTP")
+              }
               //sai otp 
             }
           }
-          else if (result==null)res.status(400).send()
+          else if (result==null){
+            res.status(400).send("Không tìm thấy tài khoản")
+            console.log("Không tìm thấy tài khoản")
+          }
           //không tìm thấy tk
-          else res.status(404).send()
+          else {
+            res.status(404).send("Lỗi")
+            console.log("Lỗi")
+          }
         })
 
       });
@@ -291,17 +304,20 @@ mongoClient.connect(url, (err, db) =>{
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
 
+        console.log("changepass")
+        console.log(req.body)
+
         const query = { email: req.body.email }
         collection.findOne(query, (err, result) => {
            if (result!=null) {
               const newpass= { $set:{ matkhau: bcrypt.hashSync(req.body.matkhau,saltRounds)}}
               collection.updateOne(query, newpass, function(err, result){
-              if (!err) res.status(200).send();
+              if (!err) res.status(200).send("Đổi mật khẩu thành công");
             })
             } else if (result==null){
-              res.status(400).send()
+              res.status(400).send("Không thấy tài khoản")
               //khong tim thay tk
-            } else res.status(404).send()
+            } else res.status(404).send("Lỗi")
 
           })
       })
@@ -310,6 +326,9 @@ mongoClient.connect(url, (err, db) =>{
       app.post('/changeinfo', function(req,res){
         const myDb = db.db('test')
         const collection = myDb.collection('Users')
+
+        console.log("changeinfo")
+        console.log(req.body)
 
         const query = { email: req.body.email }
 
@@ -324,13 +343,13 @@ mongoClient.connect(url, (err, db) =>{
                 console.log("null")
               }
               collection.updateOne(query, newinfo, function(err, result){
-              if (!err) res.status(200).send();
+              if (!err) res.status(200).send("Đổi thông tin thành công");
               })
             } else if (result==null)
             {
-              res.status(400).send()
+              res.status(400).send("Không thấy tài khoản")
               //khong tim thay tk
-            } else res.status(404).send()
+            } else res.status(404).send("Lỗi")
 
           })
       })
@@ -354,7 +373,7 @@ mongoClient.connect(url, (err, db) =>{
                 await cloudinary.uploader.destroy(result.cloudinary_id)
               }
                 collection.updateOne(query, ava, function(err, result){
-                  if (!err) res.status(200).send();
+                  if (!err) res.status(200).send("Up ảnh thành công");
                 })
               } 
               else if (result==null){
@@ -445,7 +464,7 @@ mongoClient.connect(url, (err, db) =>{
           } else if (result==null){
             res.status(400).send()
             //khong tim thay tk
-          } else res.status(404).send()
+          } else res.status(404).send("Lỗi")
         })
 
       }
@@ -534,7 +553,7 @@ mongoClient.connect(url, (err, db) =>{
             console.log(result)
             res.status(200).send(JSON.stringify(result))
           } else {
-            res.status(404).send()
+            res.status(404).send("Lỗi")
             console.log("die")
           }
           })
@@ -545,12 +564,6 @@ mongoClient.connect(url, (err, db) =>{
 
     }
 });
-
-
-
-
-
-
 
 const port = process.env.PORT || 3000
 app.listen(port, () => {
